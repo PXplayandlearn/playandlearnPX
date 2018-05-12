@@ -292,6 +292,12 @@ const layout = [{
         meta: {
         title: "tasks",
     }
-}]
+}, {
+    path: '/testtwo',
+    component: resolve => require(['pages/testtwo'], resolve),
+    meta: {
+        title: "Test Page 2",
+    }
+    }]
 
 export default layout
