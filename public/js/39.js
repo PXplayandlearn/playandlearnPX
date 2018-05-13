@@ -1,22 +1,22 @@
 webpackJsonp([39],{
 
-/***/ 1244:
+/***/ 1261:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(1245);
+var content = __webpack_require__(1262);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(92)("751b00b5", content, false, {});
+var update = __webpack_require__(92)("120892cc", content, false, {});
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-2637b9ee\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./form_validations.vue", function() {
-     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-2637b9ee\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./form_validations.vue");
+   module.hot.accept("!!../../css-loader/index.js!../../vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-23572cf2\",\"scoped\":false,\"hasInlineConfig\":true}!./hover.css", function() {
+     var newContent = require("!!../../css-loader/index.js!../../vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-23572cf2\",\"scoped\":false,\"hasInlineConfig\":true}!./hover.css");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -27,7 +27,7 @@ if(false) {
 
 /***/ }),
 
-/***/ 1245:
+/***/ 1262:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(49)(false);
@@ -35,23 +35,125 @@ exports = module.exports = __webpack_require__(49)(false);
 
 
 // module
-exports.push([module.i, "\n.form-control{\n    -webkit-transition: initial;\n    transition: initial;\n}\n", ""]);
+exports.push([module.i, "/*!\r\n * Hover.css (http://ianlunn.github.io/Hover/)\r\n * Version: 2.3.1\r\n * Author: Ian Lunn @IanLunn\r\n * Author URL: http://ianlunn.co.uk/\r\n * Github: https://github.com/IanLunn/Hover\r\n\r\n * Hover.css Copyright Ian Lunn 2017. Generated with Sass.\r\n */\r\n/* 2D TRANSITIONS */\r\n/* Grow */\n.hvr-grow {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\n}\n.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {\r\n  -webkit-transform: scale(1.1);\r\n  transform: scale(1.1);\n}\r\n\r\n/* Shrink */\n.hvr-shrink {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\n}\n.hvr-shrink:hover, .hvr-shrink:focus, .hvr-shrink:active {\r\n  -webkit-transform: scale(0.9);\r\n  transform: scale(0.9);\n}\r\n\r\n/* Pulse */\n@-webkit-keyframes hvr-pulse {\n25% {\r\n    -webkit-transform: scale(1.1);\r\n    transform: scale(1.1);\n}\n75% {\r\n    -webkit-transform: scale(0.9);\r\n    transform: scale(0.9);\n}\n}\n@keyframes hvr-pulse {\n25% {\r\n    -webkit-transform: scale(1.1);\r\n    transform: scale(1.1);\n}\n75% {\r\n    -webkit-transform: scale(0.9);\r\n    transform: scale(0.9);\n}\n}\n.hvr-pulse {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\n}\n.hvr-pulse:hover, .hvr-pulse:focus, .hvr-pulse:active {\r\n  -webkit-animation-name: hvr-pulse;\r\n  animation-name: hvr-pulse;\r\n  -webkit-animation-duration: 1s;\r\n  animation-duration: 1s;\r\n  -webkit-animation-timing-function: linear;\r\n  animation-timing-function: linear;\r\n  -webkit-animation-iteration-count: infinite;\r\n  animation-iteration-count: infinite;\n}\r\n\r\n/* Pulse Grow */\n@-webkit-keyframes hvr-pulse-grow {\nto {\r\n    -webkit-transform: scale(1.1);\r\n    transform: scale(1.1);\n}\n}\n@keyframes hvr-pulse-grow {\nto {\r\n    -webkit-transform: scale(1.1);\r\n    transform: scale(1.1);\n}\n}\n.hvr-pulse-grow {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\n}\n.hvr-pulse-grow:hover, .hvr-pulse-grow:focus, .hvr-pulse-grow:active {\r\n  -webkit-animation-name: hvr-pulse-grow;\r\n  animation-name: hvr-pulse-grow;\r\n  -webkit-animation-duration: 0.3s;\r\n  animation-duration: 0.3s;\r\n  -webkit-animation-timing-function: linear;\r\n  animation-timing-function: linear;\r\n  -webkit-animation-iteration-count: infinite;\r\n  animation-iteration-count: infinite;\r\n  -webkit-animation-direction: alternate;\r\n  animation-direction: alternate;\n}\r\n\r\n/* Pulse Shrink */\n@-webkit-keyframes hvr-pulse-shrink {\nto {\r\n    -webkit-transform: scale(0.9);\r\n    transform: scale(0.9);\n}\n}\n@keyframes hvr-pulse-shrink {\nto {\r\n    -webkit-transform: scale(0.9);\r\n    transform: scale(0.9);\n}\n}\n.hvr-pulse-shrink {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\n}\n.hvr-pulse-shrink:hover, .hvr-pulse-shrink:focus, .hvr-pulse-shrink:active {\r\n  -webkit-animation-name: hvr-pulse-shrink;\r\n  animation-name: hvr-pulse-shrink;\r\n  -webkit-animation-duration: 0.3s;\r\n  animation-duration: 0.3s;\r\n  -webkit-animation-timing-function: linear;\r\n  animation-timing-function: linear;\r\n  -webkit-animation-iteration-count: infinite;\r\n  animation-iteration-count: infinite;\r\n  -webkit-animation-direction: alternate;\r\n  animation-direction: alternate;\n}\r\n\r\n/* Push */\n@-webkit-keyframes hvr-push {\n50% {\r\n    -webkit-transform: scale(0.8);\r\n    transform: scale(0.8);\n}\n100% {\r\n    -webkit-transform: scale(1);\r\n    transform: scale(1);\n}\n}\n@keyframes hvr-push {\n50% {\r\n    -webkit-transform: scale(0.8);\r\n    transform: scale(0.8);\n}\n100% {\r\n    -webkit-transform: scale(1);\r\n    transform: scale(1);\n}\n}\n.hvr-push {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\n}\n.hvr-push:hover, .hvr-push:focus, .hvr-push:active {\r\n  -webkit-animation-name: hvr-push;\r\n  animation-name: hvr-push;\r\n  -webkit-animation-duration: 0.3s;\r\n  animation-duration: 0.3s;\r\n  -webkit-animation-timing-function: linear;\r\n  animation-timing-function: linear;\r\n  -webkit-animation-iteration-count: 1;\r\n  animation-iteration-count: 1;\n}\r\n\r\n/* Pop */\n@-webkit-keyframes hvr-pop {\n50% {\r\n    -webkit-transform: scale(1.2);\r\n    transform: scale(1.2);\n}\n}\n@keyframes hvr-pop {\n50% {\r\n    -webkit-transform: scale(1.2);\r\n    transform: scale(1.2);\n}\n}\n.hvr-pop {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\n}\n.hvr-pop:hover, .hvr-pop:focus, .hvr-pop:active {\r\n  -webkit-animation-name: hvr-pop;\r\n  animation-name: hvr-pop;\r\n  -webkit-animation-duration: 0.3s;\r\n  animation-duration: 0.3s;\r\n  -webkit-animation-timing-function: linear;\r\n  animation-timing-function: linear;\r\n  -webkit-animation-iteration-count: 1;\r\n  animation-iteration-count: 1;\n}\r\n\r\n/* Bounce In */\n.hvr-bounce-in {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  -webkit-transition-duration: 0.5s;\r\n  transition-duration: 0.5s;\n}\n.hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {\r\n  -webkit-transform: scale(1.2);\r\n  transform: scale(1.2);\r\n  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);\r\n  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);\n}\r\n\r\n/* Bounce Out */\n.hvr-bounce-out {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  -webkit-transition-duration: 0.5s;\r\n  transition-duration: 0.5s;\n}\n.hvr-bounce-out:hover, .hvr-bounce-out:focus, .hvr-bounce-out:active {\r\n  -webkit-transform: scale(0.8);\r\n  transform: scale(0.8);\r\n  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);\r\n  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);\n}\r\n\r\n/* Rotate */\n.hvr-rotate {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\n}\n.hvr-rotate:hover, .hvr-rotate:focus, .hvr-rotate:active {\r\n  -webkit-transform: rotate(4deg);\r\n  transform: rotate(4deg);\n}\r\n\r\n/* Grow Rotate */\n.hvr-grow-rotate {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\n}\n.hvr-grow-rotate:hover, .hvr-grow-rotate:focus, .hvr-grow-rotate:active {\r\n  -webkit-transform: scale(1.1) rotate(4deg);\r\n  transform: scale(1.1) rotate(4deg);\n}\r\n\r\n/* Float */\n.hvr-float {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\n}\n.hvr-float:hover, .hvr-float:focus, .hvr-float:active {\r\n  -webkit-transform: translateY(-8px);\r\n  transform: translateY(-8px);\n}\r\n\r\n/* Sink */\n.hvr-sink {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\n}\n.hvr-sink:hover, .hvr-sink:focus, .hvr-sink:active {\r\n  -webkit-transform: translateY(8px);\r\n  transform: translateY(8px);\n}\r\n\r\n/* Bob */\n@-webkit-keyframes hvr-bob {\n0% {\r\n    -webkit-transform: translateY(-8px);\r\n    transform: translateY(-8px);\n}\n50% {\r\n    -webkit-transform: translateY(-4px);\r\n    transform: translateY(-4px);\n}\n100% {\r\n    -webkit-transform: translateY(-8px);\r\n    transform: translateY(-8px);\n}\n}\n@keyframes hvr-bob {\n0% {\r\n    -webkit-transform: translateY(-8px);\r\n    transform: translateY(-8px);\n}\n50% {\r\n    -webkit-transform: translateY(-4px);\r\n    transform: translateY(-4px);\n}\n100% {\r\n    -webkit-transform: translateY(-8px);\r\n    transform: translateY(-8px);\n}\n}\n@-webkit-keyframes hvr-bob-float {\n100% {\r\n    -webkit-transform: translateY(-8px);\r\n    transform: translateY(-8px);\n}\n}\n@keyframes hvr-bob-float {\n100% {\r\n    -webkit-transform: translateY(-8px);\r\n    transform: translateY(-8px);\n}\n}\n.hvr-bob {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\n}\n.hvr-bob:hover, .hvr-bob:focus, .hvr-bob:active {\r\n  -webkit-animation-name: hvr-bob-float, hvr-bob;\r\n  animation-name: hvr-bob-float, hvr-bob;\r\n  -webkit-animation-duration: .3s, 1.5s;\r\n  animation-duration: .3s, 1.5s;\r\n  -webkit-animation-delay: 0s, .3s;\r\n  animation-delay: 0s, .3s;\r\n  -webkit-animation-timing-function: ease-out, ease-in-out;\r\n  animation-timing-function: ease-out, ease-in-out;\r\n  -webkit-animation-iteration-count: 1, infinite;\r\n  animation-iteration-count: 1, infinite;\r\n  -webkit-animation-fill-mode: forwards;\r\n  animation-fill-mode: forwards;\r\n  -webkit-animation-direction: normal, alternate;\r\n  animation-direction: normal, alternate;\n}\r\n\r\n/* Hang */\n@-webkit-keyframes hvr-hang {\n0% {\r\n    -webkit-transform: translateY(8px);\r\n    transform: translateY(8px);\n}\n50% {\r\n    -webkit-transform: translateY(4px);\r\n    transform: translateY(4px);\n}\n100% {\r\n    -webkit-transform: translateY(8px);\r\n    transform: translateY(8px);\n}\n}\n@keyframes hvr-hang {\n0% {\r\n    -webkit-transform: translateY(8px);\r\n    transform: translateY(8px);\n}\n50% {\r\n    -webkit-transform: translateY(4px);\r\n    transform: translateY(4px);\n}\n100% {\r\n    -webkit-transform: translateY(8px);\r\n    transform: translateY(8px);\n}\n}\n@-webkit-keyframes hvr-hang-sink {\n100% {\r\n    -webkit-transform: translateY(8px);\r\n    transform: translateY(8px);\n}\n}\n@keyframes hvr-hang-sink {\n100% {\r\n    -webkit-transform: translateY(8px);\r\n    transform: translateY(8px);\n}\n}\n.hvr-hang {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\n}\n.hvr-hang:hover, .hvr-hang:focus, .hvr-hang:active {\r\n  -webkit-animation-name: hvr-hang-sink, hvr-hang;\r\n  animation-name: hvr-hang-sink, hvr-hang;\r\n  -webkit-animation-duration: .3s, 1.5s;\r\n  animation-duration: .3s, 1.5s;\r\n  -webkit-animation-delay: 0s, .3s;\r\n  animation-delay: 0s, .3s;\r\n  -webkit-animation-timing-function: ease-out, ease-in-out;\r\n  animation-timing-function: ease-out, ease-in-out;\r\n  -webkit-animation-iteration-count: 1, infinite;\r\n  animation-iteration-count: 1, infinite;\r\n  -webkit-animation-fill-mode: forwards;\r\n  animation-fill-mode: forwards;\r\n  -webkit-animation-direction: normal, alternate;\r\n  animation-direction: normal, alternate;\n}\r\n\r\n/* Skew */\n.hvr-skew {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\n}\n.hvr-skew:hover, .hvr-skew:focus, .hvr-skew:active {\r\n  -webkit-transform: skew(-10deg);\r\n  transform: skew(-10deg);\n}\r\n\r\n/* Skew Forward */\n.hvr-skew-forward {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\r\n  -webkit-transform-origin: 0 100%;\r\n  transform-origin: 0 100%;\n}\n.hvr-skew-forward:hover, .hvr-skew-forward:focus, .hvr-skew-forward:active {\r\n  -webkit-transform: skew(-10deg);\r\n  transform: skew(-10deg);\n}\r\n\r\n/* Skew Backward */\n.hvr-skew-backward {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\r\n  -webkit-transform-origin: 0 100%;\r\n  transform-origin: 0 100%;\n}\n.hvr-skew-backward:hover, .hvr-skew-backward:focus, .hvr-skew-backward:active {\r\n  -webkit-transform: skew(10deg);\r\n  transform: skew(10deg);\n}\r\n\r\n/* Wobble Vertical */\n@-webkit-keyframes hvr-wobble-vertical {\n16.65% {\r\n    -webkit-transform: translateY(8px);\r\n    transform: translateY(8px);\n}\n33.3% {\r\n    -webkit-transform: translateY(-6px);\r\n    transform: translateY(-6px);\n}\n49.95% {\r\n    -webkit-transform: translateY(4px);\r\n    transform: translateY(4px);\n}\n66.6% {\r\n    -webkit-transform: translateY(-2px);\r\n    transform: translateY(-2px);\n}\n83.25% {\r\n    -webkit-transform: translateY(1px);\r\n    transform: translateY(1px);\n}\n100% {\r\n    -webkit-transform: translateY(0);\r\n    transform: translateY(0);\n}\n}\n@keyframes hvr-wobble-vertical {\n16.65% {\r\n    -webkit-transform: translateY(8px);\r\n    transform: translateY(8px);\n}\n33.3% {\r\n    -webkit-transform: translateY(-6px);\r\n    transform: translateY(-6px);\n}\n49.95% {\r\n    -webkit-transform: translateY(4px);\r\n    transform: translateY(4px);\n}\n66.6% {\r\n    -webkit-transform: translateY(-2px);\r\n    transform: translateY(-2px);\n}\n83.25% {\r\n    -webkit-transform: translateY(1px);\r\n    transform: translateY(1px);\n}\n100% {\r\n    -webkit-transform: translateY(0);\r\n    transform: translateY(0);\n}\n}\n.hvr-wobble-vertical {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\n}\n.hvr-wobble-vertical:hover, .hvr-wobble-vertical:focus, .hvr-wobble-vertical:active {\r\n  -webkit-animation-name: hvr-wobble-vertical;\r\n  animation-name: hvr-wobble-vertical;\r\n  -webkit-animation-duration: 1s;\r\n  animation-duration: 1s;\r\n  -webkit-animation-timing-function: ease-in-out;\r\n  animation-timing-function: ease-in-out;\r\n  -webkit-animation-iteration-count: 1;\r\n  animation-iteration-count: 1;\n}\r\n\r\n/* Wobble Horizontal */\n@-webkit-keyframes hvr-wobble-horizontal {\n16.65% {\r\n    -webkit-transform: translateX(8px);\r\n    transform: translateX(8px);\n}\n33.3% {\r\n    -webkit-transform: translateX(-6px);\r\n    transform: translateX(-6px);\n}\n49.95% {\r\n    -webkit-transform: translateX(4px);\r\n    transform: translateX(4px);\n}\n66.6% {\r\n    -webkit-transform: translateX(-2px);\r\n    transform: translateX(-2px);\n}\n83.25% {\r\n    -webkit-transform: translateX(1px);\r\n    transform: translateX(1px);\n}\n100% {\r\n    -webkit-transform: translateX(0);\r\n    transform: translateX(0);\n}\n}\n@keyframes hvr-wobble-horizontal {\n16.65% {\r\n    -webkit-transform: translateX(8px);\r\n    transform: translateX(8px);\n}\n33.3% {\r\n    -webkit-transform: translateX(-6px);\r\n    transform: translateX(-6px);\n}\n49.95% {\r\n    -webkit-transform: translateX(4px);\r\n    transform: translateX(4px);\n}\n66.6% {\r\n    -webkit-transform: translateX(-2px);\r\n    transform: translateX(-2px);\n}\n83.25% {\r\n    -webkit-transform: translateX(1px);\r\n    transform: translateX(1px);\n}\n100% {\r\n    -webkit-transform: translateX(0);\r\n    transform: translateX(0);\n}\n}\n.hvr-wobble-horizontal {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\n}\n.hvr-wobble-horizontal:hover, .hvr-wobble-horizontal:focus, .hvr-wobble-horizontal:active {\r\n  -webkit-animation-name: hvr-wobble-horizontal;\r\n  animation-name: hvr-wobble-horizontal;\r\n  -webkit-animation-duration: 1s;\r\n  animation-duration: 1s;\r\n  -webkit-animation-timing-function: ease-in-out;\r\n  animation-timing-function: ease-in-out;\r\n  -webkit-animation-iteration-count: 1;\r\n  animation-iteration-count: 1;\n}\r\n\r\n/* Wobble To Bottom Right */\n@-webkit-keyframes hvr-wobble-to-bottom-right {\n16.65% {\r\n    -webkit-transform: translate(8px, 8px);\r\n    transform: translate(8px, 8px);\n}\n33.3% {\r\n    -webkit-transform: translate(-6px, -6px);\r\n    transform: translate(-6px, -6px);\n}\n49.95% {\r\n    -webkit-transform: translate(4px, 4px);\r\n    transform: translate(4px, 4px);\n}\n66.6% {\r\n    -webkit-transform: translate(-2px, -2px);\r\n    transform: translate(-2px, -2px);\n}\n83.25% {\r\n    -webkit-transform: translate(1px, 1px);\r\n    transform: translate(1px, 1px);\n}\n100% {\r\n    -webkit-transform: translate(0, 0);\r\n    transform: translate(0, 0);\n}\n}\n@keyframes hvr-wobble-to-bottom-right {\n16.65% {\r\n    -webkit-transform: translate(8px, 8px);\r\n    transform: translate(8px, 8px);\n}\n33.3% {\r\n    -webkit-transform: translate(-6px, -6px);\r\n    transform: translate(-6px, -6px);\n}\n49.95% {\r\n    -webkit-transform: translate(4px, 4px);\r\n    transform: translate(4px, 4px);\n}\n66.6% {\r\n    -webkit-transform: translate(-2px, -2px);\r\n    transform: translate(-2px, -2px);\n}\n83.25% {\r\n    -webkit-transform: translate(1px, 1px);\r\n    transform: translate(1px, 1px);\n}\n100% {\r\n    -webkit-transform: translate(0, 0);\r\n    transform: translate(0, 0);\n}\n}\n.hvr-wobble-to-bottom-right {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\n}\n.hvr-wobble-to-bottom-right:hover, .hvr-wobble-to-bottom-right:focus, .hvr-wobble-to-bottom-right:active {\r\n  -webkit-animation-name: hvr-wobble-to-bottom-right;\r\n  animation-name: hvr-wobble-to-bottom-right;\r\n  -webkit-animation-duration: 1s;\r\n  animation-duration: 1s;\r\n  -webkit-animation-timing-function: ease-in-out;\r\n  animation-timing-function: ease-in-out;\r\n  -webkit-animation-iteration-count: 1;\r\n  animation-iteration-count: 1;\n}\r\n\r\n/* Wobble To Top Right */\n@-webkit-keyframes hvr-wobble-to-top-right {\n16.65% {\r\n    -webkit-transform: translate(8px, -8px);\r\n    transform: translate(8px, -8px);\n}\n33.3% {\r\n    -webkit-transform: translate(-6px, 6px);\r\n    transform: translate(-6px, 6px);\n}\n49.95% {\r\n    -webkit-transform: translate(4px, -4px);\r\n    transform: translate(4px, -4px);\n}\n66.6% {\r\n    -webkit-transform: translate(-2px, 2px);\r\n    transform: translate(-2px, 2px);\n}\n83.25% {\r\n    -webkit-transform: translate(1px, -1px);\r\n    transform: translate(1px, -1px);\n}\n100% {\r\n    -webkit-transform: translate(0, 0);\r\n    transform: translate(0, 0);\n}\n}\n@keyframes hvr-wobble-to-top-right {\n16.65% {\r\n    -webkit-transform: translate(8px, -8px);\r\n    transform: translate(8px, -8px);\n}\n33.3% {\r\n    -webkit-transform: translate(-6px, 6px);\r\n    transform: translate(-6px, 6px);\n}\n49.95% {\r\n    -webkit-transform: translate(4px, -4px);\r\n    transform: translate(4px, -4px);\n}\n66.6% {\r\n    -webkit-transform: translate(-2px, 2px);\r\n    transform: translate(-2px, 2px);\n}\n83.25% {\r\n    -webkit-transform: translate(1px, -1px);\r\n    transform: translate(1px, -1px);\n}\n100% {\r\n    -webkit-transform: translate(0, 0);\r\n    transform: translate(0, 0);\n}\n}\n.hvr-wobble-to-top-right {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\n}\n.hvr-wobble-to-top-right:hover, .hvr-wobble-to-top-right:focus, .hvr-wobble-to-top-right:active {\r\n  -webkit-animation-name: hvr-wobble-to-top-right;\r\n  animation-name: hvr-wobble-to-top-right;\r\n  -webkit-animation-duration: 1s;\r\n  animation-duration: 1s;\r\n  -webkit-animation-timing-function: ease-in-out;\r\n  animation-timing-function: ease-in-out;\r\n  -webkit-animation-iteration-count: 1;\r\n  animation-iteration-count: 1;\n}\r\n\r\n/* Wobble Top */\n@-webkit-keyframes hvr-wobble-top {\n16.65% {\r\n    -webkit-transform: skew(-12deg);\r\n    transform: skew(-12deg);\n}\n33.3% {\r\n    -webkit-transform: skew(10deg);\r\n    transform: skew(10deg);\n}\n49.95% {\r\n    -webkit-transform: skew(-6deg);\r\n    transform: skew(-6deg);\n}\n66.6% {\r\n    -webkit-transform: skew(4deg);\r\n    transform: skew(4deg);\n}\n83.25% {\r\n    -webkit-transform: skew(-2deg);\r\n    transform: skew(-2deg);\n}\n100% {\r\n    -webkit-transform: skew(0);\r\n    transform: skew(0);\n}\n}\n@keyframes hvr-wobble-top {\n16.65% {\r\n    -webkit-transform: skew(-12deg);\r\n    transform: skew(-12deg);\n}\n33.3% {\r\n    -webkit-transform: skew(10deg);\r\n    transform: skew(10deg);\n}\n49.95% {\r\n    -webkit-transform: skew(-6deg);\r\n    transform: skew(-6deg);\n}\n66.6% {\r\n    -webkit-transform: skew(4deg);\r\n    transform: skew(4deg);\n}\n83.25% {\r\n    -webkit-transform: skew(-2deg);\r\n    transform: skew(-2deg);\n}\n100% {\r\n    -webkit-transform: skew(0);\r\n    transform: skew(0);\n}\n}\n.hvr-wobble-top {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  -webkit-transform-origin: 0 100%;\r\n  transform-origin: 0 100%;\n}\n.hvr-wobble-top:hover, .hvr-wobble-top:focus, .hvr-wobble-top:active {\r\n  -webkit-animation-name: hvr-wobble-top;\r\n  animation-name: hvr-wobble-top;\r\n  -webkit-animation-duration: 1s;\r\n  animation-duration: 1s;\r\n  -webkit-animation-timing-function: ease-in-out;\r\n  animation-timing-function: ease-in-out;\r\n  -webkit-animation-iteration-count: 1;\r\n  animation-iteration-count: 1;\n}\r\n\r\n/* Wobble Bottom */\n@-webkit-keyframes hvr-wobble-bottom {\n16.65% {\r\n    -webkit-transform: skew(-12deg);\r\n    transform: skew(-12deg);\n}\n33.3% {\r\n    -webkit-transform: skew(10deg);\r\n    transform: skew(10deg);\n}\n49.95% {\r\n    -webkit-transform: skew(-6deg);\r\n    transform: skew(-6deg);\n}\n66.6% {\r\n    -webkit-transform: skew(4deg);\r\n    transform: skew(4deg);\n}\n83.25% {\r\n    -webkit-transform: skew(-2deg);\r\n    transform: skew(-2deg);\n}\n100% {\r\n    -webkit-transform: skew(0);\r\n    transform: skew(0);\n}\n}\n@keyframes hvr-wobble-bottom {\n16.65% {\r\n    -webkit-transform: skew(-12deg);\r\n    transform: skew(-12deg);\n}\n33.3% {\r\n    -webkit-transform: skew(10deg);\r\n    transform: skew(10deg);\n}\n49.95% {\r\n    -webkit-transform: skew(-6deg);\r\n    transform: skew(-6deg);\n}\n66.6% {\r\n    -webkit-transform: skew(4deg);\r\n    transform: skew(4deg);\n}\n83.25% {\r\n    -webkit-transform: skew(-2deg);\r\n    transform: skew(-2deg);\n}\n100% {\r\n    -webkit-transform: skew(0);\r\n    transform: skew(0);\n}\n}\n.hvr-wobble-bottom {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  -webkit-transform-origin: 100% 0;\r\n  transform-origin: 100% 0;\n}\n.hvr-wobble-bottom:hover, .hvr-wobble-bottom:focus, .hvr-wobble-bottom:active {\r\n  -webkit-animation-name: hvr-wobble-bottom;\r\n  animation-name: hvr-wobble-bottom;\r\n  -webkit-animation-duration: 1s;\r\n  animation-duration: 1s;\r\n  -webkit-animation-timing-function: ease-in-out;\r\n  animation-timing-function: ease-in-out;\r\n  -webkit-animation-iteration-count: 1;\r\n  animation-iteration-count: 1;\n}\r\n\r\n/* Wobble Skew */\n@-webkit-keyframes hvr-wobble-skew {\n16.65% {\r\n    -webkit-transform: skew(-12deg);\r\n    transform: skew(-12deg);\n}\n33.3% {\r\n    -webkit-transform: skew(10deg);\r\n    transform: skew(10deg);\n}\n49.95% {\r\n    -webkit-transform: skew(-6deg);\r\n    transform: skew(-6deg);\n}\n66.6% {\r\n    -webkit-transform: skew(4deg);\r\n    transform: skew(4deg);\n}\n83.25% {\r\n    -webkit-transform: skew(-2deg);\r\n    transform: skew(-2deg);\n}\n100% {\r\n    -webkit-transform: skew(0);\r\n    transform: skew(0);\n}\n}\n@keyframes hvr-wobble-skew {\n16.65% {\r\n    -webkit-transform: skew(-12deg);\r\n    transform: skew(-12deg);\n}\n33.3% {\r\n    -webkit-transform: skew(10deg);\r\n    transform: skew(10deg);\n}\n49.95% {\r\n    -webkit-transform: skew(-6deg);\r\n    transform: skew(-6deg);\n}\n66.6% {\r\n    -webkit-transform: skew(4deg);\r\n    transform: skew(4deg);\n}\n83.25% {\r\n    -webkit-transform: skew(-2deg);\r\n    transform: skew(-2deg);\n}\n100% {\r\n    -webkit-transform: skew(0);\r\n    transform: skew(0);\n}\n}\n.hvr-wobble-skew {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\n}\n.hvr-wobble-skew:hover, .hvr-wobble-skew:focus, .hvr-wobble-skew:active {\r\n  -webkit-animation-name: hvr-wobble-skew;\r\n  animation-name: hvr-wobble-skew;\r\n  -webkit-animation-duration: 1s;\r\n  animation-duration: 1s;\r\n  -webkit-animation-timing-function: ease-in-out;\r\n  animation-timing-function: ease-in-out;\r\n  -webkit-animation-iteration-count: 1;\r\n  animation-iteration-count: 1;\n}\r\n\r\n/* Buzz */\n@-webkit-keyframes hvr-buzz {\n50% {\r\n    -webkit-transform: translateX(3px) rotate(2deg);\r\n    transform: translateX(3px) rotate(2deg);\n}\n100% {\r\n    -webkit-transform: translateX(-3px) rotate(-2deg);\r\n    transform: translateX(-3px) rotate(-2deg);\n}\n}\n@keyframes hvr-buzz {\n50% {\r\n    -webkit-transform: translateX(3px) rotate(2deg);\r\n    transform: translateX(3px) rotate(2deg);\n}\n100% {\r\n    -webkit-transform: translateX(-3px) rotate(-2deg);\r\n    transform: translateX(-3px) rotate(-2deg);\n}\n}\n.hvr-buzz {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\n}\n.hvr-buzz:hover, .hvr-buzz:focus, .hvr-buzz:active {\r\n  -webkit-animation-name: hvr-buzz;\r\n  animation-name: hvr-buzz;\r\n  -webkit-animation-duration: 0.15s;\r\n  animation-duration: 0.15s;\r\n  -webkit-animation-timing-function: linear;\r\n  animation-timing-function: linear;\r\n  -webkit-animation-iteration-count: infinite;\r\n  animation-iteration-count: infinite;\n}\r\n\r\n/* Buzz Out */\n@-webkit-keyframes hvr-buzz-out {\n10% {\r\n    -webkit-transform: translateX(3px) rotate(2deg);\r\n    transform: translateX(3px) rotate(2deg);\n}\n20% {\r\n    -webkit-transform: translateX(-3px) rotate(-2deg);\r\n    transform: translateX(-3px) rotate(-2deg);\n}\n30% {\r\n    -webkit-transform: translateX(3px) rotate(2deg);\r\n    transform: translateX(3px) rotate(2deg);\n}\n40% {\r\n    -webkit-transform: translateX(-3px) rotate(-2deg);\r\n    transform: translateX(-3px) rotate(-2deg);\n}\n50% {\r\n    -webkit-transform: translateX(2px) rotate(1deg);\r\n    transform: translateX(2px) rotate(1deg);\n}\n60% {\r\n    -webkit-transform: translateX(-2px) rotate(-1deg);\r\n    transform: translateX(-2px) rotate(-1deg);\n}\n70% {\r\n    -webkit-transform: translateX(2px) rotate(1deg);\r\n    transform: translateX(2px) rotate(1deg);\n}\n80% {\r\n    -webkit-transform: translateX(-2px) rotate(-1deg);\r\n    transform: translateX(-2px) rotate(-1deg);\n}\n90% {\r\n    -webkit-transform: translateX(1px) rotate(0);\r\n    transform: translateX(1px) rotate(0);\n}\n100% {\r\n    -webkit-transform: translateX(-1px) rotate(0);\r\n    transform: translateX(-1px) rotate(0);\n}\n}\n@keyframes hvr-buzz-out {\n10% {\r\n    -webkit-transform: translateX(3px) rotate(2deg);\r\n    transform: translateX(3px) rotate(2deg);\n}\n20% {\r\n    -webkit-transform: translateX(-3px) rotate(-2deg);\r\n    transform: translateX(-3px) rotate(-2deg);\n}\n30% {\r\n    -webkit-transform: translateX(3px) rotate(2deg);\r\n    transform: translateX(3px) rotate(2deg);\n}\n40% {\r\n    -webkit-transform: translateX(-3px) rotate(-2deg);\r\n    transform: translateX(-3px) rotate(-2deg);\n}\n50% {\r\n    -webkit-transform: translateX(2px) rotate(1deg);\r\n    transform: translateX(2px) rotate(1deg);\n}\n60% {\r\n    -webkit-transform: translateX(-2px) rotate(-1deg);\r\n    transform: translateX(-2px) rotate(-1deg);\n}\n70% {\r\n    -webkit-transform: translateX(2px) rotate(1deg);\r\n    transform: translateX(2px) rotate(1deg);\n}\n80% {\r\n    -webkit-transform: translateX(-2px) rotate(-1deg);\r\n    transform: translateX(-2px) rotate(-1deg);\n}\n90% {\r\n    -webkit-transform: translateX(1px) rotate(0);\r\n    transform: translateX(1px) rotate(0);\n}\n100% {\r\n    -webkit-transform: translateX(-1px) rotate(0);\r\n    transform: translateX(-1px) rotate(0);\n}\n}\n.hvr-buzz-out {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\n}\n.hvr-buzz-out:hover, .hvr-buzz-out:focus, .hvr-buzz-out:active {\r\n  -webkit-animation-name: hvr-buzz-out;\r\n  animation-name: hvr-buzz-out;\r\n  -webkit-animation-duration: 0.75s;\r\n  animation-duration: 0.75s;\r\n  -webkit-animation-timing-function: linear;\r\n  animation-timing-function: linear;\r\n  -webkit-animation-iteration-count: 1;\r\n  animation-iteration-count: 1;\n}\r\n\r\n/* Forward */\n.hvr-forward {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\n}\n.hvr-forward:hover, .hvr-forward:focus, .hvr-forward:active {\r\n  -webkit-transform: translateX(8px);\r\n  transform: translateX(8px);\n}\r\n\r\n/* Backward */\n.hvr-backward {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\n}\n.hvr-backward:hover, .hvr-backward:focus, .hvr-backward:active {\r\n  -webkit-transform: translateX(-8px);\r\n  transform: translateX(-8px);\n}\r\n\r\n/* BACKGROUND TRANSITIONS */\r\n/* Fade */\n.hvr-fade {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  overflow: hidden;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: color, background-color;\r\n  transition-property: color, background-color;\n}\n.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {\r\n  background-color: #2098D1;\r\n  color: white;\n}\r\n\r\n/* Back Pulse */\n@-webkit-keyframes hvr-back-pulse {\n50% {\r\n    background-color: rgba(32, 152, 209, 0.75);\n}\n}\n@keyframes hvr-back-pulse {\n50% {\r\n    background-color: rgba(32, 152, 209, 0.75);\n}\n}\n.hvr-back-pulse {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  overflow: hidden;\r\n  -webkit-transition-duration: 0.5s;\r\n  transition-duration: 0.5s;\r\n  -webkit-transition-property: color, background-color;\r\n  transition-property: color, background-color;\n}\n.hvr-back-pulse:hover, .hvr-back-pulse:focus, .hvr-back-pulse:active {\r\n  -webkit-animation-name: hvr-back-pulse;\r\n  animation-name: hvr-back-pulse;\r\n  -webkit-animation-duration: 1s;\r\n  animation-duration: 1s;\r\n  -webkit-animation-delay: 0.5s;\r\n  animation-delay: 0.5s;\r\n  -webkit-animation-timing-function: linear;\r\n  animation-timing-function: linear;\r\n  -webkit-animation-iteration-count: infinite;\r\n  animation-iteration-count: infinite;\r\n  background-color: #2098D1;\r\n  background-color: #2098d1;\r\n  color: white;\n}\r\n\r\n/* Sweep To Right */\n.hvr-sweep-to-right {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  position: relative;\r\n  -webkit-transition-property: color;\r\n  transition-property: color;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\n}\n.hvr-sweep-to-right:before {\r\n  content: \"\";\r\n  position: absolute;\r\n  z-index: -1;\r\n  top: 0;\r\n  left: 0;\r\n  right: 0;\r\n  bottom: 0;\r\n  background: #2098D1;\r\n  -webkit-transform: scaleX(0);\r\n  transform: scaleX(0);\r\n  -webkit-transform-origin: 0 50%;\r\n  transform-origin: 0 50%;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\n}\n.hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {\r\n  color: white;\n}\n.hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right:active:before {\r\n  -webkit-transform: scaleX(1);\r\n  transform: scaleX(1);\n}\r\n\r\n/* Sweep To Left */\n.hvr-sweep-to-left {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  position: relative;\r\n  -webkit-transition-property: color;\r\n  transition-property: color;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\n}\n.hvr-sweep-to-left:before {\r\n  content: \"\";\r\n  position: absolute;\r\n  z-index: -1;\r\n  top: 0;\r\n  left: 0;\r\n  right: 0;\r\n  bottom: 0;\r\n  background: #2098D1;\r\n  -webkit-transform: scaleX(0);\r\n  transform: scaleX(0);\r\n  -webkit-transform-origin: 100% 50%;\r\n  transform-origin: 100% 50%;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\n}\n.hvr-sweep-to-left:hover, .hvr-sweep-to-left:focus, .hvr-sweep-to-left:active {\r\n  color: white;\n}\n.hvr-sweep-to-left:hover:before, .hvr-sweep-to-left:focus:before, .hvr-sweep-to-left:active:before {\r\n  -webkit-transform: scaleX(1);\r\n  transform: scaleX(1);\n}\r\n\r\n/* Sweep To Bottom */\n.hvr-sweep-to-bottom {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  position: relative;\r\n  -webkit-transition-property: color;\r\n  transition-property: color;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\n}\n.hvr-sweep-to-bottom:before {\r\n  content: \"\";\r\n  position: absolute;\r\n  z-index: -1;\r\n  top: 0;\r\n  left: 0;\r\n  right: 0;\r\n  bottom: 0;\r\n  background: #2098D1;\r\n  -webkit-transform: scaleY(0);\r\n  transform: scaleY(0);\r\n  -webkit-transform-origin: 50% 0;\r\n  transform-origin: 50% 0;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\n}\n.hvr-sweep-to-bottom:hover, .hvr-sweep-to-bottom:focus, .hvr-sweep-to-bottom:active {\r\n  color: white;\n}\n.hvr-sweep-to-bottom:hover:before, .hvr-sweep-to-bottom:focus:before, .hvr-sweep-to-bottom:active:before {\r\n  -webkit-transform: scaleY(1);\r\n  transform: scaleY(1);\n}\r\n\r\n/* Sweep To Top */\n.hvr-sweep-to-top {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  position: relative;\r\n  -webkit-transition-property: color;\r\n  transition-property: color;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\n}\n.hvr-sweep-to-top:before {\r\n  content: \"\";\r\n  position: absolute;\r\n  z-index: -1;\r\n  top: 0;\r\n  left: 0;\r\n  right: 0;\r\n  bottom: 0;\r\n  background: #2098D1;\r\n  -webkit-transform: scaleY(0);\r\n  transform: scaleY(0);\r\n  -webkit-transform-origin: 50% 100%;\r\n  transform-origin: 50% 100%;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\n}\n.hvr-sweep-to-top:hover, .hvr-sweep-to-top:focus, .hvr-sweep-to-top:active {\r\n  color: white;\n}\n.hvr-sweep-to-top:hover:before, .hvr-sweep-to-top:focus:before, .hvr-sweep-to-top:active:before {\r\n  -webkit-transform: scaleY(1);\r\n  transform: scaleY(1);\n}\r\n\r\n/* Bounce To Right */\n.hvr-bounce-to-right {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  position: relative;\r\n  -webkit-transition-property: color;\r\n  transition-property: color;\r\n  -webkit-transition-duration: 0.5s;\r\n  transition-duration: 0.5s;\n}\n.hvr-bounce-to-right:before {\r\n  content: \"\";\r\n  position: absolute;\r\n  z-index: -1;\r\n  top: 0;\r\n  left: 0;\r\n  right: 0;\r\n  bottom: 0;\r\n  background: #2098D1;\r\n  -webkit-transform: scaleX(0);\r\n  transform: scaleX(0);\r\n  -webkit-transform-origin: 0 50%;\r\n  transform-origin: 0 50%;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\r\n  -webkit-transition-duration: 0.5s;\r\n  transition-duration: 0.5s;\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\n}\n.hvr-bounce-to-right:hover, .hvr-bounce-to-right:focus, .hvr-bounce-to-right:active {\r\n  color: white;\n}\n.hvr-bounce-to-right:hover:before, .hvr-bounce-to-right:focus:before, .hvr-bounce-to-right:active:before {\r\n  -webkit-transform: scaleX(1);\r\n  transform: scaleX(1);\r\n  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);\r\n  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);\n}\r\n\r\n/* Bounce To Left */\n.hvr-bounce-to-left {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  position: relative;\r\n  -webkit-transition-property: color;\r\n  transition-property: color;\r\n  -webkit-transition-duration: 0.5s;\r\n  transition-duration: 0.5s;\n}\n.hvr-bounce-to-left:before {\r\n  content: \"\";\r\n  position: absolute;\r\n  z-index: -1;\r\n  top: 0;\r\n  left: 0;\r\n  right: 0;\r\n  bottom: 0;\r\n  background: #2098D1;\r\n  -webkit-transform: scaleX(0);\r\n  transform: scaleX(0);\r\n  -webkit-transform-origin: 100% 50%;\r\n  transform-origin: 100% 50%;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\r\n  -webkit-transition-duration: 0.5s;\r\n  transition-duration: 0.5s;\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\n}\n.hvr-bounce-to-left:hover, .hvr-bounce-to-left:focus, .hvr-bounce-to-left:active {\r\n  color: white;\n}\n.hvr-bounce-to-left:hover:before, .hvr-bounce-to-left:focus:before, .hvr-bounce-to-left:active:before {\r\n  -webkit-transform: scaleX(1);\r\n  transform: scaleX(1);\r\n  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);\r\n  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);\n}\r\n\r\n/* Bounce To Bottom */\n.hvr-bounce-to-bottom {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  position: relative;\r\n  -webkit-transition-property: color;\r\n  transition-property: color;\r\n  -webkit-transition-duration: 0.5s;\r\n  transition-duration: 0.5s;\n}\n.hvr-bounce-to-bottom:before {\r\n  content: \"\";\r\n  position: absolute;\r\n  z-index: -1;\r\n  top: 0;\r\n  left: 0;\r\n  right: 0;\r\n  bottom: 0;\r\n  background: #2098D1;\r\n  -webkit-transform: scaleY(0);\r\n  transform: scaleY(0);\r\n  -webkit-transform-origin: 50% 0;\r\n  transform-origin: 50% 0;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\r\n  -webkit-transition-duration: 0.5s;\r\n  transition-duration: 0.5s;\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\n}\n.hvr-bounce-to-bottom:hover, .hvr-bounce-to-bottom:focus, .hvr-bounce-to-bottom:active {\r\n  color: white;\n}\n.hvr-bounce-to-bottom:hover:before, .hvr-bounce-to-bottom:focus:before, .hvr-bounce-to-bottom:active:before {\r\n  -webkit-transform: scaleY(1);\r\n  transform: scaleY(1);\r\n  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);\r\n  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);\n}\r\n\r\n/* Bounce To Top */\n.hvr-bounce-to-top {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  position: relative;\r\n  -webkit-transition-property: color;\r\n  transition-property: color;\r\n  -webkit-transition-duration: 0.5s;\r\n  transition-duration: 0.5s;\n}\n.hvr-bounce-to-top:before {\r\n  content: \"\";\r\n  position: absolute;\r\n  z-index: -1;\r\n  top: 0;\r\n  left: 0;\r\n  right: 0;\r\n  bottom: 0;\r\n  background: #2098D1;\r\n  -webkit-transform: scaleY(0);\r\n  transform: scaleY(0);\r\n  -webkit-transform-origin: 50% 100%;\r\n  transform-origin: 50% 100%;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\r\n  -webkit-transition-duration: 0.5s;\r\n  transition-duration: 0.5s;\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\n}\n.hvr-bounce-to-top:hover, .hvr-bounce-to-top:focus, .hvr-bounce-to-top:active {\r\n  color: white;\n}\n.hvr-bounce-to-top:hover:before, .hvr-bounce-to-top:focus:before, .hvr-bounce-to-top:active:before {\r\n  -webkit-transform: scaleY(1);\r\n  transform: scaleY(1);\r\n  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);\r\n  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);\n}\r\n\r\n/* Radial Out */\n.hvr-radial-out {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  position: relative;\r\n  overflow: hidden;\r\n  background: #e1e1e1;\r\n  -webkit-transition-property: color;\r\n  transition-property: color;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\n}\n.hvr-radial-out:before {\r\n  content: \"\";\r\n  position: absolute;\r\n  z-index: -1;\r\n  top: 0;\r\n  left: 0;\r\n  right: 0;\r\n  bottom: 0;\r\n  background: #2098D1;\r\n  border-radius: 100%;\r\n  -webkit-transform: scale(0);\r\n  transform: scale(0);\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\n}\n.hvr-radial-out:hover, .hvr-radial-out:focus, .hvr-radial-out:active {\r\n  color: white;\n}\n.hvr-radial-out:hover:before, .hvr-radial-out:focus:before, .hvr-radial-out:active:before {\r\n  -webkit-transform: scale(2);\r\n  transform: scale(2);\n}\r\n\r\n/* Radial In */\n.hvr-radial-in {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  position: relative;\r\n  overflow: hidden;\r\n  background: #2098D1;\r\n  -webkit-transition-property: color;\r\n  transition-property: color;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\n}\n.hvr-radial-in:before {\r\n  content: \"\";\r\n  position: absolute;\r\n  z-index: -1;\r\n  top: 0;\r\n  left: 0;\r\n  right: 0;\r\n  bottom: 0;\r\n  background: #e1e1e1;\r\n  border-radius: 100%;\r\n  -webkit-transform: scale(2);\r\n  transform: scale(2);\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\n}\n.hvr-radial-in:hover, .hvr-radial-in:focus, .hvr-radial-in:active {\r\n  color: white;\n}\n.hvr-radial-in:hover:before, .hvr-radial-in:focus:before, .hvr-radial-in:active:before {\r\n  -webkit-transform: scale(0);\r\n  transform: scale(0);\n}\r\n\r\n/* Rectangle In */\n.hvr-rectangle-in {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  position: relative;\r\n  background: #2098D1;\r\n  -webkit-transition-property: color;\r\n  transition-property: color;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\n}\n.hvr-rectangle-in:before {\r\n  content: \"\";\r\n  position: absolute;\r\n  z-index: -1;\r\n  top: 0;\r\n  left: 0;\r\n  right: 0;\r\n  bottom: 0;\r\n  background: #e1e1e1;\r\n  -webkit-transform: scale(1);\r\n  transform: scale(1);\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\n}\n.hvr-rectangle-in:hover, .hvr-rectangle-in:focus, .hvr-rectangle-in:active {\r\n  color: white;\n}\n.hvr-rectangle-in:hover:before, .hvr-rectangle-in:focus:before, .hvr-rectangle-in:active:before {\r\n  -webkit-transform: scale(0);\r\n  transform: scale(0);\n}\r\n\r\n/* Rectangle Out */\n.hvr-rectangle-out {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  position: relative;\r\n  background: #e1e1e1;\r\n  -webkit-transition-property: color;\r\n  transition-property: color;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\n}\n.hvr-rectangle-out:before {\r\n  content: \"\";\r\n  position: absolute;\r\n  z-index: -1;\r\n  top: 0;\r\n  left: 0;\r\n  right: 0;\r\n  bottom: 0;\r\n  background: #2098D1;\r\n  -webkit-transform: scale(0);\r\n  transform: scale(0);\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\n}\n.hvr-rectangle-out:hover, .hvr-rectangle-out:focus, .hvr-rectangle-out:active {\r\n  color: white;\n}\n.hvr-rectangle-out:hover:before, .hvr-rectangle-out:focus:before, .hvr-rectangle-out:active:before {\r\n  -webkit-transform: scale(1);\r\n  transform: scale(1);\n}\r\n\r\n/* Shutter In Horizontal */\n.hvr-shutter-in-horizontal {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  position: relative;\r\n  background: #2098D1;\r\n  -webkit-transition-property: color;\r\n  transition-property: color;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\n}\n.hvr-shutter-in-horizontal:before {\r\n  content: \"\";\r\n  position: absolute;\r\n  z-index: -1;\r\n  top: 0;\r\n  bottom: 0;\r\n  left: 0;\r\n  right: 0;\r\n  background: #e1e1e1;\r\n  -webkit-transform: scaleX(1);\r\n  transform: scaleX(1);\r\n  -webkit-transform-origin: 50%;\r\n  transform-origin: 50%;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\n}\n.hvr-shutter-in-horizontal:hover, .hvr-shutter-in-horizontal:focus, .hvr-shutter-in-horizontal:active {\r\n  color: white;\n}\n.hvr-shutter-in-horizontal:hover:before, .hvr-shutter-in-horizontal:focus:before, .hvr-shutter-in-horizontal:active:before {\r\n  -webkit-transform: scaleX(0);\r\n  transform: scaleX(0);\n}\r\n\r\n/* Shutter Out Horizontal */\n.hvr-shutter-out-horizontal {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  position: relative;\r\n  background: #e1e1e1;\r\n  -webkit-transition-property: color;\r\n  transition-property: color;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\n}\n.hvr-shutter-out-horizontal:before {\r\n  content: \"\";\r\n  position: absolute;\r\n  z-index: -1;\r\n  top: 0;\r\n  bottom: 0;\r\n  left: 0;\r\n  right: 0;\r\n  background: #2098D1;\r\n  -webkit-transform: scaleX(0);\r\n  transform: scaleX(0);\r\n  -webkit-transform-origin: 50%;\r\n  transform-origin: 50%;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\n}\n.hvr-shutter-out-horizontal:hover, .hvr-shutter-out-horizontal:focus, .hvr-shutter-out-horizontal:active {\r\n  color: white;\n}\n.hvr-shutter-out-horizontal:hover:before, .hvr-shutter-out-horizontal:focus:before, .hvr-shutter-out-horizontal:active:before {\r\n  -webkit-transform: scaleX(1);\r\n  transform: scaleX(1);\n}\r\n\r\n/* Shutter In Vertical */\n.hvr-shutter-in-vertical {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  position: relative;\r\n  background: #2098D1;\r\n  -webkit-transition-property: color;\r\n  transition-property: color;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\n}\n.hvr-shutter-in-vertical:before {\r\n  content: \"\";\r\n  position: absolute;\r\n  z-index: -1;\r\n  top: 0;\r\n  bottom: 0;\r\n  left: 0;\r\n  right: 0;\r\n  background: #e1e1e1;\r\n  -webkit-transform: scaleY(1);\r\n  transform: scaleY(1);\r\n  -webkit-transform-origin: 50%;\r\n  transform-origin: 50%;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\n}\n.hvr-shutter-in-vertical:hover, .hvr-shutter-in-vertical:focus, .hvr-shutter-in-vertical:active {\r\n  color: white;\n}\n.hvr-shutter-in-vertical:hover:before, .hvr-shutter-in-vertical:focus:before, .hvr-shutter-in-vertical:active:before {\r\n  -webkit-transform: scaleY(0);\r\n  transform: scaleY(0);\n}\r\n\r\n/* Shutter Out Vertical */\n.hvr-shutter-out-vertical {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  position: relative;\r\n  background: #e1e1e1;\r\n  -webkit-transition-property: color;\r\n  transition-property: color;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\n}\n.hvr-shutter-out-vertical:before {\r\n  content: \"\";\r\n  position: absolute;\r\n  z-index: -1;\r\n  top: 0;\r\n  bottom: 0;\r\n  left: 0;\r\n  right: 0;\r\n  background: #2098D1;\r\n  -webkit-transform: scaleY(0);\r\n  transform: scaleY(0);\r\n  -webkit-transform-origin: 50%;\r\n  transform-origin: 50%;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\n}\n.hvr-shutter-out-vertical:hover, .hvr-shutter-out-vertical:focus, .hvr-shutter-out-vertical:active {\r\n  color: white;\n}\n.hvr-shutter-out-vertical:hover:before, .hvr-shutter-out-vertical:focus:before, .hvr-shutter-out-vertical:active:before {\r\n  -webkit-transform: scaleY(1);\r\n  transform: scaleY(1);\n}\r\n\r\n/* BORDER TRANSITIONS */\r\n/* Border Fade */\n.hvr-border-fade {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: box-shadow;\r\n  -webkit-transition-property: -webkit-box-shadow;\r\n  transition-property: -webkit-box-shadow;\r\n  transition-property: box-shadow;\r\n  transition-property: box-shadow, -webkit-box-shadow;\r\n  -webkit-box-shadow: inset 0 0 0 4px #e1e1e1, 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: inset 0 0 0 4px #e1e1e1, 0 0 1px rgba(0, 0, 0, 0);\r\n  /* Hack to improve aliasing on mobile/tablet devices */\n}\n.hvr-border-fade:hover, .hvr-border-fade:focus, .hvr-border-fade:active {\r\n  -webkit-box-shadow: inset 0 0 0 4px #2098D1, 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: inset 0 0 0 4px #2098D1, 0 0 1px rgba(0, 0, 0, 0);\r\n  /* Hack to improve aliasing on mobile/tablet devices */\n}\r\n\r\n/* Hollow */\n.hvr-hollow {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: background;\r\n  transition-property: background;\r\n  -webkit-box-shadow: inset 0 0 0 4px #e1e1e1, 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: inset 0 0 0 4px #e1e1e1, 0 0 1px rgba(0, 0, 0, 0);\r\n  /* Hack to improve aliasing on mobile/tablet devices */\n}\n.hvr-hollow:hover, .hvr-hollow:focus, .hvr-hollow:active {\r\n  background: none;\n}\r\n\r\n/* Trim */\n.hvr-trim {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  position: relative;\n}\n.hvr-trim:before {\r\n  content: '';\r\n  position: absolute;\r\n  border: white solid 4px;\r\n  top: 4px;\r\n  left: 4px;\r\n  right: 4px;\r\n  bottom: 4px;\r\n  opacity: 0;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: opacity;\r\n  transition-property: opacity;\n}\n.hvr-trim:hover:before, .hvr-trim:focus:before, .hvr-trim:active:before {\r\n  opacity: 1;\n}\r\n\r\n/* Ripple Out */\n@-webkit-keyframes hvr-ripple-out {\n100% {\r\n    top: -12px;\r\n    right: -12px;\r\n    bottom: -12px;\r\n    left: -12px;\r\n    opacity: 0;\n}\n}\n@keyframes hvr-ripple-out {\n100% {\r\n    top: -12px;\r\n    right: -12px;\r\n    bottom: -12px;\r\n    left: -12px;\r\n    opacity: 0;\n}\n}\n.hvr-ripple-out {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  position: relative;\n}\n.hvr-ripple-out:before {\r\n  content: '';\r\n  position: absolute;\r\n  border: #e1e1e1 solid 6px;\r\n  top: 0;\r\n  right: 0;\r\n  bottom: 0;\r\n  left: 0;\r\n  -webkit-animation-duration: 1s;\r\n  animation-duration: 1s;\n}\n.hvr-ripple-out:hover:before, .hvr-ripple-out:focus:before, .hvr-ripple-out:active:before {\r\n  -webkit-animation-name: hvr-ripple-out;\r\n  animation-name: hvr-ripple-out;\n}\r\n\r\n/* Ripple In */\n@-webkit-keyframes hvr-ripple-in {\n100% {\r\n    top: 0;\r\n    right: 0;\r\n    bottom: 0;\r\n    left: 0;\r\n    opacity: 1;\n}\n}\n@keyframes hvr-ripple-in {\n100% {\r\n    top: 0;\r\n    right: 0;\r\n    bottom: 0;\r\n    left: 0;\r\n    opacity: 1;\n}\n}\n.hvr-ripple-in {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  position: relative;\n}\n.hvr-ripple-in:before {\r\n  content: '';\r\n  position: absolute;\r\n  border: #e1e1e1 solid 4px;\r\n  top: -12px;\r\n  right: -12px;\r\n  bottom: -12px;\r\n  left: -12px;\r\n  opacity: 0;\r\n  -webkit-animation-duration: 1s;\r\n  animation-duration: 1s;\n}\n.hvr-ripple-in:hover:before, .hvr-ripple-in:focus:before, .hvr-ripple-in:active:before {\r\n  -webkit-animation-name: hvr-ripple-in;\r\n  animation-name: hvr-ripple-in;\n}\r\n\r\n/* Outline Out */\n.hvr-outline-out {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  position: relative;\n}\n.hvr-outline-out:before {\r\n  content: '';\r\n  position: absolute;\r\n  border: #e1e1e1 solid 4px;\r\n  top: 0;\r\n  right: 0;\r\n  bottom: 0;\r\n  left: 0;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: top, right, bottom, left;\r\n  transition-property: top, right, bottom, left;\n}\n.hvr-outline-out:hover:before, .hvr-outline-out:focus:before, .hvr-outline-out:active:before {\r\n  top: -8px;\r\n  right: -8px;\r\n  bottom: -8px;\r\n  left: -8px;\n}\r\n\r\n/* Outline In */\n.hvr-outline-in {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  position: relative;\n}\n.hvr-outline-in:before {\r\n  pointer-events: none;\r\n  content: '';\r\n  position: absolute;\r\n  border: #e1e1e1 solid 4px;\r\n  top: -16px;\r\n  right: -16px;\r\n  bottom: -16px;\r\n  left: -16px;\r\n  opacity: 0;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: top, right, bottom, left;\r\n  transition-property: top, right, bottom, left;\n}\n.hvr-outline-in:hover:before, .hvr-outline-in:focus:before, .hvr-outline-in:active:before {\r\n  top: -8px;\r\n  right: -8px;\r\n  bottom: -8px;\r\n  left: -8px;\r\n  opacity: 1;\n}\r\n\r\n/* Round Corners */\n.hvr-round-corners {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: border-radius;\r\n  transition-property: border-radius;\n}\n.hvr-round-corners:hover, .hvr-round-corners:focus, .hvr-round-corners:active {\r\n  border-radius: 1em;\n}\r\n\r\n/* Underline From Left */\n.hvr-underline-from-left {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  position: relative;\r\n  overflow: hidden;\n}\n.hvr-underline-from-left:before {\r\n  content: \"\";\r\n  position: absolute;\r\n  z-index: -1;\r\n  left: 0;\r\n  right: 100%;\r\n  bottom: 0;\r\n  background: #2098D1;\r\n  height: 4px;\r\n  -webkit-transition-property: right;\r\n  transition-property: right;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\n}\n.hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {\r\n  right: 0;\n}\r\n\r\n/* Underline From Center */\n.hvr-underline-from-center {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  position: relative;\r\n  overflow: hidden;\n}\n.hvr-underline-from-center:before {\r\n  content: \"\";\r\n  position: absolute;\r\n  z-index: -1;\r\n  left: 51%;\r\n  right: 51%;\r\n  bottom: 0;\r\n  background: #2098D1;\r\n  height: 4px;\r\n  -webkit-transition-property: left, right;\r\n  transition-property: left, right;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\n}\n.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {\r\n  left: 0;\r\n  right: 0;\n}\r\n\r\n/* Underline From Right */\n.hvr-underline-from-right {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  position: relative;\r\n  overflow: hidden;\n}\n.hvr-underline-from-right:before {\r\n  content: \"\";\r\n  position: absolute;\r\n  z-index: -1;\r\n  left: 100%;\r\n  right: 0;\r\n  bottom: 0;\r\n  background: #2098D1;\r\n  height: 4px;\r\n  -webkit-transition-property: left;\r\n  transition-property: left;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\n}\n.hvr-underline-from-right:hover:before, .hvr-underline-from-right:focus:before, .hvr-underline-from-right:active:before {\r\n  left: 0;\n}\r\n\r\n/* Overline From Left */\n.hvr-overline-from-left {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  position: relative;\r\n  overflow: hidden;\n}\n.hvr-overline-from-left:before {\r\n  content: \"\";\r\n  position: absolute;\r\n  z-index: -1;\r\n  left: 0;\r\n  right: 100%;\r\n  top: 0;\r\n  background: #2098D1;\r\n  height: 4px;\r\n  -webkit-transition-property: right;\r\n  transition-property: right;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\n}\n.hvr-overline-from-left:hover:before, .hvr-overline-from-left:focus:before, .hvr-overline-from-left:active:before {\r\n  right: 0;\n}\r\n\r\n/* Overline From Center */\n.hvr-overline-from-center {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  position: relative;\r\n  overflow: hidden;\n}\n.hvr-overline-from-center:before {\r\n  content: \"\";\r\n  position: absolute;\r\n  z-index: -1;\r\n  left: 51%;\r\n  right: 51%;\r\n  top: 0;\r\n  background: #2098D1;\r\n  height: 4px;\r\n  -webkit-transition-property: left, right;\r\n  transition-property: left, right;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\n}\n.hvr-overline-from-center:hover:before, .hvr-overline-from-center:focus:before, .hvr-overline-from-center:active:before {\r\n  left: 0;\r\n  right: 0;\n}\r\n\r\n/* Overline From Right */\n.hvr-overline-from-right {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  position: relative;\r\n  overflow: hidden;\n}\n.hvr-overline-from-right:before {\r\n  content: \"\";\r\n  position: absolute;\r\n  z-index: -1;\r\n  left: 100%;\r\n  right: 0;\r\n  top: 0;\r\n  background: #2098D1;\r\n  height: 4px;\r\n  -webkit-transition-property: left;\r\n  transition-property: left;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\n}\n.hvr-overline-from-right:hover:before, .hvr-overline-from-right:focus:before, .hvr-overline-from-right:active:before {\r\n  left: 0;\n}\r\n\r\n/* Reveal */\n.hvr-reveal {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  position: relative;\r\n  overflow: hidden;\n}\n.hvr-reveal:before {\r\n  content: \"\";\r\n  position: absolute;\r\n  z-index: -1;\r\n  left: 0;\r\n  right: 0;\r\n  top: 0;\r\n  bottom: 0;\r\n  border-color: #2098D1;\r\n  border-style: solid;\r\n  border-width: 0;\r\n  -webkit-transition-property: border-width;\r\n  transition-property: border-width;\r\n  -webkit-transition-duration: 0.1s;\r\n  transition-duration: 0.1s;\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\n}\n.hvr-reveal:hover:before, .hvr-reveal:focus:before, .hvr-reveal:active:before {\r\n  -webkit-transform: translateY(0);\r\n  transform: translateY(0);\r\n  border-width: 4px;\n}\r\n\r\n/* Underline Reveal */\n.hvr-underline-reveal {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  position: relative;\r\n  overflow: hidden;\n}\n.hvr-underline-reveal:before {\r\n  content: \"\";\r\n  position: absolute;\r\n  z-index: -1;\r\n  left: 0;\r\n  right: 0;\r\n  bottom: 0;\r\n  background: #2098D1;\r\n  height: 4px;\r\n  -webkit-transform: translateY(4px);\r\n  transform: translateY(4px);\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\n}\n.hvr-underline-reveal:hover:before, .hvr-underline-reveal:focus:before, .hvr-underline-reveal:active:before {\r\n  -webkit-transform: translateY(0);\r\n  transform: translateY(0);\n}\r\n\r\n/* Overline Reveal */\n.hvr-overline-reveal {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  position: relative;\r\n  overflow: hidden;\n}\n.hvr-overline-reveal:before {\r\n  content: \"\";\r\n  position: absolute;\r\n  z-index: -1;\r\n  left: 0;\r\n  right: 0;\r\n  top: 0;\r\n  background: #2098D1;\r\n  height: 4px;\r\n  -webkit-transform: translateY(-4px);\r\n  transform: translateY(-4px);\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\n}\n.hvr-overline-reveal:hover:before, .hvr-overline-reveal:focus:before, .hvr-overline-reveal:active:before {\r\n  -webkit-transform: translateY(0);\r\n  transform: translateY(0);\n}\r\n\r\n/* SHADOW/GLOW TRANSITIONS */\r\n/* Glow */\n.hvr-glow {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: box-shadow;\r\n  -webkit-transition-property: -webkit-box-shadow;\r\n  transition-property: -webkit-box-shadow;\r\n  transition-property: box-shadow;\r\n  transition-property: box-shadow, -webkit-box-shadow;\n}\n.hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {\r\n  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);\r\n          box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);\n}\r\n\r\n/* Shadow */\n.hvr-shadow {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: box-shadow;\r\n  -webkit-transition-property: -webkit-box-shadow;\r\n  transition-property: -webkit-box-shadow;\r\n  transition-property: box-shadow;\r\n  transition-property: box-shadow, -webkit-box-shadow;\n}\n.hvr-shadow:hover, .hvr-shadow:focus, .hvr-shadow:active {\r\n  -webkit-box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);\r\n          box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);\n}\r\n\r\n/* Grow Shadow */\n.hvr-grow-shadow {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: box-shadow, transform;\r\n  -webkit-transition-property: -webkit-box-shadow, -webkit-transform;\r\n  transition-property: -webkit-box-shadow, -webkit-transform;\r\n  transition-property: box-shadow, transform;\r\n  transition-property: box-shadow, transform, -webkit-box-shadow, -webkit-transform;\n}\n.hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {\r\n  -webkit-box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);\r\n          box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);\r\n  -webkit-transform: scale(1.1);\r\n  transform: scale(1.1);\n}\r\n\r\n/* Box Shadow Outset */\n.hvr-box-shadow-outset {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: box-shadow;\r\n  -webkit-transition-property: -webkit-box-shadow;\r\n  transition-property: -webkit-box-shadow;\r\n  transition-property: box-shadow;\r\n  transition-property: box-shadow, -webkit-box-shadow;\n}\n.hvr-box-shadow-outset:hover, .hvr-box-shadow-outset:focus, .hvr-box-shadow-outset:active {\r\n  -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);\r\n          box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);\n}\r\n\r\n/* Box Shadow Inset */\n.hvr-box-shadow-inset {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: box-shadow;\r\n  -webkit-transition-property: -webkit-box-shadow;\r\n  transition-property: -webkit-box-shadow;\r\n  transition-property: box-shadow;\r\n  transition-property: box-shadow, -webkit-box-shadow;\r\n  -webkit-box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.6), 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.6), 0 0 1px rgba(0, 0, 0, 0);\r\n  /* Hack to improve aliasing on mobile/tablet devices */\n}\n.hvr-box-shadow-inset:hover, .hvr-box-shadow-inset:focus, .hvr-box-shadow-inset:active {\r\n  -webkit-box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.6), 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.6), 0 0 1px rgba(0, 0, 0, 0);\r\n  /* Hack to improve aliasing on mobile/tablet devices */\n}\r\n\r\n/* Float Shadow */\n.hvr-float-shadow {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  position: relative;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\n}\n.hvr-float-shadow:before {\r\n  pointer-events: none;\r\n  position: absolute;\r\n  z-index: -1;\r\n  content: '';\r\n  top: 100%;\r\n  left: 5%;\r\n  height: 10px;\r\n  width: 90%;\r\n  opacity: 0;\r\n  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);\r\n  /* W3C */\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: transform, opacity;\r\n  -webkit-transition-property: opacity, -webkit-transform;\r\n  transition-property: opacity, -webkit-transform;\r\n  transition-property: transform, opacity;\r\n  transition-property: transform, opacity, -webkit-transform;\n}\n.hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active {\r\n  -webkit-transform: translateY(-5px);\r\n  transform: translateY(-5px);\r\n  /* move the element up by 5px */\n}\n.hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {\r\n  opacity: 1;\r\n  -webkit-transform: translateY(5px);\r\n  transform: translateY(5px);\r\n  /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */\n}\r\n\r\n/* Shadow Radial */\n.hvr-shadow-radial {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  position: relative;\n}\n.hvr-shadow-radial:before, .hvr-shadow-radial:after {\r\n  pointer-events: none;\r\n  position: absolute;\r\n  content: '';\r\n  left: 0;\r\n  width: 100%;\r\n  -webkit-box-sizing: border-box;\r\n          box-sizing: border-box;\r\n  background-repeat: no-repeat;\r\n  height: 5px;\r\n  opacity: 0;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: opacity;\r\n  transition-property: opacity;\n}\n.hvr-shadow-radial:before {\r\n  bottom: 100%;\r\n  background: radial-gradient(ellipse at 50% 150%, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 80%);\n}\n.hvr-shadow-radial:after {\r\n  top: 100%;\r\n  background: radial-gradient(ellipse at 50% -50%, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 80%);\n}\n.hvr-shadow-radial:hover:before, .hvr-shadow-radial:focus:before, .hvr-shadow-radial:active:before, .hvr-shadow-radial:hover:after, .hvr-shadow-radial:focus:after, .hvr-shadow-radial:active:after {\r\n  opacity: 1;\n}\r\n\r\n/* SPEECH BUBBLES */\r\n/* Bubble Top */\n.hvr-bubble-top {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  position: relative;\n}\n.hvr-bubble-top:before {\r\n  pointer-events: none;\r\n  position: absolute;\r\n  z-index: -1;\r\n  content: '';\r\n  border-style: solid;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\r\n  left: calc(50% - 10px);\r\n  top: 0;\r\n  border-width: 0 10px 10px 10px;\r\n  border-color: transparent transparent #e1e1e1 transparent;\n}\n.hvr-bubble-top:hover:before, .hvr-bubble-top:focus:before, .hvr-bubble-top:active:before {\r\n  -webkit-transform: translateY(-10px);\r\n  transform: translateY(-10px);\n}\r\n\r\n/* Bubble Right */\n.hvr-bubble-right {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  position: relative;\n}\n.hvr-bubble-right:before {\r\n  pointer-events: none;\r\n  position: absolute;\r\n  z-index: -1;\r\n  content: '';\r\n  border-style: solid;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\r\n  top: calc(50% - 10px);\r\n  right: 0;\r\n  border-width: 10px 0 10px 10px;\r\n  border-color: transparent transparent transparent #e1e1e1;\n}\n.hvr-bubble-right:hover:before, .hvr-bubble-right:focus:before, .hvr-bubble-right:active:before {\r\n  -webkit-transform: translateX(10px);\r\n  transform: translateX(10px);\n}\r\n\r\n/* Bubble Bottom */\n.hvr-bubble-bottom {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  position: relative;\n}\n.hvr-bubble-bottom:before {\r\n  pointer-events: none;\r\n  position: absolute;\r\n  z-index: -1;\r\n  content: '';\r\n  border-style: solid;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\r\n  left: calc(50% - 10px);\r\n  bottom: 0;\r\n  border-width: 10px 10px 0 10px;\r\n  border-color: #e1e1e1 transparent transparent transparent;\n}\n.hvr-bubble-bottom:hover:before, .hvr-bubble-bottom:focus:before, .hvr-bubble-bottom:active:before {\r\n  -webkit-transform: translateY(10px);\r\n  transform: translateY(10px);\n}\r\n\r\n/* Bubble Left */\n.hvr-bubble-left {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  position: relative;\n}\n.hvr-bubble-left:before {\r\n  pointer-events: none;\r\n  position: absolute;\r\n  z-index: -1;\r\n  content: '';\r\n  border-style: solid;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\r\n  top: calc(50% - 10px);\r\n  left: 0;\r\n  border-width: 10px 10px 10px 0;\r\n  border-color: transparent #e1e1e1 transparent transparent;\n}\n.hvr-bubble-left:hover:before, .hvr-bubble-left:focus:before, .hvr-bubble-left:active:before {\r\n  -webkit-transform: translateX(-10px);\r\n  transform: translateX(-10px);\n}\r\n\r\n/* Bubble Float Top */\n.hvr-bubble-float-top {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  position: relative;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\n}\n.hvr-bubble-float-top:before {\r\n  position: absolute;\r\n  z-index: -1;\r\n  content: '';\r\n  left: calc(50% - 10px);\r\n  top: 0;\r\n  border-style: solid;\r\n  border-width: 0 10px 10px 10px;\r\n  border-color: transparent transparent #e1e1e1 transparent;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\n}\n.hvr-bubble-float-top:hover, .hvr-bubble-float-top:focus, .hvr-bubble-float-top:active {\r\n  -webkit-transform: translateY(10px);\r\n  transform: translateY(10px);\n}\n.hvr-bubble-float-top:hover:before, .hvr-bubble-float-top:focus:before, .hvr-bubble-float-top:active:before {\r\n  -webkit-transform: translateY(-10px);\r\n  transform: translateY(-10px);\n}\r\n\r\n/* Bubble Float Right */\n.hvr-bubble-float-right {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  position: relative;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\n}\n.hvr-bubble-float-right:before {\r\n  position: absolute;\r\n  z-index: -1;\r\n  top: calc(50% - 10px);\r\n  right: 0;\r\n  content: '';\r\n  border-style: solid;\r\n  border-width: 10px 0 10px 10px;\r\n  border-color: transparent transparent transparent #e1e1e1;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\n}\n.hvr-bubble-float-right:hover, .hvr-bubble-float-right:focus, .hvr-bubble-float-right:active {\r\n  -webkit-transform: translateX(-10px);\r\n  transform: translateX(-10px);\n}\n.hvr-bubble-float-right:hover:before, .hvr-bubble-float-right:focus:before, .hvr-bubble-float-right:active:before {\r\n  -webkit-transform: translateX(10px);\r\n  transform: translateX(10px);\n}\r\n\r\n/* Bubble Float Bottom */\n.hvr-bubble-float-bottom {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  position: relative;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\n}\n.hvr-bubble-float-bottom:before {\r\n  position: absolute;\r\n  z-index: -1;\r\n  content: '';\r\n  left: calc(50% - 10px);\r\n  bottom: 0;\r\n  border-style: solid;\r\n  border-width: 10px 10px 0 10px;\r\n  border-color: #e1e1e1 transparent transparent transparent;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\n}\n.hvr-bubble-float-bottom:hover, .hvr-bubble-float-bottom:focus, .hvr-bubble-float-bottom:active {\r\n  -webkit-transform: translateY(-10px);\r\n  transform: translateY(-10px);\n}\n.hvr-bubble-float-bottom:hover:before, .hvr-bubble-float-bottom:focus:before, .hvr-bubble-float-bottom:active:before {\r\n  -webkit-transform: translateY(10px);\r\n  transform: translateY(10px);\n}\r\n\r\n/* Bubble Float Left */\n.hvr-bubble-float-left {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  position: relative;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\n}\n.hvr-bubble-float-left:before {\r\n  position: absolute;\r\n  z-index: -1;\r\n  content: '';\r\n  top: calc(50% - 10px);\r\n  left: 0;\r\n  border-style: solid;\r\n  border-width: 10px 10px 10px 0;\r\n  border-color: transparent #e1e1e1 transparent transparent;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\n}\n.hvr-bubble-float-left:hover, .hvr-bubble-float-left:focus, .hvr-bubble-float-left:active {\r\n  -webkit-transform: translateX(10px);\r\n  transform: translateX(10px);\n}\n.hvr-bubble-float-left:hover:before, .hvr-bubble-float-left:focus:before, .hvr-bubble-float-left:active:before {\r\n  -webkit-transform: translateX(-10px);\r\n  transform: translateX(-10px);\n}\r\n\r\n/* ICONS */\r\n/* Icon Back */\n.hvr-icon-back {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  -webkit-transition-duration: 0.1s;\r\n  transition-duration: 0.1s;\n}\n.hvr-icon-back .hvr-icon {\r\n  -webkit-transform: translateZ(0);\r\n  transform: translateZ(0);\r\n  -webkit-transition-duration: 0.1s;\r\n  transition-duration: 0.1s;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\n}\n.hvr-icon-back:hover .hvr-icon, .hvr-icon-back:focus .hvr-icon, .hvr-icon-back:active .hvr-icon {\r\n  -webkit-transform: translateX(-4px);\r\n  transform: translateX(-4px);\n}\r\n\r\n/* Icon Forward */\n.hvr-icon-forward {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  -webkit-transition-duration: 0.1s;\r\n  transition-duration: 0.1s;\n}\n.hvr-icon-forward .hvr-icon {\r\n  -webkit-transform: translateZ(0);\r\n  transform: translateZ(0);\r\n  -webkit-transition-duration: 0.1s;\r\n  transition-duration: 0.1s;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\n}\n.hvr-icon-forward:hover .hvr-icon, .hvr-icon-forward:focus .hvr-icon, .hvr-icon-forward:active .hvr-icon {\r\n  -webkit-transform: translateX(4px);\r\n  transform: translateX(4px);\n}\r\n\r\n/* Icon Down */\n@-webkit-keyframes hvr-icon-down {\n0%,\r\n\t50%,\r\n\t100% {\r\n    -webkit-transform: translateY(0);\r\n    transform: translateY(0);\n}\n25%,\r\n\t75% {\r\n    -webkit-transform: translateY(6px);\r\n    transform: translateY(6px);\n}\n}\n@keyframes hvr-icon-down {\n0%,\r\n\t50%,\r\n\t100% {\r\n    -webkit-transform: translateY(0);\r\n    transform: translateY(0);\n}\n25%,\r\n\t75% {\r\n    -webkit-transform: translateY(6px);\r\n    transform: translateY(6px);\n}\n}\r\n/* Icon Down */\n.hvr-icon-down {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\n}\n.hvr-icon-down .hvr-icon {\r\n  -webkit-transform: translateZ(0);\r\n  transform: translateZ(0);\n}\n.hvr-icon-down:hover .hvr-icon, .hvr-icon-down:focus .hvr-icon, .hvr-icon-down:active .hvr-icon {\r\n  -webkit-animation-name: hvr-icon-down;\r\n  animation-name: hvr-icon-down;\r\n  -webkit-animation-duration: 0.75s;\r\n  animation-duration: 0.75s;\r\n  -webkit-animation-timing-function: ease-out;\r\n  animation-timing-function: ease-out;\n}\r\n\r\n/* Icon Up */\n@-webkit-keyframes hvr-icon-up {\n0%,\r\n\t50%,\r\n\t100% {\r\n    -webkit-transform: translateY(0);\r\n    transform: translateY(0);\n}\n25%,\r\n\t75% {\r\n    -webkit-transform: translateY(-6px);\r\n    transform: translateY(-6px);\n}\n}\n@keyframes hvr-icon-up {\n0%,\r\n\t50%,\r\n\t100% {\r\n    -webkit-transform: translateY(0);\r\n    transform: translateY(0);\n}\n25%,\r\n\t75% {\r\n    -webkit-transform: translateY(-6px);\r\n    transform: translateY(-6px);\n}\n}\r\n/* Icon Up */\n.hvr-icon-up {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\n}\n.hvr-icon-up .hvr-icon {\r\n  -webkit-transform: translateZ(0);\r\n  transform: translateZ(0);\n}\n.hvr-icon-up:hover .hvr-icon, .hvr-icon-up:focus .hvr-icon, .hvr-icon-up:active .hvr-icon {\r\n  -webkit-animation-name: hvr-icon-up;\r\n  animation-name: hvr-icon-up;\r\n  -webkit-animation-duration: 0.75s;\r\n  animation-duration: 0.75s;\r\n  -webkit-animation-timing-function: ease-out;\r\n  animation-timing-function: ease-out;\n}\r\n\r\n/* Icon Spin */\n.hvr-icon-spin {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\n}\n.hvr-icon-spin .hvr-icon {\r\n  -webkit-transition-duration: 1s;\r\n  transition-duration: 1s;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\r\n  -webkit-transition-timing-function: ease-in-out;\r\n  transition-timing-function: ease-in-out;\n}\n.hvr-icon-spin:hover .hvr-icon, .hvr-icon-spin:focus .hvr-icon, .hvr-icon-spin:active .hvr-icon {\r\n  -webkit-transform: rotate(360deg);\r\n  transform: rotate(360deg);\n}\r\n\r\n/* Icon Drop */\n@-webkit-keyframes hvr-icon-drop {\n0% {\r\n    opacity: 0;\n}\n50% {\r\n    opacity: 0;\r\n    -webkit-transform: translateY(-100%);\r\n    transform: translateY(-100%);\n}\n51%,\r\n\t100% {\r\n    opacity: 1;\n}\n}\n@keyframes hvr-icon-drop {\n0% {\r\n    opacity: 0;\n}\n50% {\r\n    opacity: 0;\r\n    -webkit-transform: translateY(-100%);\r\n    transform: translateY(-100%);\n}\n51%,\r\n\t100% {\r\n    opacity: 1;\n}\n}\r\n/* Icon Drop */\n.hvr-icon-drop {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\n}\n.hvr-icon-drop .hvr-icon {\r\n  -webkit-transform: translateZ(0);\r\n  transform: translateZ(0);\n}\n.hvr-icon-drop:hover .hvr-icon, .hvr-icon-drop:focus .hvr-icon, .hvr-icon-drop:active .hvr-icon {\r\n  opacity: 0;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-animation-name: hvr-icon-drop;\r\n  animation-name: hvr-icon-drop;\r\n  -webkit-animation-duration: 0.5s;\r\n  animation-duration: 0.5s;\r\n  -webkit-animation-delay: 0.3s;\r\n  animation-delay: 0.3s;\r\n  -webkit-animation-fill-mode: forwards;\r\n  animation-fill-mode: forwards;\r\n  -webkit-animation-timing-function: ease-in-out;\r\n  animation-timing-function: ease-in-out;\r\n  -webkit-animation-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);\r\n  animation-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);\n}\r\n\r\n/* Icon Fade */\n.hvr-icon-fade {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\n}\n.hvr-icon-fade .hvr-icon {\r\n  -webkit-transform: translateZ(0);\r\n  transform: translateZ(0);\r\n  -webkit-transition-duration: 0.5s;\r\n  transition-duration: 0.5s;\r\n  -webkit-transition-property: color;\r\n  transition-property: color;\n}\n.hvr-icon-fade:hover .hvr-icon, .hvr-icon-fade:focus .hvr-icon, .hvr-icon-fade:active .hvr-icon {\r\n  color: #0F9E5E;\n}\r\n\r\n/* Icon Float Away */\n@-webkit-keyframes hvr-icon-float-away {\n0% {\r\n    opacity: 1;\n}\n100% {\r\n    opacity: 0;\r\n    -webkit-transform: translateY(-1em);\r\n    transform: translateY(-1em);\n}\n}\n@keyframes hvr-icon-float-away {\n0% {\r\n    opacity: 1;\n}\n100% {\r\n    opacity: 0;\r\n    -webkit-transform: translateY(-1em);\r\n    transform: translateY(-1em);\n}\n}\r\n/* Icon Float Away */\n.hvr-icon-float-away {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\n}\n.hvr-icon-float-away .hvr-icon {\r\n  -webkit-transform: translateZ(0);\r\n  transform: translateZ(0);\r\n  -webkit-animation-duration: 0.5s;\r\n  animation-duration: 0.5s;\r\n  -webkit-animation-fill-mode: forwards;\r\n  animation-fill-mode: forwards;\n}\n.hvr-icon-float-away:hover .hvr-icon, .hvr-icon-float-away:focus .hvr-icon, .hvr-icon-float-away:active .hvr-icon {\r\n  -webkit-animation-name: hvr-icon-float-away;\r\n  animation-name: hvr-icon-float-away;\r\n  -webkit-animation-timing-function: ease-out;\r\n  animation-timing-function: ease-out;\n}\r\n\r\n/* Icon Sink Away */\n@-webkit-keyframes hvr-icon-sink-away {\n0% {\r\n    opacity: 1;\n}\n100% {\r\n    opacity: 0;\r\n    -webkit-transform: translateY(1em);\r\n    transform: translateY(1em);\n}\n}\n@keyframes hvr-icon-sink-away {\n0% {\r\n    opacity: 1;\n}\n100% {\r\n    opacity: 0;\r\n    -webkit-transform: translateY(1em);\r\n    transform: translateY(1em);\n}\n}\r\n/* Icon Sink Away */\n.hvr-icon-sink-away {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\n}\n.hvr-icon-sink-away .hvr-icon {\r\n  -webkit-transform: translateZ(0);\r\n  transform: translateZ(0);\r\n  -webkit-animation-duration: 0.5s;\r\n  animation-duration: 0.5s;\r\n  -webkit-animation-fill-mode: forwards;\r\n  animation-fill-mode: forwards;\n}\n.hvr-icon-sink-away:hover .hvr-icon, .hvr-icon-sink-away:focus .hvr-icon, .hvr-icon-sink-away:active .hvr-icon {\r\n  -webkit-animation-name: hvr-icon-sink-away;\r\n  animation-name: hvr-icon-sink-away;\r\n  -webkit-animation-timing-function: ease-out;\r\n  animation-timing-function: ease-out;\n}\r\n\r\n/* Icon Grow */\n.hvr-icon-grow {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\n}\n.hvr-icon-grow .hvr-icon {\r\n  -webkit-transform: translateZ(0);\r\n  transform: translateZ(0);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\n}\n.hvr-icon-grow:hover .hvr-icon, .hvr-icon-grow:focus .hvr-icon, .hvr-icon-grow:active .hvr-icon {\r\n  -webkit-transform: scale(1.3) translateZ(0);\r\n  transform: scale(1.3) translateZ(0);\n}\r\n\r\n/* Icon Shrink */\n.hvr-icon-shrink {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\n}\n.hvr-icon-shrink .hvr-icon {\r\n  -webkit-transform: translateZ(0);\r\n  transform: translateZ(0);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\n}\n.hvr-icon-shrink:hover .hvr-icon, .hvr-icon-shrink:focus .hvr-icon, .hvr-icon-shrink:active .hvr-icon {\r\n  -webkit-transform: scale(0.8);\r\n  transform: scale(0.8);\n}\r\n\r\n/* Icon Pulse */\n@-webkit-keyframes hvr-icon-pulse {\n25% {\r\n    -webkit-transform: scale(1.3);\r\n    transform: scale(1.3);\n}\n75% {\r\n    -webkit-transform: scale(0.8);\r\n    transform: scale(0.8);\n}\n}\n@keyframes hvr-icon-pulse {\n25% {\r\n    -webkit-transform: scale(1.3);\r\n    transform: scale(1.3);\n}\n75% {\r\n    -webkit-transform: scale(0.8);\r\n    transform: scale(0.8);\n}\n}\n.hvr-icon-pulse {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\n}\n.hvr-icon-pulse .hvr-icon {\r\n  -webkit-transform: translateZ(0);\r\n  transform: translateZ(0);\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\n}\n.hvr-icon-pulse:hover .hvr-icon, .hvr-icon-pulse:focus .hvr-icon, .hvr-icon-pulse:active .hvr-icon {\r\n  -webkit-animation-name: hvr-icon-pulse;\r\n  animation-name: hvr-icon-pulse;\r\n  -webkit-animation-duration: 1s;\r\n  animation-duration: 1s;\r\n  -webkit-animation-timing-function: linear;\r\n  animation-timing-function: linear;\r\n  -webkit-animation-iteration-count: infinite;\r\n  animation-iteration-count: infinite;\n}\r\n\r\n/* Icon Pulse Grow */\n@-webkit-keyframes hvr-icon-pulse-grow {\nto {\r\n    -webkit-transform: scale(1.3);\r\n    transform: scale(1.3);\n}\n}\n@keyframes hvr-icon-pulse-grow {\nto {\r\n    -webkit-transform: scale(1.3);\r\n    transform: scale(1.3);\n}\n}\n.hvr-icon-pulse-grow {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\n}\n.hvr-icon-pulse-grow .hvr-icon {\r\n  -webkit-transform: translateZ(0);\r\n  transform: translateZ(0);\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\n}\n.hvr-icon-pulse-grow:hover .hvr-icon, .hvr-icon-pulse-grow:focus .hvr-icon, .hvr-icon-pulse-grow:active .hvr-icon {\r\n  -webkit-animation-name: hvr-icon-pulse-grow;\r\n  animation-name: hvr-icon-pulse-grow;\r\n  -webkit-animation-duration: 0.3s;\r\n  animation-duration: 0.3s;\r\n  -webkit-animation-timing-function: linear;\r\n  animation-timing-function: linear;\r\n  -webkit-animation-iteration-count: infinite;\r\n  animation-iteration-count: infinite;\r\n  -webkit-animation-direction: alternate;\r\n  animation-direction: alternate;\n}\r\n\r\n/* Icon Pulse Shrink */\n@-webkit-keyframes hvr-icon-pulse-shrink {\nto {\r\n    -webkit-transform: scale(0.8);\r\n    transform: scale(0.8);\n}\n}\n@keyframes hvr-icon-pulse-shrink {\nto {\r\n    -webkit-transform: scale(0.8);\r\n    transform: scale(0.8);\n}\n}\n.hvr-icon-pulse-shrink {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\n}\n.hvr-icon-pulse-shrink .hvr-icon {\r\n  -webkit-transform: translateZ(0);\r\n  transform: translateZ(0);\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\n}\n.hvr-icon-pulse-shrink:hover .hvr-icon, .hvr-icon-pulse-shrink:focus .hvr-icon, .hvr-icon-pulse-shrink:active .hvr-icon {\r\n  -webkit-animation-name: hvr-icon-pulse-shrink;\r\n  animation-name: hvr-icon-pulse-shrink;\r\n  -webkit-animation-duration: 0.3s;\r\n  animation-duration: 0.3s;\r\n  -webkit-animation-timing-function: linear;\r\n  animation-timing-function: linear;\r\n  -webkit-animation-iteration-count: infinite;\r\n  animation-iteration-count: infinite;\r\n  -webkit-animation-direction: alternate;\r\n  animation-direction: alternate;\n}\r\n\r\n/* Icon Push */\n@-webkit-keyframes hvr-icon-push {\n50% {\r\n    -webkit-transform: scale(0.5);\r\n    transform: scale(0.5);\n}\n}\n@keyframes hvr-icon-push {\n50% {\r\n    -webkit-transform: scale(0.5);\r\n    transform: scale(0.5);\n}\n}\n.hvr-icon-push {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\n}\n.hvr-icon-push .hvr-icon {\r\n  -webkit-transform: translateZ(0);\r\n  transform: translateZ(0);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\n}\n.hvr-icon-push:hover .hvr-icon, .hvr-icon-push:focus .hvr-icon, .hvr-icon-push:active .hvr-icon {\r\n  -webkit-animation-name: hvr-icon-push;\r\n  animation-name: hvr-icon-push;\r\n  -webkit-animation-duration: 0.3s;\r\n  animation-duration: 0.3s;\r\n  -webkit-animation-timing-function: linear;\r\n  animation-timing-function: linear;\r\n  -webkit-animation-iteration-count: 1;\r\n  animation-iteration-count: 1;\n}\r\n\r\n/* Icon Pop */\n@-webkit-keyframes hvr-icon-pop {\n50% {\r\n    -webkit-transform: scale(1.5);\r\n    transform: scale(1.5);\n}\n}\n@keyframes hvr-icon-pop {\n50% {\r\n    -webkit-transform: scale(1.5);\r\n    transform: scale(1.5);\n}\n}\n.hvr-icon-pop {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\n}\n.hvr-icon-pop .hvr-icon {\r\n  -webkit-transform: translateZ(0);\r\n  transform: translateZ(0);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\n}\n.hvr-icon-pop:hover .hvr-icon, .hvr-icon-pop:focus .hvr-icon, .hvr-icon-pop:active .hvr-icon {\r\n  -webkit-animation-name: hvr-icon-pop;\r\n  animation-name: hvr-icon-pop;\r\n  -webkit-animation-duration: 0.3s;\r\n  animation-duration: 0.3s;\r\n  -webkit-animation-timing-function: linear;\r\n  animation-timing-function: linear;\r\n  -webkit-animation-iteration-count: 1;\r\n  animation-iteration-count: 1;\n}\r\n\r\n/* Icon Bounce */\n.hvr-icon-bounce {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\n}\n.hvr-icon-bounce .hvr-icon {\r\n  -webkit-transform: translateZ(0);\r\n  transform: translateZ(0);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\n}\n.hvr-icon-bounce:hover .hvr-icon, .hvr-icon-bounce:focus .hvr-icon, .hvr-icon-bounce:active .hvr-icon {\r\n  -webkit-transform: scale(1.5);\r\n  transform: scale(1.5);\r\n  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);\r\n  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);\n}\r\n\r\n/* Icon Rotate */\n.hvr-icon-rotate {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\n}\n.hvr-icon-rotate .hvr-icon {\r\n  -webkit-transform: translateZ(0);\r\n  transform: translateZ(0);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\n}\n.hvr-icon-rotate:hover .hvr-icon, .hvr-icon-rotate:focus .hvr-icon, .hvr-icon-rotate:active .hvr-icon {\r\n  -webkit-transform: rotate(20deg);\r\n  transform: rotate(20deg);\n}\r\n\r\n/* Icon Grow Rotate */\n.hvr-icon-grow-rotate {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\n}\n.hvr-icon-grow-rotate .hvr-icon {\r\n  -webkit-transform: translateZ(0);\r\n  transform: translateZ(0);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\n}\n.hvr-icon-grow-rotate:hover .hvr-icon, .hvr-icon-grow-rotate:focus .hvr-icon, .hvr-icon-grow-rotate:active .hvr-icon {\r\n  -webkit-transform: scale(1.5) rotate(12deg);\r\n  transform: scale(1.5) rotate(12deg);\n}\r\n\r\n/* Icon Float */\n.hvr-icon-float {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\n}\n.hvr-icon-float .hvr-icon {\r\n  -webkit-transform: translateZ(0);\r\n  transform: translateZ(0);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\n}\n.hvr-icon-float:hover .hvr-icon, .hvr-icon-float:focus .hvr-icon, .hvr-icon-float:active .hvr-icon {\r\n  -webkit-transform: translateY(-4px);\r\n  transform: translateY(-4px);\n}\r\n\r\n/* Icon Sink */\n.hvr-icon-sink {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\n}\n.hvr-icon-sink .hvr-icon {\r\n  -webkit-transform: translateZ(0);\r\n  transform: translateZ(0);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: transform;\r\n  -webkit-transition-property: -webkit-transform;\r\n  transition-property: -webkit-transform;\r\n  transition-property: transform;\r\n  transition-property: transform, -webkit-transform;\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\n}\n.hvr-icon-sink:hover .hvr-icon, .hvr-icon-sink:focus .hvr-icon, .hvr-icon-sink:active .hvr-icon {\r\n  -webkit-transform: translateY(4px);\r\n  transform: translateY(4px);\n}\r\n\r\n/* Icon Bob */\n@-webkit-keyframes hvr-icon-bob {\n0% {\r\n    -webkit-transform: translateY(-6px);\r\n    transform: translateY(-6px);\n}\n50% {\r\n    -webkit-transform: translateY(-2px);\r\n    transform: translateY(-2px);\n}\n100% {\r\n    -webkit-transform: translateY(-6px);\r\n    transform: translateY(-6px);\n}\n}\n@keyframes hvr-icon-bob {\n0% {\r\n    -webkit-transform: translateY(-6px);\r\n    transform: translateY(-6px);\n}\n50% {\r\n    -webkit-transform: translateY(-2px);\r\n    transform: translateY(-2px);\n}\n100% {\r\n    -webkit-transform: translateY(-6px);\r\n    transform: translateY(-6px);\n}\n}\n@-webkit-keyframes hvr-icon-bob-float {\n100% {\r\n    -webkit-transform: translateY(-6px);\r\n    transform: translateY(-6px);\n}\n}\n@keyframes hvr-icon-bob-float {\n100% {\r\n    -webkit-transform: translateY(-6px);\r\n    transform: translateY(-6px);\n}\n}\n.hvr-icon-bob {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\n}\n.hvr-icon-bob .hvr-icon {\r\n  -webkit-transform: translateZ(0);\r\n  transform: translateZ(0);\n}\n.hvr-icon-bob:hover .hvr-icon, .hvr-icon-bob:focus .hvr-icon, .hvr-icon-bob:active .hvr-icon {\r\n  -webkit-animation-name: hvr-icon-bob-float, hvr-icon-bob;\r\n  animation-name: hvr-icon-bob-float, hvr-icon-bob;\r\n  -webkit-animation-duration: .3s, 1.5s;\r\n  animation-duration: .3s, 1.5s;\r\n  -webkit-animation-delay: 0s, .3s;\r\n  animation-delay: 0s, .3s;\r\n  -webkit-animation-timing-function: ease-out, ease-in-out;\r\n  animation-timing-function: ease-out, ease-in-out;\r\n  -webkit-animation-iteration-count: 1, infinite;\r\n  animation-iteration-count: 1, infinite;\r\n  -webkit-animation-fill-mode: forwards;\r\n  animation-fill-mode: forwards;\r\n  -webkit-animation-direction: normal, alternate;\r\n  animation-direction: normal, alternate;\n}\r\n\r\n/* Icon Hang */\n@-webkit-keyframes hvr-icon-hang {\n0% {\r\n    -webkit-transform: translateY(6px);\r\n    transform: translateY(6px);\n}\n50% {\r\n    -webkit-transform: translateY(2px);\r\n    transform: translateY(2px);\n}\n100% {\r\n    -webkit-transform: translateY(6px);\r\n    transform: translateY(6px);\n}\n}\n@keyframes hvr-icon-hang {\n0% {\r\n    -webkit-transform: translateY(6px);\r\n    transform: translateY(6px);\n}\n50% {\r\n    -webkit-transform: translateY(2px);\r\n    transform: translateY(2px);\n}\n100% {\r\n    -webkit-transform: translateY(6px);\r\n    transform: translateY(6px);\n}\n}\n@-webkit-keyframes hvr-icon-hang-sink {\n100% {\r\n    -webkit-transform: translateY(6px);\r\n    transform: translateY(6px);\n}\n}\n@keyframes hvr-icon-hang-sink {\n100% {\r\n    -webkit-transform: translateY(6px);\r\n    transform: translateY(6px);\n}\n}\n.hvr-icon-hang {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\n}\n.hvr-icon-hang .hvr-icon {\r\n  -webkit-transform: translateZ(0);\r\n  transform: translateZ(0);\n}\n.hvr-icon-hang:hover .hvr-icon, .hvr-icon-hang:focus .hvr-icon, .hvr-icon-hang:active .hvr-icon {\r\n  -webkit-animation-name: hvr-icon-hang-sink, hvr-icon-hang;\r\n  animation-name: hvr-icon-hang-sink, hvr-icon-hang;\r\n  -webkit-animation-duration: .3s, 1.5s;\r\n  animation-duration: .3s, 1.5s;\r\n  -webkit-animation-delay: 0s, .3s;\r\n  animation-delay: 0s, .3s;\r\n  -webkit-animation-timing-function: ease-out, ease-in-out;\r\n  animation-timing-function: ease-out, ease-in-out;\r\n  -webkit-animation-iteration-count: 1, infinite;\r\n  animation-iteration-count: 1, infinite;\r\n  -webkit-animation-fill-mode: forwards;\r\n  animation-fill-mode: forwards;\r\n  -webkit-animation-direction: normal, alternate;\r\n  animation-direction: normal, alternate;\n}\r\n\r\n/* Icon Wobble Horizontal */\n@-webkit-keyframes hvr-icon-wobble-horizontal {\n16.65% {\r\n    -webkit-transform: translateX(6px);\r\n    transform: translateX(6px);\n}\n33.3% {\r\n    -webkit-transform: translateX(-5px);\r\n    transform: translateX(-5px);\n}\n49.95% {\r\n    -webkit-transform: translateX(4px);\r\n    transform: translateX(4px);\n}\n66.6% {\r\n    -webkit-transform: translateX(-2px);\r\n    transform: translateX(-2px);\n}\n83.25% {\r\n    -webkit-transform: translateX(1px);\r\n    transform: translateX(1px);\n}\n100% {\r\n    -webkit-transform: translateX(0);\r\n    transform: translateX(0);\n}\n}\n@keyframes hvr-icon-wobble-horizontal {\n16.65% {\r\n    -webkit-transform: translateX(6px);\r\n    transform: translateX(6px);\n}\n33.3% {\r\n    -webkit-transform: translateX(-5px);\r\n    transform: translateX(-5px);\n}\n49.95% {\r\n    -webkit-transform: translateX(4px);\r\n    transform: translateX(4px);\n}\n66.6% {\r\n    -webkit-transform: translateX(-2px);\r\n    transform: translateX(-2px);\n}\n83.25% {\r\n    -webkit-transform: translateX(1px);\r\n    transform: translateX(1px);\n}\n100% {\r\n    -webkit-transform: translateX(0);\r\n    transform: translateX(0);\n}\n}\n.hvr-icon-wobble-horizontal {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\n}\n.hvr-icon-wobble-horizontal .hvr-icon {\r\n  -webkit-transform: translateZ(0);\r\n  transform: translateZ(0);\n}\n.hvr-icon-wobble-horizontal:hover .hvr-icon, .hvr-icon-wobble-horizontal:focus .hvr-icon, .hvr-icon-wobble-horizontal:active .hvr-icon {\r\n  -webkit-animation-name: hvr-icon-wobble-horizontal;\r\n  animation-name: hvr-icon-wobble-horizontal;\r\n  -webkit-animation-duration: 1s;\r\n  animation-duration: 1s;\r\n  -webkit-animation-timing-function: ease-in-out;\r\n  animation-timing-function: ease-in-out;\r\n  -webkit-animation-iteration-count: 1;\r\n  animation-iteration-count: 1;\n}\r\n\r\n/* Icon Wobble Vertical */\n@-webkit-keyframes hvr-icon-wobble-vertical {\n16.65% {\r\n    -webkit-transform: translateY(6px);\r\n    transform: translateY(6px);\n}\n33.3% {\r\n    -webkit-transform: translateY(-5px);\r\n    transform: translateY(-5px);\n}\n49.95% {\r\n    -webkit-transform: translateY(4px);\r\n    transform: translateY(4px);\n}\n66.6% {\r\n    -webkit-transform: translateY(-2px);\r\n    transform: translateY(-2px);\n}\n83.25% {\r\n    -webkit-transform: translateY(1px);\r\n    transform: translateY(1px);\n}\n100% {\r\n    -webkit-transform: translateY(0);\r\n    transform: translateY(0);\n}\n}\n@keyframes hvr-icon-wobble-vertical {\n16.65% {\r\n    -webkit-transform: translateY(6px);\r\n    transform: translateY(6px);\n}\n33.3% {\r\n    -webkit-transform: translateY(-5px);\r\n    transform: translateY(-5px);\n}\n49.95% {\r\n    -webkit-transform: translateY(4px);\r\n    transform: translateY(4px);\n}\n66.6% {\r\n    -webkit-transform: translateY(-2px);\r\n    transform: translateY(-2px);\n}\n83.25% {\r\n    -webkit-transform: translateY(1px);\r\n    transform: translateY(1px);\n}\n100% {\r\n    -webkit-transform: translateY(0);\r\n    transform: translateY(0);\n}\n}\n.hvr-icon-wobble-vertical {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\n}\n.hvr-icon-wobble-vertical .hvr-icon {\r\n  -webkit-transform: translateZ(0);\r\n  transform: translateZ(0);\n}\n.hvr-icon-wobble-vertical:hover .hvr-icon, .hvr-icon-wobble-vertical:focus .hvr-icon, .hvr-icon-wobble-vertical:active .hvr-icon {\r\n  -webkit-animation-name: hvr-icon-wobble-vertical;\r\n  animation-name: hvr-icon-wobble-vertical;\r\n  -webkit-animation-duration: 1s;\r\n  animation-duration: 1s;\r\n  -webkit-animation-timing-function: ease-in-out;\r\n  animation-timing-function: ease-in-out;\r\n  -webkit-animation-iteration-count: 1;\r\n  animation-iteration-count: 1;\n}\r\n\r\n/* Icon Buzz */\n@-webkit-keyframes hvr-icon-buzz {\n50% {\r\n    -webkit-transform: translateX(3px) rotate(2deg);\r\n    transform: translateX(3px) rotate(2deg);\n}\n100% {\r\n    -webkit-transform: translateX(-3px) rotate(-2deg);\r\n    transform: translateX(-3px) rotate(-2deg);\n}\n}\n@keyframes hvr-icon-buzz {\n50% {\r\n    -webkit-transform: translateX(3px) rotate(2deg);\r\n    transform: translateX(3px) rotate(2deg);\n}\n100% {\r\n    -webkit-transform: translateX(-3px) rotate(-2deg);\r\n    transform: translateX(-3px) rotate(-2deg);\n}\n}\n.hvr-icon-buzz {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\n}\n.hvr-icon-buzz .hvr-icon {\r\n  -webkit-transform: translateZ(0);\r\n  transform: translateZ(0);\n}\n.hvr-icon-buzz:hover .hvr-icon, .hvr-icon-buzz:focus .hvr-icon, .hvr-icon-buzz:active .hvr-icon {\r\n  -webkit-animation-name: hvr-icon-buzz;\r\n  animation-name: hvr-icon-buzz;\r\n  -webkit-animation-duration: 0.15s;\r\n  animation-duration: 0.15s;\r\n  -webkit-animation-timing-function: linear;\r\n  animation-timing-function: linear;\r\n  -webkit-animation-iteration-count: infinite;\r\n  animation-iteration-count: infinite;\n}\r\n\r\n/* Icon Buzz Out */\n@-webkit-keyframes hvr-icon-buzz-out {\n10% {\r\n    -webkit-transform: translateX(3px) rotate(2deg);\r\n    transform: translateX(3px) rotate(2deg);\n}\n20% {\r\n    -webkit-transform: translateX(-3px) rotate(-2deg);\r\n    transform: translateX(-3px) rotate(-2deg);\n}\n30% {\r\n    -webkit-transform: translateX(3px) rotate(2deg);\r\n    transform: translateX(3px) rotate(2deg);\n}\n40% {\r\n    -webkit-transform: translateX(-3px) rotate(-2deg);\r\n    transform: translateX(-3px) rotate(-2deg);\n}\n50% {\r\n    -webkit-transform: translateX(2px) rotate(1deg);\r\n    transform: translateX(2px) rotate(1deg);\n}\n60% {\r\n    -webkit-transform: translateX(-2px) rotate(-1deg);\r\n    transform: translateX(-2px) rotate(-1deg);\n}\n70% {\r\n    -webkit-transform: translateX(2px) rotate(1deg);\r\n    transform: translateX(2px) rotate(1deg);\n}\n80% {\r\n    -webkit-transform: translateX(-2px) rotate(-1deg);\r\n    transform: translateX(-2px) rotate(-1deg);\n}\n90% {\r\n    -webkit-transform: translateX(1px) rotate(0);\r\n    transform: translateX(1px) rotate(0);\n}\n100% {\r\n    -webkit-transform: translateX(-1px) rotate(0);\r\n    transform: translateX(-1px) rotate(0);\n}\n}\n@keyframes hvr-icon-buzz-out {\n10% {\r\n    -webkit-transform: translateX(3px) rotate(2deg);\r\n    transform: translateX(3px) rotate(2deg);\n}\n20% {\r\n    -webkit-transform: translateX(-3px) rotate(-2deg);\r\n    transform: translateX(-3px) rotate(-2deg);\n}\n30% {\r\n    -webkit-transform: translateX(3px) rotate(2deg);\r\n    transform: translateX(3px) rotate(2deg);\n}\n40% {\r\n    -webkit-transform: translateX(-3px) rotate(-2deg);\r\n    transform: translateX(-3px) rotate(-2deg);\n}\n50% {\r\n    -webkit-transform: translateX(2px) rotate(1deg);\r\n    transform: translateX(2px) rotate(1deg);\n}\n60% {\r\n    -webkit-transform: translateX(-2px) rotate(-1deg);\r\n    transform: translateX(-2px) rotate(-1deg);\n}\n70% {\r\n    -webkit-transform: translateX(2px) rotate(1deg);\r\n    transform: translateX(2px) rotate(1deg);\n}\n80% {\r\n    -webkit-transform: translateX(-2px) rotate(-1deg);\r\n    transform: translateX(-2px) rotate(-1deg);\n}\n90% {\r\n    -webkit-transform: translateX(1px) rotate(0);\r\n    transform: translateX(1px) rotate(0);\n}\n100% {\r\n    -webkit-transform: translateX(-1px) rotate(0);\r\n    transform: translateX(-1px) rotate(0);\n}\n}\n.hvr-icon-buzz-out {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\n}\n.hvr-icon-buzz-out .hvr-icon {\r\n  -webkit-transform: translateZ(0);\r\n  transform: translateZ(0);\n}\n.hvr-icon-buzz-out:hover .hvr-icon, .hvr-icon-buzz-out:focus .hvr-icon, .hvr-icon-buzz-out:active .hvr-icon {\r\n  -webkit-animation-name: hvr-icon-buzz-out;\r\n  animation-name: hvr-icon-buzz-out;\r\n  -webkit-animation-duration: 0.75s;\r\n  animation-duration: 0.75s;\r\n  -webkit-animation-timing-function: linear;\r\n  animation-timing-function: linear;\r\n  -webkit-animation-iteration-count: 1;\r\n  animation-iteration-count: 1;\n}\r\n\r\n/* CURLS */\r\n/* Curl Top Left */\n.hvr-curl-top-left {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  position: relative;\n}\n.hvr-curl-top-left:before {\r\n  pointer-events: none;\r\n  position: absolute;\r\n  content: '';\r\n  height: 0;\r\n  width: 0;\r\n  top: 0;\r\n  left: 0;\r\n  background: white;\r\n  /* IE9 */\r\n  background: linear-gradient(135deg, white 45%, #aaa 50%, #ccc 56%, white 80%);\r\n  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffffff', endColorstr='#000000');\r\n  /*For IE7-8-9*/\r\n  z-index: 1000;\r\n  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);\r\n          box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: width, height;\r\n  transition-property: width, height;\n}\n.hvr-curl-top-left:hover:before, .hvr-curl-top-left:focus:before, .hvr-curl-top-left:active:before {\r\n  width: 25px;\r\n  height: 25px;\n}\r\n\r\n/* Curl Top Right */\n.hvr-curl-top-right {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  position: relative;\n}\n.hvr-curl-top-right:before {\r\n  pointer-events: none;\r\n  position: absolute;\r\n  content: '';\r\n  height: 0;\r\n  width: 0;\r\n  top: 0;\r\n  right: 0;\r\n  background: white;\r\n  /* IE9 */\r\n  background: linear-gradient(225deg, white 45%, #aaa 50%, #ccc 56%, white 80%);\r\n  -webkit-box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.4);\r\n          box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.4);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: width, height;\r\n  transition-property: width, height;\n}\n.hvr-curl-top-right:hover:before, .hvr-curl-top-right:focus:before, .hvr-curl-top-right:active:before {\r\n  width: 25px;\r\n  height: 25px;\n}\r\n\r\n/* Curl Bottom Right */\n.hvr-curl-bottom-right {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  position: relative;\n}\n.hvr-curl-bottom-right:before {\r\n  pointer-events: none;\r\n  position: absolute;\r\n  content: '';\r\n  height: 0;\r\n  width: 0;\r\n  bottom: 0;\r\n  right: 0;\r\n  background: white;\r\n  /* IE9 */\r\n  background: linear-gradient(315deg, white 45%, #aaa 50%, #ccc 56%, white 80%);\r\n  -webkit-box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.4);\r\n          box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.4);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: width, height;\r\n  transition-property: width, height;\n}\n.hvr-curl-bottom-right:hover:before, .hvr-curl-bottom-right:focus:before, .hvr-curl-bottom-right:active:before {\r\n  width: 25px;\r\n  height: 25px;\n}\r\n\r\n/* Curl Bottom Left */\n.hvr-curl-bottom-left {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: perspective(1px) translateZ(0);\r\n  transform: perspective(1px) translateZ(0);\r\n  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n          box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  position: relative;\n}\n.hvr-curl-bottom-left:before {\r\n  pointer-events: none;\r\n  position: absolute;\r\n  content: '';\r\n  height: 0;\r\n  width: 0;\r\n  bottom: 0;\r\n  left: 0;\r\n  background: white;\r\n  /* IE9 */\r\n  background: linear-gradient(45deg, white 45%, #aaa 50%, #ccc 56%, white 80%);\r\n  -webkit-box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.4);\r\n          box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.4);\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-property: width, height;\r\n  transition-property: width, height;\n}\n.hvr-curl-bottom-left:hover:before, .hvr-curl-bottom-left:focus:before, .hvr-curl-bottom-left:active:before {\r\n  width: 25px;\r\n  height: 25px;\n}\r\n", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ 1246:
+/***/ 1263:
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(1264);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__(92)("e24fb672", content, false, {});
+// Hot Module Replacement
+if(false) {
+ // When the styles change, update the <style> tags
+ if(!content.locals) {
+   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-23572cf2\",\"scoped\":true,\"hasInlineConfig\":true}!./button.css", function() {
+     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-23572cf2\",\"scoped\":true,\"hasInlineConfig\":true}!./button.css");
+     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+     update(newContent);
+   });
+ }
+ // When the module is disposed, remove the <style> tags
+ module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ 1264:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(49)(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n.btn_rounded[data-v-23572cf2] {\n    border-radius: 50px;\n}\n.effects .btn[data-v-23572cf2] {\n    margin: .4em;\n    padding: 1em;\n    cursor: pointer;\n    background: #dcdcdc;\n    text-decoration: none;\n    color: #333;\n}\n.iconsbtn .btn[data-v-23572cf2] {\n    padding-right: 3em;\n}\n.btn[data-v-23572cf2] {\n    cursor: pointer;\n}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ 1265:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(50);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue_form__ = __webpack_require__(780);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue_form___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_vue_form__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_src_validations_validations_js__ = __webpack_require__(781);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -164,704 +266,1104 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-
-
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_1_vue_form___default.a, __WEBPACK_IMPORTED_MODULE_2_src_validations_validations_js__["a" /* default */]);
 /* harmony default export */ __webpack_exports__["default"] = ({
-    name: "formfeatures",
-    data: function data() {
-        return {
-            username: "",
-            mail: "",
-            password: '',
-            repeatPassword: '',
-            confirm_field: '',
-            address: "",
-            terms: false,
-            formstate: {},
-            model: {
-                username: "",
-                email: "",
-                password: '',
-                repeatPassword: '',
-                gender: 0,
-                address: "",
-                terms: false
-            }
-
-        };
-    },
-
-    methods: {
-        onSubmit: function onSubmit() {
-            if (this.formstate.$invalid) {
-                return;
-            } else {
-                this.$router.push("/form_validations");
-            }
-        }
-    },
+    name: "buttons",
+    components: {},
     mounted: function mounted() {},
-    destroyed: function destroyed() {}
+    data: function data() {
+        return {};
+    },
+
+    methods: {}
 });
 
 /***/ }),
 
-/***/ 1247:
+/***/ 1266:
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "row" }, [
-    _c(
-      "div",
-      { staticClass: "col-lg-12" },
-      [
-        _c(
-          "b-card",
-          {
-            staticClass: "bg-default-card",
-            attrs: { header: "vue-form Validation", "header-tag": "h4" }
-          },
-          [
-            _c("div", { staticClass: "row" }, [
+  return _c("div", [
+    _c("div", { staticClass: "row" }, [
+      _c(
+        "div",
+        { staticClass: "col-lg-6" },
+        [
+          _c(
+            "b-card",
+            {
+              staticClass: "bg-deafult-card",
+              attrs: { header: "Basic Buttons", "header-tag": "h4" }
+            },
+            [
+              _c("div", { staticClass: "form-group text-center" }, [
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-primary mt-3",
+                    attrs: { type: "button" }
+                  },
+                  [_vm._v("Primary")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-secondary mt-3",
+                    attrs: { type: "button" }
+                  },
+                  [_vm._v("Default")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-success mt-3",
+                    attrs: { type: "button" }
+                  },
+                  [_vm._v("Success")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-info mt-3 text-white",
+                    attrs: { type: "button" }
+                  },
+                  [_vm._v("Info")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-warning mt-3 text-white",
+                    attrs: { type: "button" }
+                  },
+                  [_vm._v("Warning")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-danger mt-3 text-white",
+                    attrs: { type: "button" }
+                  },
+                  [_vm._v("Danger")]
+                )
+              ])
+            ]
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "col-lg-6" },
+        [
+          _c(
+            "b-card",
+            {
+              staticClass: "bg-default-card",
+              attrs: { header: "Outline buttons", "header-tag": "h4" }
+            },
+            [
+              _c("div", { staticClass: "form-group text-center" }, [
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-outline-primary mt-3",
+                    attrs: { type: "button" }
+                  },
+                  [_vm._v("Primary")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-outline-secondary mt-3",
+                    attrs: { type: "button" }
+                  },
+                  [_vm._v("Default")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-outline-success mt-3",
+                    attrs: { type: "button" }
+                  },
+                  [_vm._v("Success")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-outline-info mt-3",
+                    attrs: { type: "button" }
+                  },
+                  [_vm._v("Info")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-outline-warning mt-3",
+                    attrs: { type: "button" }
+                  },
+                  [_vm._v("Warning")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-outline-danger mt-3",
+                    attrs: { type: "button" }
+                  },
+                  [_vm._v("Danger")]
+                )
+              ])
+            ]
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "col-lg-6" },
+        [
+          _c(
+            "b-card",
+            {
+              staticClass: "bg-default-card",
+              attrs: { header: "Rounded Buttons", "header-tag": "h4" }
+            },
+            [
+              _c("div", { staticClass: "form-group text-center" }, [
+                _c(
+                  "button",
+                  {
+                    staticClass:
+                      "btn btn-outline-primary btn_width btn_rounded mt-3 ",
+                    attrs: { type: "button" }
+                  },
+                  [_vm._v("Primary\n                    ")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass:
+                      "btn btn-outline-secondary btn_width btn_rounded mt-3",
+                    attrs: { type: "button" }
+                  },
+                  [_vm._v("Default\n                    ")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass:
+                      "btn btn-outline-success btn_width btn_rounded mt-3",
+                    attrs: { type: "button" }
+                  },
+                  [_vm._v("Success\n                    ")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass:
+                      "btn btn-outline-info btn_width btn_rounded mt-3",
+                    attrs: { type: "button" }
+                  },
+                  [
+                    _vm._v(
+                      "\n                        Info\n                    "
+                    )
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass:
+                      "btn btn-outline-warning btn_width btn_rounded mt-3",
+                    attrs: { type: "button" }
+                  },
+                  [_vm._v("Warning\n                    ")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass:
+                      "btn btn-outline-danger btn_width btn_rounded mt-3",
+                    attrs: { type: "button" }
+                  },
+                  [
+                    _vm._v(
+                      "\n                        Danger\n                    "
+                    )
+                  ]
+                )
+              ])
+            ]
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "col-lg-6" },
+        [
+          _c(
+            "b-card",
+            {
+              staticClass: "bg-default-card effects",
+              attrs: { header: "Curls", "header-tag": "h4" }
+            },
+            [
               _c(
-                "div",
-                { staticClass: "col-md-12" },
-                [
-                  _c(
-                    "vue-form",
-                    {
-                      attrs: { state: _vm.formstate },
-                      on: {
-                        submit: function($event) {
-                          $event.preventDefault()
-                          return _vm.onSubmit($event)
-                        }
-                      }
-                    },
-                    [
-                      _c("div", { staticClass: "row" }, [
-                        _c("div", { staticClass: "col-sm-12" }, [
-                          _c(
-                            "div",
-                            { staticClass: "form-group" },
-                            [
-                              _c(
-                                "validate",
-                                { attrs: { tag: "div" } },
-                                [
-                                  _c("label", { attrs: { for: "email" } }, [
-                                    _vm._v(" User Name")
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("input", {
-                                    directives: [
-                                      {
-                                        name: "model",
-                                        rawName: "v-model",
-                                        value: _vm.model.username,
-                                        expression: "model.username"
-                                      }
-                                    ],
-                                    staticClass: "form-control",
-                                    attrs: {
-                                      name: "username",
-                                      type: "text",
-                                      required: "",
-                                      autofocus: "",
-                                      placeholder: "User Name",
-                                      id: "email"
-                                    },
-                                    domProps: { value: _vm.model.username },
-                                    on: {
-                                      input: function($event) {
-                                        if ($event.target.composing) {
-                                          return
-                                        }
-                                        _vm.$set(
-                                          _vm.model,
-                                          "username",
-                                          $event.target.value
-                                        )
-                                      }
-                                    }
-                                  }),
-                                  _vm._v(" "),
-                                  _c(
-                                    "field-messages",
-                                    {
-                                      staticClass: "text-danger",
-                                      attrs: {
-                                        name: "username",
-                                        show: "$invalid && $submitted"
-                                      }
-                                    },
-                                    [
-                                      _c(
-                                        "div",
-                                        {
-                                          attrs: { slot: "required" },
-                                          slot: "required"
-                                        },
-                                        [_vm._v("Username is a required field")]
-                                      )
-                                    ]
-                                  )
-                                ],
-                                1
-                              )
-                            ],
-                            1
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "col-sm-12" }, [
-                          _c(
-                            "div",
-                            { staticClass: "form-group" },
-                            [
-                              _c(
-                                "validate",
-                                { attrs: { tag: "div" } },
-                                [
-                                  _c(
-                                    "label",
-                                    { attrs: { for: "email_input" } },
-                                    [_vm._v(" E-mail")]
-                                  ),
-                                  _vm._v(" "),
-                                  _c("input", {
-                                    directives: [
-                                      {
-                                        name: "model",
-                                        rawName: "v-model",
-                                        value: _vm.model.email,
-                                        expression: "model.email"
-                                      }
-                                    ],
-                                    staticClass: "form-control",
-                                    attrs: {
-                                      name: "email",
-                                      type: "email",
-                                      required: "",
-                                      placeholder: "E-mail",
-                                      id: "email_input"
-                                    },
-                                    domProps: { value: _vm.model.email },
-                                    on: {
-                                      input: function($event) {
-                                        if ($event.target.composing) {
-                                          return
-                                        }
-                                        _vm.$set(
-                                          _vm.model,
-                                          "email",
-                                          $event.target.value
-                                        )
-                                      }
-                                    }
-                                  }),
-                                  _vm._v(" "),
-                                  _c(
-                                    "field-messages",
-                                    {
-                                      staticClass: "text-danger",
-                                      attrs: {
-                                        name: "email",
-                                        show: "$invalid && $submitted"
-                                      }
-                                    },
-                                    [
-                                      _c(
-                                        "div",
-                                        {
-                                          attrs: { slot: "required" },
-                                          slot: "required"
-                                        },
-                                        [_vm._v("Email is a required field")]
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "div",
-                                        {
-                                          attrs: { slot: "email" },
-                                          slot: "email"
-                                        },
-                                        [_vm._v("Email is not valid")]
-                                      )
-                                    ]
-                                  )
-                                ],
-                                1
-                              )
-                            ],
-                            1
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "col-sm-6" }, [
-                          _c(
-                            "div",
-                            { staticClass: "form-group" },
-                            [
-                              _c(
-                                "validate",
-                                { attrs: { tag: "div" } },
-                                [
-                                  _c(
-                                    "label",
-                                    { attrs: { for: "email_password" } },
-                                    [_vm._v(" Password")]
-                                  ),
-                                  _vm._v(" "),
-                                  _c("input", {
-                                    directives: [
-                                      {
-                                        name: "model",
-                                        rawName: "v-model",
-                                        value: _vm.model.password,
-                                        expression: "model.password"
-                                      }
-                                    ],
-                                    staticClass: "form-control",
-                                    attrs: {
-                                      name: "password",
-                                      type: "password",
-                                      required: "",
-                                      placeholder: "Password",
-                                      minlength: "4",
-                                      maxlength: "10",
-                                      id: "email_password"
-                                    },
-                                    domProps: { value: _vm.model.password },
-                                    on: {
-                                      input: function($event) {
-                                        if ($event.target.composing) {
-                                          return
-                                        }
-                                        _vm.$set(
-                                          _vm.model,
-                                          "password",
-                                          $event.target.value
-                                        )
-                                      }
-                                    }
-                                  }),
-                                  _vm._v(" "),
-                                  _c(
-                                    "field-messages",
-                                    {
-                                      staticClass: "text-danger",
-                                      attrs: {
-                                        name: "password",
-                                        show: "$invalid && $submitted"
-                                      }
-                                    },
-                                    [
-                                      _c(
-                                        "div",
-                                        {
-                                          attrs: { slot: "required" },
-                                          slot: "required"
-                                        },
-                                        [_vm._v("Password is required")]
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "div",
-                                        {
-                                          attrs: { slot: "minlength" },
-                                          slot: "minlength"
-                                        },
-                                        [
-                                          _vm._v(
-                                            "Password should be atleast 4 characters long"
-                                          )
-                                        ]
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "div",
-                                        {
-                                          attrs: { slot: "maxlength" },
-                                          slot: "maxlength"
-                                        },
-                                        [
-                                          _vm._v(
-                                            "Password should be atmost 10 characters long"
-                                          )
-                                        ]
-                                      )
-                                    ]
-                                  )
-                                ],
-                                1
-                              )
-                            ],
-                            1
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "col-sm-6" }, [
-                          _c(
-                            "div",
-                            { staticClass: "form-group" },
-                            [
-                              _c(
-                                "validate",
-                                { attrs: { tag: "div" } },
-                                [
-                                  _c(
-                                    "label",
-                                    { attrs: { for: "email_confirm" } },
-                                    [_vm._v(" Confirm Password")]
-                                  ),
-                                  _vm._v(" "),
-                                  _c("input", {
-                                    directives: [
-                                      {
-                                        name: "model",
-                                        rawName: "v-model",
-                                        value: _vm.model.repeatPassword,
-                                        expression: "model.repeatPassword"
-                                      }
-                                    ],
-                                    staticClass: "form-control",
-                                    attrs: {
-                                      name: "repeatpassword",
-                                      type: "password",
-                                      required: "",
-                                      placeholder: "Confirm Password",
-                                      sameas: _vm.model.password,
-                                      id: "email_confirm"
-                                    },
-                                    domProps: {
-                                      value: _vm.model.repeatPassword
-                                    },
-                                    on: {
-                                      input: function($event) {
-                                        if ($event.target.composing) {
-                                          return
-                                        }
-                                        _vm.$set(
-                                          _vm.model,
-                                          "repeatPassword",
-                                          $event.target.value
-                                        )
-                                      }
-                                    }
-                                  }),
-                                  _vm._v(" "),
-                                  _c(
-                                    "field-messages",
-                                    {
-                                      staticClass: "text-danger",
-                                      attrs: {
-                                        name: "repeatpassword",
-                                        show: "$invalid && $submitted"
-                                      }
-                                    },
-                                    [
-                                      _c(
-                                        "div",
-                                        {
-                                          attrs: { slot: "required" },
-                                          slot: "required"
-                                        },
-                                        [
-                                          _vm._v(
-                                            "Password confirmatoin is required"
-                                          )
-                                        ]
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "div",
-                                        {
-                                          attrs: { slot: "sameas" },
-                                          slot: "sameas"
-                                        },
-                                        [
-                                          _vm._v(
-                                            "Password and Confirm password should match"
-                                          )
-                                        ]
-                                      )
-                                    ]
-                                  )
-                                ],
-                                1
-                              )
-                            ],
-                            1
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "col-lg-12" }, [
-                          _c(
-                            "div",
-                            { staticClass: "form-group" },
-                            [
-                              _c(
-                                "validate",
-                                { attrs: { tag: "div" } },
-                                [
-                                  _c("label", { attrs: { for: "name_gen" } }, [
-                                    _vm._v("Gender")
-                                  ]),
-                                  _vm._v(" "),
-                                  _c(
-                                    "select",
-                                    {
-                                      directives: [
-                                        {
-                                          name: "model",
-                                          rawName: "v-model",
-                                          value: _vm.model.gender,
-                                          expression: "model.gender"
-                                        }
-                                      ],
-                                      staticClass: "form-control",
-                                      attrs: {
-                                        id: "name_gen",
-                                        name: "gender",
-                                        size: "1",
-                                        required: "",
-                                        checkbox: ""
-                                      },
-                                      on: {
-                                        change: function($event) {
-                                          var $$selectedVal = Array.prototype.filter
-                                            .call(
-                                              $event.target.options,
-                                              function(o) {
-                                                return o.selected
-                                              }
-                                            )
-                                            .map(function(o) {
-                                              var val =
-                                                "_value" in o
-                                                  ? o._value
-                                                  : o.value
-                                              return val
-                                            })
-                                          _vm.$set(
-                                            _vm.model,
-                                            "gender",
-                                            $event.target.multiple
-                                              ? $$selectedVal
-                                              : $$selectedVal[0]
-                                          )
-                                        }
-                                      }
-                                    },
-                                    [
-                                      _c(
-                                        "option",
-                                        {
-                                          attrs: {
-                                            value: "0",
-                                            selected: "",
-                                            disabled: ""
-                                          }
-                                        },
-                                        [
-                                          _vm._v(
-                                            "\n                                                Please select\n                                            "
-                                          )
-                                        ]
-                                      ),
-                                      _vm._v(" "),
-                                      _c("option", { attrs: { value: "1" } }, [
-                                        _vm._v("Male")
-                                      ]),
-                                      _vm._v(" "),
-                                      _c("option", { attrs: { value: "2" } }, [
-                                        _vm._v("Female")
-                                      ]),
-                                      _vm._v(" "),
-                                      _c("option", { attrs: { value: "3" } }, [
-                                        _vm._v("Other")
-                                      ])
-                                    ]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "field-messages",
-                                    {
-                                      staticClass: "text-danger",
-                                      attrs: {
-                                        name: "gender",
-                                        show: "$invalid && $submitted"
-                                      }
-                                    },
-                                    [
-                                      _c(
-                                        "div",
-                                        {
-                                          attrs: { slot: "checkbox" },
-                                          slot: "checkbox"
-                                        },
-                                        [_vm._v("Gender is required")]
-                                      )
-                                    ]
-                                  )
-                                ],
-                                1
-                              )
-                            ],
-                            1
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "col-lg-12" }, [
-                          _c(
-                            "div",
-                            { staticClass: "form-group" },
-                            [
-                              _c(
-                                "validate",
-                                { attrs: { tag: "div" } },
-                                [
-                                  _c("label", { attrs: { for: "address" } }, [
-                                    _vm._v("Address")
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("textarea", {
-                                    directives: [
-                                      {
-                                        name: "model",
-                                        rawName: "v-model",
-                                        value: _vm.model.address,
-                                        expression: "model.address"
-                                      }
-                                    ],
-                                    staticClass: "form-control resize_vertical",
-                                    attrs: {
-                                      rows: "5",
-                                      name: "address",
-                                      id: "address",
-                                      placeholder: "Enter your Address",
-                                      required: ""
-                                    },
-                                    domProps: { value: _vm.model.address },
-                                    on: {
-                                      input: function($event) {
-                                        if ($event.target.composing) {
-                                          return
-                                        }
-                                        _vm.$set(
-                                          _vm.model,
-                                          "address",
-                                          $event.target.value
-                                        )
-                                      }
-                                    }
-                                  }),
-                                  _vm._v(" "),
-                                  _c(
-                                    "field-messages",
-                                    {
-                                      staticClass: "text-danger",
-                                      attrs: {
-                                        name: "address",
-                                        show: "$invalid && $submitted"
-                                      }
-                                    },
-                                    [
-                                      _c(
-                                        "div",
-                                        {
-                                          attrs: { slot: "required" },
-                                          slot: "required"
-                                        },
-                                        [_vm._v("Address is required")]
-                                      )
-                                    ]
-                                  )
-                                ],
-                                1
-                              )
-                            ],
-                            1
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c(
-                          "div",
-                          { staticClass: "col-sm-12" },
-                          [
-                            _c(
-                              "validate",
-                              { attrs: { tag: "label" } },
-                              [
-                                _c("b-form-checkbox", [
-                                  _vm._v(
-                                    "I agree the\n                            "
-                                  ),
-                                  _c(
-                                    "span",
-                                    [
-                                      _c(
-                                        "router-link",
-                                        { attrs: { to: "/" } },
-                                        [_vm._v("terms & conditions")]
-                                      )
-                                    ],
-                                    1
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c(
-                                  "field-messages",
-                                  {
-                                    staticClass: "text-danger",
-                                    attrs: {
-                                      name: "terms",
-                                      show: "$invalid && $submitted"
-                                    }
-                                  },
-                                  [
-                                    _c(
-                                      "div",
-                                      {
-                                        attrs: { slot: "checkbox" },
-                                        slot: "checkbox"
-                                      },
-                                      [_vm._v("Terms must be accepted")]
-                                    )
-                                  ]
-                                )
-                              ],
-                              1
-                            )
-                          ],
-                          1
-                        ),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "col-sm-12" }, [
-                          _c("div", { staticClass: "form-group float-right" }, [
-                            _c("input", {
-                              staticClass: "btn btn-success",
-                              attrs: { type: "submit", value: "Sign Up" }
-                            })
-                          ])
-                        ])
-                      ])
-                    ]
-                  )
-                ],
-                1
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-curl-top-left",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Curl Top Left")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-curl-top-right",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Curl Top Right")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-curl-bottom-right",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Curl Bottom Right")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-curl-bottom-left",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Curl Bottom Left")]
               )
-            ])
-          ]
-        )
-      ],
-      1
-    )
+            ]
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "col-lg-12" },
+        [
+          _c(
+            "b-card",
+            {
+              staticClass: "bg-primary-card effects",
+              attrs: { header: "2D Transitions", "header-tag": "h4" }
+            },
+            [
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-grow",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Grow")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-shrink",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Shrink")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-pulse",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Pulse")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-pulse-grow",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Pulse Grow")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-pulse-shrink",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Pulse Shrink")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-push",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Push")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-pop",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Pop")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-bounce-in",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Bounce In")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-bounce-out",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Bounce Out")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-rotate",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Rotate")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-grow-rotate",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Grow Rotate")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-float",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Float")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-sink",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Sink")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-bob",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Bob")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-hang",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Hang")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-skew",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Skew")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-skew-forward",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Skew Forward")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-skew-backward",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Skew Backward")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-wobble-horizontal",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Wobble Horizontal")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-wobble-vertical",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Wobble Vertical")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-wobble-to-bottom-right",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Wobble To Bottom Right\n                ")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-wobble-to-top-right",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Wobble To Top Right")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-wobble-top",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Wobble Top")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-wobble-bottom",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Wobble Bottom")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-wobble-skew",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Wobble Skew")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-buzz",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Buzz")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-buzz-out",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Buzz Out")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-forward",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Forward")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-backward",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Backward")]
+              )
+            ]
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "col-lg-6 " },
+        [
+          _c(
+            "b-card",
+            {
+              staticClass: "bg-info-card effects",
+              attrs: { header: "Border Transitions", "header-tag": "h4" }
+            },
+            [
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-border-fade",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Border Fade")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-round-corners",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Round Corners")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-underline-from-left",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Underline From Left")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-underline-from-center",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Underline From Center\n                ")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-underline-from-right",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Underline From Right")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-reveal",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Reveal")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-underline-reveal",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Underline Reveal")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-overline-reveal",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Overline Reveal")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-overline-from-left",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Overline From Left")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-overline-from-center",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Overline From Center")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-overline-from-right",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Overline From Right")]
+              )
+            ]
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "col-lg-6 " },
+        [
+          _c(
+            "b-card",
+            {
+              staticClass: "bg-success-card effects",
+              attrs: { header: "Background Transitions", "header-tag": "h4" }
+            },
+            [
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-sweep-to-right",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Sweep To Right")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-sweep-to-left",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Sweep To Left")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-sweep-to-bottom",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Sweep To Bottom")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-sweep-to-top",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Sweep To Top")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-bounce-to-right",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Bounce To Right")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-bounce-to-left",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Bounce To Left")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-bounce-to-bottom",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Bounce To Bottom")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-bounce-to-top",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Bounce To Top")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-radial-out",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Radial Out")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-rectangle-out",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Rectangle Out")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-shutter-out-horizontal",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Shutter Out Horizontal\n                ")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-shutter-out-vertical",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Shutter Out Vertical")]
+              )
+            ]
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "col-lg-6" },
+        [
+          _c(
+            "b-card",
+            {
+              staticClass: "bg-warning-card effects",
+              attrs: { header: "Speech Bubbles", "header-tag": "h4" }
+            },
+            [
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-bubble-top mb-2",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Bubble Top")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-bubble-right mb-2",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Bubble Right")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-bubble-float-bottom mb-2",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Bubble Float Bottom")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-bubble-bottom mb-2",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Bubble Bottom")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-bubble-left mb-2",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Bubble Left")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-bubble-float-right mb-2",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Bubble Float Right")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-bubble-float-top mb-2",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Bubble Float Top")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-bubble-float-left mb-2",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Bubble Float Left")]
+              )
+            ]
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "col-lg-6" },
+        [
+          _c(
+            "b-card",
+            {
+              staticClass: "bg-danger-card effects",
+              attrs: {
+                header: "Shadow and Glow Transitions",
+                "header-tag": "h4"
+              }
+            },
+            [
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-shadow",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Shadow")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-grow-shadow",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Grow Shadow")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-float-shadow",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Float Shadow")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-glow",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Glow")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-shadow-radial",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Shadow Radial")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-box-shadow-outset",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Box Shadow Outset")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-default hvr-box-shadow-inset",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Box Shadow Inset")]
+              )
+            ]
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "col-lg-4" },
+        [
+          _c(
+            "b-card",
+            {
+              staticClass: "bg-default-card",
+              attrs: { header: "Buttons Sizes", "header-tag": "h4" }
+            },
+            [
+              _c("div", { staticClass: "form-group text-center" }, [
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-primary btn-sm mt-3",
+                    attrs: { type: "button" }
+                  },
+                  [_vm._v("Small button")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-secondary btn-sm mt-3",
+                    attrs: { type: "button" }
+                  },
+                  [_vm._v("Small button")]
+                )
+              ])
+            ]
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "col-lg-4" },
+        [
+          _c(
+            "b-card",
+            {
+              staticClass: "bg-default-card",
+              attrs: { header: "Normal Buttons ", "header-tag": "h4" }
+            },
+            [
+              _c("div", { staticClass: "form-group text-center" }, [
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-primary btn-md mt-3",
+                    attrs: { type: "button" }
+                  },
+                  [_vm._v("Normal button")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-secondary btn-md mt-3",
+                    attrs: { type: "button" }
+                  },
+                  [_vm._v("Normal button")]
+                )
+              ])
+            ]
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "col-lg-4" },
+        [
+          _c(
+            "b-card",
+            {
+              staticClass: "bg-default-card",
+              attrs: { header: "Large Buttons", "header-tag": "h4" }
+            },
+            [
+              _c("div", { staticClass: "form-group text-center" }, [
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-primary btn-lg mt-3",
+                    attrs: { type: "button" }
+                  },
+                  [_vm._v("Large button")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-secondary btn-lg mt-3",
+                    attrs: { type: "button" }
+                  },
+                  [_vm._v("Large button")]
+                )
+              ])
+            ]
+          )
+        ],
+        1
+      )
+    ])
   ])
 }
 var staticRenderFns = []
@@ -870,31 +1372,32 @@ module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-2637b9ee", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-23572cf2", module.exports)
   }
 }
 
 /***/ }),
 
-/***/ 719:
+/***/ 723:
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(1244)
+  __webpack_require__(1261)
+  __webpack_require__(1263)
 }
 var normalizeComponent = __webpack_require__(242)
 /* script */
-var __vue_script__ = __webpack_require__(1246)
+var __vue_script__ = __webpack_require__(1265)
 /* template */
-var __vue_template__ = __webpack_require__(1247)
+var __vue_template__ = __webpack_require__(1266)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = null
+var __vue_scopeId__ = "data-v-23572cf2"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
@@ -905,7 +1408,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources\\assets\\components\\pages\\form_validations.vue"
+Component.options.__file = "resources\\assets\\components\\pages\\buttons.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -914,9 +1417,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-2637b9ee", Component.options)
+    hotAPI.createRecord("data-v-23572cf2", Component.options)
   } else {
-    hotAPI.reload("data-v-2637b9ee", Component.options)
+    hotAPI.reload("data-v-23572cf2", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -925,1314 +1428,6 @@ if (false) {(function () {
 
 module.exports = Component.exports
 
-
-/***/ }),
-
-/***/ 780:
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(global) {(function (global, factory) {
-	 true ? module.exports = factory() :
-	typeof define === 'function' && define.amd ? define(factory) :
-	(global.VueForm = factory());
-}(this, (function () { 'use strict';
-
-var emailRegExp = /^[a-z0-9!#$%&'*+\/=?^_`{|}~.-]+@[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)*$/i; // from angular
-var urlRegExp = /^(http\:\/\/|https\:\/\/)(.{4,})$/;
-
-var email = function email(value, attrValue, vnode) {
-  return emailRegExp.test(value);
-};
-email._allowNulls = true;
-
-var number = function number(value, attrValue, vnode) {
-  return !isNaN(value);
-};
-number._allowNulls = true;
-
-var url = function url(value, attrValue, vnode) {
-  return urlRegExp.test(value);
-};
-url._allowNulls = true;
-
-var validators = {
-  email: email,
-  number: number,
-  url: url,
-  required: function required(value, attrValue, vnode) {
-    if (attrValue === false) {
-      return true;
-    }
-
-    if (value === 0) {
-      return true;
-    }
-
-    if (vnode.data.attrs && typeof vnode.data.attrs.bool !== 'undefined' || vnode.componentOptions && vnode.componentOptions.propsData && typeof vnode.componentOptions.propsData.bool !== 'undefined') {
-      // bool attribute is present, allow false pass validation
-      if (value === false) {
-        return true;
-      }
-    }
-
-    if (Array.isArray(value)) {
-      return !!value.length;
-    }
-    return !!value;
-  },
-  minlength: function minlength(value, length) {
-    return value.length >= length;
-  },
-  maxlength: function maxlength(value, length) {
-    return length >= value.length;
-  },
-  pattern: function pattern(value, _pattern) {
-    var patternRegExp = new RegExp('^' + _pattern + '$');
-    return patternRegExp.test(value);
-  },
-  min: function min(value, _min, vnode) {
-    if ((vnode.data.attrs.type || '').toLowerCase() == 'number') {
-      return +value >= +_min;
-    }
-    return value >= _min;
-  },
-  max: function max(value, _max, vnode) {
-    if ((vnode.data.attrs.type || '').toLowerCase() == 'number') {
-      return +_max >= +value;
-    }
-    return _max >= value;
-  }
-};
-
-var config = {
-  validators: validators,
-  formComponent: 'vueForm',
-  formTag: 'form',
-  messagesComponent: 'fieldMessages',
-  messagesTag: 'div',
-  showMessages: '',
-  validateComponent: 'validate',
-  validateTag: 'div',
-  fieldComponent: 'field',
-  fieldTag: 'div',
-  formClasses: {
-    dirty: 'vf-form-dirty',
-    pristine: 'vf-form-pristine',
-    valid: 'vf-form-valid',
-    invalid: 'vf-form-invalid',
-    touched: 'vf-form-touched',
-    untouched: 'vf-form-untouched',
-    focused: 'vf-form-focused',
-    submitted: 'vf-form-submitted',
-    pending: 'vf-form-pending'
-  },
-  validateClasses: {
-    dirty: 'vf-field-dirty',
-    pristine: 'vf-field-pristine',
-    valid: 'vf-field-valid',
-    invalid: 'vf-field-invalid',
-    touched: 'vf-field-touched',
-    untouched: 'vf-field-untouched',
-    focused: 'vf-field-focused',
-    submitted: 'vf-field-submitted',
-    pending: 'vf-field-pending'
-  },
-  inputClasses: {
-    dirty: 'vf-dirty',
-    pristine: 'vf-pristine',
-    valid: 'vf-valid',
-    invalid: 'vf-invalid',
-    touched: 'vf-touched',
-    untouched: 'vf-untouched',
-    focused: 'vf-focused',
-    submitted: 'vf-submitted',
-    pending: 'vf-pending'
-  },
-  Promise: typeof Promise === 'function' ? Promise : null
-};
-
-var classCallCheck = function (instance, Constructor) {
-  if (!(instance instanceof Constructor)) {
-    throw new TypeError("Cannot call a class as a function");
-  }
-};
-
-var createClass = function () {
-  function defineProperties(target, props) {
-    for (var i = 0; i < props.length; i++) {
-      var descriptor = props[i];
-      descriptor.enumerable = descriptor.enumerable || false;
-      descriptor.configurable = true;
-      if ("value" in descriptor) descriptor.writable = true;
-      Object.defineProperty(target, descriptor.key, descriptor);
-    }
-  }
-
-  return function (Constructor, protoProps, staticProps) {
-    if (protoProps) defineProperties(Constructor.prototype, protoProps);
-    if (staticProps) defineProperties(Constructor, staticProps);
-    return Constructor;
-  };
-}();
-
-
-
-
-
-var defineProperty = function (obj, key, value) {
-  if (key in obj) {
-    Object.defineProperty(obj, key, {
-      value: value,
-      enumerable: true,
-      configurable: true,
-      writable: true
-    });
-  } else {
-    obj[key] = value;
-  }
-
-  return obj;
-};
-
-
-
-var inherits = function (subClass, superClass) {
-  if (typeof superClass !== "function" && superClass !== null) {
-    throw new TypeError("Super expression must either be null or a function, not " + typeof superClass);
-  }
-
-  subClass.prototype = Object.create(superClass && superClass.prototype, {
-    constructor: {
-      value: subClass,
-      enumerable: false,
-      writable: true,
-      configurable: true
-    }
-  });
-  if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass;
-};
-
-
-
-
-
-
-
-
-
-
-
-var possibleConstructorReturn = function (self, call) {
-  if (!self) {
-    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-  }
-
-  return call && (typeof call === "object" || typeof call === "function") ? call : self;
-};
-
-function getClasses(classConfig, state) {
-  var _ref;
-
-  return _ref = {}, defineProperty(_ref, classConfig.dirty, state.$dirty), defineProperty(_ref, classConfig.pristine, state.$pristine), defineProperty(_ref, classConfig.valid, state.$valid), defineProperty(_ref, classConfig.invalid, state.$invalid), defineProperty(_ref, classConfig.touched, state.$touched), defineProperty(_ref, classConfig.untouched, state.$untouched), defineProperty(_ref, classConfig.focused, state.$focused), defineProperty(_ref, classConfig.pending, state.$pending), defineProperty(_ref, classConfig.submitted, state.$submitted), _ref;
-}
-
-function addClass(el, className) {
-  if (el.classList) {
-    el.classList.add(className);
-  } else {
-    el.className += ' ' + className;
-  }
-}
-
-function removeClass(el, className) {
-  if (el.classList) {
-    el.classList.remove(className);
-  } else {
-    el.className = el.className.replace(new RegExp('(^|\\b)' + className.split(' ').join('|') + '(\\b|$)', 'gi'), ' ');
-  }
-}
-
-function vModelValue(data) {
-  if (data.model) {
-    return data.model.value;
-  }
-  return data.directives.filter(function (v) {
-    return v.name === 'model';
-  })[0].value;
-}
-
-function getVModelAndLabel(nodes, config) {
-  var foundVnodes = {
-    vModel: [],
-    label: null,
-    messages: null
-  };
-
-  if (!nodes) {
-    return foundVnodes;
-  }
-
-  function traverse(nodes) {
-    for (var i = 0; i < nodes.length; i++) {
-      var node = nodes[i];
-
-      if (node.componentOptions) {
-        if (node.componentOptions.tag === hyphenate(config.messagesComponent)) {
-          foundVnodes.messages = node;
-        }
-      }
-
-      if (node.tag === 'label' && !foundVnodes.label) {
-        foundVnodes.label = node;
-      }
-
-      if (node.data) {
-        if (node.data.model) {
-          // model check has to come first. If a component has
-          // a directive and v-model, the directive will be in .directives
-          // and v-modelstored in .model
-          foundVnodes.vModel.push(node);
-        } else if (node.data.directives) {
-          var match = node.data.directives.filter(function (v) {
-            return v.name === 'model';
-          });
-          if (match.length) {
-            foundVnodes.vModel.push(node);
-          }
-        }
-      }
-      if (node.children) {
-        traverse(node.children);
-      } else if (node.componentOptions && node.componentOptions.children) {
-        traverse(node.componentOptions.children);
-      }
-    }
-  }
-
-  traverse(nodes);
-
-  return foundVnodes;
-}
-
-function getName(vnode) {
-  if (vnode.data && vnode.data.attrs && vnode.data.attrs.name) {
-    return vnode.data.attrs.name;
-  } else if (vnode.componentOptions && vnode.componentOptions.propsData && vnode.componentOptions.propsData.name) {
-    return vnode.componentOptions.propsData.name;
-  }
-}
-
-var hyphenateRE = /([^-])([A-Z])/g;
-function hyphenate(str) {
-  return str.replace(hyphenateRE, '$1-$2').replace(hyphenateRE, '$1-$2').toLowerCase();
-}
-
-function randomId() {
-  return Math.random().toString(36).substr(2, 10);
-}
-
-// https://davidwalsh.name/javascript-debounce-function
-function debounce(func, wait, immediate) {
-  var timeout;
-  return function () {
-    var context = this,
-        args = arguments;
-    var later = function later() {
-      timeout = null;
-      if (!immediate) func.apply(context, args);
-    };
-    var callNow = immediate && !timeout;
-    clearTimeout(timeout);
-    timeout = setTimeout(later, wait);
-    if (callNow) func.apply(context, args);
-  };
-}
-
-function isShallowObjectDifferent(a, b) {
-  var aValue = '';
-  var bValue = '';
-  Object.keys(a).sort().filter(function (v) {
-    return typeof a[v] !== 'function';
-  }).forEach(function (v) {
-    return aValue += a[v];
-  });
-  Object.keys(b).sort().filter(function (v) {
-    return typeof a[v] !== 'function';
-  }).forEach(function (v) {
-    return bValue += b[v];
-  });
-  return aValue !== bValue;
-}
-
-var vueFormConfig = 'VueFormProviderConfig' + randomId();
-var vueFormState = 'VueFormProviderState' + randomId();
-var vueFormParentForm = 'VueFormProviderParentForm' + randomId();
-
-var hasOwn = Object.prototype.hasOwnProperty;
-var toStr = Object.prototype.toString;
-
-var isArray = function isArray(arr) {
-	if (typeof Array.isArray === 'function') {
-		return Array.isArray(arr);
-	}
-
-	return toStr.call(arr) === '[object Array]';
-};
-
-var isPlainObject = function isPlainObject(obj) {
-	if (!obj || toStr.call(obj) !== '[object Object]') {
-		return false;
-	}
-
-	var hasOwnConstructor = hasOwn.call(obj, 'constructor');
-	var hasIsPrototypeOf = obj.constructor && obj.constructor.prototype && hasOwn.call(obj.constructor.prototype, 'isPrototypeOf');
-	// Not own constructor property must be Object
-	if (obj.constructor && !hasOwnConstructor && !hasIsPrototypeOf) {
-		return false;
-	}
-
-	// Own properties are enumerated firstly, so to speed up,
-	// if last one is own, then all properties are own.
-	var key;
-	for (key in obj) { /**/ }
-
-	return typeof key === 'undefined' || hasOwn.call(obj, key);
-};
-
-var extend = function extend() {
-	var options, name, src, copy, copyIsArray, clone;
-	var target = arguments[0];
-	var i = 1;
-	var length = arguments.length;
-	var deep = false;
-
-	// Handle a deep copy situation
-	if (typeof target === 'boolean') {
-		deep = target;
-		target = arguments[1] || {};
-		// skip the boolean and the target
-		i = 2;
-	}
-	if (target == null || (typeof target !== 'object' && typeof target !== 'function')) {
-		target = {};
-	}
-
-	for (; i < length; ++i) {
-		options = arguments[i];
-		// Only deal with non-null/undefined values
-		if (options != null) {
-			// Extend the base object
-			for (name in options) {
-				src = target[name];
-				copy = options[name];
-
-				// Prevent never-ending loop
-				if (target !== copy) {
-					// Recurse if we're merging plain objects or arrays
-					if (deep && copy && (isPlainObject(copy) || (copyIsArray = isArray(copy)))) {
-						if (copyIsArray) {
-							copyIsArray = false;
-							clone = src && isArray(src) ? src : [];
-						} else {
-							clone = src && isPlainObject(src) ? src : {};
-						}
-
-						// Never move original objects, clone them
-						target[name] = extend(deep, clone, copy);
-
-					// Don't bring in undefined values
-					} else if (typeof copy !== 'undefined') {
-						target[name] = copy;
-					}
-				}
-			}
-		}
-	}
-
-	// Return the modified object
-	return target;
-};
-
-var vueForm = {
-  render: function render(h) {
-    var _this = this;
-
-    return h(this.tag || this.vueFormConfig.formTag, {
-      on: {
-        submit: function submit(event) {
-          if (_this.state.$pending) {
-            event.preventDefault();
-            _this.vueFormConfig.Promise.all(_this.promises).then(function () {
-              _this.state._submit();
-              _this.$emit('submit', event);
-              _this.promises = [];
-            });
-          } else {
-            _this.state._submit();
-            _this.$emit('submit', event);
-          }
-        },
-        reset: function reset(event) {
-          _this.state._reset();
-          _this.$emit('reset', event);
-        }
-      },
-      class: this.className,
-      attrs: {
-        'novalidate': ''
-      }
-    }, [this.$slots.default]);
-  },
-
-  props: {
-    state: {
-      type: Object,
-      required: true
-    },
-    tag: String,
-    showMessages: String
-  },
-  inject: { vueFormConfig: vueFormConfig },
-  provide: function provide() {
-    var _ref;
-
-    return _ref = {}, defineProperty(_ref, vueFormState, this.state), defineProperty(_ref, vueFormParentForm, this), _ref;
-  },
-
-  data: function data() {
-    return {
-      promises: []
-    };
-  },
-  created: function created() {
-    var _this2 = this;
-
-    if (!this.state) {
-      return;
-    }
-    var controls = {};
-    var state = this.state;
-    var formstate = {
-      $dirty: false,
-      $pristine: true,
-      $valid: true,
-      $invalid: false,
-      $submitted: false,
-      $touched: false,
-      $untouched: true,
-      $focused: false,
-      $pending: false,
-      $error: {},
-      $submittedState: {},
-      _id: '',
-      _submit: function _submit() {
-        _this2.state.$submitted = true;
-        _this2.state._cloneState();
-      },
-      _cloneState: function _cloneState() {
-        var cloned = JSON.parse(JSON.stringify(state));
-        delete cloned.$submittedState;
-        Object.keys(cloned).forEach(function (key) {
-          _this2.$set(_this2.state.$submittedState, key, cloned[key]);
-        });
-      },
-      _addControl: function _addControl(ctrl) {
-        controls[ctrl.$name] = ctrl;
-        _this2.$set(state, ctrl.$name, ctrl);
-      },
-      _removeControl: function _removeControl(ctrl) {
-        delete controls[ctrl.$name];
-        _this2.$delete(_this2.state, ctrl.$name);
-        _this2.$delete(_this2.state.$error, ctrl.$name);
-      },
-      _validate: function _validate() {
-        Object.keys(controls).forEach(function (key) {
-          controls[key]._validate();
-        });
-      },
-      _reset: function _reset() {
-        state.$submitted = false;
-        state.$pending = false;
-        state.$submittedState = {};
-        Object.keys(controls).forEach(function (key) {
-          var control = controls[key];
-          control._hasFocused = false;
-          control._setUntouched();
-          control._setPristine();
-          control.$submitted = false;
-          control.$pending = false;
-        });
-      }
-    };
-
-    Object.keys(formstate).forEach(function (key) {
-      _this2.$set(_this2.state, key, formstate[key]);
-    });
-
-    this.$watch('state', function () {
-      var isDirty = false;
-      var isValid = true;
-      var isTouched = false;
-      var isFocused = false;
-      var isPending = false;
-      Object.keys(controls).forEach(function (key) {
-        var control = controls[key];
-
-        control.$submitted = state.$submitted;
-
-        if (control.$dirty) {
-          isDirty = true;
-        }
-        if (control.$touched) {
-          isTouched = true;
-        }
-        if (control.$focused) {
-          isFocused = true;
-        }
-        if (control.$pending) {
-          isPending = true;
-        }
-        if (!control.$valid) {
-          isValid = false;
-          // add control to errors
-          _this2.$set(state.$error, control.$name, control);
-        } else {
-          _this2.$delete(state.$error, control.$name);
-        }
-      });
-
-      state.$dirty = isDirty;
-      state.$pristine = !isDirty;
-      state.$touched = isTouched;
-      state.$untouched = !isTouched;
-      state.$focused = isFocused;
-      state.$valid = isValid;
-      state.$invalid = !isValid;
-      state.$pending = isPending;
-    }, {
-      deep: true,
-      immediate: true
-    });
-
-    /* watch pristine? if set to true, set all children to pristine
-    Object.keys(controls).forEach((ctrl) => {
-      controls[ctrl].setPristine();
-    });*/
-  },
-
-  computed: {
-    className: function className() {
-      var classes = getClasses(this.vueFormConfig.formClasses, this.state);
-      return classes;
-    }
-  },
-  methods: {
-    reset: function reset() {
-      this.state._reset();
-    },
-    validate: function validate() {
-      this.state._validate();
-    }
-  }
-};
-
-var commonjsGlobal = typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};
-
-
-
-
-
-function createCommonjsModule(fn, module) {
-	return module = { exports: {} }, fn(module, module.exports), module.exports;
-}
-
-var scope_eval = createCommonjsModule(function (module) {
-// Generated by CoffeeScript 1.10.0
-(function() {
-  var hasProp = {}.hasOwnProperty,
-    slice = [].slice;
-
-  module.exports = function(source, scope) {
-    var key, keys, value, values;
-    keys = [];
-    values = [];
-    for (key in scope) {
-      if (!hasProp.call(scope, key)) continue;
-      value = scope[key];
-      if (key === 'this') {
-        continue;
-      }
-      keys.push(key);
-      values.push(value);
-    }
-    return Function.apply(null, slice.call(keys).concat(["return eval(" + (JSON.stringify(source)) + ")"])).apply(scope["this"], values);
-  };
-
-}).call(commonjsGlobal);
-});
-
-function findLabel(nodes) {
-  if (!nodes) {
-    return;
-  }
-  for (var i = 0; i < nodes.length; i++) {
-    var vnode = nodes[i];
-    if (vnode.tag === 'label') {
-      return nodes[i];
-    } else if (nodes[i].children) {
-      return findLabel(nodes[i].children);
-    }
-  }
-}
-
-var messages = {
-  inject: { vueFormConfig: vueFormConfig, vueFormState: vueFormState, vueFormParentForm: vueFormParentForm },
-  render: function render(h) {
-    var _this = this;
-
-    var children = [];
-    var field = this.formstate[this.fieldname];
-    if (field && field.$error && this.isShown) {
-      Object.keys(field.$error).forEach(function (key) {
-        if (_this.$slots[key] || _this.$scopedSlots[key]) {
-          var out = _this.$slots[key] || _this.$scopedSlots[key](field);
-          if (_this.autoLabel) {
-            var label = findLabel(out);
-            if (label) {
-              label.data = label.data || {};
-              label.data.attrs = label.data.attrs || {};
-              label.data.attrs.for = field._id;
-            }
-          }
-          children.push(out);
-        }
-      });
-      if (!children.length && field.$valid) {
-        if (this.$slots.default || this.$scopedSlots.default) {
-          var out = this.$slots.default || this.$scopedSlots.default(field);
-          if (this.autoLabel) {
-            var label = findLabel(out);
-            if (label) {
-              label.data = label.data || {};
-              label.data.attrs = label.data.attrs || {};
-              label.data.attrs.for = field._id;
-            }
-          }
-          children.push(out);
-        }
-      }
-    }
-    return h(this.tag || this.vueFormConfig.messagesTag, children);
-  },
-
-  props: {
-    state: Object,
-    name: String,
-    show: {
-      type: String,
-      default: ''
-    },
-    tag: {
-      type: String
-    },
-    autoLabel: Boolean
-  },
-  data: function data() {
-    return {
-      formstate: null,
-      fieldname: ''
-    };
-  },
-  created: function created() {
-    this.fieldname = this.name;
-    this.formstate = this.state || this.vueFormState;
-  },
-
-  computed: {
-    isShown: function isShown() {
-      var field = this.formstate[this.fieldname];
-      var show = this.show || this.vueFormParentForm.showMessages || this.vueFormConfig.showMessages;
-
-      if (!show || !field) {
-        return true;
-      }
-
-      return scope_eval(show, field);
-    }
-  }
-};
-
-var validate = {
-  render: function render(h) {
-    var _this = this;
-
-    var foundVnodes = getVModelAndLabel(this.$slots.default, this.vueFormConfig);
-    var vModelnodes = foundVnodes.vModel;
-    var attrs = {
-      for: null
-    };
-    if (vModelnodes.length) {
-      this.name = getName(vModelnodes[0]);
-
-      if (foundVnodes.messages) {
-        this.$nextTick(function () {
-          var messagesVm = foundVnodes.messages.componentInstance;
-          if (messagesVm) {
-            messagesVm.fieldname = messagesVm.fieldname || _this.name;
-          }
-        });
-      }
-
-      if (this.autoLabel) {
-        var id = vModelnodes[0].data.attrs.id || this.fieldstate._id;
-        this.fieldstate._id = id;
-        vModelnodes[0].data.attrs.id = id;
-        if (foundVnodes.label) {
-          foundVnodes.label.data = foundVnodes.label.data || {};
-          foundVnodes.label.data.attrs = foundVnodes.label.data.attrs || {};
-          foundVnodes.label.data.attrs.for = id;
-        } else if (this.tag === 'label') {
-          attrs.for = id;
-        }
-      }
-      vModelnodes.forEach(function (vnode) {
-        if (!vnode.data.directives) {
-          vnode.data.directives = [];
-        }
-        vnode.data.directives.push({ name: 'vue-form-validator', value: { fieldstate: _this.fieldstate, config: _this.vueFormConfig } });
-        vnode.data.attrs['vue-form-validator'] = '';
-        vnode.data.attrs['debounce'] = _this.debounce;
-      });
-    } else {
-      //console.warn('Element with v-model not found');
-    }
-    return h(this.tag || this.vueFormConfig.validateTag, { 'class': this.className, attrs: attrs }, this.$slots.default);
-  },
-
-  props: {
-    state: Object,
-    custom: null,
-    autoLabel: Boolean,
-    tag: {
-      type: String
-    },
-    debounce: Number
-  },
-  inject: { vueFormConfig: vueFormConfig, vueFormState: vueFormState, vueFormParentForm: vueFormParentForm },
-  data: function data() {
-    return {
-      name: '',
-      formstate: null,
-      fieldstate: {}
-    };
-  },
-
-  methods: {
-    getClasses: function getClasses$$1(classConfig) {
-      var s = this.fieldstate;
-      return Object.keys(s.$error).reduce(function (classes, error) {
-        classes[classConfig.invalid + '-' + hyphenate(error)] = true;
-        return classes;
-      }, getClasses(classConfig, s));
-    }
-  },
-  computed: {
-    className: function className() {
-      return this.getClasses(this.vueFormConfig.validateClasses);
-    },
-    inputClassName: function inputClassName() {
-      return this.getClasses(this.vueFormConfig.inputClasses);
-    }
-  },
-  mounted: function mounted() {
-    var _this2 = this;
-
-    this.fieldstate.$name = this.name;
-    this.formstate._addControl(this.fieldstate);
-
-    var vModelEls = this.$el.querySelectorAll('[vue-form-validator]');
-
-    // add classes to the input element
-    this.$watch('inputClassName', function (value, oldValue) {
-      var out = void 0;
-
-      var _loop = function _loop(i, el) {
-        if (oldValue) {
-          Object.keys(oldValue).filter(function (k) {
-            return oldValue[k];
-          }).forEach(function (k) {
-            return removeClass(el, k);
-          });
-        }
-        out = [];
-        Object.keys(value).filter(function (k) {
-          return value[k];
-        }).forEach(function (k) {
-          out.push(k);
-          addClass(el, k);
-        });
-      };
-
-      for (var i = 0, el; el = vModelEls[i++];) {
-        _loop(i, el);
-      }
-      _this2.fieldstate._className = out;
-    }, {
-      deep: true,
-      immediate: true
-    });
-  },
-  created: function created() {
-    var _this4 = this;
-
-    this.formstate = this.state || this.vueFormState;
-    var vm = this;
-    var pendingValidators = [];
-    var _val = void 0;
-    var prevVnode = void 0;
-    this.fieldstate = {
-      $name: '',
-      $dirty: false,
-      $pristine: true,
-      $valid: true,
-      $invalid: false,
-      $touched: false,
-      $untouched: true,
-      $focused: false,
-      $pending: false,
-      $submitted: false,
-      $error: {},
-      $attrs: {},
-      _className: null,
-      _id: 'vf' + randomId(),
-      _setValidatorVadility: function _setValidatorVadility(validator, isValid) {
-        if (isValid) {
-          vm.$delete(this.$error, validator);
-        } else {
-          vm.$set(this.$error, validator, true);
-        }
-      },
-      _setValidity: function _setValidity(isValid) {
-        this.$valid = isValid;
-        this.$invalid = !isValid;
-      },
-      _setDirty: function _setDirty() {
-        this.$dirty = true;
-        this.$pristine = false;
-      },
-      _setPristine: function _setPristine() {
-        this.$dirty = false;
-        this.$pristine = true;
-      },
-      _setTouched: function _setTouched() {
-        this.$touched = true;
-        this.$untouched = false;
-      },
-      _setUntouched: function _setUntouched() {
-        this.$touched = false;
-        this.$untouched = true;
-      },
-      _setFocused: function _setFocused(value) {
-        this.$focused = typeof value === 'boolean' ? value : false;
-        if (this.$focused) {
-          this._setHasFocused();
-        } else {
-          this._setTouched();
-        }
-      },
-      _setHasFocused: function _setHasFocused() {
-        this._hasFocused = true;
-      },
-
-      _hasFocused: false,
-      _validators: {},
-      _validate: function _validate(vnode) {
-        var _this3 = this;
-
-        if (!vnode) {
-          vnode = prevVnode;
-        } else {
-          prevVnode = vnode;
-        }
-        this.$pending = true;
-        var isValid = true;
-        var emptyAndRequired = false;
-        var value = vModelValue(vnode.data);
-        _val = value;
-
-        var pending = {
-          promises: [],
-          names: []
-        };
-
-        pendingValidators.push(pending);
-
-        var attrs = vnode.data.attrs || {};
-        var childvm = vnode.componentInstance;
-        if (childvm && childvm._vfValidationData_) {
-          attrs = extend({}, attrs, childvm._vfValidationData_);
-        }
-
-        var propsData = vnode.componentOptions && vnode.componentOptions.propsData ? vnode.componentOptions.propsData : {};
-
-        Object.keys(this._validators).forEach(function (validator) {
-          // when value is empty and current validator is not the required validator, the field is valid
-          if ((value === '' || value === undefined || value === null) && validator !== 'required') {
-            _this3._setValidatorVadility(validator, true);
-            emptyAndRequired = true;
-            // return early, required validator will
-            // fall through if it is present
-            return;
-          }
-
-          var attrValue = typeof attrs[validator] !== 'undefined' ? attrs[validator] : propsData[validator];
-          var isFunction = typeof _this3._validators[validator] === 'function';
-
-          // match vue behaviour, ignore if attribute is null or undefined. But for type=email|url|number and custom validators, the value will be null, so allow with _allowNulls
-          if (isFunction && (attrValue === null || typeof attrValue === 'undefined') && !_this3._validators[validator]._allowNulls) {
-            return;
-          }
-
-          if (attrValue) {
-            _this3.$attrs[validator] = attrValue;
-          }
-
-          var result = isFunction ? _this3._validators[validator](value, attrValue, vnode) : vm.custom[validator];
-
-          if (typeof result === 'boolean') {
-            if (result) {
-              _this3._setValidatorVadility(validator, true);
-            } else {
-              isValid = false;
-              _this3._setValidatorVadility(validator, false);
-            }
-          } else {
-            pending.promises.push(result);
-            pending.names.push(validator);
-            vm.vueFormParentForm.promises.push(result);
-          }
-        });
-
-        if (pending.promises.length) {
-          vm.vueFormConfig.Promise.all(pending.promises).then(function (results) {
-
-            // only concerned with the last promise results, in case
-            // async responses return out of order
-            if (pending !== pendingValidators[pendingValidators.length - 1]) {
-              //console.log('ignoring old promise', pending.promises);
-              return;
-            }
-
-            pendingValidators = [];
-
-            results.forEach(function (result, i) {
-              var name = pending.names[i];
-              if (result) {
-                _this3._setValidatorVadility(name, true);
-              } else {
-                isValid = false;
-                _this3._setValidatorVadility(name, false);
-              }
-            });
-            _this3._setValidity(isValid);
-            _this3.$pending = false;
-          });
-        } else {
-          this._setValidity(isValid);
-          this.$pending = false;
-        }
-      }
-    };
-
-    // add custom validators
-    if (this.custom) {
-      Object.keys(this.custom).forEach(function (prop) {
-        if (typeof _this4.custom[prop] === 'function') {
-          _this4.custom[prop]._allowNulls = true;
-          _this4.fieldstate._validators[prop] = _this4.custom[prop];
-        } else {
-          _this4.fieldstate._validators[prop] = _this4.custom[prop];
-        }
-      });
-    }
-
-    this.$watch('custom', function (v, oldV) {
-      if (!oldV) {
-        return;
-      }
-      if (isShallowObjectDifferent(v, oldV)) {
-        _this4.fieldstate._validate();
-      }
-    }, {
-      deep: true
-    });
-  },
-  destroyed: function destroyed() {
-    this.formstate._removeControl(this.fieldstate);
-  }
-};
-
-var field = {
-  inject: { vueFormConfig: vueFormConfig },
-  render: function render(h) {
-    var foundVnodes = getVModelAndLabel(this.$slots.default, this.vueFormConfig);
-    var vModelnodes = foundVnodes.vModel;
-    var attrs = {
-      for: null
-    };
-    if (vModelnodes.length) {
-      if (this.autoLabel) {
-        var id = vModelnodes[0].data.attrs && vModelnodes[0].data.attrs.id || 'vf' + randomId();
-        vModelnodes[0].data.attrs.id = id;
-        if (foundVnodes.label) {
-          foundVnodes.label.data = foundVnodes.label.data || {};
-          foundVnodes.label.data.attrs = foundVnodes.label.data.attrs = {};
-          foundVnodes.label.data.attrs.for = id;
-        } else if (this.tag === 'label') {
-          attrs.for = id;
-        }
-      }
-    }
-    return h(this.tag || this.vueFormConfig.fieldTag, { attrs: attrs }, this.$slots.default);
-  },
-
-  props: {
-    tag: {
-      type: String
-    },
-    autoLabel: {
-      type: Boolean,
-      default: true
-    }
-  }
-};
-
-var debouncedValidators = {};
-
-function addValidators(attrs, validators, fieldValidators) {
-  Object.keys(attrs).forEach(function (attr) {
-    var prop = attr === 'type' ? attrs[attr].toLowerCase() : attr.toLowerCase();
-
-    if (validators[prop] && !fieldValidators[prop]) {
-      fieldValidators[prop] = validators[prop];
-    }
-  });
-}
-
-function compareChanges(vnode, oldvnode, validators) {
-
-  var hasChanged = false;
-  var attrs = vnode.data.attrs || {};
-  var oldAttrs = oldvnode.data.attrs || {};
-  var out = {};
-
-  if (vModelValue(vnode.data) !== vModelValue(oldvnode.data)) {
-    out.vModel = true;
-    hasChanged = true;
-  }
-
-  Object.keys(validators).forEach(function (validator) {
-    if (attrs[validator] !== oldAttrs[validator]) {
-      out[validator] = true;
-      hasChanged = true;
-    }
-  });
-
-  // if is a component
-  if (vnode.componentOptions && vnode.componentOptions.propsData) {
-    var _attrs = vnode.componentOptions.propsData;
-    var _oldAttrs = oldvnode.componentOptions.propsData;
-    Object.keys(validators).forEach(function (validator) {
-      if (_attrs[validator] !== _oldAttrs[validator]) {
-        out[validator] = true;
-        hasChanged = true;
-      }
-    });
-  }
-
-  if (hasChanged) {
-    return out;
-  }
-}
-
-var vueFormValidator = {
-  name: 'vue-form-validator',
-  bind: function bind(el, binding, vnode) {
-    var fieldstate = binding.value.fieldstate;
-    var validators = binding.value.config.validators;
-
-    var attrs = vnode.data.attrs || {};
-    var inputName = getName(vnode);
-
-    if (!inputName) {
-      console.warn('vue-form: name attribute missing');
-      return;
-    }
-
-    if (attrs.debounce) {
-      debouncedValidators[fieldstate._id] = debounce(function (fieldstate, vnode) {
-        if (fieldstate._hasFocused) {
-          fieldstate._setDirty();
-        }
-        fieldstate._validate(vnode);
-      }, attrs.debounce);
-    }
-
-    // add validators
-    addValidators(attrs, validators, fieldstate._validators);
-
-    // if is a component, a validator attribute could be a prop this component uses
-    if (vnode.componentOptions && vnode.componentOptions.propsData) {
-      addValidators(vnode.componentOptions.propsData, validators, fieldstate._validators);
-    }
-
-    fieldstate._validate(vnode);
-
-    // native listeners
-    el.addEventListener('blur', function () {
-      fieldstate._setFocused(false);
-    }, false);
-    el.addEventListener('focus', function () {
-      fieldstate._setFocused(true);
-    }, false);
-
-    // component listeners
-    var vm = vnode.componentInstance;
-    if (vm) {
-      vm.$on('blur', function () {
-        fieldstate._setFocused(false);
-      });
-      vm.$on('focus', function () {
-        fieldstate._setFocused(true);
-      });
-
-      vm.$once('vf:addFocusListeners', function () {
-        el.addEventListener('focusout', function () {
-          fieldstate._setFocused(false);
-        }, false);
-        el.addEventListener('focusin', function () {
-          fieldstate._setFocused(true);
-        }, false);
-      });
-
-      vm.$on('vf:validate', function (data) {
-        if (!vm._vfValidationData_) {
-          addValidators(data, validators, fieldstate._validators);
-        }
-        vm._vfValidationData_ = data;
-        fieldstate._validate(vm.$vnode);
-      });
-    }
-  },
-  update: function update(el, binding, vnode, oldVNode) {
-    var validators = binding.value.config.validators;
-
-    var changes = compareChanges(vnode, oldVNode, validators);
-    var fieldstate = binding.value.fieldstate;
-
-
-    var attrs = vnode.data.attrs || {};
-    var vm = vnode.componentInstance;
-    if (vm && vm._vfValidationData_) {
-      attrs = extend({}, attrs, vm[vm._vfValidationData_]);
-    }
-
-    if (vnode.elm.className.indexOf(fieldstate._className[0]) === -1) {
-      vnode.elm.className = vnode.elm.className + ' ' + fieldstate._className.join(' ');
-    }
-
-    if (!changes) {
-      return;
-    }
-
-    if (changes.vModel) {
-      // re-validate all
-      if (attrs.debounce) {
-        fieldstate.$pending = true;
-        debouncedValidators[fieldstate._id](fieldstate, vnode);
-      } else {
-        if (fieldstate._hasFocused) {
-          fieldstate._setDirty();
-        }
-        fieldstate._validate(vnode);
-      }
-    } else {
-      // attributes have changed
-      // to do: loop through them and re-validate changed ones
-      //for(let prop in changes) {
-      //  fieldstate._validate(vnode, validator);
-      //}
-      // for now
-      fieldstate._validate(vnode);
-    }
-  }
-};
-
-function VueFormBase(options) {
-  var _components;
-
-  var c = extend(true, {}, config, options);
-  this.provide = function () {
-    return defineProperty({}, vueFormConfig, c);
-  };
-  this.components = (_components = {}, defineProperty(_components, c.formComponent, vueForm), defineProperty(_components, c.messagesComponent, messages), defineProperty(_components, c.validateComponent, validate), defineProperty(_components, c.fieldComponent, field), _components);
-  this.directives = { vueFormValidator: vueFormValidator };
-}
-
-var VueForm = function (_VueFormBase) {
-  inherits(VueForm, _VueFormBase);
-
-  function VueForm() {
-    classCallCheck(this, VueForm);
-    return possibleConstructorReturn(this, (VueForm.__proto__ || Object.getPrototypeOf(VueForm)).apply(this, arguments));
-  }
-
-  createClass(VueForm, null, [{
-    key: 'install',
-    value: function install(Vue, options) {
-      Vue.mixin(new this(options));
-    }
-  }, {
-    key: 'installed',
-    get: function get$$1() {
-      return !!this.install.done;
-    },
-    set: function set$$1(val) {
-      this.install.done = val;
-    }
-  }]);
-  return VueForm;
-}(VueFormBase);
-
-VueFormBase.call(VueForm);
-// temp fix for vue 2.3.0
-VueForm.options = new VueForm();
-
-return VueForm;
-
-})));
-
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(28)))
-
-/***/ }),
-
-/***/ 781:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-var options = {
-    validators: {
-        checkbox: function checkbox(value, attrValue, vnode) {
-            // return true to set input as $valid, false to set as $invalid
-            return value;
-        },
-        sameas: function sameas(value, attrValue, vnode) {
-            return value == attrValue;
-        }
-    }
-};
-
-/* harmony default export */ __webpack_exports__["a"] = (options);
 
 /***/ })
 

@@ -288,8 +288,8 @@ const layout = [{
     }
 }, {
     path: 'tasks',
-        component: resolve => require(['pages/tasks'], resolve),
-        meta: {
+    component: resolve => require(['pages/tasks'], resolve),
+    meta: {
         title: "tasks",
     }
 }, {
@@ -297,6 +297,30 @@ const layout = [{
     component: resolve => require(['pages/testtwo'], resolve),
     meta: {
         title: "Test Page 2",
+    }
+},  {
+    path: '/user-profiles',
+    component: resolve => require(['pages/admin/user-profiles'], resolve),
+    meta: {
+        title: "User Profiles",
+    }
+}, {
+    path: '/assign-game',
+    component: resolve => require(['pages/assigner/assign-game'], resolve),
+    meta: {
+        title: "Assign Game",
+    }
+}, {
+    path: '/create-game',
+    component: resolve => require(['pages/creator/create-game'], resolve),
+    meta: {
+        title: "Create Game",
+    }
+}, {
+    path: '/play-game',
+    component: resolve => require(['pages/player/play-game'], resolve),
+    meta: {
+        title: "Play Game",
     }
     }]
 

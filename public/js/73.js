@@ -1,12 +1,12 @@
 webpackJsonp([73],{
 
-/***/ 1574:
+/***/ 1580:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(1575);
+var content = __webpack_require__(1581);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -27,7 +27,7 @@ if(false) {
 
 /***/ }),
 
-/***/ 1575:
+/***/ 1581:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(49)(false);
@@ -42,12 +42,12 @@ exports.push([module.i, "\n.profile[data-v-62fb561f] {\n    padding-bottom: 15px
 
 /***/ }),
 
-/***/ 1576:
+/***/ 1582:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_components_plugins_scroll_vScroll_vue__ = __webpack_require__(792);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_components_plugins_scroll_vScroll_vue__ = __webpack_require__(793);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_components_plugins_scroll_vScroll_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_components_plugins_scroll_vScroll_vue__);
 //
 //
@@ -370,7 +370,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /***/ }),
 
-/***/ 1577:
+/***/ 1583:
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -693,7 +693,7 @@ var render = function() {
                                 _c("img", {
                                   staticClass: "rounded-circle",
                                   attrs: {
-                                    src: __webpack_require__(771),
+                                    src: __webpack_require__(770),
                                     alt: "User Image"
                                   }
                                 }),
@@ -801,7 +801,7 @@ var render = function() {
                                 _c("img", {
                                   staticClass: "rounded-circle",
                                   attrs: {
-                                    src: __webpack_require__(775),
+                                    src: __webpack_require__(773),
                                     alt: "User Image"
                                   }
                                 }),
@@ -855,7 +855,7 @@ var render = function() {
                                 _c("img", {
                                   staticClass: "rounded-circle",
                                   attrs: {
-                                    src: __webpack_require__(787),
+                                    src: __webpack_require__(781),
                                     alt: "User Image"
                                   }
                                 }),
@@ -1017,7 +1017,7 @@ var render = function() {
                                 _c("img", {
                                   staticClass: "rounded-circle",
                                   attrs: {
-                                    src: __webpack_require__(771),
+                                    src: __webpack_require__(770),
                                     alt: "User Image"
                                   }
                                 }),
@@ -1071,7 +1071,7 @@ var render = function() {
                                 _c("img", {
                                   staticClass: "rounded-circle",
                                   attrs: {
-                                    src: __webpack_require__(775),
+                                    src: __webpack_require__(773),
                                     alt: "User Image"
                                   }
                                 }),
@@ -1125,7 +1125,7 @@ var render = function() {
                                 _c("img", {
                                   staticClass: "rounded-circle",
                                   attrs: {
-                                    src: __webpack_require__(787),
+                                    src: __webpack_require__(781),
                                     alt: "User Image"
                                   }
                                 }),
@@ -1227,7 +1227,7 @@ var render = function() {
                             _c("img", {
                               staticClass: "sharedpost-image img-fluid",
                               attrs: {
-                                src: __webpack_require__(1578),
+                                src: __webpack_require__(1584),
                                 alt: "blog image2"
                               }
                             })
@@ -1307,7 +1307,7 @@ var render = function() {
                         _c("img", {
                           staticClass: "posted-image img-fluid",
                           attrs: {
-                            src: __webpack_require__(1579),
+                            src: __webpack_require__(1585),
                             alt: "blog image2"
                           }
                         })
@@ -1341,7 +1341,7 @@ var render = function() {
                               staticClass:
                                 "blog-image rounded-circle p-2 float-left",
                               attrs: {
-                                src: __webpack_require__(775),
+                                src: __webpack_require__(773),
                                 alt: "author image"
                               }
                             }),
@@ -1395,33 +1395,33 @@ if (false) {
 
 /***/ }),
 
-/***/ 1578:
+/***/ 1584:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/blog4.jpg?cda3db03063d238afda37f1d1069bde5";
 
 /***/ }),
 
-/***/ 1579:
+/***/ 1585:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/blog5.jpg?4540bbc47aca53104d50d1e66b2dd0b6";
 
 /***/ }),
 
-/***/ 749:
+/***/ 750:
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(1574)
+  __webpack_require__(1580)
 }
 var normalizeComponent = __webpack_require__(242)
 /* script */
-var __vue_script__ = __webpack_require__(1576)
+var __vue_script__ = __webpack_require__(1582)
 /* template */
-var __vue_template__ = __webpack_require__(1577)
+var __vue_template__ = __webpack_require__(1583)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -1468,28 +1468,28 @@ module.exports = "/vuejs-laravel/public/images/avatar3.jpg?7e593f7330076b4b89e96
 
 /***/ }),
 
-/***/ 771:
+/***/ 770:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/avatar2.jpg?2a26dff9723fa354fe9cb39a4f4529e6";
 
 /***/ }),
 
-/***/ 775:
+/***/ 773:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/avatar4.jpg?25bf7926d4f4c50c95e027395f7019f6";
 
 /***/ }),
 
-/***/ 787:
+/***/ 781:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/avatar5.jpg?83fc5fdfbe37fb37db7a2fe84cca6d6d";
 
 /***/ }),
 
-/***/ 792:
+/***/ 793:
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false

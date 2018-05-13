@@ -1,22 +1,22 @@
 webpackJsonp([35],{
 
-/***/ 1312:
+/***/ 1576:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(1313);
+var content = __webpack_require__(1577);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(92)("790c9810", content, false, {});
+var update = __webpack_require__(92)("b0ff00cc", content, false, {});
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-5e99c4c8\",\"scoped\":false,\"hasInlineConfig\":true}!./wenk.css", function() {
-     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-5e99c4c8\",\"scoped\":false,\"hasInlineConfig\":true}!./wenk.css");
+   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-150399ec\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./vue-dropzone.vue", function() {
+     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-150399ec\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./vue-dropzone.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -27,7 +27,7 @@ if(false) {
 
 /***/ }),
 
-/***/ 1313:
+/***/ 1577:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(49)(false);
@@ -35,343 +35,57 @@ exports = module.exports = __webpack_require__(49)(false);
 
 
 // module
-exports.push([module.i, "\n[data-wenk]{position:relative\n}\n[data-wenk]:after{position:absolute;font-size:13px;border-radius:.4rem;content:attr(data-wenk);padding:.8rem;background-color:hsla(0,0%,7%,.8);-webkit-box-shadow:0 0 14px rgba(0,0,0,.1);box-shadow:0 0 14px rgba(0,0,0,.1);color:#fff;line-height:20px;line-height:1.25rem;text-align:left;z-index:1;pointer-events:none;display:block;opacity:0;visibility:hidden;-webkit-transition:all .3s;transition:all .3s;bottom:100%;left:50%;-webkit-transform:translate(-50%,10px);transform:translate(-50%,10px);white-space:pre;width:auto\n}\n[data-wenk]:hover{overflow:visible\n}\n[data-wenk]:hover:after{display:block;opacity:1;visibility:visible;-webkit-transform:translate(-50%,-10px);transform:translate(-50%,-10px)\n}\n[data-wenk].wenk--bottom:after,[data-wenk][data-wenk-pos=bottom]:after{bottom:auto;top:100%;left:50%;-webkit-transform:translate(-50%,-10px);transform:translate(-50%,-10px)\n}\n[data-wenk].wenk--bottom:hover:after,[data-wenk][data-wenk-pos=bottom]:hover:after{-webkit-transform:translate(-50%,10px);transform:translate(-50%,10px)\n}\n[data-wenk].wenk--left:after,[data-wenk][data-wenk-pos=left]:after{bottom:auto;left:auto;top:50%;right:100%;-webkit-transform:translate(10px,-50%);transform:translate(10px,-50%)\n}\n[data-wenk].wenk--left:hover:after,[data-wenk][data-wenk-pos=left]:hover:after{-webkit-transform:translate(-10px,-50%);transform:translate(-10px,-50%)\n}\n[data-wenk].wenk--right:after,[data-wenk][data-wenk-pos=right]:after{bottom:auto;top:50%;left:100%;-webkit-transform:translate(-10px,-50%);transform:translate(-10px,-50%)\n}\n[data-wenk].wenk--right:hover:after,[data-wenk][data-wenk-pos=right]:hover:after{-webkit-transform:translate(10px,-50%);transform:translate(10px,-50%)\n}\n[data-wenk].wenk-length--small:after,[data-wenk][data-wenk-length=small]:after{white-space:normal;width:80px\n}\n[data-wenk].wenk-length--medium:after,[data-wenk][data-wenk-length=medium]:after{white-space:normal;width:150px\n}\n[data-wenk].wenk-length--large:after,[data-wenk][data-wenk-length=large]:after{white-space:normal;width:260px\n}\n[data-wenk].wenk-length--fit:after,[data-wenk][data-wenk-length=fit]:after{white-space:normal;width:100%\n}\n[data-wenk].wenk-align--right:after,[data-wenk][data-wenk-align=right]:after{text-align:right\n}\n[data-wenk].wenk-align--center:after,[data-wenk][data-wenk-align=center]:after{text-align:center\n}\n[data-wenk=\"\"]:after{visibility:hidden!important\n}", ""]);
+exports.push([module.i, "\n.dz-progress[data-v-150399ec]{\n       background-color: #08aa80 !important;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ 1314:
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(1315);
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add the styles to the DOM
-var update = __webpack_require__(92)("3aa1b9f8", content, false, {});
-// Hot Module Replacement
-if(false) {
- // When the styles change, update the <style> tags
- if(!content.locals) {
-   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-5e99c4c8\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=1!./ui_elements.vue", function() {
-     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-5e99c4c8\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=1!./ui_elements.vue");
-     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-     update(newContent);
-   });
- }
- // When the module is disposed, remove the <style> tags
- module.hot.dispose(function() { update(); });
-}
-
-/***/ }),
-
-/***/ 1315:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(49)(false);
-// imports
-
-
-// module
-exports.push([module.i, "\n.wenkborder[data-v-5e99c4c8] {\n    border: 1px solid #ccc;\n    padding: 3px 12px;\n    border-radius: 3px;\n    display: inline-block;\n    cursor: default;\n}\n[data-v-5e99c4c8].ui_font_family .overlay{\n    overflow-x: overlay;\n}\n", ""]);
-
-// exports
-
-
-/***/ }),
-
-/***/ 1316:
+/***/ 1578:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue2_dropzone__ = __webpack_require__(251);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue2_dropzone___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue2_dropzone__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue2_dropzone_dist_vue2Dropzone_css__ = __webpack_require__(820);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue2_dropzone_dist_vue2Dropzone_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_vue2_dropzone_dist_vue2Dropzone_css__);
 //
 //
 //
 //
 //
 
+
+
 /* harmony default export */ __webpack_exports__["default"] = ({
+    name: 'vue2-dropzone',
+    components: {
+        vueDropzone: __WEBPACK_IMPORTED_MODULE_0_vue2_dropzone___default.a
+    },
     data: function data() {
         return {
-            placements: ['top', 'right', 'left', 'bottom'],
-            color: ['primary', 'danger', 'success', 'warning'],
-            currentPage: 2,
-            currentPage2: 4,
-            currentpage3: 5,
-            items1: [{
-                text: 'Home',
-                link: '#'
-            }, {
-                text: 'Manage',
-                link: '#'
-            }, {
-                text: 'picker',
-                active: true
-            }],
-            items2: [{
-                text: 'Dashboard',
-                link: '#'
-            }, {
-                text: 'Tables',
-                link: '#'
-            }, {
-                text: 'Data tables',
-                active: true
-            }],
-            items3: [{
-                text: 'Dashboard',
-                link: '#'
-            }, {
-                text: 'Charts',
-                link: '#'
-            }, {
-                text: 'Float Charts',
-                active: true
-            }],
-            progress1counter1: 10,
-            progress1counter2: 30,
-            progress1counter3: 45,
-            progress1counter4: 50,
-            progress1counter5: 80,
-            progress2counter1: 20,
-            progress2counter2: 40,
-            progress2counter3: 60,
-            progress2counter4: 75,
-            progress2counter5: 90,
-            showDismissibleAlert: true
+            dropzoneOptions: {
+                url: 'https://httpbin.org/post',
+                thumbnailWidth: 150,
+                // maxFilesize: 0.5,
+                maxFiles: 3,
+                headers: { "My-Awesome-Header": "header value" }
+            }
         };
     },
 
-    methods: {}
-
+    methods: {
+        uploaded: function uploaded() {
+            console.log('File successfully uploaded');
+        }
+    }
 });
 
 /***/ }),
 
-/***/ 1317:
+/***/ 1579:
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -380,1074 +94,12 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    { staticClass: "ui_font_family" },
     [
-      _c("div", { staticClass: "row" }, [
-        _c(
-          "div",
-          { staticClass: "col-lg-6" },
-          [
-            _c(
-              "b-card",
-              {
-                staticClass: "bg-info-card",
-                attrs: { header: "Breadcrumb", "header-tag": "h4" }
-              },
-              [
-                _c("b-breadcrumb", {
-                  staticClass: "breadcrumb1",
-                  attrs: { items: _vm.items1 }
-                }),
-                _vm._v(" "),
-                _c("b-breadcrumb", {
-                  staticClass: "breadcrumb2",
-                  attrs: { items: _vm.items2 }
-                }),
-                _vm._v(" "),
-                _c("b-breadcrumb", {
-                  staticClass: "breadcrumb3",
-                  attrs: { items: _vm.items3 }
-                })
-              ],
-              1
-            )
-          ],
-          1
-        ),
-        _vm._v(" "),
-        _c(
-          "div",
-          { staticClass: "col-lg-6" },
-          [
-            _c(
-              "b-card",
-              {
-                staticClass: "bg-warning-card",
-                attrs: { header: "Pagination", "header-tag": "h4" }
-              },
-              [
-                _c("b-pagination", {
-                  attrs: { size: "sm", "total-rows": 100, "per-page": 10 },
-                  model: {
-                    value: _vm.currentPage,
-                    callback: function($$v) {
-                      _vm.currentPage = $$v
-                    },
-                    expression: "currentPage"
-                  }
-                }),
-                _vm._v(" "),
-                _c("b-pagination", {
-                  staticClass: "mt-4",
-                  attrs: {
-                    size: "md",
-                    "total-rows": 100,
-                    variant: "primary",
-                    "secondary-variant": "success",
-                    "per-page": 10
-                  },
-                  model: {
-                    value: _vm.currentPage2,
-                    callback: function($$v) {
-                      _vm.currentPage2 = $$v
-                    },
-                    expression: "currentPage2"
-                  }
-                }),
-                _vm._v(" "),
-                _c("b-pagination", {
-                  staticClass: "mt-4 overlay",
-                  attrs: { size: "lg", "total-rows": 100, "per-page": 5 },
-                  model: {
-                    value: _vm.currentpage3,
-                    callback: function($$v) {
-                      _vm.currentpage3 = $$v
-                    },
-                    expression: "currentpage3"
-                  }
-                }),
-                _vm._v(" "),
-                _c("br")
-              ],
-              1
-            )
-          ],
-          1
-        )
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "row" }, [
-        _c(
-          "div",
-          { staticClass: "col-lg-12" },
-          [
-            _c(
-              "b-card",
-              {
-                staticClass: "bg-success-card",
-                attrs: { header: "Wenk Tool Tips", "header-tag": "h4" }
-              },
-              [
-                _c("div", { staticClass: "row" }, [
-                  _c("div", { staticClass: "col-lg-4 text-center" }, [
-                    _c("h4", [_vm._v("Tool tips different positions!")]),
-                    _vm._v(" "),
-                    _c("p", [
-                      _c(
-                        "span",
-                        {
-                          staticClass: "wenkborder mt-3",
-                          attrs: { "data-wenk": "Top" }
-                        },
-                        [_vm._v("Tool tip to the top!")]
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("p", [
-                      _c(
-                        "span",
-                        {
-                          staticClass: "wenkborder",
-                          attrs: {
-                            "data-wenk": "Right",
-                            "data-wenk-pos": "right"
-                          }
-                        },
-                        [_vm._v("Tool tip right")]
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("p", [
-                      _c(
-                        "span",
-                        {
-                          staticClass: "wenkborder",
-                          attrs: {
-                            "data-wenk": "Left",
-                            "data-wenk-pos": "left"
-                          }
-                        },
-                        [_vm._v("Tool tip  to the left!")]
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("p", [
-                      _c(
-                        "span",
-                        {
-                          staticClass: "wenkborder",
-                          attrs: {
-                            "data-wenk": " Bottom",
-                            "data-wenk-pos": "bottom"
-                          }
-                        },
-                        [_vm._v("Tool tip to the bottom!")]
-                      )
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "col-lg-4 text-center" }, [
-                    _c("h4", [_vm._v("Tool tips different widths!")]),
-                    _vm._v(" "),
-                    _c("p", [
-                      _c(
-                        "span",
-                        {
-                          staticClass: "wenk-length--small wenkborder mt-3",
-                          attrs: { "data-wenk": "I'm small!" }
-                        },
-                        [_vm._v("Small Tool Tip!")]
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("p", [
-                      _c(
-                        "span",
-                        {
-                          staticClass: "wenk-length--medium wenkborder",
-                          attrs: { "data-wenk": "I'm medium!" }
-                        },
-                        [_vm._v("Medium Tool Tip!")]
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("p", [
-                      _c(
-                        "span",
-                        {
-                          staticClass: "wenk-length--large wenkborder",
-                          attrs: { "data-wenk": "I'm large!" }
-                        },
-                        [_vm._v("Large Tool Tip!")]
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("p", [
-                      _c(
-                        "span",
-                        {
-                          staticClass: "wenk-length--fit wenkborder",
-                          attrs: { "data-wenk": "I fit!" }
-                        },
-                        [_vm._v("I fit just right!")]
-                      )
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "col-lg-4 text-center" }, [
-                    _c("h4", [_vm._v("Tool tips  alignments!")]),
-                    _vm._v(" "),
-                    _c("p", [
-                      _c(
-                        "span",
-                        {
-                          staticClass:
-                            "wenk-align--left wenk-length--large wenkborder mt-3",
-                          attrs: { "data-wenk": "I'm left!" }
-                        },
-                        [_vm._v("Left Tool Tip!")]
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("p", [
-                      _c(
-                        "span",
-                        {
-                          staticClass:
-                            " wenk-align--right wenk-length--large wenkborder",
-                          attrs: { "data-wenk": "I'm right!" }
-                        },
-                        [_vm._v("Right Tool Tip!")]
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("p", [
-                      _c(
-                        "span",
-                        {
-                          staticClass:
-                            "wenk-align--center wenk-length--large wenkborder",
-                          attrs: { "data-wenk": "I'm center!" }
-                        },
-                        [_vm._v("Center Tool Tip!")]
-                      )
-                    ])
-                  ])
-                ])
-              ]
-            )
-          ],
-          1
-        )
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "row" }, [
-        _c(
-          "div",
-          { staticClass: "col-lg-6" },
-          [
-            _c(
-              "b-card",
-              {
-                staticClass: "bg-primary-card",
-                attrs: { header: "Progressbars", "header-tag": "h4" }
-              },
-              [
-                _c("b-progress", {
-                  staticClass: "mb-4",
-                  attrs: { variant: "primary", "hide-value": "" },
-                  model: {
-                    value: _vm.progress1counter1,
-                    callback: function($$v) {
-                      _vm.progress1counter1 = $$v
-                    },
-                    expression: "progress1counter1"
-                  }
-                }),
-                _vm._v(" "),
-                _c("b-progress", {
-                  staticClass: "mb-4",
-                  attrs: { variant: "info", "hide-value": "" },
-                  model: {
-                    value: _vm.progress1counter2,
-                    callback: function($$v) {
-                      _vm.progress1counter2 = $$v
-                    },
-                    expression: "progress1counter2"
-                  }
-                }),
-                _vm._v(" "),
-                _c("b-progress", {
-                  staticClass: "mb-4",
-                  attrs: { variant: "danger", "hide-value": "" },
-                  model: {
-                    value: _vm.progress1counter3,
-                    callback: function($$v) {
-                      _vm.progress1counter3 = $$v
-                    },
-                    expression: "progress1counter3"
-                  }
-                }),
-                _vm._v(" "),
-                _c("b-progress", {
-                  staticClass: "mb-4",
-                  attrs: { variant: "warning", "hide-value": "" },
-                  model: {
-                    value: _vm.progress1counter4,
-                    callback: function($$v) {
-                      _vm.progress1counter4 = $$v
-                    },
-                    expression: "progress1counter4"
-                  }
-                }),
-                _vm._v(" "),
-                _c("b-progress", {
-                  staticClass: "mb-4",
-                  attrs: { variant: "success", "hide-value": "" },
-                  model: {
-                    value: _vm.progress1counter5,
-                    callback: function($$v) {
-                      _vm.progress1counter5 = $$v
-                    },
-                    expression: "progress1counter5"
-                  }
-                })
-              ],
-              1
-            )
-          ],
-          1
-        ),
-        _vm._v(" "),
-        _c(
-          "div",
-          { staticClass: "col-lg-6" },
-          [
-            _c(
-              "b-card",
-              {
-                staticClass: "bg-info-card",
-                attrs: { header: "Progressbar With Labels", "header-tag": "h4" }
-              },
-              [
-                _c("b-progress", {
-                  staticClass: "mb-4",
-                  attrs: { variant: "primary", "show-value": "" },
-                  model: {
-                    value: _vm.progress1counter1,
-                    callback: function($$v) {
-                      _vm.progress1counter1 = $$v
-                    },
-                    expression: "progress1counter1"
-                  }
-                }),
-                _vm._v(" "),
-                _c("b-progress", {
-                  staticClass: "mb-4",
-                  attrs: { variant: "info", "show-value": "" },
-                  model: {
-                    value: _vm.progress1counter2,
-                    callback: function($$v) {
-                      _vm.progress1counter2 = $$v
-                    },
-                    expression: "progress1counter2"
-                  }
-                }),
-                _vm._v(" "),
-                _c("b-progress", {
-                  staticClass: "mb-4",
-                  attrs: { variant: "danger", "show-progress": "" },
-                  model: {
-                    value: _vm.progress1counter3,
-                    callback: function($$v) {
-                      _vm.progress1counter3 = $$v
-                    },
-                    expression: "progress1counter3"
-                  }
-                }),
-                _vm._v(" "),
-                _c("b-progress", {
-                  staticClass: "mb-4",
-                  attrs: { variant: "warning", "show-progress": "" },
-                  model: {
-                    value: _vm.progress1counter4,
-                    callback: function($$v) {
-                      _vm.progress1counter4 = $$v
-                    },
-                    expression: "progress1counter4"
-                  }
-                }),
-                _vm._v(" "),
-                _c("b-progress", {
-                  staticClass: "mb-4",
-                  attrs: { variant: "success", "show-progress": "" },
-                  model: {
-                    value: _vm.progress1counter5,
-                    callback: function($$v) {
-                      _vm.progress1counter5 = $$v
-                    },
-                    expression: "progress1counter5"
-                  }
-                })
-              ],
-              1
-            )
-          ],
-          1
-        )
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "row" }, [
-        _c(
-          "div",
-          { staticClass: "col-lg-6" },
-          [
-            _c(
-              "b-card",
-              {
-                staticClass: "bg-success-card",
-                attrs: { header: "Animated Progressbars", "header-tag": "h4" }
-              },
-              [
-                _c("b-progress", {
-                  staticClass: "mb-4",
-                  attrs: { variant: "primary", "hide-value": "", animated: "" },
-                  model: {
-                    value: _vm.progress2counter1,
-                    callback: function($$v) {
-                      _vm.progress2counter1 = $$v
-                    },
-                    expression: "progress2counter1"
-                  }
-                }),
-                _vm._v(" "),
-                _c("b-progress", {
-                  staticClass: "mb-4",
-                  attrs: { variant: "info", "hide-progress": "", animated: "" },
-                  model: {
-                    value: _vm.progress2counter2,
-                    callback: function($$v) {
-                      _vm.progress2counter2 = $$v
-                    },
-                    expression: "progress2counter2"
-                  }
-                }),
-                _vm._v(" "),
-                _c("b-progress", {
-                  staticClass: "mb-4",
-                  attrs: {
-                    variant: "danger",
-                    "hide-progress": "",
-                    animated: ""
-                  },
-                  model: {
-                    value: _vm.progress2counter3,
-                    callback: function($$v) {
-                      _vm.progress2counter3 = $$v
-                    },
-                    expression: "progress2counter3"
-                  }
-                }),
-                _vm._v(" "),
-                _c("b-progress", {
-                  staticClass: "mb-4",
-                  attrs: {
-                    variant: "warning",
-                    "hide-progress": "",
-                    animated: ""
-                  },
-                  model: {
-                    value: _vm.progress2counter4,
-                    callback: function($$v) {
-                      _vm.progress2counter4 = $$v
-                    },
-                    expression: "progress2counter4"
-                  }
-                }),
-                _vm._v(" "),
-                _c("b-progress", {
-                  staticClass: "mb-4",
-                  attrs: {
-                    variant: "success",
-                    "hide-progress": "",
-                    animated: ""
-                  },
-                  model: {
-                    value: _vm.progress2counter5,
-                    callback: function($$v) {
-                      _vm.progress2counter5 = $$v
-                    },
-                    expression: "progress2counter5"
-                  }
-                })
-              ],
-              1
-            )
-          ],
-          1
-        ),
-        _vm._v(" "),
-        _c(
-          "div",
-          { staticClass: "col-lg-6" },
-          [
-            _c(
-              "b-card",
-              {
-                staticClass: "bg-danger-card",
-                attrs: { header: "Striped  With Labels", "header-tag": "h4" }
-              },
-              [
-                _c("b-progress", {
-                  staticClass: "mb-4",
-                  attrs: { variant: "primary", "show-value": "", striped: "" },
-                  model: {
-                    value: _vm.progress2counter1,
-                    callback: function($$v) {
-                      _vm.progress2counter1 = $$v
-                    },
-                    expression: "progress2counter1"
-                  }
-                }),
-                _vm._v(" "),
-                _c("b-progress", {
-                  staticClass: "mb-4",
-                  attrs: { variant: "info", "show-value": "", striped: "" },
-                  model: {
-                    value: _vm.progress2counter2,
-                    callback: function($$v) {
-                      _vm.progress2counter2 = $$v
-                    },
-                    expression: "progress2counter2"
-                  }
-                }),
-                _vm._v(" "),
-                _c("b-progress", {
-                  staticClass: "mb-4",
-                  attrs: {
-                    variant: "danger",
-                    "show-progress": "",
-                    striped: ""
-                  },
-                  model: {
-                    value: _vm.progress2counter3,
-                    callback: function($$v) {
-                      _vm.progress2counter3 = $$v
-                    },
-                    expression: "progress2counter3"
-                  }
-                }),
-                _vm._v(" "),
-                _c("b-progress", {
-                  staticClass: "mb-4",
-                  attrs: {
-                    variant: "warning",
-                    "show-progress": "",
-                    striped: ""
-                  },
-                  model: {
-                    value: _vm.progress2counter4,
-                    callback: function($$v) {
-                      _vm.progress2counter4 = $$v
-                    },
-                    expression: "progress2counter4"
-                  }
-                }),
-                _vm._v(" "),
-                _c("b-progress", {
-                  staticClass: "mb-4",
-                  attrs: {
-                    variant: "success",
-                    "show-progress": "",
-                    striped: ""
-                  },
-                  model: {
-                    value: _vm.progress2counter5,
-                    callback: function($$v) {
-                      _vm.progress2counter5 = $$v
-                    },
-                    expression: "progress2counter5"
-                  }
-                })
-              ],
-              1
-            )
-          ],
-          1
-        )
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "row " }, [
-        _c(
-          "div",
-          { staticClass: "col-lg-6" },
-          [
-            _c(
-              "b-card",
-              {
-                staticClass: "bg-warning-card",
-                attrs: { header: "Alerts", "header-tag": "h4" }
-              },
-              [
-                _c("b-alert", { attrs: { variant: "info", show: "" } }, [
-                  _vm._v("\n                    Info Alert\n                ")
-                ]),
-                _vm._v(" "),
-                _c("b-alert", { attrs: { variant: "danger", show: "" } }, [
-                  _vm._v("\n                    Danger Alert\n                ")
-                ]),
-                _vm._v(" "),
-                _c("b-alert", { attrs: { variant: "warning", show: "" } }, [
-                  _vm._v(
-                    "\n                    Warning Alert\n                "
-                  )
-                ]),
-                _vm._v(" "),
-                _c("b-alert", { attrs: { variant: "success", show: "" } }, [
-                  _vm._v(
-                    "\n                    Success Alert\n                "
-                  )
-                ])
-              ],
-              1
-            )
-          ],
-          1
-        ),
-        _vm._v(" "),
-        _c(
-          "div",
-          { staticClass: "col-lg-6" },
-          [
-            _c(
-              "b-card",
-              {
-                staticClass: "bg-primary-card",
-                attrs: { header: "Dismissible Alerts", "header-tag": "h4" }
-              },
-              [
-                _c(
-                  "b-alert",
-                  {
-                    attrs: {
-                      variant: "danger",
-                      dismissible: "",
-                      show: _vm.showDismissibleAlert
-                    },
-                    on: {
-                      dismissed: function($event) {
-                        _vm.showDismissibleAlert = false
-                      }
-                    }
-                  },
-                  [
-                    _vm._v(
-                      "\n                    Dismissible Alert!\n                "
-                    )
-                  ]
-                )
-              ],
-              1
-            ),
-            _vm._v(" "),
-            _c(
-              "b-card",
-              {
-                staticClass: "bg-info-card",
-                attrs: { header: "Tool Tips", "header-tag": "h4" }
-              },
-              [
-                _c("div", { staticClass: "row text-center" }, [
-                  _c(
-                    "div",
-                    { staticClass: "col-lg-3 mt-3 mb-3" },
-                    [
-                      _c(
-                        "b-btn",
-                        {
-                          directives: [
-                            {
-                              name: "b-tooltip",
-                              rawName: "v-b-tooltip.hover.top",
-                              modifiers: { hover: true, top: true }
-                            }
-                          ],
-                          attrs: { title: "hi", variant: "outline-primary" }
-                        },
-                        [_vm._v("Top")]
-                      ),
-                      _vm._v(" "),
-                      _c("b-tooltip", {
-                        staticClass: "d-block",
-                        attrs: { content: "bottom", placement: "bottom" }
-                      })
-                    ],
-                    1
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "div",
-                    { staticClass: "col-lg-3 mt-3 mb-3" },
-                    [
-                      _c(
-                        "b-btn",
-                        {
-                          directives: [
-                            {
-                              name: "b-tooltip",
-                              rawName: "v-b-tooltip.hover.bottom",
-                              modifiers: { hover: true, bottom: true }
-                            }
-                          ],
-                          attrs: {
-                            title: "hi",
-                            variant: "outline-info",
-                            id: "bt1"
-                          }
-                        },
-                        [_vm._v("bottom")]
-                      ),
-                      _vm._v(" "),
-                      _c("b-tooltip", {
-                        staticClass: "d-block",
-                        attrs: {
-                          content: "bottom",
-                          placement: "bottom",
-                          target: "bt1"
-                        }
-                      })
-                    ],
-                    1
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "div",
-                    { staticClass: "col-lg-3 mt-3 mb-3" },
-                    [
-                      _c(
-                        "b-btn",
-                        {
-                          directives: [
-                            {
-                              name: "b-tooltip",
-                              rawName: "v-b-tooltip.hover.left",
-                              modifiers: { hover: true, left: true }
-                            }
-                          ],
-                          attrs: {
-                            title: "hi",
-                            variant: "outline-success",
-                            id: "bt1"
-                          }
-                        },
-                        [_vm._v("left")]
-                      ),
-                      _vm._v(" "),
-                      _c("b-tooltip", {
-                        staticClass: "d-block",
-                        attrs: {
-                          content: "bottom",
-                          placement: "bottom",
-                          target: "bt1"
-                        }
-                      })
-                    ],
-                    1
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "div",
-                    { staticClass: "col-lg-3 mt-3 mb-3" },
-                    [
-                      _c(
-                        "b-btn",
-                        {
-                          directives: [
-                            {
-                              name: "b-tooltip",
-                              rawName: "v-b-tooltip.hover.right",
-                              modifiers: { hover: true, right: true }
-                            }
-                          ],
-                          attrs: { title: "hi", variant: "outline-danger" }
-                        },
-                        [_vm._v("right")]
-                      ),
-                      _vm._v(" "),
-                      _c("b-tooltip", { staticClass: "d-block" })
-                    ],
-                    1
-                  )
-                ])
-              ]
-            )
-          ],
-          1
-        )
-      ]),
-      _vm._v(" "),
-      _c(
-        "b-card",
-        {
-          staticClass: "bg-primary-card",
-          attrs: { header: "Popovers", "header-tag": "h4" }
-        },
-        [
-          _c("div", { staticClass: "row" }, [
-            _c(
-              "div",
-              { staticClass: "col-lg-4" },
-              [
-                _c(
-                  "b-card",
-                  {
-                    staticClass: "mt-1 bg-warning-card",
-                    attrs: { header: "Placement", "header-tag": "h4" }
-                  },
-                  _vm._l(_vm.placements, function(placement, index) {
-                    return _c(
-                      "b-col",
-                      {
-                        key: index,
-                        staticClass: "py-4 text-center",
-                        attrs: { md: "10" }
-                      },
-                      [
-                        _c(
-                          "b-btn",
-                          {
-                            staticClass: "text-white",
-                            attrs: {
-                              id: "exPopover1-" + placement,
-                              variant: _vm.color[index]
-                            }
-                          },
-                          [
-                            _vm._v(
-                              "\n                                " +
-                                _vm._s(placement) +
-                                "\n                            "
-                            )
-                          ]
-                        ),
-                        _vm._v(" "),
-                        _c("b-popover", {
-                          attrs: {
-                            target: "exPopover1-" + placement,
-                            placement: placement,
-                            title: "Popover!",
-                            triggers: "hover focus",
-                            content: "Placement " + placement
-                          }
-                        })
-                      ],
-                      1
-                    )
-                  })
-                )
-              ],
-              1
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              { staticClass: "col-lg-8" },
-              [
-                _c(
-                  "b-card",
-                  {
-                    staticClass: "bg-success-card",
-                    attrs: {
-                      header: "Content via properties or Slots",
-                      "header-tag": "h4"
-                    }
-                  },
-                  [
-                    _c(
-                      "b-row",
-                      [
-                        _c(
-                          "b-col",
-                          {
-                            staticClass: "py-4 text-center",
-                            attrs: { md: "6" }
-                          },
-                          [
-                            _c(
-                              "b-btn",
-                              {
-                                staticClass: "text-white",
-                                attrs: { id: "exPopover2", variant: "danger" }
-                              },
-                              [_vm._v("Using properties")]
-                            ),
-                            _vm._v(" "),
-                            _c("b-popover", {
-                              attrs: {
-                                target: "exPopover2",
-                                title: "Prop Examples",
-                                triggers: "hover focus",
-                                placement: "top",
-                                content: "Embedding content"
-                              }
-                            })
-                          ],
-                          1
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "b-col",
-                          {
-                            staticClass: "py-4 text-center",
-                            attrs: { md: "6" }
-                          },
-                          [
-                            _c(
-                              "b-btn",
-                              {
-                                attrs: { id: "exPopover3", variant: "primary" }
-                              },
-                              [_vm._v("Using slots")]
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "b-popover",
-                              {
-                                attrs: {
-                                  target: "exPopover3",
-                                  placement: "top",
-                                  triggers: "hover focus"
-                                }
-                              },
-                              [
-                                _c("template", { slot: "title" }, [
-                                  _vm._v("Content ")
-                                ]),
-                                _vm._v(
-                                  "\n                                Embedding "
-                                ),
-                                _c("span", { staticClass: "text-danger" }, [
-                                  _vm._v("using slots")
-                                ]),
-                                _vm._v(
-                                  "\n                                 you\n                            "
-                                )
-                              ],
-                              2
-                            )
-                          ],
-                          1
-                        )
-                      ],
-                      1
-                    )
-                  ],
-                  1
-                ),
-                _vm._v(" "),
-                _c("b-col", {
-                  staticClass: "py-4 text-center",
-                  attrs: { md: "10", in: "", placements: "" }
-                }),
-                _vm._v(" "),
-                _c(
-                  "b-card",
-                  {
-                    staticClass: "mt-5 mb-5",
-                    attrs: { header: "Delay", "header-tag": "h4" }
-                  },
-                  [
-                    _c("div", { staticClass: "row mt-5 mb-4" }, [
-                      _c(
-                        "div",
-                        { staticClass: "col-md-4 my-1 text-center " },
-                        [
-                          _c(
-                            "b-btn",
-                            {
-                              staticClass: "text-white",
-                              attrs: { id: "exPopoverxyz", variant: "warning" }
-                            },
-                            [
-                              _vm._v(
-                                "\n                                1000ms\n                            "
-                              )
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c("b-popover", {
-                            staticClass: "d-block",
-                            attrs: {
-                              target: "exPopoverxyz",
-                              triggers: "hover",
-                              delay: "1000",
-                              placement: "top",
-                              content: "Sorry, I'm a little sleepy."
-                            }
-                          })
-                        ],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "div",
-                        { staticClass: "col-md-4 my-1 text-center" },
-                        [
-                          _c(
-                            "b-btn",
-                            { attrs: { id: "exPopover7", variant: "success" } },
-                            [_vm._v("1000ms on show")]
-                          ),
-                          _vm._v(" "),
-                          _c("b-popover", {
-                            staticClass: "d-block",
-                            attrs: {
-                              delay: "1000",
-                              target: "exPopover7",
-                              hide: "0",
-                              placement: "top",
-                              content: "This will disappear right away!",
-                              triggers: "hover"
-                            }
-                          })
-                        ],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "div",
-                        { staticClass: "col-md-4 my-1 text-center" },
-                        [
-                          _c(
-                            "b-btn",
-                            { attrs: { id: "exPopver8", variant: "primary" } },
-                            [_vm._v("1000ms on hide")]
-                          ),
-                          _vm._v(" "),
-                          _c("b-popover", {
-                            staticClass: "d-block",
-                            attrs: {
-                              show: false,
-                              target: "exPopver8",
-                              hide: "1000",
-                              placement: "top",
-                              content:
-                                "This will disappear after a second's delay.",
-                              triggers: "hover"
-                            }
-                          })
-                        ],
-                        1
-                      )
-                    ])
-                  ]
-                )
-              ],
-              1
-            )
-          ])
-        ]
-      )
+      _c("vue-dropzone", {
+        ref: "product_attachment",
+        attrs: { id: "dropzone", options: _vm.dropzoneOptions },
+        on: { "vdropzone-success": _vm.uploaded }
+      })
     ],
     1
   )
@@ -1458,32 +110,31 @@ module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-5e99c4c8", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-150399ec", module.exports)
   }
 }
 
 /***/ }),
 
-/***/ 730:
+/***/ 749:
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(1312)
-  __webpack_require__(1314)
+  __webpack_require__(1576)
 }
 var normalizeComponent = __webpack_require__(242)
 /* script */
-var __vue_script__ = __webpack_require__(1316)
+var __vue_script__ = __webpack_require__(1578)
 /* template */
-var __vue_template__ = __webpack_require__(1317)
+var __vue_template__ = __webpack_require__(1579)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-5e99c4c8"
+var __vue_scopeId__ = "data-v-150399ec"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
@@ -1494,7 +145,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources\\assets\\components\\pages\\ui_elements.vue"
+Component.options.__file = "resources\\assets\\components\\pages\\vue-dropzone.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -1503,9 +154,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-5e99c4c8", Component.options)
+    hotAPI.createRecord("data-v-150399ec", Component.options)
   } else {
-    hotAPI.reload("data-v-5e99c4c8", Component.options)
+    hotAPI.reload("data-v-150399ec", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -1513,6 +164,53 @@ if (false) {(function () {
 })()}
 
 module.exports = Component.exports
+
+
+/***/ }),
+
+/***/ 820:
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(821);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(93)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../css-loader/index.js!./vue2Dropzone.css", function() {
+			var newContent = require("!!../../css-loader/index.js!./vue2Dropzone.css");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ 821:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(49)(false);
+// imports
+
+
+// module
+exports.push([module.i, "/*\n * The MIT License\n * Copyright (c) 2012 Matias Meno <m@tias.me>\n */\n@-webkit-keyframes passing-through {\n  0% {\n    opacity: 0;\n    -webkit-transform: translateY(40px);\n    -moz-transform: translateY(40px);\n    -ms-transform: translateY(40px);\n    -o-transform: translateY(40px);\n    transform: translateY(40px); }\n  30%, 70% {\n    opacity: 1;\n    -webkit-transform: translateY(0px);\n    -moz-transform: translateY(0px);\n    -ms-transform: translateY(0px);\n    -o-transform: translateY(0px);\n    transform: translateY(0px); }\n  100% {\n    opacity: 0;\n    -webkit-transform: translateY(-40px);\n    -moz-transform: translateY(-40px);\n    -ms-transform: translateY(-40px);\n    -o-transform: translateY(-40px);\n    transform: translateY(-40px); } }\n@-moz-keyframes passing-through {\n  0% {\n    opacity: 0;\n    -webkit-transform: translateY(40px);\n    -moz-transform: translateY(40px);\n    -ms-transform: translateY(40px);\n    -o-transform: translateY(40px);\n    transform: translateY(40px); }\n  30%, 70% {\n    opacity: 1;\n    -webkit-transform: translateY(0px);\n    -moz-transform: translateY(0px);\n    -ms-transform: translateY(0px);\n    -o-transform: translateY(0px);\n    transform: translateY(0px); }\n  100% {\n    opacity: 0;\n    -webkit-transform: translateY(-40px);\n    -moz-transform: translateY(-40px);\n    -ms-transform: translateY(-40px);\n    -o-transform: translateY(-40px);\n    transform: translateY(-40px); } }\n@keyframes passing-through {\n  0% {\n    opacity: 0;\n    -webkit-transform: translateY(40px);\n    -moz-transform: translateY(40px);\n    -ms-transform: translateY(40px);\n    -o-transform: translateY(40px);\n    transform: translateY(40px); }\n  30%, 70% {\n    opacity: 1;\n    -webkit-transform: translateY(0px);\n    -moz-transform: translateY(0px);\n    -ms-transform: translateY(0px);\n    -o-transform: translateY(0px);\n    transform: translateY(0px); }\n  100% {\n    opacity: 0;\n    -webkit-transform: translateY(-40px);\n    -moz-transform: translateY(-40px);\n    -ms-transform: translateY(-40px);\n    -o-transform: translateY(-40px);\n    transform: translateY(-40px); } }\n@-webkit-keyframes slide-in {\n  0% {\n    opacity: 0;\n    -webkit-transform: translateY(40px);\n    -moz-transform: translateY(40px);\n    -ms-transform: translateY(40px);\n    -o-transform: translateY(40px);\n    transform: translateY(40px); }\n  30% {\n    opacity: 1;\n    -webkit-transform: translateY(0px);\n    -moz-transform: translateY(0px);\n    -ms-transform: translateY(0px);\n    -o-transform: translateY(0px);\n    transform: translateY(0px); } }\n@-moz-keyframes slide-in {\n  0% {\n    opacity: 0;\n    -webkit-transform: translateY(40px);\n    -moz-transform: translateY(40px);\n    -ms-transform: translateY(40px);\n    -o-transform: translateY(40px);\n    transform: translateY(40px); }\n  30% {\n    opacity: 1;\n    -webkit-transform: translateY(0px);\n    -moz-transform: translateY(0px);\n    -ms-transform: translateY(0px);\n    -o-transform: translateY(0px);\n    transform: translateY(0px); } }\n@keyframes slide-in {\n  0% {\n    opacity: 0;\n    -webkit-transform: translateY(40px);\n    -moz-transform: translateY(40px);\n    -ms-transform: translateY(40px);\n    -o-transform: translateY(40px);\n    transform: translateY(40px); }\n  30% {\n    opacity: 1;\n    -webkit-transform: translateY(0px);\n    -moz-transform: translateY(0px);\n    -ms-transform: translateY(0px);\n    -o-transform: translateY(0px);\n    transform: translateY(0px); } }\n@-webkit-keyframes pulse {\n  0% {\n    -webkit-transform: scale(1);\n    -moz-transform: scale(1);\n    -ms-transform: scale(1);\n    -o-transform: scale(1);\n    transform: scale(1); }\n  10% {\n    -webkit-transform: scale(1.1);\n    -moz-transform: scale(1.1);\n    -ms-transform: scale(1.1);\n    -o-transform: scale(1.1);\n    transform: scale(1.1); }\n  20% {\n    -webkit-transform: scale(1);\n    -moz-transform: scale(1);\n    -ms-transform: scale(1);\n    -o-transform: scale(1);\n    transform: scale(1); } }\n@-moz-keyframes pulse {\n  0% {\n    -webkit-transform: scale(1);\n    -moz-transform: scale(1);\n    -ms-transform: scale(1);\n    -o-transform: scale(1);\n    transform: scale(1); }\n  10% {\n    -webkit-transform: scale(1.1);\n    -moz-transform: scale(1.1);\n    -ms-transform: scale(1.1);\n    -o-transform: scale(1.1);\n    transform: scale(1.1); }\n  20% {\n    -webkit-transform: scale(1);\n    -moz-transform: scale(1);\n    -ms-transform: scale(1);\n    -o-transform: scale(1);\n    transform: scale(1); } }\n@keyframes pulse {\n  0% {\n    -webkit-transform: scale(1);\n    -moz-transform: scale(1);\n    -ms-transform: scale(1);\n    -o-transform: scale(1);\n    transform: scale(1); }\n  10% {\n    -webkit-transform: scale(1.1);\n    -moz-transform: scale(1.1);\n    -ms-transform: scale(1.1);\n    -o-transform: scale(1.1);\n    transform: scale(1.1); }\n  20% {\n    -webkit-transform: scale(1);\n    -moz-transform: scale(1);\n    -ms-transform: scale(1);\n    -o-transform: scale(1);\n    transform: scale(1); } }\n.dropzone, .dropzone * {\n  box-sizing: border-box; }\n\n.dropzone {\n  min-height: 150px;\n  border: 2px solid rgba(0, 0, 0, 0.3);\n  background: white;\n  padding: 20px 20px; }\n  .dropzone.dz-clickable {\n    cursor: pointer; }\n    .dropzone.dz-clickable * {\n      cursor: default; }\n    .dropzone.dz-clickable .dz-message, .dropzone.dz-clickable .dz-message * {\n      cursor: pointer; }\n  .dropzone.dz-started .dz-message {\n    display: none; }\n  .dropzone.dz-drag-hover {\n    border-style: solid; }\n    .dropzone.dz-drag-hover .dz-message {\n      opacity: 0.5; }\n  .dropzone .dz-message {\n    text-align: center;\n    margin: 2em 0; }\n  .dropzone .dz-preview {\n    position: relative;\n    display: inline-block;\n    vertical-align: top;\n    margin: 16px;\n    min-height: 100px; }\n    .dropzone .dz-preview:hover {\n      z-index: 1000; }\n      .dropzone .dz-preview:hover .dz-details {\n        opacity: 1; }\n    .dropzone .dz-preview.dz-file-preview .dz-image {\n      border-radius: 20px;\n      background: #999;\n      background: linear-gradient(to bottom, #eee, #ddd); }\n    .dropzone .dz-preview.dz-file-preview .dz-details {\n      opacity: 1; }\n    .dropzone .dz-preview.dz-image-preview {\n      background: white; }\n      .dropzone .dz-preview.dz-image-preview .dz-details {\n        -webkit-transition: opacity 0.2s linear;\n        -moz-transition: opacity 0.2s linear;\n        -ms-transition: opacity 0.2s linear;\n        -o-transition: opacity 0.2s linear;\n        transition: opacity 0.2s linear; }\n    .dropzone .dz-preview .dz-remove {\n      font-size: 14px;\n      text-align: center;\n      display: block;\n      cursor: pointer;\n      border: none; }\n      .dropzone .dz-preview .dz-remove:hover {\n        text-decoration: underline; }\n    .dropzone .dz-preview:hover .dz-details {\n      opacity: 1; }\n    .dropzone .dz-preview .dz-details {\n      z-index: 20;\n      position: absolute;\n      top: 0;\n      left: 0;\n      opacity: 0;\n      font-size: 13px;\n      min-width: 100%;\n      max-width: 100%;\n      padding: 2em 1em;\n      text-align: center;\n      color: rgba(0, 0, 0, 0.9);\n      line-height: 150%; }\n      .dropzone .dz-preview .dz-details .dz-size {\n        margin-bottom: 1em;\n        font-size: 16px; }\n      .dropzone .dz-preview .dz-details .dz-filename {\n        white-space: nowrap; }\n        .dropzone .dz-preview .dz-details .dz-filename:hover span {\n          border: 1px solid rgba(200, 200, 200, 0.8);\n          background-color: rgba(255, 255, 255, 0.8); }\n        .dropzone .dz-preview .dz-details .dz-filename:not(:hover) {\n          overflow: hidden;\n          text-overflow: ellipsis; }\n          .dropzone .dz-preview .dz-details .dz-filename:not(:hover) span {\n            border: 1px solid transparent; }\n      .dropzone .dz-preview .dz-details .dz-filename span, .dropzone .dz-preview .dz-details .dz-size span {\n        background-color: rgba(255, 255, 255, 0.4);\n        padding: 0 0.4em;\n        border-radius: 3px; }\n    .dropzone .dz-preview:hover .dz-image img {\n      -webkit-transform: scale(1.05, 1.05);\n      -moz-transform: scale(1.05, 1.05);\n      -ms-transform: scale(1.05, 1.05);\n      -o-transform: scale(1.05, 1.05);\n      transform: scale(1.05, 1.05);\n      -webkit-filter: blur(8px);\n      filter: blur(8px); }\n    .dropzone .dz-preview .dz-image {\n      border-radius: 20px;\n      overflow: hidden;\n      width: 120px;\n      height: 120px;\n      position: relative;\n      display: block;\n      z-index: 10; }\n      .dropzone .dz-preview .dz-image img {\n        display: block; }\n    .dropzone .dz-preview.dz-success .dz-success-mark {\n      -webkit-animation: passing-through 3s cubic-bezier(0.77, 0, 0.175, 1);\n      -moz-animation: passing-through 3s cubic-bezier(0.77, 0, 0.175, 1);\n      -ms-animation: passing-through 3s cubic-bezier(0.77, 0, 0.175, 1);\n      -o-animation: passing-through 3s cubic-bezier(0.77, 0, 0.175, 1);\n      animation: passing-through 3s cubic-bezier(0.77, 0, 0.175, 1); }\n    .dropzone .dz-preview.dz-error .dz-error-mark {\n      opacity: 1;\n      -webkit-animation: slide-in 3s cubic-bezier(0.77, 0, 0.175, 1);\n      -moz-animation: slide-in 3s cubic-bezier(0.77, 0, 0.175, 1);\n      -ms-animation: slide-in 3s cubic-bezier(0.77, 0, 0.175, 1);\n      -o-animation: slide-in 3s cubic-bezier(0.77, 0, 0.175, 1);\n      animation: slide-in 3s cubic-bezier(0.77, 0, 0.175, 1); }\n    .dropzone .dz-preview .dz-success-mark, .dropzone .dz-preview .dz-error-mark {\n      pointer-events: none;\n      opacity: 0;\n      z-index: 500;\n      position: absolute;\n      display: block;\n      top: 50%;\n      left: 50%;\n      margin-left: -27px;\n      margin-top: -27px; }\n      .dropzone .dz-preview .dz-success-mark svg, .dropzone .dz-preview .dz-error-mark svg {\n        display: block;\n        width: 54px;\n        height: 54px; }\n    .dropzone .dz-preview.dz-processing .dz-progress {\n      opacity: 1;\n      -webkit-transition: all 0.2s linear;\n      -moz-transition: all 0.2s linear;\n      -ms-transition: all 0.2s linear;\n      -o-transition: all 0.2s linear;\n      transition: all 0.2s linear; }\n    .dropzone .dz-preview.dz-complete .dz-progress {\n      opacity: 0;\n      -webkit-transition: opacity 0.4s ease-in;\n      -moz-transition: opacity 0.4s ease-in;\n      -ms-transition: opacity 0.4s ease-in;\n      -o-transition: opacity 0.4s ease-in;\n      transition: opacity 0.4s ease-in; }\n    .dropzone .dz-preview:not(.dz-processing) .dz-progress {\n      -webkit-animation: pulse 6s ease infinite;\n      -moz-animation: pulse 6s ease infinite;\n      -ms-animation: pulse 6s ease infinite;\n      -o-animation: pulse 6s ease infinite;\n      animation: pulse 6s ease infinite; }\n    .dropzone .dz-preview .dz-progress {\n      opacity: 1;\n      z-index: 1000;\n      pointer-events: none;\n      position: absolute;\n      height: 16px;\n      left: 50%;\n      top: 50%;\n      margin-top: -8px;\n      width: 80px;\n      margin-left: -40px;\n      background: rgba(255, 255, 255, 0.9);\n      -webkit-transform: scale(1);\n      border-radius: 8px;\n      overflow: hidden; }\n      .dropzone .dz-preview .dz-progress .dz-upload {\n        background: #333;\n        background: linear-gradient(to bottom, #666, #444);\n        position: absolute;\n        top: 0;\n        left: 0;\n        bottom: 0;\n        width: 0;\n        -webkit-transition: width 300ms ease-in-out;\n        -moz-transition: width 300ms ease-in-out;\n        -ms-transition: width 300ms ease-in-out;\n        -o-transition: width 300ms ease-in-out;\n        transition: width 300ms ease-in-out; }\n    .dropzone .dz-preview.dz-error .dz-error-message {\n      display: block; }\n    .dropzone .dz-preview.dz-error:hover .dz-error-message {\n      opacity: 1;\n      pointer-events: auto; }\n    .dropzone .dz-preview .dz-error-message {\n      pointer-events: none;\n      z-index: 1000;\n      position: absolute;\n      display: block;\n      display: none;\n      opacity: 0;\n      -webkit-transition: opacity 0.3s ease;\n      -moz-transition: opacity 0.3s ease;\n      -ms-transition: opacity 0.3s ease;\n      -o-transition: opacity 0.3s ease;\n      transition: opacity 0.3s ease;\n      border-radius: 8px;\n      font-size: 13px;\n      top: 130px;\n      left: -10px;\n      width: 140px;\n      background: #be2626;\n      background: linear-gradient(to bottom, #be2626, #a92222);\n      padding: 0.5em 1.2em;\n      color: white; }\n      .dropzone .dz-preview .dz-error-message:after {\n        content: '';\n        position: absolute;\n        top: -6px;\n        left: 64px;\n        width: 0;\n        height: 0;\n        border-left: 6px solid transparent;\n        border-right: 6px solid transparent;\n        border-bottom: 6px solid #be2626; }\n\n.vue-dropzone {\n  border: 2px solid #E5E5E5;\n  font-family: 'Arial', sans-serif;\n  letter-spacing: 0.2px;\n  color: #777;\n  transition: background-color 0.2s linear;\n}\n.vue-dropzone:hover {\n  background-color: #F6F6F6;\n}\n.vue-dropzone i {\n  color: #CCC;\n}\n.vue-dropzone .dz-preview .dz-image {\n  border-radius: 0;\n  width: 100%;\n  height: 100%;\n}\n.vue-dropzone .dz-preview .dz-image img:not([src]) {\n  width: 200px;\n  height: 200px;\n}\n.vue-dropzone .dz-preview .dz-image:hover img {\n  transform: none;\n  -webkit-filter: none;\n}\n.vue-dropzone .dz-preview .dz-details {\n  bottom: 0;\n  top: 0;\n  color: white;\n  background-color: rgba(33, 150, 243, 0.8);\n  transition: opacity .2s linear;\n  text-align: left;\n}\n.vue-dropzone .dz-preview .dz-details .dz-filename {\n  overflow: hidden;\n}\n.vue-dropzone .dz-preview .dz-details .dz-filename span,\n.vue-dropzone .dz-preview .dz-details .dz-size span {\n  background-color: transparent;\n}\n.vue-dropzone .dz-preview .dz-details .dz-filename:not(:hover) span {\n  border: none;\n}\n.vue-dropzone .dz-preview .dz-details .dz-filename:hover span {\n  background-color: transparent;\n  border: none;\n}\n.vue-dropzone .dz-preview .dz-progress .dz-upload {\n  background: #cccccc;\n}\n.vue-dropzone .dz-preview .dz-remove {\n  position: absolute;\n  z-index: 30;\n  color: white;\n  margin-left: 15px;\n  padding: 10px;\n  top: inherit;\n  bottom: 15px;\n  border: 2px white solid;\n  text-decoration: none;\n  text-transform: uppercase;\n  font-size: 0.8rem;\n  font-weight: 800;\n  letter-spacing: 1.1px;\n  opacity: 0;\n}\n.vue-dropzone .dz-preview:hover .dz-remove {\n  opacity: 1;\n}\n.vue-dropzone .dz-preview .dz-success-mark,\n.vue-dropzone .dz-preview .dz-error-mark {\n  margin-left: auto;\n  margin-top: auto;\n  width: 100%;\n  top: 35%;\n  left: 0;\n}\n.vue-dropzone .dz-preview .dz-success-mark svg,\n.vue-dropzone .dz-preview .dz-error-mark svg {\n  margin-left: auto;\n  margin-right: auto;\n}\n.vue-dropzone .dz-preview .dz-error-message {\n  top: calc(15%);\n  margin-left: auto;\n  margin-right: auto;\n  left: 0;\n  width: 100%;\n}\n.vue-dropzone .dz-preview .dz-error-message:after {\n  bottom: -6px;\n  top: initial;\n  border-top: 6px solid #a92222;\n  border-bottom: none;\n}\n\n", ""]);
+
+// exports
 
 
 /***/ })

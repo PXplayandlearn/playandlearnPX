@@ -2,7 +2,25 @@ const menu_items = [{
         name: 'Dashboard',
         link: '/',
         icon: ' fa fa-home'
-    },{
+    }, {
+        name: 'Play Game',
+        link: '/play-game',
+        icon: 'fa fa-gamepad'
+    }, {
+        name: 'Assign Game',
+        link: '/assign-game',
+        icon: 'fa fa-address-book'
+    }, {
+        name: 'Create Game',
+        link: '/create-game',
+        icon: '	fa fa-plus-square'
+    }, {
+        name: 'User Profiles',
+        link: '/user-profiles',
+        icon: 'fa fa-users'
+    }
+
+/*{
         name: 'Dashboard2.0',
         link: '/index2',
         icon: 'fa fa-desktop'
@@ -280,6 +298,6 @@ const menu_items = [{
         name: 'Test page 2',
         link: '/testtwo',
         icon: 'fa fa-files-o'
-    }
+    }*/
 ];
 export default menu_items;

@@ -1,12 +1,12 @@
 webpackJsonp([80],{
 
-/***/ 1612:
+/***/ 1618:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(1613);
+var content = __webpack_require__(1619);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -27,7 +27,7 @@ if(false) {
 
 /***/ }),
 
-/***/ 1613:
+/***/ 1619:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(49)(false);
@@ -42,7 +42,7 @@ exports.push([module.i, "\n.search[data-v-83fde186]{\n    border: 1px solid #bdb
 
 /***/ }),
 
-/***/ 1614:
+/***/ 1620:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -173,14 +173,14 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             newrole: '',
             contacts: [{
                 name: 'Jon',
-                img: __webpack_require__(774),
+                img: __webpack_require__(769),
                 email: 'jon@gmail.com',
                 contact_num: '0123456789',
                 role: 'Web developer',
                 location: 'Hyderabad'
             }, {
                 name: 'Doe',
-                img: __webpack_require__(771),
+                img: __webpack_require__(770),
                 email: 'doe@gmail.com',
                 contact_num: '0123456789',
                 role: 'Web developer',
@@ -194,21 +194,21 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
                 location: 'Hyderabad'
             }, {
                 name: 'Jon',
-                img: __webpack_require__(775),
+                img: __webpack_require__(773),
                 email: 'jon@gmail.com',
                 contact_num: '0123456789',
                 role: 'Web developer',
                 location: 'Hyderabad'
             }, {
                 name: 'Doe',
-                img: __webpack_require__(774),
+                img: __webpack_require__(769),
                 email: 'jon@gmail.com',
                 contact_num: '0123456789',
                 role: 'Web developer',
                 location: 'Hyderabad'
             }, {
                 name: 'Jon',
-                img: __webpack_require__(786),
+                img: __webpack_require__(780),
                 email: 'jon@gmail.com',
                 contact_num: '0123456789',
                 role: 'Web developer',
@@ -294,7 +294,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /***/ }),
 
-/***/ 1615:
+/***/ 1621:
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -805,7 +805,7 @@ var staticRenderFns = [
         _c("img", {
           staticClass: "contact-profile d-inline-block rounded-circle",
           attrs: {
-            src: __webpack_require__(774),
+            src: __webpack_require__(769),
             alt: "user profile"
           }
         }),
@@ -910,19 +910,19 @@ if (false) {
 
 /***/ }),
 
-/***/ 757:
+/***/ 758:
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(1612)
+  __webpack_require__(1618)
 }
 var normalizeComponent = __webpack_require__(242)
 /* script */
-var __vue_script__ = __webpack_require__(1614)
+var __vue_script__ = __webpack_require__(1620)
 /* template */
-var __vue_template__ = __webpack_require__(1615)
+var __vue_template__ = __webpack_require__(1621)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -969,28 +969,28 @@ module.exports = "/vuejs-laravel/public/images/avatar3.jpg?7e593f7330076b4b89e96
 
 /***/ }),
 
-/***/ 771:
-/***/ (function(module, exports) {
-
-module.exports = "/vuejs-laravel/public/images/avatar2.jpg?2a26dff9723fa354fe9cb39a4f4529e6";
-
-/***/ }),
-
-/***/ 774:
+/***/ 769:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/avatar1.jpg?2d4968bd8ec1519b0535ba849643dd1c";
 
 /***/ }),
 
-/***/ 775:
+/***/ 770:
+/***/ (function(module, exports) {
+
+module.exports = "/vuejs-laravel/public/images/avatar2.jpg?2a26dff9723fa354fe9cb39a4f4529e6";
+
+/***/ }),
+
+/***/ 773:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/avatar4.jpg?25bf7926d4f4c50c95e027395f7019f6";
 
 /***/ }),
 
-/***/ 786:
+/***/ 780:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/avatar.jpg?9ec1314ec47a05d978a1e1568daab7ec";

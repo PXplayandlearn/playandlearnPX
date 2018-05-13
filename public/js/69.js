@@ -1,12 +1,12 @@
 webpackJsonp([69],{
 
-/***/ 1331:
+/***/ 1338:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(1332);
+var content = __webpack_require__(1339);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -27,7 +27,7 @@ if(false) {
 
 /***/ }),
 
-/***/ 1332:
+/***/ 1339:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(49)(false);
@@ -42,14 +42,14 @@ exports.push([module.i, "\n.chat[data-v-4062f0c2] {\n  min-height: calc(100vh - 
 
 /***/ }),
 
-/***/ 1333:
+/***/ 1340:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(50);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_components_widgets_chat_component_chat_large_vue__ = __webpack_require__(1334);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_components_widgets_chat_component_chat_large_vue__ = __webpack_require__(1341);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_components_widgets_chat_component_chat_large_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_components_widgets_chat_component_chat_large_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_assets_js_chat_data__ = __webpack_require__(915);
 //
@@ -87,19 +87,19 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /***/ }),
 
-/***/ 1334:
+/***/ 1341:
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(1335)
+  __webpack_require__(1342)
 }
 var normalizeComponent = __webpack_require__(242)
 /* script */
-var __vue_script__ = __webpack_require__(1337)
+var __vue_script__ = __webpack_require__(1344)
 /* template */
-var __vue_template__ = __webpack_require__(1338)
+var __vue_template__ = __webpack_require__(1345)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -139,13 +139,13 @@ module.exports = Component.exports
 
 /***/ }),
 
-/***/ 1335:
+/***/ 1342:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(1336);
+var content = __webpack_require__(1343);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -166,7 +166,7 @@ if(false) {
 
 /***/ }),
 
-/***/ 1336:
+/***/ 1343:
 /***/ (function(module, exports, __webpack_require__) {
 
 var escape = __webpack_require__(243);
@@ -182,12 +182,12 @@ exports.push([module.i, "\n.desc-img[data-v-5f745706] {\n  height: 40px;\n  widt
 
 /***/ }),
 
-/***/ 1337:
+/***/ 1344:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__plugins_scroll_vScroll_vue__ = __webpack_require__(792);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__plugins_scroll_vScroll_vue__ = __webpack_require__(793);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__plugins_scroll_vScroll_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__plugins_scroll_vScroll_vue__);
 //
 //
@@ -331,7 +331,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /***/ }),
 
-/***/ 1338:
+/***/ 1345:
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -667,6 +667,13 @@ var staticRenderFns = [
         _c("div", { staticClass: "col-4 mt-2" }, [
           _c("img", {
             staticClass: "img-fluid",
+            attrs: { src: __webpack_require__(938), alt: "" }
+          })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-4 mt-2" }, [
+          _c("img", {
+            staticClass: "img-fluid",
             attrs: { src: __webpack_require__(939), alt: "" }
           })
         ]),
@@ -695,13 +702,6 @@ var staticRenderFns = [
         _c("div", { staticClass: "col-4 mt-2" }, [
           _c("img", {
             staticClass: "img-fluid",
-            attrs: { src: __webpack_require__(943), alt: "" }
-          })
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-4 mt-2" }, [
-          _c("img", {
-            staticClass: "img-fluid",
             attrs: { src: __webpack_require__(922), alt: "" }
           })
         ])
@@ -720,7 +720,7 @@ if (false) {
 
 /***/ }),
 
-/***/ 1339:
+/***/ 1346:
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -741,19 +741,19 @@ if (false) {
 
 /***/ }),
 
-/***/ 734:
+/***/ 735:
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(1331)
+  __webpack_require__(1338)
 }
 var normalizeComponent = __webpack_require__(242)
 /* script */
-var __vue_script__ = __webpack_require__(1333)
+var __vue_script__ = __webpack_require__(1340)
 /* template */
-var __vue_template__ = __webpack_require__(1339)
+var __vue_template__ = __webpack_require__(1346)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -800,35 +800,35 @@ module.exports = "/vuejs-laravel/public/images/avatar3.jpg?7e593f7330076b4b89e96
 
 /***/ }),
 
-/***/ 771:
+/***/ 770:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/avatar2.jpg?2a26dff9723fa354fe9cb39a4f4529e6";
 
 /***/ }),
 
-/***/ 775:
+/***/ 773:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/avatar4.jpg?25bf7926d4f4c50c95e027395f7019f6";
 
 /***/ }),
 
-/***/ 786:
+/***/ 780:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/avatar.jpg?9ec1314ec47a05d978a1e1568daab7ec";
 
 /***/ }),
 
-/***/ 787:
+/***/ 781:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/avatar5.jpg?83fc5fdfbe37fb37db7a2fe84cca6d6d";
 
 /***/ }),
 
-/***/ 792:
+/***/ 793:
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -1098,7 +1098,7 @@ module.exports = "/vuejs-laravel/public/images/chat_background3.jpg?fce25458ac06
 "use strict";
 var chat = [{
     user: "Rickey",
-    image: __webpack_require__(771),
+    image: __webpack_require__(770),
     status: "Lorem ipsum dolor sit ametm  elit.",
     mbl_num: "9876543210",
     work: "Google",
@@ -1141,7 +1141,7 @@ var chat = [{
     }]
 }, {
     user: "Jenny",
-    image: __webpack_require__(775),
+    image: __webpack_require__(773),
     status: "Consec  ipsum  adipisicing.Lorem   elit.",
     mbl_num: "8907654231",
     work: "Apple",
@@ -1215,7 +1215,7 @@ var chat = [{
     }]
 }, {
     user: "Roysingh",
-    image: __webpack_require__(787),
+    image: __webpack_require__(781),
     status: "Dolor ipsum amet elitLorem ipsum ",
     mbl_num: "9587643210",
     work: "Yahoo",
@@ -1261,7 +1261,7 @@ var chat = [{
     }]
 }, {
     user: "Shasla",
-    image: __webpack_require__(786),
+    image: __webpack_require__(780),
     status: "Dolor ipsum dolor dolor elitLorem ",
     mbl_num: "7598642130",
     work: "IBM",
@@ -1295,35 +1295,35 @@ module.exports = "/vuejs-laravel/public/images/20.jpg?edfbcceab51cc0fbe24780d821
 
 /***/ }),
 
-/***/ 939:
+/***/ 938:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/14.jpg?210f920a750ac3536ec6c088efdfcccd";
 
 /***/ }),
 
-/***/ 940:
+/***/ 939:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/15.jpg?93eecf4e8b0f8ae0d93fb7cf9f01fd2b";
 
 /***/ }),
 
-/***/ 941:
+/***/ 940:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/16.jpg?3a56b7a108145eda21e624d3c0f1b8bb";
 
 /***/ }),
 
-/***/ 942:
+/***/ 941:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/17.jpg?0412d8d7fdf5cece0a7602b22b93a027";
 
 /***/ }),
 
-/***/ 943:
+/***/ 942:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/18.jpg?842814c25736e6b8c0bb3a9bdc455114";

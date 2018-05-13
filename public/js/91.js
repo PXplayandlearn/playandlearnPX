@@ -1,12 +1,12 @@
 webpackJsonp([91],{
 
-/***/ 1598:
+/***/ 1604:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(1599);
+var content = __webpack_require__(1605);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -27,7 +27,7 @@ if(false) {
 
 /***/ }),
 
-/***/ 1599:
+/***/ 1605:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(49)(false);
@@ -42,7 +42,7 @@ exports.push([module.i, "\n#printableArea[data-v-22c63733] {\n    border: 1px so
 
 /***/ }),
 
-/***/ 1600:
+/***/ 1606:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -208,7 +208,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /***/ }),
 
-/***/ 1601:
+/***/ 1607:
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -274,7 +274,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "card-header" }, [
       _c("h4", [
         _c("img", {
-          attrs: { src: __webpack_require__(1602), alt: "Company logo" }
+          attrs: { src: __webpack_require__(1608), alt: "Company logo" }
         })
       ]),
       _vm._v(" "),
@@ -299,7 +299,7 @@ var staticRenderFns = [
         _c("h4", [
           _c("img", {
             attrs: {
-              src: __webpack_require__(1603),
+              src: __webpack_require__(1609),
               alt: "invoice QR Code"
             }
           })
@@ -516,33 +516,33 @@ if (false) {
 
 /***/ }),
 
-/***/ 1602:
+/***/ 1608:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/vue-w_logo1.png?752dadf8a43f4c910a01b6078fb79395";
 
 /***/ }),
 
-/***/ 1603:
+/***/ 1609:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/invoice_code.jpg?fd1ce6d10dca6ecc3108168b729c37a6";
 
 /***/ }),
 
-/***/ 754:
+/***/ 755:
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(1598)
+  __webpack_require__(1604)
 }
 var normalizeComponent = __webpack_require__(242)
 /* script */
-var __vue_script__ = __webpack_require__(1600)
+var __vue_script__ = __webpack_require__(1606)
 /* template */
-var __vue_template__ = __webpack_require__(1601)
+var __vue_template__ = __webpack_require__(1607)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */

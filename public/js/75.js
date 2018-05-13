@@ -1,12 +1,12 @@
 webpackJsonp([75],{
 
-/***/ 1516:
+/***/ 1522:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(1517);
+var content = __webpack_require__(1523);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -27,7 +27,7 @@ if(false) {
 
 /***/ }),
 
-/***/ 1517:
+/***/ 1523:
 /***/ (function(module, exports, __webpack_require__) {
 
 var escape = __webpack_require__(243);
@@ -43,15 +43,15 @@ exports.push([module.i, "/*tabs styles*/\n.tab-pane .card[data-v-202e51b5] {\n  
 
 /***/ }),
 
-/***/ 1518:
+/***/ 1524:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(50);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue_echarts_v3_src_full_js__ = __webpack_require__(245);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_echarts_lib_chart_line__ = __webpack_require__(248);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue_echarts_v3_src_full_js__ = __webpack_require__(244);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_echarts_lib_chart_line__ = __webpack_require__(247);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_echarts_lib_chart_line___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_echarts_lib_chart_line__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_echarts_lib_component_tooltip__ = __webpack_require__(246);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_echarts_lib_component_tooltip___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_echarts_lib_component_tooltip__);
@@ -717,7 +717,7 @@ var unsub;
 
 /***/ }),
 
-/***/ 1519:
+/***/ 1525:
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -763,7 +763,7 @@ var render = function() {
                           _c("article", { staticClass: "media" }, [
                             _c("a", { staticClass: "float-left desc-img" }, [
                               _c("img", {
-                                attrs: { src: __webpack_require__(1520) }
+                                attrs: { src: __webpack_require__(1526) }
                               })
                             ]),
                             _vm._v(" "),
@@ -788,7 +788,7 @@ var render = function() {
                           _c("article", { staticClass: "media" }, [
                             _c("a", { staticClass: "float-left desc-img" }, [
                               _c("img", {
-                                attrs: { src: __webpack_require__(1521) }
+                                attrs: { src: __webpack_require__(1527) }
                               })
                             ]),
                             _vm._v(" "),
@@ -813,7 +813,7 @@ var render = function() {
                           _c("article", { staticClass: "media" }, [
                             _c("a", { staticClass: "float-left desc-img" }, [
                               _c("img", {
-                                attrs: { src: __webpack_require__(1522) }
+                                attrs: { src: __webpack_require__(1528) }
                               })
                             ]),
                             _vm._v(" "),
@@ -848,7 +848,7 @@ var render = function() {
                             _c("a", { staticClass: "float-left desc-img" }, [
                               _c("img", {
                                 attrs: {
-                                  src: __webpack_require__(774)
+                                  src: __webpack_require__(769)
                                 }
                               })
                             ]),
@@ -878,7 +878,7 @@ var render = function() {
                             _c("a", { staticClass: "float-left  desc-img" }, [
                               _c("img", {
                                 attrs: {
-                                  src: __webpack_require__(771)
+                                  src: __webpack_require__(770)
                                 }
                               })
                             ]),
@@ -1618,7 +1618,7 @@ var staticRenderFns = [
             _c("img", {
               staticClass: "img-fluid ml-3 mt-3 mb-3",
               attrs: {
-                src: __webpack_require__(775),
+                src: __webpack_require__(773),
                 alt: "profile image"
               }
             })
@@ -1690,7 +1690,7 @@ var staticRenderFns = [
             _c("img", {
               staticClass: "user-pic",
               attrs: {
-                src: __webpack_require__(775),
+                src: __webpack_require__(773),
                 alt: "profile image"
               }
             })
@@ -1771,7 +1771,7 @@ var staticRenderFns = [
           _c("div", { staticClass: "contact-cover" }, [
             _c("div", { staticClass: "profile-img float-left" }, [
               _c("img", {
-                attrs: { src: __webpack_require__(771), alt: "" }
+                attrs: { src: __webpack_require__(770), alt: "" }
               }),
               _vm._v(" "),
               _c("span", { staticClass: "follow" }, [
@@ -1965,7 +1965,7 @@ var staticRenderFns = [
             _c("img", {
               staticClass: "img-fluid",
               attrs: {
-                src: __webpack_require__(775),
+                src: __webpack_require__(773),
                 alt: "profile image"
               }
             })
@@ -2051,40 +2051,40 @@ if (false) {
 
 /***/ }),
 
-/***/ 1520:
+/***/ 1526:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/item1.jpg?560cd40622949e225ea605672406bf74";
 
 /***/ }),
 
-/***/ 1521:
+/***/ 1527:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/item2.jpg?cb1555f63928f3c7eb0a8907f5dcc70c";
 
 /***/ }),
 
-/***/ 1522:
+/***/ 1528:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/item3.jpg?d14718f6784393c2d1e4eb80166dd6a6";
 
 /***/ }),
 
-/***/ 738:
+/***/ 739:
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(1516)
+  __webpack_require__(1522)
 }
 var normalizeComponent = __webpack_require__(242)
 /* script */
-var __vue_script__ = __webpack_require__(1518)
+var __vue_script__ = __webpack_require__(1524)
 /* template */
-var __vue_template__ = __webpack_require__(1519)
+var __vue_template__ = __webpack_require__(1525)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -2131,28 +2131,28 @@ module.exports = "/vuejs-laravel/public/images/avatar3.jpg?7e593f7330076b4b89e96
 
 /***/ }),
 
-/***/ 771:
-/***/ (function(module, exports) {
-
-module.exports = "/vuejs-laravel/public/images/avatar2.jpg?2a26dff9723fa354fe9cb39a4f4529e6";
-
-/***/ }),
-
-/***/ 774:
+/***/ 769:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/avatar1.jpg?2d4968bd8ec1519b0535ba849643dd1c";
 
 /***/ }),
 
-/***/ 775:
+/***/ 770:
+/***/ (function(module, exports) {
+
+module.exports = "/vuejs-laravel/public/images/avatar2.jpg?2a26dff9723fa354fe9cb39a4f4529e6";
+
+/***/ }),
+
+/***/ 773:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/avatar4.jpg?25bf7926d4f4c50c95e027395f7019f6";
 
 /***/ }),
 
-/***/ 786:
+/***/ 780:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/avatar.jpg?9ec1314ec47a05d978a1e1568daab7ec";
@@ -2288,7 +2288,7 @@ var staticRenderFns = [
             _c("img", {
               staticClass: "user-pic mt-3 mb-2",
               attrs: {
-                src: __webpack_require__(786),
+                src: __webpack_require__(780),
                 alt: "profile image"
               }
             }),

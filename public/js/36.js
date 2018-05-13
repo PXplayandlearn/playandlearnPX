@@ -1,22 +1,22 @@
 webpackJsonp([36],{
 
-/***/ 1552:
+/***/ 1319:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(1553);
+var content = __webpack_require__(1320);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(92)("8a5a145c", content, false, {});
+var update = __webpack_require__(92)("790c9810", content, false, {});
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-442504f7\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./trend_bar.vue", function() {
-     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-442504f7\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./trend_bar.vue");
+   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-5e99c4c8\",\"scoped\":false,\"hasInlineConfig\":true}!./wenk.css", function() {
+     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-5e99c4c8\",\"scoped\":false,\"hasInlineConfig\":true}!./wenk.css");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -27,7 +27,7 @@ if(false) {
 
 /***/ }),
 
-/***/ 1553:
+/***/ 1320:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(49)(false);
@@ -35,22 +35,256 @@ exports = module.exports = __webpack_require__(49)(false);
 
 
 // module
-exports.push([module.i, "\n.trendvue svg path{\nstroke-width:2px;\n}\n.card svg{\n    height: 40vh;\n}\n", ""]);
+exports.push([module.i, "\n[data-wenk]{position:relative\n}\n[data-wenk]:after{position:absolute;font-size:13px;border-radius:.4rem;content:attr(data-wenk);padding:.8rem;background-color:hsla(0,0%,7%,.8);-webkit-box-shadow:0 0 14px rgba(0,0,0,.1);box-shadow:0 0 14px rgba(0,0,0,.1);color:#fff;line-height:20px;line-height:1.25rem;text-align:left;z-index:1;pointer-events:none;display:block;opacity:0;visibility:hidden;-webkit-transition:all .3s;transition:all .3s;bottom:100%;left:50%;-webkit-transform:translate(-50%,10px);transform:translate(-50%,10px);white-space:pre;width:auto\n}\n[data-wenk]:hover{overflow:visible\n}\n[data-wenk]:hover:after{display:block;opacity:1;visibility:visible;-webkit-transform:translate(-50%,-10px);transform:translate(-50%,-10px)\n}\n[data-wenk].wenk--bottom:after,[data-wenk][data-wenk-pos=bottom]:after{bottom:auto;top:100%;left:50%;-webkit-transform:translate(-50%,-10px);transform:translate(-50%,-10px)\n}\n[data-wenk].wenk--bottom:hover:after,[data-wenk][data-wenk-pos=bottom]:hover:after{-webkit-transform:translate(-50%,10px);transform:translate(-50%,10px)\n}\n[data-wenk].wenk--left:after,[data-wenk][data-wenk-pos=left]:after{bottom:auto;left:auto;top:50%;right:100%;-webkit-transform:translate(10px,-50%);transform:translate(10px,-50%)\n}\n[data-wenk].wenk--left:hover:after,[data-wenk][data-wenk-pos=left]:hover:after{-webkit-transform:translate(-10px,-50%);transform:translate(-10px,-50%)\n}\n[data-wenk].wenk--right:after,[data-wenk][data-wenk-pos=right]:after{bottom:auto;top:50%;left:100%;-webkit-transform:translate(-10px,-50%);transform:translate(-10px,-50%)\n}\n[data-wenk].wenk--right:hover:after,[data-wenk][data-wenk-pos=right]:hover:after{-webkit-transform:translate(10px,-50%);transform:translate(10px,-50%)\n}\n[data-wenk].wenk-length--small:after,[data-wenk][data-wenk-length=small]:after{white-space:normal;width:80px\n}\n[data-wenk].wenk-length--medium:after,[data-wenk][data-wenk-length=medium]:after{white-space:normal;width:150px\n}\n[data-wenk].wenk-length--large:after,[data-wenk][data-wenk-length=large]:after{white-space:normal;width:260px\n}\n[data-wenk].wenk-length--fit:after,[data-wenk][data-wenk-length=fit]:after{white-space:normal;width:100%\n}\n[data-wenk].wenk-align--right:after,[data-wenk][data-wenk-align=right]:after{text-align:right\n}\n[data-wenk].wenk-align--center:after,[data-wenk][data-wenk-align=center]:after{text-align:center\n}\n[data-wenk=\"\"]:after{visibility:hidden!important\n}", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ 1554:
+/***/ 1321:
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(1322);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__(92)("3aa1b9f8", content, false, {});
+// Hot Module Replacement
+if(false) {
+ // When the styles change, update the <style> tags
+ if(!content.locals) {
+   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-5e99c4c8\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=1!./ui_elements.vue", function() {
+     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-5e99c4c8\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=1!./ui_elements.vue");
+     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+     update(newContent);
+   });
+ }
+ // When the module is disposed, remove the <style> tags
+ module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ 1322:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(49)(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n.wenkborder[data-v-5e99c4c8] {\n    border: 1px solid #ccc;\n    padding: 3px 12px;\n    border-radius: 3px;\n    display: inline-block;\n    cursor: default;\n}\n[data-v-5e99c4c8].ui_font_family .overlay{\n    overflow-x: overlay;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ 1323:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vuetrend__ = __webpack_require__(916);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_vuebars__ = __webpack_require__(1555);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -79,303 +313,1144 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 
-
-
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_1_vuetrend__["a" /* default */]);
-
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_2_vuebars__["a" /* default */]);
 /* harmony default export */ __webpack_exports__["default"] = ({
-    name: "blank",
     data: function data() {
-        return {};
+        return {
+            placements: ['top', 'right', 'left', 'bottom'],
+            color: ['primary', 'danger', 'success', 'warning'],
+            currentPage: 2,
+            currentPage2: 4,
+            currentpage3: 5,
+            items1: [{
+                text: 'Home',
+                link: '#'
+            }, {
+                text: 'Manage',
+                link: '#'
+            }, {
+                text: 'picker',
+                active: true
+            }],
+            items2: [{
+                text: 'Dashboard',
+                link: '#'
+            }, {
+                text: 'Tables',
+                link: '#'
+            }, {
+                text: 'Data tables',
+                active: true
+            }],
+            items3: [{
+                text: 'Dashboard',
+                link: '#'
+            }, {
+                text: 'Charts',
+                link: '#'
+            }, {
+                text: 'Float Charts',
+                active: true
+            }],
+            progress1counter1: 10,
+            progress1counter2: 30,
+            progress1counter3: 45,
+            progress1counter4: 50,
+            progress1counter5: 80,
+            progress2counter1: 20,
+            progress2counter2: 40,
+            progress2counter3: 60,
+            progress2counter4: 75,
+            progress2counter5: 90,
+            showDismissibleAlert: true
+        };
     },
 
     methods: {}
+
 });
 
 /***/ }),
 
-/***/ 1555:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-function transitionColor(from, to, count) {
-  count = count + 1;
-  var int = parseInt(from, 16); // 100
-  var intTo = parseInt(to, 16); // 50
-  var list = []; // 5
-  var diff = int - intTo; // 50
-  var isNegative = diff < 0; // false
-  var one = diff / count; // 10
- 
-  list.push(from);
-  for (var i = 1; i <= count; i++) {
-    list.push(Math.floor(int - (one * i)).toString(16));
-  }
- 
-  return list
-}
- 
-function transition(from, to, count) {
-  count = count || 3;
-  var r = from.slice(0, 2), g = from.slice(2, 4), b = from.slice(4, 6);
-  var rt = to.slice(0, 2), gt = to.slice(2, 4), bt = to.slice(4, 6);
-  var allR = transitionColor(r, rt, count);
-  var allG = transitionColor(g, gt, count);
-  var allB = transitionColor(b, bt, count);
-  var list = [];
- 
-  allR.forEach(function(_, i) {
-    list.push('' + allR[i] + allG[i] + allB[i]);
-  });
- 
-  return list
-}
- 
-function generateGradientStepsCss(from, to, count) {
-  from = from.replace('#', '');
-  to = to.replace('#', '');
-  var values = transition(from, to, count);
-  var total = 100 / (count + 1);
-  var obj = [];
-  for (var i = 0; i <= count + 1; i++) {
-    obj.push({percentage: Math.floor(total * i), value: values[i]});
-  }
-  return obj.map(function(value) {
-    return '#' + value.value
-  })
-}
-
-/**
- *  Calculate the coordinate
- * @param  {number[]|object[]}  arr
- * @param  {object}             boundary
- * @return {object[]}
- */
-function genPoints (arr, ref) {
-  var minX = ref.minX;
-  var minY = ref.minY;
-  var maxX = ref.maxX;
-  var maxY = ref.maxY;
-
-  var gridX = (maxX - minX) / (arr.length - 1);
-  var gridY = (maxY - minY) / (Math.max.apply(Math, arr) - Math.min.apply(Math, arr));
-
-  return arr.map(function (item, index) {
-    var value = typeof item === 'number' ? item : item.value;
-
-    return { x: index * gridX + minX, y: maxY - value * gridY, v: value }
-  })
-}
-
-function genBars (_this, arr, h) {
-  var ref = _this.boundary;
-  var minX = ref.minX;
-  var minY = ref.minY;
-  var maxX = ref.maxX;
-  var maxY = ref.maxY;
-  var totalWidth = (maxX) / (arr.length-1);
-  if (!_this.barWidth) {
-    _this.barWidth = totalWidth - (_this.padding || 5);
-  }
-  if (!_this.rounding) {
-    _this.rounding = 2;
-  }
-
-  var gradients = generateGradientStepsCss(_this.gradient[0], _this.gradient[1], (arr.length-1));
-  var offsetX = (totalWidth - _this.barWidth) / 2;
-
-  return arr.map(function (item, index) {
-    return h('rect', {
-      attrs: {
-        id: ("bar-id-" + index),
-        fill: gradients[index],
-        x: item.x - offsetX,
-        y: 0,
-        width: _this.barWidth,
-        height: (maxY - item.y),
-        rx: _this.rounding,
-        ry: _this.rounding
-      }
-    }, [
-      h('animate', {
-        attrs: {
-          attributeName: 'height',
-          from: 0,
-          to: (maxY - item.y),
-          dur: ((_this.growDuration) + "s"),
-          fill: 'freeze'
-        }
-      }),
-      h('title', {}, [item.v])
-    ])
-  })
-}
-
-var Path = {
-  props: ['smooth', 'data', 'boundary', 'barWidth', 'rounding', 'id', 'gradient', 'growDuration'],
-
-  render: function render (h) {
-    var points = genPoints(this.data, this.boundary);
-    var bars = genBars(this, points, h);
-
-    return h('g', {
-      attrs: {
-        transform: ("scale(1,-1) translate(0,-" + (this.boundary.maxY) + ")")
-      }
-    }, bars)
-  }
-};
-
-var Bars$1 = {
-  name: 'Bars',
-
-  props: {
-    data: {
-      type: Array,
-      required: true
-    },
-    barWidth: {
-      type: Number,
-      default: 8
-    },
-    rounding: {
-      type: Number,
-      default: 2
-    },
-    growDuration: {
-      type: Number,
-      default: 0.5
-    },
-    gradient: Array,
-    height: Number,
-    width: Number,
-    padding: {
-      type: Number,
-      default: 8
-    }
-  },
-
-  watch: {
-    data: {
-      immediate: true,
-      handler: function handler (val) {
-        if (!val || val.length < 2) { return }
-      }
-    }
-  },
-
-  render: function render (h) {
-    if (!this.data || this.data.length < 2) { return }
-    var ref = this;
-    var width = ref.width;
-    var height = ref.height;
-    var padding = ref.padding;
-    var barWidth = ref.barWidth;
-    var rounding = ref.rounding;
-    var gradient = ref.gradient;
-    var growDuration = ref.growDuration;
-    var viewWidth = width || 300;
-    var viewHeight = height || 75;
-    var boundary = {
-      minX: padding, minY: padding,
-      maxX: viewWidth - padding, maxY: viewHeight - padding
-    };
-    var props = this.$props;
-
-    props.boundary = boundary;
-    props.id = 'vue-bars-' + this._uid;
-    this.pathId = props.id + '-path';
-
-    return h('svg', {
-      attrs: {
-        width: width || '100%',
-        height: height || '25%',
-        viewBox: ("0 0 " + viewWidth + " " + viewHeight)
-      }
-    }, [
-      h(Path, {
-        props: props,
-        attrs: { id: this.pathId },
-        ref: 'path'
-      })
-    ])
-  }
-};
-
-Bars$1.install = function (Vue) {
-  Vue.component(Bars$1.name, Bars$1);
-};
-
-if (typeof window !== 'undefined' && window.Vue) {
-  window.Vue.use(Bars$1);
-}
-
-/* harmony default export */ __webpack_exports__["a"] = (Bars$1);
-
-
-/***/ }),
-
-/***/ 1556:
+/***/ 1324:
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "row" }, [
-    _c(
-      "div",
-      { staticClass: "col-sm-6" },
-      [
+  return _c(
+    "div",
+    { staticClass: "ui_font_family" },
+    [
+      _c("div", { staticClass: "row" }, [
         _c(
-          "b-card",
-          {
-            staticClass: "bg-success-card trendvue",
-            attrs: { header: "Trend chart", "header-tag": "h4" }
-          },
+          "div",
+          { staticClass: "col-lg-6" },
           [
-            _c("trend", {
-              attrs: {
-                data: [0, 2, 5, 9, 5, 10, 3, 5, 0, 0, 1, 8, 2, 9, 0],
-                gradient: ["#6fa8dc", "#42b983", "#f27a09", "#ff5454"],
-                smooth: ""
-              }
-            })
+            _c(
+              "b-card",
+              {
+                staticClass: "bg-info-card",
+                attrs: { header: "Breadcrumb", "header-tag": "h4" }
+              },
+              [
+                _c("b-breadcrumb", {
+                  staticClass: "breadcrumb1",
+                  attrs: { items: _vm.items1 }
+                }),
+                _vm._v(" "),
+                _c("b-breadcrumb", {
+                  staticClass: "breadcrumb2",
+                  attrs: { items: _vm.items2 }
+                }),
+                _vm._v(" "),
+                _c("b-breadcrumb", {
+                  staticClass: "breadcrumb3",
+                  attrs: { items: _vm.items3 }
+                })
+              ],
+              1
+            )
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "col-lg-6" },
+          [
+            _c(
+              "b-card",
+              {
+                staticClass: "bg-warning-card",
+                attrs: { header: "Pagination", "header-tag": "h4" }
+              },
+              [
+                _c("b-pagination", {
+                  attrs: { size: "sm", "total-rows": 100, "per-page": 10 },
+                  model: {
+                    value: _vm.currentPage,
+                    callback: function($$v) {
+                      _vm.currentPage = $$v
+                    },
+                    expression: "currentPage"
+                  }
+                }),
+                _vm._v(" "),
+                _c("b-pagination", {
+                  staticClass: "mt-4",
+                  attrs: {
+                    size: "md",
+                    "total-rows": 100,
+                    variant: "primary",
+                    "secondary-variant": "success",
+                    "per-page": 10
+                  },
+                  model: {
+                    value: _vm.currentPage2,
+                    callback: function($$v) {
+                      _vm.currentPage2 = $$v
+                    },
+                    expression: "currentPage2"
+                  }
+                }),
+                _vm._v(" "),
+                _c("b-pagination", {
+                  staticClass: "mt-4 overlay",
+                  attrs: { size: "lg", "total-rows": 100, "per-page": 5 },
+                  model: {
+                    value: _vm.currentpage3,
+                    callback: function($$v) {
+                      _vm.currentpage3 = $$v
+                    },
+                    expression: "currentpage3"
+                  }
+                }),
+                _vm._v(" "),
+                _c("br")
+              ],
+              1
+            )
           ],
           1
         )
-      ],
-      1
-    ),
-    _vm._v(" "),
-    _c(
-      "div",
-      { staticClass: "col-sm-6" },
-      [
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "row" }, [
         _c(
-          "b-card",
-          {
-            staticClass: "bg-success-card",
-            attrs: { header: "Vue-bar chart", "header-tag": "h4" }
-          },
+          "div",
+          { staticClass: "col-lg-12" },
           [
-            _c("bars", {
-              attrs: {
-                data: [1, 2, 5, 9, 5, 10, 3, 5, 2, 5, 1, 8, 2, 9, 0],
-                gradient: ["#6fa8dc", "#42b983"],
-                "auto-draw": "true",
-                autoDrawDuration: "2000",
-                autoDrawEasing: "ease"
-              }
-            })
+            _c(
+              "b-card",
+              {
+                staticClass: "bg-success-card",
+                attrs: { header: "Wenk Tool Tips", "header-tag": "h4" }
+              },
+              [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-lg-4 text-center" }, [
+                    _c("h4", [_vm._v("Tool tips different positions!")]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _c(
+                        "span",
+                        {
+                          staticClass: "wenkborder mt-3",
+                          attrs: { "data-wenk": "Top" }
+                        },
+                        [_vm._v("Tool tip to the top!")]
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _c(
+                        "span",
+                        {
+                          staticClass: "wenkborder",
+                          attrs: {
+                            "data-wenk": "Right",
+                            "data-wenk-pos": "right"
+                          }
+                        },
+                        [_vm._v("Tool tip right")]
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _c(
+                        "span",
+                        {
+                          staticClass: "wenkborder",
+                          attrs: {
+                            "data-wenk": "Left",
+                            "data-wenk-pos": "left"
+                          }
+                        },
+                        [_vm._v("Tool tip  to the left!")]
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _c(
+                        "span",
+                        {
+                          staticClass: "wenkborder",
+                          attrs: {
+                            "data-wenk": " Bottom",
+                            "data-wenk-pos": "bottom"
+                          }
+                        },
+                        [_vm._v("Tool tip to the bottom!")]
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-lg-4 text-center" }, [
+                    _c("h4", [_vm._v("Tool tips different widths!")]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _c(
+                        "span",
+                        {
+                          staticClass: "wenk-length--small wenkborder mt-3",
+                          attrs: { "data-wenk": "I'm small!" }
+                        },
+                        [_vm._v("Small Tool Tip!")]
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _c(
+                        "span",
+                        {
+                          staticClass: "wenk-length--medium wenkborder",
+                          attrs: { "data-wenk": "I'm medium!" }
+                        },
+                        [_vm._v("Medium Tool Tip!")]
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _c(
+                        "span",
+                        {
+                          staticClass: "wenk-length--large wenkborder",
+                          attrs: { "data-wenk": "I'm large!" }
+                        },
+                        [_vm._v("Large Tool Tip!")]
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _c(
+                        "span",
+                        {
+                          staticClass: "wenk-length--fit wenkborder",
+                          attrs: { "data-wenk": "I fit!" }
+                        },
+                        [_vm._v("I fit just right!")]
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-lg-4 text-center" }, [
+                    _c("h4", [_vm._v("Tool tips  alignments!")]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _c(
+                        "span",
+                        {
+                          staticClass:
+                            "wenk-align--left wenk-length--large wenkborder mt-3",
+                          attrs: { "data-wenk": "I'm left!" }
+                        },
+                        [_vm._v("Left Tool Tip!")]
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _c(
+                        "span",
+                        {
+                          staticClass:
+                            " wenk-align--right wenk-length--large wenkborder",
+                          attrs: { "data-wenk": "I'm right!" }
+                        },
+                        [_vm._v("Right Tool Tip!")]
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _c(
+                        "span",
+                        {
+                          staticClass:
+                            "wenk-align--center wenk-length--large wenkborder",
+                          attrs: { "data-wenk": "I'm center!" }
+                        },
+                        [_vm._v("Center Tool Tip!")]
+                      )
+                    ])
+                  ])
+                ])
+              ]
+            )
           ],
           1
         )
-      ],
-      1
-    )
-  ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "row" }, [
+        _c(
+          "div",
+          { staticClass: "col-lg-6" },
+          [
+            _c(
+              "b-card",
+              {
+                staticClass: "bg-primary-card",
+                attrs: { header: "Progressbars", "header-tag": "h4" }
+              },
+              [
+                _c("b-progress", {
+                  staticClass: "mb-4",
+                  attrs: { variant: "primary", "hide-value": "" },
+                  model: {
+                    value: _vm.progress1counter1,
+                    callback: function($$v) {
+                      _vm.progress1counter1 = $$v
+                    },
+                    expression: "progress1counter1"
+                  }
+                }),
+                _vm._v(" "),
+                _c("b-progress", {
+                  staticClass: "mb-4",
+                  attrs: { variant: "info", "hide-value": "" },
+                  model: {
+                    value: _vm.progress1counter2,
+                    callback: function($$v) {
+                      _vm.progress1counter2 = $$v
+                    },
+                    expression: "progress1counter2"
+                  }
+                }),
+                _vm._v(" "),
+                _c("b-progress", {
+                  staticClass: "mb-4",
+                  attrs: { variant: "danger", "hide-value": "" },
+                  model: {
+                    value: _vm.progress1counter3,
+                    callback: function($$v) {
+                      _vm.progress1counter3 = $$v
+                    },
+                    expression: "progress1counter3"
+                  }
+                }),
+                _vm._v(" "),
+                _c("b-progress", {
+                  staticClass: "mb-4",
+                  attrs: { variant: "warning", "hide-value": "" },
+                  model: {
+                    value: _vm.progress1counter4,
+                    callback: function($$v) {
+                      _vm.progress1counter4 = $$v
+                    },
+                    expression: "progress1counter4"
+                  }
+                }),
+                _vm._v(" "),
+                _c("b-progress", {
+                  staticClass: "mb-4",
+                  attrs: { variant: "success", "hide-value": "" },
+                  model: {
+                    value: _vm.progress1counter5,
+                    callback: function($$v) {
+                      _vm.progress1counter5 = $$v
+                    },
+                    expression: "progress1counter5"
+                  }
+                })
+              ],
+              1
+            )
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "col-lg-6" },
+          [
+            _c(
+              "b-card",
+              {
+                staticClass: "bg-info-card",
+                attrs: { header: "Progressbar With Labels", "header-tag": "h4" }
+              },
+              [
+                _c("b-progress", {
+                  staticClass: "mb-4",
+                  attrs: { variant: "primary", "show-value": "" },
+                  model: {
+                    value: _vm.progress1counter1,
+                    callback: function($$v) {
+                      _vm.progress1counter1 = $$v
+                    },
+                    expression: "progress1counter1"
+                  }
+                }),
+                _vm._v(" "),
+                _c("b-progress", {
+                  staticClass: "mb-4",
+                  attrs: { variant: "info", "show-value": "" },
+                  model: {
+                    value: _vm.progress1counter2,
+                    callback: function($$v) {
+                      _vm.progress1counter2 = $$v
+                    },
+                    expression: "progress1counter2"
+                  }
+                }),
+                _vm._v(" "),
+                _c("b-progress", {
+                  staticClass: "mb-4",
+                  attrs: { variant: "danger", "show-progress": "" },
+                  model: {
+                    value: _vm.progress1counter3,
+                    callback: function($$v) {
+                      _vm.progress1counter3 = $$v
+                    },
+                    expression: "progress1counter3"
+                  }
+                }),
+                _vm._v(" "),
+                _c("b-progress", {
+                  staticClass: "mb-4",
+                  attrs: { variant: "warning", "show-progress": "" },
+                  model: {
+                    value: _vm.progress1counter4,
+                    callback: function($$v) {
+                      _vm.progress1counter4 = $$v
+                    },
+                    expression: "progress1counter4"
+                  }
+                }),
+                _vm._v(" "),
+                _c("b-progress", {
+                  staticClass: "mb-4",
+                  attrs: { variant: "success", "show-progress": "" },
+                  model: {
+                    value: _vm.progress1counter5,
+                    callback: function($$v) {
+                      _vm.progress1counter5 = $$v
+                    },
+                    expression: "progress1counter5"
+                  }
+                })
+              ],
+              1
+            )
+          ],
+          1
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "row" }, [
+        _c(
+          "div",
+          { staticClass: "col-lg-6" },
+          [
+            _c(
+              "b-card",
+              {
+                staticClass: "bg-success-card",
+                attrs: { header: "Animated Progressbars", "header-tag": "h4" }
+              },
+              [
+                _c("b-progress", {
+                  staticClass: "mb-4",
+                  attrs: { variant: "primary", "hide-value": "", animated: "" },
+                  model: {
+                    value: _vm.progress2counter1,
+                    callback: function($$v) {
+                      _vm.progress2counter1 = $$v
+                    },
+                    expression: "progress2counter1"
+                  }
+                }),
+                _vm._v(" "),
+                _c("b-progress", {
+                  staticClass: "mb-4",
+                  attrs: { variant: "info", "hide-progress": "", animated: "" },
+                  model: {
+                    value: _vm.progress2counter2,
+                    callback: function($$v) {
+                      _vm.progress2counter2 = $$v
+                    },
+                    expression: "progress2counter2"
+                  }
+                }),
+                _vm._v(" "),
+                _c("b-progress", {
+                  staticClass: "mb-4",
+                  attrs: {
+                    variant: "danger",
+                    "hide-progress": "",
+                    animated: ""
+                  },
+                  model: {
+                    value: _vm.progress2counter3,
+                    callback: function($$v) {
+                      _vm.progress2counter3 = $$v
+                    },
+                    expression: "progress2counter3"
+                  }
+                }),
+                _vm._v(" "),
+                _c("b-progress", {
+                  staticClass: "mb-4",
+                  attrs: {
+                    variant: "warning",
+                    "hide-progress": "",
+                    animated: ""
+                  },
+                  model: {
+                    value: _vm.progress2counter4,
+                    callback: function($$v) {
+                      _vm.progress2counter4 = $$v
+                    },
+                    expression: "progress2counter4"
+                  }
+                }),
+                _vm._v(" "),
+                _c("b-progress", {
+                  staticClass: "mb-4",
+                  attrs: {
+                    variant: "success",
+                    "hide-progress": "",
+                    animated: ""
+                  },
+                  model: {
+                    value: _vm.progress2counter5,
+                    callback: function($$v) {
+                      _vm.progress2counter5 = $$v
+                    },
+                    expression: "progress2counter5"
+                  }
+                })
+              ],
+              1
+            )
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "col-lg-6" },
+          [
+            _c(
+              "b-card",
+              {
+                staticClass: "bg-danger-card",
+                attrs: { header: "Striped  With Labels", "header-tag": "h4" }
+              },
+              [
+                _c("b-progress", {
+                  staticClass: "mb-4",
+                  attrs: { variant: "primary", "show-value": "", striped: "" },
+                  model: {
+                    value: _vm.progress2counter1,
+                    callback: function($$v) {
+                      _vm.progress2counter1 = $$v
+                    },
+                    expression: "progress2counter1"
+                  }
+                }),
+                _vm._v(" "),
+                _c("b-progress", {
+                  staticClass: "mb-4",
+                  attrs: { variant: "info", "show-value": "", striped: "" },
+                  model: {
+                    value: _vm.progress2counter2,
+                    callback: function($$v) {
+                      _vm.progress2counter2 = $$v
+                    },
+                    expression: "progress2counter2"
+                  }
+                }),
+                _vm._v(" "),
+                _c("b-progress", {
+                  staticClass: "mb-4",
+                  attrs: {
+                    variant: "danger",
+                    "show-progress": "",
+                    striped: ""
+                  },
+                  model: {
+                    value: _vm.progress2counter3,
+                    callback: function($$v) {
+                      _vm.progress2counter3 = $$v
+                    },
+                    expression: "progress2counter3"
+                  }
+                }),
+                _vm._v(" "),
+                _c("b-progress", {
+                  staticClass: "mb-4",
+                  attrs: {
+                    variant: "warning",
+                    "show-progress": "",
+                    striped: ""
+                  },
+                  model: {
+                    value: _vm.progress2counter4,
+                    callback: function($$v) {
+                      _vm.progress2counter4 = $$v
+                    },
+                    expression: "progress2counter4"
+                  }
+                }),
+                _vm._v(" "),
+                _c("b-progress", {
+                  staticClass: "mb-4",
+                  attrs: {
+                    variant: "success",
+                    "show-progress": "",
+                    striped: ""
+                  },
+                  model: {
+                    value: _vm.progress2counter5,
+                    callback: function($$v) {
+                      _vm.progress2counter5 = $$v
+                    },
+                    expression: "progress2counter5"
+                  }
+                })
+              ],
+              1
+            )
+          ],
+          1
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "row " }, [
+        _c(
+          "div",
+          { staticClass: "col-lg-6" },
+          [
+            _c(
+              "b-card",
+              {
+                staticClass: "bg-warning-card",
+                attrs: { header: "Alerts", "header-tag": "h4" }
+              },
+              [
+                _c("b-alert", { attrs: { variant: "info", show: "" } }, [
+                  _vm._v("\n                    Info Alert\n                ")
+                ]),
+                _vm._v(" "),
+                _c("b-alert", { attrs: { variant: "danger", show: "" } }, [
+                  _vm._v("\n                    Danger Alert\n                ")
+                ]),
+                _vm._v(" "),
+                _c("b-alert", { attrs: { variant: "warning", show: "" } }, [
+                  _vm._v(
+                    "\n                    Warning Alert\n                "
+                  )
+                ]),
+                _vm._v(" "),
+                _c("b-alert", { attrs: { variant: "success", show: "" } }, [
+                  _vm._v(
+                    "\n                    Success Alert\n                "
+                  )
+                ])
+              ],
+              1
+            )
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "col-lg-6" },
+          [
+            _c(
+              "b-card",
+              {
+                staticClass: "bg-primary-card",
+                attrs: { header: "Dismissible Alerts", "header-tag": "h4" }
+              },
+              [
+                _c(
+                  "b-alert",
+                  {
+                    attrs: {
+                      variant: "danger",
+                      dismissible: "",
+                      show: _vm.showDismissibleAlert
+                    },
+                    on: {
+                      dismissed: function($event) {
+                        _vm.showDismissibleAlert = false
+                      }
+                    }
+                  },
+                  [
+                    _vm._v(
+                      "\n                    Dismissible Alert!\n                "
+                    )
+                  ]
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "b-card",
+              {
+                staticClass: "bg-info-card",
+                attrs: { header: "Tool Tips", "header-tag": "h4" }
+              },
+              [
+                _c("div", { staticClass: "row text-center" }, [
+                  _c(
+                    "div",
+                    { staticClass: "col-lg-3 mt-3 mb-3" },
+                    [
+                      _c(
+                        "b-btn",
+                        {
+                          directives: [
+                            {
+                              name: "b-tooltip",
+                              rawName: "v-b-tooltip.hover.top",
+                              modifiers: { hover: true, top: true }
+                            }
+                          ],
+                          attrs: { title: "hi", variant: "outline-primary" }
+                        },
+                        [_vm._v("Top")]
+                      ),
+                      _vm._v(" "),
+                      _c("b-tooltip", {
+                        staticClass: "d-block",
+                        attrs: { content: "bottom", placement: "bottom" }
+                      })
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    { staticClass: "col-lg-3 mt-3 mb-3" },
+                    [
+                      _c(
+                        "b-btn",
+                        {
+                          directives: [
+                            {
+                              name: "b-tooltip",
+                              rawName: "v-b-tooltip.hover.bottom",
+                              modifiers: { hover: true, bottom: true }
+                            }
+                          ],
+                          attrs: {
+                            title: "hi",
+                            variant: "outline-info",
+                            id: "bt1"
+                          }
+                        },
+                        [_vm._v("bottom")]
+                      ),
+                      _vm._v(" "),
+                      _c("b-tooltip", {
+                        staticClass: "d-block",
+                        attrs: {
+                          content: "bottom",
+                          placement: "bottom",
+                          target: "bt1"
+                        }
+                      })
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    { staticClass: "col-lg-3 mt-3 mb-3" },
+                    [
+                      _c(
+                        "b-btn",
+                        {
+                          directives: [
+                            {
+                              name: "b-tooltip",
+                              rawName: "v-b-tooltip.hover.left",
+                              modifiers: { hover: true, left: true }
+                            }
+                          ],
+                          attrs: {
+                            title: "hi",
+                            variant: "outline-success",
+                            id: "bt1"
+                          }
+                        },
+                        [_vm._v("left")]
+                      ),
+                      _vm._v(" "),
+                      _c("b-tooltip", {
+                        staticClass: "d-block",
+                        attrs: {
+                          content: "bottom",
+                          placement: "bottom",
+                          target: "bt1"
+                        }
+                      })
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    { staticClass: "col-lg-3 mt-3 mb-3" },
+                    [
+                      _c(
+                        "b-btn",
+                        {
+                          directives: [
+                            {
+                              name: "b-tooltip",
+                              rawName: "v-b-tooltip.hover.right",
+                              modifiers: { hover: true, right: true }
+                            }
+                          ],
+                          attrs: { title: "hi", variant: "outline-danger" }
+                        },
+                        [_vm._v("right")]
+                      ),
+                      _vm._v(" "),
+                      _c("b-tooltip", { staticClass: "d-block" })
+                    ],
+                    1
+                  )
+                ])
+              ]
+            )
+          ],
+          1
+        )
+      ]),
+      _vm._v(" "),
+      _c(
+        "b-card",
+        {
+          staticClass: "bg-primary-card",
+          attrs: { header: "Popovers", "header-tag": "h4" }
+        },
+        [
+          _c("div", { staticClass: "row" }, [
+            _c(
+              "div",
+              { staticClass: "col-lg-4" },
+              [
+                _c(
+                  "b-card",
+                  {
+                    staticClass: "mt-1 bg-warning-card",
+                    attrs: { header: "Placement", "header-tag": "h4" }
+                  },
+                  _vm._l(_vm.placements, function(placement, index) {
+                    return _c(
+                      "b-col",
+                      {
+                        key: index,
+                        staticClass: "py-4 text-center",
+                        attrs: { md: "10" }
+                      },
+                      [
+                        _c(
+                          "b-btn",
+                          {
+                            staticClass: "text-white",
+                            attrs: {
+                              id: "exPopover1-" + placement,
+                              variant: _vm.color[index]
+                            }
+                          },
+                          [
+                            _vm._v(
+                              "\n                                " +
+                                _vm._s(placement) +
+                                "\n                            "
+                            )
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("b-popover", {
+                          attrs: {
+                            target: "exPopover1-" + placement,
+                            placement: placement,
+                            title: "Popover!",
+                            triggers: "hover focus",
+                            content: "Placement " + placement
+                          }
+                        })
+                      ],
+                      1
+                    )
+                  })
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "col-lg-8" },
+              [
+                _c(
+                  "b-card",
+                  {
+                    staticClass: "bg-success-card",
+                    attrs: {
+                      header: "Content via properties or Slots",
+                      "header-tag": "h4"
+                    }
+                  },
+                  [
+                    _c(
+                      "b-row",
+                      [
+                        _c(
+                          "b-col",
+                          {
+                            staticClass: "py-4 text-center",
+                            attrs: { md: "6" }
+                          },
+                          [
+                            _c(
+                              "b-btn",
+                              {
+                                staticClass: "text-white",
+                                attrs: { id: "exPopover2", variant: "danger" }
+                              },
+                              [_vm._v("Using properties")]
+                            ),
+                            _vm._v(" "),
+                            _c("b-popover", {
+                              attrs: {
+                                target: "exPopover2",
+                                title: "Prop Examples",
+                                triggers: "hover focus",
+                                placement: "top",
+                                content: "Embedding content"
+                              }
+                            })
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "b-col",
+                          {
+                            staticClass: "py-4 text-center",
+                            attrs: { md: "6" }
+                          },
+                          [
+                            _c(
+                              "b-btn",
+                              {
+                                attrs: { id: "exPopover3", variant: "primary" }
+                              },
+                              [_vm._v("Using slots")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "b-popover",
+                              {
+                                attrs: {
+                                  target: "exPopover3",
+                                  placement: "top",
+                                  triggers: "hover focus"
+                                }
+                              },
+                              [
+                                _c("template", { slot: "title" }, [
+                                  _vm._v("Content ")
+                                ]),
+                                _vm._v(
+                                  "\n                                Embedding "
+                                ),
+                                _c("span", { staticClass: "text-danger" }, [
+                                  _vm._v("using slots")
+                                ]),
+                                _vm._v(
+                                  "\n                                 you\n                            "
+                                )
+                              ],
+                              2
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c("b-col", {
+                  staticClass: "py-4 text-center",
+                  attrs: { md: "10", in: "", placements: "" }
+                }),
+                _vm._v(" "),
+                _c(
+                  "b-card",
+                  {
+                    staticClass: "mt-5 mb-5",
+                    attrs: { header: "Delay", "header-tag": "h4" }
+                  },
+                  [
+                    _c("div", { staticClass: "row mt-5 mb-4" }, [
+                      _c(
+                        "div",
+                        { staticClass: "col-md-4 my-1 text-center " },
+                        [
+                          _c(
+                            "b-btn",
+                            {
+                              staticClass: "text-white",
+                              attrs: { id: "exPopoverxyz", variant: "warning" }
+                            },
+                            [
+                              _vm._v(
+                                "\n                                1000ms\n                            "
+                              )
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("b-popover", {
+                            staticClass: "d-block",
+                            attrs: {
+                              target: "exPopoverxyz",
+                              triggers: "hover",
+                              delay: "1000",
+                              placement: "top",
+                              content: "Sorry, I'm a little sleepy."
+                            }
+                          })
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "col-md-4 my-1 text-center" },
+                        [
+                          _c(
+                            "b-btn",
+                            { attrs: { id: "exPopover7", variant: "success" } },
+                            [_vm._v("1000ms on show")]
+                          ),
+                          _vm._v(" "),
+                          _c("b-popover", {
+                            staticClass: "d-block",
+                            attrs: {
+                              delay: "1000",
+                              target: "exPopover7",
+                              hide: "0",
+                              placement: "top",
+                              content: "This will disappear right away!",
+                              triggers: "hover"
+                            }
+                          })
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "col-md-4 my-1 text-center" },
+                        [
+                          _c(
+                            "b-btn",
+                            { attrs: { id: "exPopver8", variant: "primary" } },
+                            [_vm._v("1000ms on hide")]
+                          ),
+                          _vm._v(" "),
+                          _c("b-popover", {
+                            staticClass: "d-block",
+                            attrs: {
+                              show: false,
+                              target: "exPopver8",
+                              hide: "1000",
+                              placement: "top",
+                              content:
+                                "This will disappear after a second's delay.",
+                              triggers: "hover"
+                            }
+                          })
+                        ],
+                        1
+                      )
+                    ])
+                  ]
+                )
+              ],
+              1
+            )
+          ])
+        ]
+      )
+    ],
+    1
+  )
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -383,31 +1458,32 @@ module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-442504f7", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-5e99c4c8", module.exports)
   }
 }
 
 /***/ }),
 
-/***/ 744:
+/***/ 731:
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(1552)
+  __webpack_require__(1319)
+  __webpack_require__(1321)
 }
 var normalizeComponent = __webpack_require__(242)
 /* script */
-var __vue_script__ = __webpack_require__(1554)
+var __vue_script__ = __webpack_require__(1323)
 /* template */
-var __vue_template__ = __webpack_require__(1556)
+var __vue_template__ = __webpack_require__(1324)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = null
+var __vue_scopeId__ = "data-v-5e99c4c8"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
@@ -418,7 +1494,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources\\assets\\components\\pages\\trend_bar.vue"
+Component.options.__file = "resources\\assets\\components\\pages\\ui_elements.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -427,9 +1503,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-442504f7", Component.options)
+    hotAPI.createRecord("data-v-5e99c4c8", Component.options)
   } else {
-    hotAPI.reload("data-v-442504f7", Component.options)
+    hotAPI.reload("data-v-5e99c4c8", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -437,284 +1513,6 @@ if (false) {(function () {
 })()}
 
 module.exports = Component.exports
-
-
-/***/ }),
-
-/***/ 916:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-function int (value) {
-  return parseInt(value, 10)
-}
-
-/**
- * https://en.wikipedia.org/wiki/Collinearity
- * x=(x1+x2)/2
- * y=(y1+y2)/2
- */
-function checkCollinear (p0, p1, p2) {
-  return (
-    int(p0.x + p2.x) === int(2 * p1.x) && int(p0.y + p2.y) === int(2 * p1.y)
-  )
-}
-
-function getDistance (p1, p2) {
-  return Math.sqrt(Math.pow(p2.x - p1.x, 2) + Math.pow(p2.y - p1.y, 2))
-}
-
-function moveTo (to, from, radius) {
-  var vector = { x: to.x - from.x, y: to.y - from.y };
-  var length = Math.sqrt(vector.x * vector.x + vector.y * vector.y);
-  var unitVector = { x: vector.x / length, y: vector.y / length };
-
-  return {
-    x: from.x + unitVector.x * radius,
-    y: from.y + unitVector.y * radius
-  }
-}
-
-/**
- *  Calculate the coordinate
- * @param  {number[]|object[]}  arr
- * @param  {object}             boundary
- * @return {object[]}
- */
-function genPoints (arr, ref, ref$1) {
-  var minX = ref.minX;
-  var minY = ref.minY;
-  var maxX = ref.maxX;
-  var maxY = ref.maxY;
-  var max = ref$1.max;
-  var min = ref$1.min;
-
-  arr = arr.map(function (item) { return (typeof item === 'number' ? item : item.value); });
-  var minValue = Math.min.apply(Math, arr.concat( [min] )) - 0.001;
-  var gridX = (maxX - minX) / (arr.length - 1);
-  var gridY = (maxY - minY) / (Math.max.apply(Math, arr.concat( [max] )) + 0.001 - minValue);
-
-  return arr.map(function (value, index) {
-    return {
-      x: index * gridX + minX,
-      y:
-        maxY -
-        (value - minValue) * gridY +
-        +(index === arr.length - 1) * 0.00001 -
-        +(index === 0) * 0.00001
-    }
-  })
-}
-
-/**
- * From https://github.com/unsplash/react-trend/blob/master/src/helpers/DOM.helpers.js#L18
- */
-function genPath (points, radius) {
-  var start = points.shift();
-
-  return (
-    "M" + (start.x) + " " + (start.y) +
-    points
-      .map(function (point, index) {
-        var next = points[index + 1];
-        var prev = points[index - 1] || start;
-        var isCollinear = next && checkCollinear(next, point, prev);
-
-        if (!next || isCollinear) {
-          return ("L" + (point.x) + " " + (point.y))
-        }
-
-        var threshold = Math.min(
-          getDistance(prev, point),
-          getDistance(next, point)
-        );
-        var isTooCloseForRadius = threshold / 2 < radius;
-        var radiusForPoint = isTooCloseForRadius ? threshold / 2 : radius;
-
-        var before = moveTo(prev, point, radiusForPoint);
-        var after = moveTo(next, point, radiusForPoint);
-
-        return ("L" + (before.x) + " " + (before.y) + "S" + (point.x) + " " + (point.y) + " " + (after.x) + " " + (after.y))
-      })
-      .join('')
-  )
-}
-
-var Path = {
-  props: ['smooth', 'data', 'boundary', 'radius', 'id', 'max', 'min'],
-
-  render: function render (h) {
-    var ref = this;
-    var data = ref.data;
-    var smooth = ref.smooth;
-    var boundary = ref.boundary;
-    var radius = ref.radius;
-    var id = ref.id;
-    var max = ref.max;
-    var min = ref.min;
-    var points = genPoints(data, boundary, { max: max, min: min });
-    var d = genPath(points, smooth ? radius : 0);
-
-    return h('path', {
-      attrs: { d: d, fill: 'none', stroke: ("url(#" + id + ")") }
-    })
-  }
-};
-
-var Gradient = {
-  props: ['gradient', 'id'],
-
-  render: function render (h) {
-    var ref = this;
-    var gradient = ref.gradient;
-    var id = ref.id;
-    var len = gradient.length - 1 || 1;
-    var stops = gradient
-      .slice()
-      .reverse()
-      .map(function (color, index) { return h('stop', {
-          attrs: {
-            offset: index / len,
-            'stop-color': color
-          }
-        }); }
-      );
-
-    return h('defs', [
-      h(
-        'linearGradient',
-        {
-          attrs: {
-            id: id,
-            x1: 0,
-            y1: 0,
-            x2: 0,
-            y2: 1
-          }
-        },
-        stops
-      )
-    ])
-  }
-};
-
-var Trend$1 = {
-  name: 'Trend',
-
-  props: {
-    data: {
-      type: Array,
-      required: true
-    },
-    autoDraw: Boolean,
-    autoDrawDuration: {
-      type: Number,
-      default: 2000
-    },
-    autoDrawEasing: {
-      type: String,
-      default: 'ease'
-    },
-    gradient: {
-      type: Array,
-      default: function () { return ['#000']; }
-    },
-    max: {
-      type: Number,
-      default: -Infinity
-    },
-    min: {
-      type: Number,
-      default: Infinity
-    },
-    height: Number,
-    width: Number,
-    padding: {
-      type: Number,
-      default: 8
-    },
-    radius: {
-      type: Number,
-      default: 10
-    },
-    smooth: Boolean
-  },
-
-  watch: {
-    data: {
-      immediate: true,
-      handler: function handler (val) {
-        var this$1 = this;
-
-        this.$nextTick(function () {
-          if (this$1.$isServer || !this$1.$refs.path || !this$1.autoDraw) {
-            return
-          }
-
-          var path = this$1.$refs.path.$el;
-          var length = path.getTotalLength();
-
-          path.style.transition = 'none';
-          path.style.strokeDasharray = length + ' ' + length;
-          path.style.strokeDashoffset = Math.abs(
-            length - (this$1.lastLength || 0)
-          );
-          path.getBoundingClientRect();
-          path.style.transition = "stroke-dashoffset " + (this$1.autoDrawDuration) + "ms " + (this$1.autoDrawEasing);
-          path.style.strokeDashoffset = 0;
-          this$1.lastLength = length;
-        });
-      }
-    }
-  },
-
-  render: function render (h) {
-    if (!this.data || this.data.length < 2) { return }
-    var ref = this;
-    var width = ref.width;
-    var height = ref.height;
-    var padding = ref.padding;
-    var viewWidth = width || 300;
-    var viewHeight = height || 75;
-    var boundary = {
-      minX: padding,
-      minY: padding,
-      maxX: viewWidth - padding,
-      maxY: viewHeight - padding
-    };
-    var props = this.$props;
-
-    props.boundary = boundary;
-    props.id = 'vue-trend-' + this._uid;
-    return h(
-      'svg',
-      {
-        attrs: {
-          width: width || '100%',
-          height: height || '25%',
-          viewBox: ("0 0 " + viewWidth + " " + viewHeight)
-        }
-      },
-      [
-        h(Gradient, { props: props }),
-        h(Path, {
-          props: props,
-          ref: 'path'
-        })
-      ]
-    )
-  }
-};
-
-Trend$1.install = function (Vue) {
-  Vue.component(Trend$1.name, Trend$1);
-};
-
-if (typeof window !== 'undefined' && window.Vue) {
-  window.Vue.use(Trend$1);
-}
-
-/* harmony default export */ __webpack_exports__["a"] = (Trend$1);
 
 
 /***/ })

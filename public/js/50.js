@@ -1,12 +1,12 @@
 webpackJsonp([50],{
 
-/***/ 1691:
+/***/ 1693:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(1692);
+var content = __webpack_require__(1694);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -27,7 +27,7 @@ if(false) {
 
 /***/ }),
 
-/***/ 1692:
+/***/ 1694:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(49)(false);
@@ -42,7 +42,7 @@ exports.push([module.i, "\n.bg-color[data-v-6880780a] {\n    background-color: #
 
 /***/ }),
 
-/***/ 1693:
+/***/ 1695:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -81,7 +81,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /***/ }),
 
-/***/ 1694:
+/***/ 1696:
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -166,19 +166,19 @@ if (false) {
 
 /***/ }),
 
-/***/ 765:
+/***/ 766:
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(1691)
+  __webpack_require__(1693)
 }
 var normalizeComponent = __webpack_require__(242)
 /* script */
-var __vue_script__ = __webpack_require__(1693)
+var __vue_script__ = __webpack_require__(1695)
 /* template */
-var __vue_template__ = __webpack_require__(1694)
+var __vue_template__ = __webpack_require__(1696)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */

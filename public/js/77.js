@@ -1,12 +1,12 @@
 webpackJsonp([77],{
 
-/***/ 1326:
+/***/ 1333:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(1327);
+var content = __webpack_require__(1334);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -27,7 +27,7 @@ if(false) {
 
 /***/ }),
 
-/***/ 1327:
+/***/ 1334:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(49)(false);
@@ -42,7 +42,7 @@ exports.push([module.i, "\n.timeline-container[data-v-6f9647aa] {\n    backgroun
 
 /***/ }),
 
-/***/ 1328:
+/***/ 1335:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -240,7 +240,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /***/ }),
 
-/***/ 1329:
+/***/ 1336:
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -394,7 +394,7 @@ var staticRenderFns = [
                 _c("img", {
                   staticClass: "circle-author-image p-10 img-fluid",
                   attrs: {
-                    src: __webpack_require__(787),
+                    src: __webpack_require__(781),
                     alt: "author image"
                   }
                 }),
@@ -515,7 +515,7 @@ var staticRenderFns = [
                 _c("img", {
                   staticClass: "circle-author-image p-10 img-fluid",
                   attrs: {
-                    src: __webpack_require__(1330),
+                    src: __webpack_require__(1337),
                     alt: "author image"
                   }
                 }),
@@ -596,26 +596,26 @@ if (false) {
 
 /***/ }),
 
-/***/ 1330:
+/***/ 1337:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/health.png?a62090e1f7199d7547f04ae0036c5b71";
 
 /***/ }),
 
-/***/ 733:
+/***/ 734:
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(1326)
+  __webpack_require__(1333)
 }
 var normalizeComponent = __webpack_require__(242)
 /* script */
-var __vue_script__ = __webpack_require__(1328)
+var __vue_script__ = __webpack_require__(1335)
 /* template */
-var __vue_template__ = __webpack_require__(1329)
+var __vue_template__ = __webpack_require__(1336)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -662,7 +662,7 @@ module.exports = "/vuejs-laravel/public/images/avatar3.jpg?7e593f7330076b4b89e96
 
 /***/ }),
 
-/***/ 787:
+/***/ 781:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/avatar5.jpg?83fc5fdfbe37fb37db7a2fe84cca6d6d";

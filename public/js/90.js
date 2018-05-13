@@ -1,12 +1,12 @@
 webpackJsonp([90],{
 
-/***/ 1552:
+/***/ 1558:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(1553);
+var content = __webpack_require__(1559);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -27,7 +27,7 @@ if(false) {
 
 /***/ }),
 
-/***/ 1553:
+/***/ 1559:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(49)(false);
@@ -42,7 +42,7 @@ exports.push([module.i, "\n.trendvue svg path{\nstroke-width:2px;\n}\n.card svg{
 
 /***/ }),
 
-/***/ 1554:
+/***/ 1560:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -50,7 +50,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(50);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vuetrend__ = __webpack_require__(916);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_vuebars__ = __webpack_require__(1555);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_vuebars__ = __webpack_require__(1561);
 //
 //
 //
@@ -95,7 +95,7 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_2_vueb
 
 /***/ }),
 
-/***/ 1555:
+/***/ 1561:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -316,7 +316,7 @@ if (typeof window !== 'undefined' && window.Vue) {
 
 /***/ }),
 
-/***/ 1556:
+/***/ 1562:
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -389,19 +389,19 @@ if (false) {
 
 /***/ }),
 
-/***/ 744:
+/***/ 745:
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(1552)
+  __webpack_require__(1558)
 }
 var normalizeComponent = __webpack_require__(242)
 /* script */
-var __vue_script__ = __webpack_require__(1554)
+var __vue_script__ = __webpack_require__(1560)
 /* template */
-var __vue_template__ = __webpack_require__(1556)
+var __vue_template__ = __webpack_require__(1562)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */

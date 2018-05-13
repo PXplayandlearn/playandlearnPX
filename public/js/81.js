@@ -1,12 +1,12 @@
 webpackJsonp([81],{
 
-/***/ 1340:
+/***/ 1347:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(1341);
+var content = __webpack_require__(1348);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -27,7 +27,7 @@ if(false) {
 
 /***/ }),
 
-/***/ 1341:
+/***/ 1348:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(49)(false);
@@ -42,18 +42,18 @@ exports.push([module.i, "\n.evt-handler[data-v-5bc53ca8],\n.evt-editor[data-v-5b
 
 /***/ }),
 
-/***/ 1342:
+/***/ 1349:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(50);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue_fullcalendar__ = __webpack_require__(1343);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue_fullcalendar__ = __webpack_require__(1350);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue_fullcalendar___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_vue_fullcalendar__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_vue_flatpickr_component__ = __webpack_require__(1344);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_vue_flatpickr_component__ = __webpack_require__(1351);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_vue_flatpickr_component___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_vue_flatpickr_component__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_flatpickr_dist_flatpickr_css__ = __webpack_require__(1346);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_flatpickr_dist_flatpickr_css__ = __webpack_require__(1353);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_flatpickr_dist_flatpickr_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_flatpickr_dist_flatpickr_css__);
 //
 //
@@ -238,7 +238,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /***/ }),
 
-/***/ 1343:
+/***/ 1350:
 /***/ (function(module, exports, __webpack_require__) {
 
 /*!
@@ -1694,12 +1694,12 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ }),
 
-/***/ 1344:
+/***/ 1351:
 /***/ (function(module, exports, __webpack_require__) {
 
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(true)
-		module.exports = factory(__webpack_require__(1345));
+		module.exports = factory(__webpack_require__(1352));
 	else if(typeof define === 'function' && define.amd)
 		define("VueFlatpickr", ["flatpickr"], factory);
 	else if(typeof exports === 'object')
@@ -2092,7 +2092,7 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_2__;
 
 /***/ }),
 
-/***/ 1345:
+/***/ 1352:
 /***/ (function(module, exports, __webpack_require__) {
 
 /* flatpickr v4.4.6, @license MIT */
@@ -4227,13 +4227,13 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_2__;
 
 /***/ }),
 
-/***/ 1346:
+/***/ 1353:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(1347);
+var content = __webpack_require__(1354);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -4259,7 +4259,7 @@ if(false) {
 
 /***/ }),
 
-/***/ 1347:
+/***/ 1354:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(49)(false);
@@ -4274,7 +4274,7 @@ exports.push([module.i, ".flatpickr-calendar {\n  background: transparent;\n  op
 
 /***/ }),
 
-/***/ 1348:
+/***/ 1355:
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -4655,19 +4655,19 @@ if (false) {
 
 /***/ }),
 
-/***/ 735:
+/***/ 736:
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(1340)
+  __webpack_require__(1347)
 }
 var normalizeComponent = __webpack_require__(242)
 /* script */
-var __vue_script__ = __webpack_require__(1342)
+var __vue_script__ = __webpack_require__(1349)
 /* template */
-var __vue_template__ = __webpack_require__(1348)
+var __vue_template__ = __webpack_require__(1355)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */

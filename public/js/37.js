@@ -1,22 +1,22 @@
 webpackJsonp([37],{
 
-/***/ 1598:
+/***/ 1558:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(1599);
+var content = __webpack_require__(1559);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(92)("5ce6fa7a", content, false, {});
+var update = __webpack_require__(92)("8a5a145c", content, false, {});
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-22c63733\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./invoice.vue", function() {
-     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-22c63733\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./invoice.vue");
+   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-442504f7\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./trend_bar.vue", function() {
+     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-442504f7\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./trend_bar.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -27,7 +27,7 @@ if(false) {
 
 /***/ }),
 
-/***/ 1599:
+/***/ 1559:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(49)(false);
@@ -35,138 +35,22 @@ exports = module.exports = __webpack_require__(49)(false);
 
 
 // module
-exports.push([module.i, "\n#printableArea[data-v-22c63733] {\n    border: 1px solid #ccc;\n}\n.card-header[data-v-22c63733] {\n    border-bottom: 1px solid #ccc;\n}\n.card-block[data-v-22c63733] {\n    padding: 25px;\n}\n.card-header span[data-v-22c63733] {\n    margin-top: -33px;\n    font-size: 18px;\n}\n.invoice_address[data-v-22c63733] {\n    margin: 10px 0;\n}\n.table[data-v-22c63733] {\n    table-layout: fixed;\n    border: 1px solid #ccc;\n}\n.table tbody > tr[data-v-22c63733] {\n    height: 50px;\n}\ntd[data-v-22c63733],\nth[data-v-22c63733] {\n    word-wrap: break-word;\n}\n.terms_conditions[data-v-22c63733] {\n    list-style: initial;\n    padding-left: 25px;\n}\n.table thead > tr > th[data-v-22c63733] {\n    padding: 10px 8px;\n    width: 80px;\n    background-color: #ccc;\n}\n.table thead > tr > th[data-v-22c63733]:nth-child(2) {\n    max-width: 180px;\n}\n.table-responsive > .table > tbody > tr > td[data-v-22c63733],\n.table-responsive > .table > tfoot > tr > td[data-v-22c63733] {\n    padding: 15px 8px;\n    white-space: normal;\n}\n@media screen and (min-width: 768px) {\n.invoice_address[data-v-22c63733] {\n        margin: 20px 0;\n}\n}\n@media print {\n.btn-section[data-v-22c63733] {\n        display: none !important;\n}\n.table-responsive[data-v-22c63733] {\n        display: inline-table;\n        width: 100%;\n}\n}\n", ""]);
+exports.push([module.i, "\n.trendvue svg path{\nstroke-width:2px;\n}\n.card svg{\n    height: 40vh;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ 1600:
+/***/ 1560:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vuetrend__ = __webpack_require__(916);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_vuebars__ = __webpack_require__(1561);
 //
 //
 //
@@ -195,20 +79,244 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 
+
+
+__WEBPACK_IMPORTED_MODULE_0_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_1_vuetrend__["a" /* default */]);
+
+__WEBPACK_IMPORTED_MODULE_0_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_2_vuebars__["a" /* default */]);
 /* harmony default export */ __webpack_exports__["default"] = ({
-    name: "Invoice",
-    mounted: function mounted() {},
-    destroyed: function destroyed() {},
-    methods: {
-        printDiv: function printDiv() {
-            window.print();
-        }
-    }
+    name: "blank",
+    data: function data() {
+        return {};
+    },
+
+    methods: {}
 });
 
 /***/ }),
 
-/***/ 1601:
+/***/ 1561:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+function transitionColor(from, to, count) {
+  count = count + 1;
+  var int = parseInt(from, 16); // 100
+  var intTo = parseInt(to, 16); // 50
+  var list = []; // 5
+  var diff = int - intTo; // 50
+  var isNegative = diff < 0; // false
+  var one = diff / count; // 10
+ 
+  list.push(from);
+  for (var i = 1; i <= count; i++) {
+    list.push(Math.floor(int - (one * i)).toString(16));
+  }
+ 
+  return list
+}
+ 
+function transition(from, to, count) {
+  count = count || 3;
+  var r = from.slice(0, 2), g = from.slice(2, 4), b = from.slice(4, 6);
+  var rt = to.slice(0, 2), gt = to.slice(2, 4), bt = to.slice(4, 6);
+  var allR = transitionColor(r, rt, count);
+  var allG = transitionColor(g, gt, count);
+  var allB = transitionColor(b, bt, count);
+  var list = [];
+ 
+  allR.forEach(function(_, i) {
+    list.push('' + allR[i] + allG[i] + allB[i]);
+  });
+ 
+  return list
+}
+ 
+function generateGradientStepsCss(from, to, count) {
+  from = from.replace('#', '');
+  to = to.replace('#', '');
+  var values = transition(from, to, count);
+  var total = 100 / (count + 1);
+  var obj = [];
+  for (var i = 0; i <= count + 1; i++) {
+    obj.push({percentage: Math.floor(total * i), value: values[i]});
+  }
+  return obj.map(function(value) {
+    return '#' + value.value
+  })
+}
+
+/**
+ *  Calculate the coordinate
+ * @param  {number[]|object[]}  arr
+ * @param  {object}             boundary
+ * @return {object[]}
+ */
+function genPoints (arr, ref) {
+  var minX = ref.minX;
+  var minY = ref.minY;
+  var maxX = ref.maxX;
+  var maxY = ref.maxY;
+
+  var gridX = (maxX - minX) / (arr.length - 1);
+  var gridY = (maxY - minY) / (Math.max.apply(Math, arr) - Math.min.apply(Math, arr));
+
+  return arr.map(function (item, index) {
+    var value = typeof item === 'number' ? item : item.value;
+
+    return { x: index * gridX + minX, y: maxY - value * gridY, v: value }
+  })
+}
+
+function genBars (_this, arr, h) {
+  var ref = _this.boundary;
+  var minX = ref.minX;
+  var minY = ref.minY;
+  var maxX = ref.maxX;
+  var maxY = ref.maxY;
+  var totalWidth = (maxX) / (arr.length-1);
+  if (!_this.barWidth) {
+    _this.barWidth = totalWidth - (_this.padding || 5);
+  }
+  if (!_this.rounding) {
+    _this.rounding = 2;
+  }
+
+  var gradients = generateGradientStepsCss(_this.gradient[0], _this.gradient[1], (arr.length-1));
+  var offsetX = (totalWidth - _this.barWidth) / 2;
+
+  return arr.map(function (item, index) {
+    return h('rect', {
+      attrs: {
+        id: ("bar-id-" + index),
+        fill: gradients[index],
+        x: item.x - offsetX,
+        y: 0,
+        width: _this.barWidth,
+        height: (maxY - item.y),
+        rx: _this.rounding,
+        ry: _this.rounding
+      }
+    }, [
+      h('animate', {
+        attrs: {
+          attributeName: 'height',
+          from: 0,
+          to: (maxY - item.y),
+          dur: ((_this.growDuration) + "s"),
+          fill: 'freeze'
+        }
+      }),
+      h('title', {}, [item.v])
+    ])
+  })
+}
+
+var Path = {
+  props: ['smooth', 'data', 'boundary', 'barWidth', 'rounding', 'id', 'gradient', 'growDuration'],
+
+  render: function render (h) {
+    var points = genPoints(this.data, this.boundary);
+    var bars = genBars(this, points, h);
+
+    return h('g', {
+      attrs: {
+        transform: ("scale(1,-1) translate(0,-" + (this.boundary.maxY) + ")")
+      }
+    }, bars)
+  }
+};
+
+var Bars$1 = {
+  name: 'Bars',
+
+  props: {
+    data: {
+      type: Array,
+      required: true
+    },
+    barWidth: {
+      type: Number,
+      default: 8
+    },
+    rounding: {
+      type: Number,
+      default: 2
+    },
+    growDuration: {
+      type: Number,
+      default: 0.5
+    },
+    gradient: Array,
+    height: Number,
+    width: Number,
+    padding: {
+      type: Number,
+      default: 8
+    }
+  },
+
+  watch: {
+    data: {
+      immediate: true,
+      handler: function handler (val) {
+        if (!val || val.length < 2) { return }
+      }
+    }
+  },
+
+  render: function render (h) {
+    if (!this.data || this.data.length < 2) { return }
+    var ref = this;
+    var width = ref.width;
+    var height = ref.height;
+    var padding = ref.padding;
+    var barWidth = ref.barWidth;
+    var rounding = ref.rounding;
+    var gradient = ref.gradient;
+    var growDuration = ref.growDuration;
+    var viewWidth = width || 300;
+    var viewHeight = height || 75;
+    var boundary = {
+      minX: padding, minY: padding,
+      maxX: viewWidth - padding, maxY: viewHeight - padding
+    };
+    var props = this.$props;
+
+    props.boundary = boundary;
+    props.id = 'vue-bars-' + this._uid;
+    this.pathId = props.id + '-path';
+
+    return h('svg', {
+      attrs: {
+        width: width || '100%',
+        height: height || '25%',
+        viewBox: ("0 0 " + viewWidth + " " + viewHeight)
+      }
+    }, [
+      h(Path, {
+        props: props,
+        attrs: { id: this.pathId },
+        ref: 'path'
+      })
+    ])
+  }
+};
+
+Bars$1.install = function (Vue) {
+  Vue.component(Bars$1.name, Bars$1);
+};
+
+if (typeof window !== 'undefined' && window.Vue) {
+  window.Vue.use(Bars$1);
+}
+
+/* harmony default export */ __webpack_exports__["a"] = (Bars$1);
+
+
+/***/ }),
+
+/***/ 1562:
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -216,339 +324,90 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "row" }, [
-    _c("div", { staticClass: "col-lg-12" }, [
-      _c("div", { staticClass: "card", attrs: { id: "printableArea" } }, [
-        _vm._m(0),
-        _vm._v(" "),
-        _c("div", { staticClass: "card-block" }, [
-          _vm._m(1),
-          _vm._v(" "),
-          _c("div", { staticClass: "col-lg-12" }, [
-            _c("h4", [_c("Strong", [_vm._v("Terms and conditions:")])], 1),
-            _vm._v(" "),
-            _vm._m(2)
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "row btn-section" }, [
-            _c("div", { staticClass: "col-lg-12 col-md-12 col-12" }, [
-              _c("span", { staticClass: "float-right" }, [
-                _vm._m(3),
-                _vm._v(" "),
-                _c(
-                  "button",
-                  {
-                    staticClass:
-                      "btn btn-responsive button-alignment btn-primary",
-                    attrs: { type: "button", "data-toggle": "button" }
-                  },
-                  [
-                    _c(
-                      "span",
-                      {
-                        on: {
-                          click: function($event) {
-                            _vm.printDiv()
-                          }
-                        }
-                      },
-                      [
-                        _c("i", { staticClass: "fa fa-print" }),
-                        _vm._v("Print\n              ")
-                      ]
-                    )
-                  ]
-                )
-              ])
-            ])
-          ])
-        ])
-      ])
-    ])
+    _c(
+      "div",
+      { staticClass: "col-sm-6" },
+      [
+        _c(
+          "b-card",
+          {
+            staticClass: "bg-success-card trendvue",
+            attrs: { header: "Trend chart", "header-tag": "h4" }
+          },
+          [
+            _c("trend", {
+              attrs: {
+                data: [0, 2, 5, 9, 5, 10, 3, 5, 0, 0, 1, 8, 2, 9, 0],
+                gradient: ["#6fa8dc", "#42b983", "#f27a09", "#ff5454"],
+                smooth: ""
+              }
+            })
+          ],
+          1
+        )
+      ],
+      1
+    ),
+    _vm._v(" "),
+    _c(
+      "div",
+      { staticClass: "col-sm-6" },
+      [
+        _c(
+          "b-card",
+          {
+            staticClass: "bg-success-card",
+            attrs: { header: "Vue-bar chart", "header-tag": "h4" }
+          },
+          [
+            _c("bars", {
+              attrs: {
+                data: [1, 2, 5, 9, 5, 10, 3, 5, 2, 5, 1, 8, 2, 9, 0],
+                gradient: ["#6fa8dc", "#42b983"],
+                "auto-draw": "true",
+                autoDrawDuration: "2000",
+                autoDrawEasing: "ease"
+              }
+            })
+          ],
+          1
+        )
+      ],
+      1
+    )
   ])
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "card-header" }, [
-      _c("h4", [
-        _c("img", {
-          attrs: { src: __webpack_require__(1602), alt: "Company logo" }
-        })
-      ]),
-      _vm._v(" "),
-      _c("span", { staticClass: "float-right" }, [
-        _c("strong", [_vm._v(" Invoice")])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "col-6 col-md-6 invoice_address" }, [
-        _c("h4", [_vm._v("Invoice #26434/45/F1")]),
-        _vm._v(" Order #346545\n                        "),
-        _c("br"),
-        _vm._v(" Date: 16/02/2017\n                    ")
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "col-6 col-md-6 text-right invoice_address" }, [
-        _c("h4", [
-          _c("img", {
-            attrs: {
-              src: __webpack_require__(1603),
-              alt: "invoice QR Code"
-            }
-          })
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "col-12 col-md-6 invoice_address" }, [
-        _c("h4", [_vm._v("Billing Details:")]),
-        _vm._v(" "),
-        _c("address", [
-          _vm._v(
-            "\n                            Lewis Doe\n                            "
-          ),
-          _c("br"),
-          _vm._v(" 6889 Lunette Street\n                            "),
-          _c("br"),
-          _vm._v(" Melbourne,Austria\n                            "),
-          _c("br"),
-          _vm._v(" "),
-          _c("strong", [_vm._v("Phone:")]),
-          _vm._v("12-345-678\n                            "),
-          _c("br"),
-          _vm._v(" "),
-          _c("strong", [_vm._v("Mail Id:")]),
-          _vm._v(" Rad_Champ@yahoo.com\n                        ")
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "col-12 col-md-6 invoice_address text-right" }, [
-        _c("div", { staticClass: "float-right" }, [
-          _c("h4", [_vm._v("Invoice Info:")]),
-          _vm._v(" "),
-          _c("address", [
-            _c("span", { staticClass: "visible-xs" }, [_vm._v("#6654-45")]),
-            _vm._v(" Tom Percy\n                                "),
-            _c("br"),
-            _vm._v(" 3946 Penn Street\n                                "),
-            _c("br"),
-            _vm._v(" Ohio,USA\n                                "),
-            _c("br"),
-            _vm._v(" "),
-            _c("strong", [_vm._v("Phone:")]),
-            _vm._v(" 32-666-756\n                                "),
-            _c("br"),
-            _vm._v(" "),
-            _c("strong", [_vm._v("Mail Id:")]),
-            _vm._v(" Lucy_Maggi6@yahoo.com\n                            ")
-          ]),
-          _vm._v(" "),
-          _c("span")
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "col-md-12" }, [
-        _c("div", { staticClass: "table-responsive" }, [
-          _c(
-            "table",
-            {
-              staticClass: "table table-striped",
-              attrs: { id: "customtable" }
-            },
-            [
-              _c("thead", [
-                _c("tr", { staticClass: "bg-default" }, [
-                  _c("th", [_vm._v("#")]),
-                  _vm._v(" "),
-                  _c("th", [_c("strong", [_vm._v("Item Name")])]),
-                  _vm._v(" "),
-                  _c("th", { staticClass: "text-center" }, [
-                    _c("strong", [_vm._v("Unit Cost")])
-                  ]),
-                  _vm._v(" "),
-                  _c("th", { staticClass: "text-center" }, [
-                    _c("strong", [_vm._v("Quantity")])
-                  ]),
-                  _vm._v(" "),
-                  _c("th", { staticClass: "text-right" }, [
-                    _c("strong", [_vm._v("Total")])
-                  ])
-                ])
-              ]),
-              _vm._v(" "),
-              _c("tbody", [
-                _c("tr", [
-                  _c("td", [_vm._v("1")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("Lorem Ipsum text")]),
-                  _vm._v(" "),
-                  _c("td", { staticClass: "text-center" }, [_vm._v("$1540")]),
-                  _vm._v(" "),
-                  _c("td", { staticClass: "text-center" }, [_vm._v("2")]),
-                  _vm._v(" "),
-                  _c("td", { staticClass: "text-right" }, [_vm._v("$3080")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("td", [_vm._v("2")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("Classical Latin literature")]),
-                  _vm._v(" "),
-                  _c("td", { staticClass: "text-center" }, [_vm._v("$220")]),
-                  _vm._v(" "),
-                  _c("td", { staticClass: "text-center" }, [_vm._v("1")]),
-                  _vm._v(" "),
-                  _c("td", { staticClass: "text-right" }, [_vm._v("$220")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("td", [_vm._v("3")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("chunk of Lorem")]),
-                  _vm._v(" "),
-                  _c("td", { staticClass: "text-center" }, [_vm._v("$49")]),
-                  _vm._v(" "),
-                  _c("td", { staticClass: "text-center" }, [_vm._v("1")]),
-                  _vm._v(" "),
-                  _c("td", { staticClass: "text-right" }, [_vm._v("$49")])
-                ])
-              ])
-            ]
-          )
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "col-lg-12 text-right" }, [
-        _c("div", { staticClass: "row" }, [
-          _c("div", { staticClass: "col-9" }, [
-            _c("p", [_c("strong", [_vm._v("Sub Total :")])])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "col-3" }, [
-            _c("p", [_c("strong", [_vm._v("$3349")])])
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "row" }, [
-          _c("div", { staticClass: "col-9" }, [
-            _c("p", [_c("strong", [_vm._v("Discount(12%) :")])])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "col-3" }, [
-            _c("p", [_c("strong", [_vm._v("(−) $402")])])
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "row" }, [
-          _c("div", { staticClass: "col-9" }, [
-            _c("p", [_c("strong", [_vm._v("Vat(7%) :")])])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "col-3" }, [
-            _c("p", [_c("strong", [_vm._v("(+) $235")])])
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "row" }, [
-          _c("div", { staticClass: "col-9" }, [
-            _c("p", [_c("strong", [_vm._v("Total :")])])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "col-3" }, [
-            _c("p", [_c("strong", [_vm._v("$3182")])])
-          ])
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("ul", { staticClass: "terms_conditions" }, [
-      _c("li", [
-        _vm._v(
-          "An invoice must accompany products returned for warantty.\n                        "
-        )
-      ]),
-      _vm._v(" "),
-      _c("li", [
-        _vm._v(
-          "Balance due within 10 days of invoice date,1.5% interest/month thereafter.\n                        "
-        )
-      ]),
-      _vm._v(" "),
-      _c("li", [
-        _vm._v(
-          "All goods returned for replacement/credit must be saleable condition with original packaging.\n                        "
-        )
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "button",
-      {
-        staticClass: "btn btn-responsive button-alignment btn-success",
-        attrs: { type: "button", "data-toggle": "button" }
-      },
-      [_c("i", { staticClass: "fa fa-usd" }), _vm._v(" Pay Now\n            ")]
-    )
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-22c63733", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-442504f7", module.exports)
   }
 }
 
 /***/ }),
 
-/***/ 1602:
-/***/ (function(module, exports) {
-
-module.exports = "/vuejs-laravel/public/images/vue-w_logo1.png?752dadf8a43f4c910a01b6078fb79395";
-
-/***/ }),
-
-/***/ 1603:
-/***/ (function(module, exports) {
-
-module.exports = "/vuejs-laravel/public/images/invoice_code.jpg?fd1ce6d10dca6ecc3108168b729c37a6";
-
-/***/ }),
-
-/***/ 754:
+/***/ 745:
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(1598)
+  __webpack_require__(1558)
 }
 var normalizeComponent = __webpack_require__(242)
 /* script */
-var __vue_script__ = __webpack_require__(1600)
+var __vue_script__ = __webpack_require__(1560)
 /* template */
-var __vue_template__ = __webpack_require__(1601)
+var __vue_template__ = __webpack_require__(1562)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-22c63733"
+var __vue_scopeId__ = null
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
@@ -559,7 +418,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources\\assets\\components\\pages\\invoice.vue"
+Component.options.__file = "resources\\assets\\components\\pages\\trend_bar.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -568,9 +427,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-22c63733", Component.options)
+    hotAPI.createRecord("data-v-442504f7", Component.options)
   } else {
-    hotAPI.reload("data-v-22c63733", Component.options)
+    hotAPI.reload("data-v-442504f7", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -578,6 +437,284 @@ if (false) {(function () {
 })()}
 
 module.exports = Component.exports
+
+
+/***/ }),
+
+/***/ 916:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+function int (value) {
+  return parseInt(value, 10)
+}
+
+/**
+ * https://en.wikipedia.org/wiki/Collinearity
+ * x=(x1+x2)/2
+ * y=(y1+y2)/2
+ */
+function checkCollinear (p0, p1, p2) {
+  return (
+    int(p0.x + p2.x) === int(2 * p1.x) && int(p0.y + p2.y) === int(2 * p1.y)
+  )
+}
+
+function getDistance (p1, p2) {
+  return Math.sqrt(Math.pow(p2.x - p1.x, 2) + Math.pow(p2.y - p1.y, 2))
+}
+
+function moveTo (to, from, radius) {
+  var vector = { x: to.x - from.x, y: to.y - from.y };
+  var length = Math.sqrt(vector.x * vector.x + vector.y * vector.y);
+  var unitVector = { x: vector.x / length, y: vector.y / length };
+
+  return {
+    x: from.x + unitVector.x * radius,
+    y: from.y + unitVector.y * radius
+  }
+}
+
+/**
+ *  Calculate the coordinate
+ * @param  {number[]|object[]}  arr
+ * @param  {object}             boundary
+ * @return {object[]}
+ */
+function genPoints (arr, ref, ref$1) {
+  var minX = ref.minX;
+  var minY = ref.minY;
+  var maxX = ref.maxX;
+  var maxY = ref.maxY;
+  var max = ref$1.max;
+  var min = ref$1.min;
+
+  arr = arr.map(function (item) { return (typeof item === 'number' ? item : item.value); });
+  var minValue = Math.min.apply(Math, arr.concat( [min] )) - 0.001;
+  var gridX = (maxX - minX) / (arr.length - 1);
+  var gridY = (maxY - minY) / (Math.max.apply(Math, arr.concat( [max] )) + 0.001 - minValue);
+
+  return arr.map(function (value, index) {
+    return {
+      x: index * gridX + minX,
+      y:
+        maxY -
+        (value - minValue) * gridY +
+        +(index === arr.length - 1) * 0.00001 -
+        +(index === 0) * 0.00001
+    }
+  })
+}
+
+/**
+ * From https://github.com/unsplash/react-trend/blob/master/src/helpers/DOM.helpers.js#L18
+ */
+function genPath (points, radius) {
+  var start = points.shift();
+
+  return (
+    "M" + (start.x) + " " + (start.y) +
+    points
+      .map(function (point, index) {
+        var next = points[index + 1];
+        var prev = points[index - 1] || start;
+        var isCollinear = next && checkCollinear(next, point, prev);
+
+        if (!next || isCollinear) {
+          return ("L" + (point.x) + " " + (point.y))
+        }
+
+        var threshold = Math.min(
+          getDistance(prev, point),
+          getDistance(next, point)
+        );
+        var isTooCloseForRadius = threshold / 2 < radius;
+        var radiusForPoint = isTooCloseForRadius ? threshold / 2 : radius;
+
+        var before = moveTo(prev, point, radiusForPoint);
+        var after = moveTo(next, point, radiusForPoint);
+
+        return ("L" + (before.x) + " " + (before.y) + "S" + (point.x) + " " + (point.y) + " " + (after.x) + " " + (after.y))
+      })
+      .join('')
+  )
+}
+
+var Path = {
+  props: ['smooth', 'data', 'boundary', 'radius', 'id', 'max', 'min'],
+
+  render: function render (h) {
+    var ref = this;
+    var data = ref.data;
+    var smooth = ref.smooth;
+    var boundary = ref.boundary;
+    var radius = ref.radius;
+    var id = ref.id;
+    var max = ref.max;
+    var min = ref.min;
+    var points = genPoints(data, boundary, { max: max, min: min });
+    var d = genPath(points, smooth ? radius : 0);
+
+    return h('path', {
+      attrs: { d: d, fill: 'none', stroke: ("url(#" + id + ")") }
+    })
+  }
+};
+
+var Gradient = {
+  props: ['gradient', 'id'],
+
+  render: function render (h) {
+    var ref = this;
+    var gradient = ref.gradient;
+    var id = ref.id;
+    var len = gradient.length - 1 || 1;
+    var stops = gradient
+      .slice()
+      .reverse()
+      .map(function (color, index) { return h('stop', {
+          attrs: {
+            offset: index / len,
+            'stop-color': color
+          }
+        }); }
+      );
+
+    return h('defs', [
+      h(
+        'linearGradient',
+        {
+          attrs: {
+            id: id,
+            x1: 0,
+            y1: 0,
+            x2: 0,
+            y2: 1
+          }
+        },
+        stops
+      )
+    ])
+  }
+};
+
+var Trend$1 = {
+  name: 'Trend',
+
+  props: {
+    data: {
+      type: Array,
+      required: true
+    },
+    autoDraw: Boolean,
+    autoDrawDuration: {
+      type: Number,
+      default: 2000
+    },
+    autoDrawEasing: {
+      type: String,
+      default: 'ease'
+    },
+    gradient: {
+      type: Array,
+      default: function () { return ['#000']; }
+    },
+    max: {
+      type: Number,
+      default: -Infinity
+    },
+    min: {
+      type: Number,
+      default: Infinity
+    },
+    height: Number,
+    width: Number,
+    padding: {
+      type: Number,
+      default: 8
+    },
+    radius: {
+      type: Number,
+      default: 10
+    },
+    smooth: Boolean
+  },
+
+  watch: {
+    data: {
+      immediate: true,
+      handler: function handler (val) {
+        var this$1 = this;
+
+        this.$nextTick(function () {
+          if (this$1.$isServer || !this$1.$refs.path || !this$1.autoDraw) {
+            return
+          }
+
+          var path = this$1.$refs.path.$el;
+          var length = path.getTotalLength();
+
+          path.style.transition = 'none';
+          path.style.strokeDasharray = length + ' ' + length;
+          path.style.strokeDashoffset = Math.abs(
+            length - (this$1.lastLength || 0)
+          );
+          path.getBoundingClientRect();
+          path.style.transition = "stroke-dashoffset " + (this$1.autoDrawDuration) + "ms " + (this$1.autoDrawEasing);
+          path.style.strokeDashoffset = 0;
+          this$1.lastLength = length;
+        });
+      }
+    }
+  },
+
+  render: function render (h) {
+    if (!this.data || this.data.length < 2) { return }
+    var ref = this;
+    var width = ref.width;
+    var height = ref.height;
+    var padding = ref.padding;
+    var viewWidth = width || 300;
+    var viewHeight = height || 75;
+    var boundary = {
+      minX: padding,
+      minY: padding,
+      maxX: viewWidth - padding,
+      maxY: viewHeight - padding
+    };
+    var props = this.$props;
+
+    props.boundary = boundary;
+    props.id = 'vue-trend-' + this._uid;
+    return h(
+      'svg',
+      {
+        attrs: {
+          width: width || '100%',
+          height: height || '25%',
+          viewBox: ("0 0 " + viewWidth + " " + viewHeight)
+        }
+      },
+      [
+        h(Gradient, { props: props }),
+        h(Path, {
+          props: props,
+          ref: 'path'
+        })
+      ]
+    )
+  }
+};
+
+Trend$1.install = function (Vue) {
+  Vue.component(Trend$1.name, Trend$1);
+};
+
+if (typeof window !== 'undefined' && window.Vue) {
+  window.Vue.use(Trend$1);
+}
+
+/* harmony default export */ __webpack_exports__["a"] = (Trend$1);
 
 
 /***/ })

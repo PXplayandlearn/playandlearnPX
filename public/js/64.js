@@ -1,12 +1,12 @@
 webpackJsonp([64],{
 
-/***/ 1118:
+/***/ 1125:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(1119);
+var content = __webpack_require__(1126);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -27,7 +27,7 @@ if(false) {
 
 /***/ }),
 
-/***/ 1119:
+/***/ 1126:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(49)(false);
@@ -42,13 +42,13 @@ exports.push([module.i, "\n.ct-label {\n  fill: rgba(0, 0, 0, 0.4);\n  color: rg
 
 /***/ }),
 
-/***/ 1120:
+/***/ 1127:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(1121);
+var content = __webpack_require__(1128);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -69,7 +69,7 @@ if(false) {
 
 /***/ }),
 
-/***/ 1121:
+/***/ 1128:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(49)(false);
@@ -84,13 +84,13 @@ exports.push([module.i, "\n.echart-sales[data-v-7f4b7e8a] {\n    width: 100%;\n 
 
 /***/ }),
 
-/***/ 1122:
+/***/ 1129:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(1123);
+var content = __webpack_require__(1130);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -111,7 +111,7 @@ if(false) {
 
 /***/ }),
 
-/***/ 1123:
+/***/ 1130:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(49)(false);
@@ -126,13 +126,13 @@ exports.push([module.i, "\n.index1_swiper .swiper-pagination-bullet-active {\n  
 
 /***/ }),
 
-/***/ 1124:
+/***/ 1131:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(1125);
+var content = __webpack_require__(1132);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -153,7 +153,7 @@ if(false) {
 
 /***/ }),
 
-/***/ 1125:
+/***/ 1132:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(49)(false);
@@ -168,31 +168,31 @@ exports.push([module.i, "/*========================easy pie chart===============
 
 /***/ }),
 
-/***/ 1126:
+/***/ 1133:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(50);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_components_widgets_task_component_task_vue__ = __webpack_require__(1127);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_components_widgets_task_component_task_vue__ = __webpack_require__(1134);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_components_widgets_task_component_task_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_components_widgets_task_component_task_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_components_widgets_chat_component_chat_vue__ = __webpack_require__(1132);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_components_widgets_chat_component_chat_vue__ = __webpack_require__(1139);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_components_widgets_chat_component_chat_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_components_widgets_chat_component_chat_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_components_widgets_weather_weather_vue__ = __webpack_require__(906);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_components_widgets_weather_weather_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_components_widgets_weather_weather_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_vue_echarts_v3_src_full_js__ = __webpack_require__(245);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_vue_echarts_v3_src_full_js__ = __webpack_require__(244);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_v_chartist__ = __webpack_require__(851);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_v_chartist___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_v_chartist__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_zrender_lib_graphic_LinearGradient__ = __webpack_require__(129);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_zrender_lib_graphic_LinearGradient___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_zrender_lib_graphic_LinearGradient__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_vue_awesome_swiper__ = __webpack_require__(898);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_vue_awesome_swiper___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_vue_awesome_swiper__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_components_plugins_scroll_vScroll_vue__ = __webpack_require__(792);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_components_plugins_scroll_vScroll_vue__ = __webpack_require__(793);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_components_plugins_scroll_vScroll_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_components_plugins_scroll_vScroll_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_assets_js_chat_data__ = __webpack_require__(915);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_vuetrend__ = __webpack_require__(916);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_components_plugins_easypiechart_easyPieChart_vue__ = __webpack_require__(1138);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_components_plugins_easypiechart_easyPieChart_vue__ = __webpack_require__(1145);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_components_plugins_easypiechart_easyPieChart_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11_components_plugins_easypiechart_easyPieChart_vue__);
 //
 //
@@ -816,19 +816,19 @@ var unsub;
 
 /***/ }),
 
-/***/ 1127:
+/***/ 1134:
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(1128)
+  __webpack_require__(1135)
 }
 var normalizeComponent = __webpack_require__(242)
 /* script */
-var __vue_script__ = __webpack_require__(1130)
+var __vue_script__ = __webpack_require__(1137)
 /* template */
-var __vue_template__ = __webpack_require__(1131)
+var __vue_template__ = __webpack_require__(1138)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -868,13 +868,13 @@ module.exports = Component.exports
 
 /***/ }),
 
-/***/ 1128:
+/***/ 1135:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(1129);
+var content = __webpack_require__(1136);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -895,7 +895,7 @@ if(false) {
 
 /***/ }),
 
-/***/ 1129:
+/***/ 1136:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(49)(false);
@@ -910,12 +910,12 @@ exports.push([module.i, "\n.task_block {\n    border: 1px solid #e6e6e6;\n    pa
 
 /***/ }),
 
-/***/ 1130:
+/***/ 1137:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__plugins_scroll_vScroll_vue__ = __webpack_require__(792);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__plugins_scroll_vScroll_vue__ = __webpack_require__(793);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__plugins_scroll_vScroll_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__plugins_scroll_vScroll_vue__);
 //
 //
@@ -1009,7 +1009,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /***/ }),
 
-/***/ 1131:
+/***/ 1138:
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -1208,19 +1208,19 @@ if (false) {
 
 /***/ }),
 
-/***/ 1132:
+/***/ 1139:
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(1133)
+  __webpack_require__(1140)
 }
 var normalizeComponent = __webpack_require__(242)
 /* script */
-var __vue_script__ = __webpack_require__(1136)
+var __vue_script__ = __webpack_require__(1143)
 /* template */
-var __vue_template__ = __webpack_require__(1137)
+var __vue_template__ = __webpack_require__(1144)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -1260,13 +1260,13 @@ module.exports = Component.exports
 
 /***/ }),
 
-/***/ 1133:
+/***/ 1140:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(1134);
+var content = __webpack_require__(1141);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -1287,7 +1287,7 @@ if(false) {
 
 /***/ }),
 
-/***/ 1134:
+/***/ 1141:
 /***/ (function(module, exports, __webpack_require__) {
 
 var escape = __webpack_require__(243);
@@ -1296,26 +1296,26 @@ exports = module.exports = __webpack_require__(49)(false);
 
 
 // module
-exports.push([module.i, "/*==Transition code==*/\n.slide-fade-enter-active[data-v-5b5aa18f] {\n  -webkit-transition: all .3s ease;\n  transition: all .3s ease;\n  position: absolute;\n}\n.slide-fade-leave-active[data-v-5b5aa18f] {\n  -webkit-transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);\n  transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);\n}\n.slide-fade-enter[data-v-5b5aa18f],\n.slide-fade-leave-to[data-v-5b5aa18f] {\n  -webkit-transform: translateX(-10px);\n          transform: translateX(-10px);\n  opacity: 0;\n  position: absolute;\n}\n\n/*==Transition code==*/\n.desc-img[data-v-5b5aa18f] {\n  height: 40px;\n  width: 40px;\n}\n.chat_block[data-v-5b5aa18f] {\n  border-bottom: 1px solid #f4f2f2;\n}\n.chatalign ul[data-v-5b5aa18f] {\n  padding: 0;\n}\n.converstion_back[data-v-5b5aa18f] {\n  background-image: url(" + escape(__webpack_require__(1135)) + ");\n  overflow: hidden;\n  background-color: #0a001f;\n}\n.converstion_back ul[data-v-5b5aa18f] {\n  padding: 0;\n}\n.sent > div[data-v-5b5aa18f] {\n  text-align: right;\n}\n.sent > div p[data-v-5b5aa18f] {\n    background-color: #fff;\n    border-radius: 3px;\n    display: inline-block;\n    padding: 5px 10px;\n    position: relative;\n    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);\n            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);\n}\n.sent > div p .msg_time[data-v-5b5aa18f] {\n      font-size: 10px;\n}\n.received > div[data-v-5b5aa18f] {\n  text-align: left;\n}\n.received > div > p[data-v-5b5aa18f] {\n    background-color: #dbf2fa;\n    border-radius: 3px;\n    display: inline-block;\n    padding: 5px 10px;\n    position: relative;\n    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);\n            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);\n}\n.received > div > p .msg_time[data-v-5b5aa18f] {\n      font-size: 10px;\n}\n.converstion_back > .chat_header[data-v-5b5aa18f] {\n  background-color: #7388c6;\n  padding: 4px;\n  font-size: 20px;\n  font-weight: 500;\n}\n.chat_input[data-v-5b5aa18f] {\n  padding: 5px;\n  border: none;\n  width: 100%;\n}\n.chat_content[data-v-5b5aa18f] {\n  overflow: hidden;\n  text-overflow: ellipsis;\n}\n", ""]);
+exports.push([module.i, "/*==Transition code==*/\n.slide-fade-enter-active[data-v-5b5aa18f] {\n  -webkit-transition: all .3s ease;\n  transition: all .3s ease;\n  position: absolute;\n}\n.slide-fade-leave-active[data-v-5b5aa18f] {\n  -webkit-transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);\n  transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);\n}\n.slide-fade-enter[data-v-5b5aa18f],\n.slide-fade-leave-to[data-v-5b5aa18f] {\n  -webkit-transform: translateX(-10px);\n          transform: translateX(-10px);\n  opacity: 0;\n  position: absolute;\n}\n\n/*==Transition code==*/\n.desc-img[data-v-5b5aa18f] {\n  height: 40px;\n  width: 40px;\n}\n.chat_block[data-v-5b5aa18f] {\n  border-bottom: 1px solid #f4f2f2;\n}\n.chatalign ul[data-v-5b5aa18f] {\n  padding: 0;\n}\n.converstion_back[data-v-5b5aa18f] {\n  background-image: url(" + escape(__webpack_require__(1142)) + ");\n  overflow: hidden;\n  background-color: #0a001f;\n}\n.converstion_back ul[data-v-5b5aa18f] {\n  padding: 0;\n}\n.sent > div[data-v-5b5aa18f] {\n  text-align: right;\n}\n.sent > div p[data-v-5b5aa18f] {\n    background-color: #fff;\n    border-radius: 3px;\n    display: inline-block;\n    padding: 5px 10px;\n    position: relative;\n    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);\n            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);\n}\n.sent > div p .msg_time[data-v-5b5aa18f] {\n      font-size: 10px;\n}\n.received > div[data-v-5b5aa18f] {\n  text-align: left;\n}\n.received > div > p[data-v-5b5aa18f] {\n    background-color: #dbf2fa;\n    border-radius: 3px;\n    display: inline-block;\n    padding: 5px 10px;\n    position: relative;\n    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);\n            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);\n}\n.received > div > p .msg_time[data-v-5b5aa18f] {\n      font-size: 10px;\n}\n.converstion_back > .chat_header[data-v-5b5aa18f] {\n  background-color: #7388c6;\n  padding: 4px;\n  font-size: 20px;\n  font-weight: 500;\n}\n.chat_input[data-v-5b5aa18f] {\n  padding: 5px;\n  border: none;\n  width: 100%;\n}\n.chat_content[data-v-5b5aa18f] {\n  overflow: hidden;\n  text-overflow: ellipsis;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ 1135:
+/***/ 1142:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/brick-wall.png?effad1520fc39d8897385d7004d2dbf4";
 
 /***/ }),
 
-/***/ 1136:
+/***/ 1143:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__plugins_scroll_vScroll_vue__ = __webpack_require__(792);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__plugins_scroll_vScroll_vue__ = __webpack_require__(793);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__plugins_scroll_vScroll_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__plugins_scroll_vScroll_vue__);
 //
 //
@@ -1417,7 +1417,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /***/ }),
 
-/***/ 1137:
+/***/ 1144:
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -1621,19 +1621,19 @@ if (false) {
 
 /***/ }),
 
-/***/ 1138:
+/***/ 1145:
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(1139)
+  __webpack_require__(1146)
 }
 var normalizeComponent = __webpack_require__(242)
 /* script */
-var __vue_script__ = __webpack_require__(1141)
+var __vue_script__ = __webpack_require__(1148)
 /* template */
-var __vue_template__ = __webpack_require__(1143)
+var __vue_template__ = __webpack_require__(1150)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -1673,13 +1673,13 @@ module.exports = Component.exports
 
 /***/ }),
 
-/***/ 1139:
+/***/ 1146:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(1140);
+var content = __webpack_require__(1147);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -1700,7 +1700,7 @@ if(false) {
 
 /***/ }),
 
-/***/ 1140:
+/***/ 1147:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(49)(false);
@@ -1715,7 +1715,7 @@ exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\
 
 /***/ }),
 
-/***/ 1141:
+/***/ 1148:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1729,7 +1729,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 
 
-var EasyPieChart = __webpack_require__(1142);
+var EasyPieChart = __webpack_require__(1149);
 /* harmony default export */ __webpack_exports__["default"] = ({
     name: "easyPieChart",
     // ===Props passed to component
@@ -1783,7 +1783,7 @@ var EasyPieChart = __webpack_require__(1142);
 
 /***/ }),
 
-/***/ 1142:
+/***/ 1149:
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**!
@@ -1799,7 +1799,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**!
 
 /***/ }),
 
-/***/ 1143:
+/***/ 1150:
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -1828,7 +1828,7 @@ if (false) {
 
 /***/ }),
 
-/***/ 1144:
+/***/ 1151:
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -2335,7 +2335,7 @@ var render = function() {
                           _c("img", {
                             staticClass: "img-fluid rounded-circle",
                             attrs: {
-                              src: __webpack_require__(771),
+                              src: __webpack_require__(770),
                               alt: "profile image"
                             }
                           })
@@ -2492,7 +2492,7 @@ var render = function() {
                           _c("img", {
                             staticClass: "img-fluid rounded-circle",
                             attrs: {
-                              src: __webpack_require__(775),
+                              src: __webpack_require__(773),
                               alt: "profile image"
                             }
                           })
@@ -2532,7 +2532,7 @@ var render = function() {
                           _c("img", {
                             staticClass: "img-fluid",
                             attrs: {
-                              src: __webpack_require__(774),
+                              src: __webpack_require__(769),
                               title: "Carter",
                               alt: "images"
                             }
@@ -2541,7 +2541,7 @@ var render = function() {
                           _c("img", {
                             staticClass: "img-fluid",
                             attrs: {
-                              src: __webpack_require__(771),
+                              src: __webpack_require__(770),
                               title: "Mike",
                               alt: "images"
                             }
@@ -2559,7 +2559,7 @@ var render = function() {
                           _c("img", {
                             staticClass: "img-fluid",
                             attrs: {
-                              src: __webpack_require__(775),
+                              src: __webpack_require__(773),
                               title: "harper",
                               alt: "images"
                             }
@@ -2568,7 +2568,7 @@ var render = function() {
                           _c("img", {
                             staticClass: "img-fluid",
                             attrs: {
-                              src: __webpack_require__(787),
+                              src: __webpack_require__(781),
                               title: "Colleen",
                               alt: "images"
                             }
@@ -2586,7 +2586,7 @@ var render = function() {
                           _c("img", {
                             staticClass: "img-fluid",
                             attrs: {
-                              src: __webpack_require__(1145),
+                              src: __webpack_require__(1152),
                               title: "kaylee",
                               alt: "images"
                             }
@@ -2595,7 +2595,7 @@ var render = function() {
                           _c("img", {
                             staticClass: "img-fluid",
                             attrs: {
-                              src: __webpack_require__(786),
+                              src: __webpack_require__(780),
                               title: "Dixon",
                               alt: "images"
                             }
@@ -2604,7 +2604,7 @@ var render = function() {
                           _c("img", {
                             staticClass: "img-fluid",
                             attrs: {
-                              src: __webpack_require__(1146),
+                              src: __webpack_require__(1153),
                               title: "Wallace",
                               alt: "images"
                             }
@@ -2613,7 +2613,7 @@ var render = function() {
                           _c("img", {
                             staticClass: "img-fluid",
                             attrs: {
-                              src: __webpack_require__(775),
+                              src: __webpack_require__(773),
                               title: "rogers",
                               alt: "images"
                             }
@@ -2622,7 +2622,7 @@ var render = function() {
                           _c("img", {
                             staticClass: "img-fluid",
                             attrs: {
-                              src: __webpack_require__(771),
+                              src: __webpack_require__(770),
                               title: "Bowman",
                               alt: "images"
                             }
@@ -2651,7 +2651,7 @@ var render = function() {
                           _c("img", {
                             staticClass: "img-fluid rounded-circle",
                             attrs: {
-                              src: __webpack_require__(787),
+                              src: __webpack_require__(781),
                               alt: "profile image"
                             }
                           })
@@ -2698,7 +2698,7 @@ var render = function() {
                                   _c("img", {
                                     staticClass: "img-fluid",
                                     attrs: {
-                                      src: __webpack_require__(774),
+                                      src: __webpack_require__(769),
                                       title: "Carter",
                                       alt: "images"
                                     }
@@ -2739,7 +2739,7 @@ var render = function() {
                                   _c("img", {
                                     staticClass: "img-fluid",
                                     attrs: {
-                                      src: __webpack_require__(771),
+                                      src: __webpack_require__(770),
                                       title: "Mike",
                                       alt: "images"
                                     }
@@ -2821,7 +2821,7 @@ var render = function() {
                                   _c("img", {
                                     staticClass: "img-fluid",
                                     attrs: {
-                                      src: __webpack_require__(775),
+                                      src: __webpack_require__(773),
                                       title: "harper",
                                       alt: "images"
                                     }
@@ -2862,7 +2862,7 @@ var render = function() {
                                   _c("img", {
                                     staticClass: "img-fluid",
                                     attrs: {
-                                      src: __webpack_require__(787),
+                                      src: __webpack_require__(781),
                                       title: "Colleen",
                                       alt: "images"
                                     }
@@ -3001,36 +3001,36 @@ if (false) {
 
 /***/ }),
 
-/***/ 1145:
+/***/ 1152:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/avatar7.jpg?611f91d558e9e15ce5a00443a4d3948f";
 
 /***/ }),
 
-/***/ 1146:
+/***/ 1153:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/user.jpg?4654b410ebe5facf35599d04fbe33621";
 
 /***/ }),
 
-/***/ 712:
+/***/ 713:
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(1118)
-  __webpack_require__(1120)
-  __webpack_require__(1122)
-  __webpack_require__(1124)
+  __webpack_require__(1125)
+  __webpack_require__(1127)
+  __webpack_require__(1129)
+  __webpack_require__(1131)
 }
 var normalizeComponent = __webpack_require__(242)
 /* script */
-var __vue_script__ = __webpack_require__(1126)
+var __vue_script__ = __webpack_require__(1133)
 /* template */
-var __vue_template__ = __webpack_require__(1144)
+var __vue_template__ = __webpack_require__(1151)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -3077,42 +3077,42 @@ module.exports = "/vuejs-laravel/public/images/avatar3.jpg?7e593f7330076b4b89e96
 
 /***/ }),
 
-/***/ 771:
-/***/ (function(module, exports) {
-
-module.exports = "/vuejs-laravel/public/images/avatar2.jpg?2a26dff9723fa354fe9cb39a4f4529e6";
-
-/***/ }),
-
-/***/ 774:
+/***/ 769:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/avatar1.jpg?2d4968bd8ec1519b0535ba849643dd1c";
 
 /***/ }),
 
-/***/ 775:
+/***/ 770:
+/***/ (function(module, exports) {
+
+module.exports = "/vuejs-laravel/public/images/avatar2.jpg?2a26dff9723fa354fe9cb39a4f4529e6";
+
+/***/ }),
+
+/***/ 773:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/avatar4.jpg?25bf7926d4f4c50c95e027395f7019f6";
 
 /***/ }),
 
-/***/ 786:
+/***/ 780:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/avatar.jpg?9ec1314ec47a05d978a1e1568daab7ec";
 
 /***/ }),
 
-/***/ 787:
+/***/ 781:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/avatar5.jpg?83fc5fdfbe37fb37db7a2fe84cca6d6d";
 
 /***/ }),
 
-/***/ 792:
+/***/ 793:
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -20971,7 +20971,7 @@ if (false) {
 "use strict";
 var chat = [{
     user: "Rickey",
-    image: __webpack_require__(771),
+    image: __webpack_require__(770),
     status: "Lorem ipsum dolor sit ametm  elit.",
     mbl_num: "9876543210",
     work: "Google",
@@ -21014,7 +21014,7 @@ var chat = [{
     }]
 }, {
     user: "Jenny",
-    image: __webpack_require__(775),
+    image: __webpack_require__(773),
     status: "Consec  ipsum  adipisicing.Lorem   elit.",
     mbl_num: "8907654231",
     work: "Apple",
@@ -21088,7 +21088,7 @@ var chat = [{
     }]
 }, {
     user: "Roysingh",
-    image: __webpack_require__(787),
+    image: __webpack_require__(781),
     status: "Dolor ipsum amet elitLorem ipsum ",
     mbl_num: "9587643210",
     work: "Yahoo",
@@ -21134,7 +21134,7 @@ var chat = [{
     }]
 }, {
     user: "Shasla",
-    image: __webpack_require__(786),
+    image: __webpack_require__(780),
     status: "Dolor ipsum dolor dolor elitLorem ",
     mbl_num: "7598642130",
     work: "IBM",
