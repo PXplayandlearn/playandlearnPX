@@ -4167,7 +4167,7 @@ var layout = [{
         return __webpack_require__.e/* require */(65).then(function() { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(712)]; ((resolve).apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this)).catch(__webpack_require__.oe);
     },
     meta: {
-        title: "Dashboard"
+        title: "Home"
     }
 }, {
     path: '/index2',
@@ -4564,7 +4564,7 @@ var layout = [{
 }, {
     path: '/user-profiles',
     component: function component(resolve) {
-        return __webpack_require__.e/* require */(112).then(function() { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(1701)]; ((resolve).apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this)).catch(__webpack_require__.oe);
+        return __webpack_require__.e/* require */(112/* duplicate */).then(function() { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(1701)]; ((resolve).apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this)).catch(__webpack_require__.oe);
     },
     meta: {
         title: "User Profiles"
@@ -4572,7 +4572,7 @@ var layout = [{
 }, {
     path: '/assign-game',
     component: function component(resolve) {
-        return __webpack_require__.e/* require */(111).then(function() { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(1702)]; ((resolve).apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this)).catch(__webpack_require__.oe);
+        return __webpack_require__.e/* require */(111/* duplicate */).then(function() { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(1702)]; ((resolve).apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this)).catch(__webpack_require__.oe);
     },
     meta: {
         title: "Assign Game"
@@ -4580,7 +4580,7 @@ var layout = [{
 }, {
     path: '/create-game',
     component: function component(resolve) {
-        return __webpack_require__.e/* require */(110).then(function() { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(1703)]; ((resolve).apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this)).catch(__webpack_require__.oe);
+        return __webpack_require__.e/* require */(110/* duplicate */).then(function() { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(1703)]; ((resolve).apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this)).catch(__webpack_require__.oe);
     },
     meta: {
         title: "Create Game"
@@ -4588,7 +4588,7 @@ var layout = [{
 }, {
     path: '/play-game',
     component: function component(resolve) {
-        return __webpack_require__.e/* require */(109).then(function() { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(1704)]; ((resolve).apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this)).catch(__webpack_require__.oe);
+        return __webpack_require__.e/* require */(109/* duplicate */).then(function() { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(1704)]; ((resolve).apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this)).catch(__webpack_require__.oe);
     },
     meta: {
         title: "Play Game"

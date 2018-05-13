@@ -2345,7 +2345,7 @@ if (false) {
 
 "use strict";
 var menu_items = [{
-    name: 'Dashboard',
+    name: 'Home',
     link: '/',
     icon: ' fa fa-home'
 }, {

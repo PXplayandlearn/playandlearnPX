@@ -2,7 +2,7 @@ const layout = [{
     path: '/',
     component: resolve => require(['pages/index'], resolve),
     meta: {
-        title: "Dashboard",
+        title: "Home",
     }
 }, {
     path: '/index2',
