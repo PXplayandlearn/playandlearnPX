@@ -89,6 +89,20 @@ const routes = [{
         meta: {
             title: "Play Game",
         }
+    }, 
+    {
+        path: '/scoreboard',
+        component: resolve => require(['pages/player/scoreboard'], resolve),
+        meta: {
+            title: "Scoreboard",
+        }
+    }, 
+    {
+        path: '/achievements',
+        component: resolve => require(['pages/player/achievements'], resolve),
+        meta: {
+            title: "Achievements",
+        }
     } 
 ]
 export default routes

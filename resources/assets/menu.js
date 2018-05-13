@@ -7,6 +7,14 @@ const menu_items = [{
         link: '/play-game',
         icon: 'fa fa-gamepad'
     }, {
+        name: 'Achievements',
+        link: '/achievements',
+        icon: 'fa fa-trophy'
+    }, {
+        name: 'Scoreboard',
+        link: '/scoreboard',
+        icon: 'fa fa-star'
+    },{
         name: 'Assign Game',
         link: '/assign-game',
         icon: 'fa fa-address-book'

@@ -1,22 +1,22 @@
 webpackJsonp([50],{
 
-/***/ 1693:
+/***/ 1614:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(1694);
+var content = __webpack_require__(1615);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(92)("28e81f1f", content, false, {});
+var update = __webpack_require__(92)("5affd116", content, false, {});
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-6880780a\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./500.vue", function() {
-     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-6880780a\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./500.vue");
+   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-99f2c168\",\"scoped\":true,\"hasInlineConfig\":true}!./pricing.css", function() {
+     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-99f2c168\",\"scoped\":true,\"hasInlineConfig\":true}!./pricing.css");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -27,7 +27,7 @@ if(false) {
 
 /***/ }),
 
-/***/ 1694:
+/***/ 1615:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(49)(false);
@@ -35,14 +35,14 @@ exports = module.exports = __webpack_require__(49)(false);
 
 
 // module
-exports.push([module.i, "\n.bg-color[data-v-6880780a] {\n    background-color: #EEE;\n}\n.container[data-v-6880780a] {\n    min-height: 100vh;\n    color: #FFF;\n}\n.error_content[data-v-6880780a] {\n    margin-top: 7%;\n}\n.error[data-v-6880780a] {\n    font-size: 150px;\n    line-height: 160px;\n    color: #555;\n}\n.error-type[data-v-6880780a] {\n    font-size: 28px;\n    color: #999;\n}\n.error-msg[data-v-6880780a] {\n    font-size: 18px;\n    margin: 45px 0;\n    color: #333;\n}\n.seperator[data-v-6880780a] {\n    border: 0;\n    height: 2px;\n    margin: 20px 0;\n    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(rgba(0, 0, 0, .6)), to(rgba(0, 0, 0, 0)));\n    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, .6), rgba(0, 0, 0, 0));\n}\n", ""]);
+exports.push([module.i, "\n.plan-desc[data-v-99f2c168] {\n    color : #777;\n}\n.basic[data-v-99f2c168], .standard[data-v-99f2c168], .premium[data-v-99f2c168] {\n    border         : 1px solid #E5E5E5;\n    border-radius  : 3px;\n    margin-top     : 20px;\n    margin-bottom  : 10px;\n    padding-bottom : 25px;\n}\n.standard[data-v-99f2c168] {\n    -webkit-box-shadow : 0 6px 30px #CCC;\n            box-shadow : 0 6px 30px #CCC;\n}\n.modal-1[data-v-99f2c168]{\n    background-color: #fff;\n}\n.modal-2[data-v-99f2c168]{\n    background-color: #fff;\n}\n.modal-1 .pack-heading[data-v-99f2c168] {\n    background-color : #E5E5E5;\n    margin-bottom    : 10px;\n    padding          : 9px 0;\n    height           : 76px;\n}\n.modal-1 .pack-title[data-v-99f2c168] {\n    font-size : 22px;\n}\n.modal-1 .pack-price[data-v-99f2c168] {\n    position      : absolute;\n    width         : 55px;\n    height        : 55px;\n    left          : 0;\n    right         : 0;\n    margin-top    : -3px;\n    margin-left   : auto;\n    margin-right  : auto;\n    border-radius : 50px;\n    font-size     : 18px;\n    padding-top   : 15px;\n}\n.modal-1 .pack-details[data-v-99f2c168] {\n    padding : 45px 15px 10px;\n}\n.modal-1 .pack-details li[data-v-99f2c168] {\n    margin-bottom : 15px;\n    line-height   : 40px;\n    color         : #777;\n    font-size     : 13px;\n}\n.modal-1 .btn-getit[data-v-99f2c168] {\n    border-radius         : 20px;\n    padding               : 5px 17px;\n}\n.modal-1 .trending-tag[data-v-99f2c168] {\n    height   : 68px;\n    overflow : hidden;\n    position : absolute;\n    right    : 12px;\n    top      : 17px;\n    width    : 85px;\n}\n.tag-design[data-v-99f2c168] {\n    font              : bold 12px Open Sans;\n    padding           : 3px 0;\n    position          : relative;\n    text-align        : center;\n    top               : 15px;\n    -webkit-transform         : rotate(40deg);\n            transform         : rotate(40deg);\n    width             : 110px;\n    -webkit-box-shadow        : 9px 0 10px #777;\n            box-shadow        : 9px 0 10px #777;\n}\n/*tarrif modal 2*/\n.modal-2[data-v-99f2c168] {\n    margin-top    : 25px;\n    margin-bottom : 20px;\n    padding       : 20px;\n}\n.shared.modal-2[data-v-99f2c168] {\n    border : 1px solid #6699CC;\n}\n.shared .text-dark[data-v-99f2c168]:hover{\n    color: #fff !important;\n}\n.vps.modal-2[data-v-99f2c168] {\n    border : 1px solid #FF6666;\n}\n.dedicated.modal-2[data-v-99f2c168] {\n    border : 1px solid #66CCFF;\n}\n.modal-2 .pack-price[data-v-99f2c168] {\n    position      : absolute;\n    width         : 65px;\n    height        : 65px;\n    top           : 7px;\n    right         : 0;\n    border-radius : 50px;\n    font-size     : 18px;\n    padding-top   : 11px;\n    border        : 9px solid #FFF;\n}\n.bg-danger[data-v-99f2c168], .bg-info[data-v-99f2c168] {\n    color : #FFF;\n}\n.modal-2 .pack-title[data-v-99f2c168] {\n    margin-top : 0;\n    font-size  : 22px;\n}\n.modal-2 .pack-desc[data-v-99f2c168] {\n    font-size : 14px;\n    color     : #666;\n}\n.modal-2 .pack-body[data-v-99f2c168] {\n    margin-right : -20px;\n    position     : relative;\n    overflow     : hidden;\n}\n.modal-2 .pack-details[data-v-99f2c168] {\n    margin-bottom : 20px;\n}\n.modal-2 .pack-details li[data-v-99f2c168] {\n    line-height : 40px;\n    color       : #777;\n    font-size   : 13px;\n}\n.modal-2 .pack-details li i[data-v-99f2c168] {\n    margin-right : 5px;\n}\n.modal-2 .tarrif_icon[data-v-99f2c168] {\n    position  : absolute;\n    right     : -44px;\n    font-size : 130px;\n    bottom    : -22px;\n    color     : #EEE;\n}\n@media screen and (max-width : 767px) {\n.trending-tag[data-v-99f2c168] {\n        right : 15px;\n        top   : 0;\n}\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ 1695:
+/***/ 1616:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -67,71 +67,148 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-    name: "err404",
+    name: "Pricing",
     mounted: function mounted() {},
-    destroyed: function destroyed() {},
-    methods: {
-        go_back: function go_back() {
-            this.$router.go(-1);
-        }
-    }
+    destroyed: function destroyed() {}
 });
 
 /***/ }),
 
-/***/ 1696:
+/***/ 1617:
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "bg-color" }, [
-    _c("div", { staticClass: "container" }, [
-      _c("div", { staticClass: "row" }, [
-        _c(
-          "div",
-          {
-            staticClass:
-              "col-lg-6 offset-lg-3 col-sm-8 offset-sm-2 col-xs-10 offset-xs-1 text-center error_content"
-          },
-          [
-            _vm._m(0),
-            _vm._v(" "),
-            _c("hr", { staticClass: "seperator" }),
-            _vm._v(" "),
-            _c(
-              "router-link",
-              {
-                staticClass: "btn btn-primary link-home",
-                attrs: { to: "/", exact: "" }
-              },
-              [_vm._v("Go Home")]
-            ),
-            _vm._v(" "),
-            _c(
-              "a",
-              {
-                staticClass: "btn btn-primary link-home",
-                attrs: { href: "/" },
-                on: {
-                  click: function($event) {
-                    $event.preventDefault()
-                    $event.stopPropagation()
-                    return _vm.go_back($event)
-                  }
-                }
-              },
-              [_vm._v("Go Back")]
-            )
-          ],
-          1
-        )
-      ])
-    ])
-  ])
+  return _vm._m(0)
 }
 var staticRenderFns = [
   function() {
@@ -139,17 +216,350 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", [
-      _c("div", { staticClass: "error" }, [_c("span", [_vm._v("500")])]),
-      _vm._v(" "),
-      _c("div", { staticClass: "error-type" }, [
-        _c("span", [_vm._v("INTERNAL SERVER ERROR")])
-      ]),
-      _vm._v(" "),
-      _c("div", [
-        _c("p", { staticClass: "error-msg" }, [
-          _vm._v(
-            "Something went wrong at our end, we are working on it. Mean while try below options. "
-          )
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-lg-12 col-sm-12 text-center" }, [
+          _c("h3", { staticClass: "plan-desc" }, [
+            _c("strong", [_vm._v("Meet our Web Hosting Tariff - 1 ")])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-lg-10 offset-lg-1 col-sm-12" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-sm-4 text-center" }, [
+              _c("div", { staticClass: "basic modal-1" }, [
+                _c("div", { staticClass: "pack-heading" }, [
+                  _c("h4", { staticClass: "pack-title text-primary" }, [
+                    _c("strong", [_vm._v("Basic")])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "pack-price bg-primary" }, [
+                    _c("strong", { staticClass: "text-white" }, [_vm._v("12$")])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("ul", { staticClass: "pack-details list-unstyled" }, [
+                  _c("li", [_vm._v("6 GB Storage")]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("350 GB Bandwidth")]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("No Domain")]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("2 User")]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("3 Databases")]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("24x7 Email Support")])
+                ]),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  { staticClass: "btn btn-primary center-block btn-getit" },
+                  [_vm._v("Get it now")]
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-sm-4 text-center" }, [
+              _c("div", { staticClass: "standard modal-1" }, [
+                _c("div", { staticClass: "trending-tag" }, [
+                  _c(
+                    "div",
+                    { staticClass: "tag-design bg-primary text-white" },
+                    [_vm._v("Best Deal")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "pack-heading" }, [
+                  _c("h4", { staticClass: "pack-title text-primary" }, [
+                    _c("strong", [_vm._v("Standard")])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "pack-price bg-primary" }, [
+                    _c("strong", { staticClass: "text-white" }, [_vm._v("17$")])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("ul", { staticClass: "pack-details list-unstyled" }, [
+                  _c("li", [_vm._v("14 GB Storage")]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("500 GB Bandwidth")]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("2 Domains")]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("5 User")]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("7 Databases")]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("24x7 Email Support")])
+                ]),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  { staticClass: "btn btn-primary center-block btn-getit" },
+                  [_vm._v("Get it now")]
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-sm-4 text-center" }, [
+              _c("div", { staticClass: "premium modal-1" }, [
+                _c("div", { staticClass: "pack-heading" }, [
+                  _c("h4", { staticClass: "pack-title text-primary" }, [
+                    _c("strong", [_vm._v("Premium")])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "pack-price bg-primary" }, [
+                    _c("strong", { staticClass: "text-white" }, [_vm._v("25$")])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("ul", { staticClass: "pack-details list-unstyled" }, [
+                  _c("li", [_vm._v("6 GB Storage")]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("620 GB Bandwidth")]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("6 Domains")]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("12 User")]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("15 Databases")]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("24x7 Email Support")])
+                ]),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  { staticClass: "btn btn-primary center-block btn-getit" },
+                  [_vm._v("Get it now")]
+                )
+              ])
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "col-lg-12 col-sm-12 text-center mb-3 mt-5" },
+          [
+            _c("h3", { staticClass: "plan-desc" }, [
+              _c("strong", [_vm._v("Meet our Web Hosting Tariff - 2 ")])
+            ])
+          ]
+        ),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-lg-12 col-sm-12" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-sm-4" }, [
+              _c("div", { staticClass: "shared modal-2" }, [
+                _c("div", { staticClass: "pack-heading" }, [
+                  _c(
+                    "div",
+                    { staticClass: "pack-price bg-primary text-center" },
+                    [
+                      _c("strong", { staticClass: "text-white" }, [
+                        _vm._v("17$")
+                      ])
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c("h4", { staticClass: "pack-title" }, [
+                    _c("strong", { staticClass: "text-muted" }, [
+                      _vm._v("Shared")
+                    ]),
+                    _vm._v(" "),
+                    _c("small", { staticClass: "text-primary" }, [
+                      _vm._v("Hosting")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("p", { staticClass: "pack-desc" }, [
+                    _vm._v(
+                      "We provide every necessary tool to get a website running as quickly as possible."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("hr")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "pack-body" }, [
+                  _c("ul", { staticClass: "pack-details list-unstyled" }, [
+                    _c("li", [
+                      _c("i", {
+                        staticClass: "fa fa-rss text-primary",
+                        attrs: { "aria-hidden": "true" }
+                      }),
+                      _vm._v(" 350GB Band Width")
+                    ]),
+                    _vm._v(" "),
+                    _c("li", [
+                      _c("i", {
+                        staticClass: "fa fa-arrow-circle-down text-primary",
+                        attrs: { "aria-hidden": "true" }
+                      }),
+                      _vm._v(" Free Domain\n                                ")
+                    ]),
+                    _vm._v(" "),
+                    _c("li", [
+                      _c("i", {
+                        staticClass: "fa fa-database text-primary",
+                        attrs: { "aria-hidden": "true" }
+                      }),
+                      _vm._v(" 50 Data Base")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "tarrif_icon" }, [
+                    _c("i", {
+                      staticClass: "fa fa-window-restore",
+                      attrs: { "aria-hidden": "true" }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "button",
+                    { staticClass: "btn btn-primary btn-md text-dark" },
+                    [_vm._v("Know More")]
+                  )
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-sm-4" }, [
+              _c("div", { staticClass: "vps modal-2" }, [
+                _c("div", { staticClass: "pack-heading" }, [
+                  _c(
+                    "div",
+                    { staticClass: "pack-price bg-danger text-center" },
+                    [_c("strong", [_vm._v("17$")])]
+                  ),
+                  _vm._v(" "),
+                  _c("h4", { staticClass: "pack-title" }, [
+                    _c("strong", { staticClass: "text-muted" }, [
+                      _vm._v("VPS")
+                    ]),
+                    _vm._v(" "),
+                    _c("small", { staticClass: "text-danger" }, [
+                      _vm._v("Hosting")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("p", { staticClass: "pack-desc" }, [
+                    _vm._v(
+                      "We provide every necessary tool to get a website running as quickly as possible."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("hr")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "pack-body" }, [
+                  _c("ul", { staticClass: "pack-details list-unstyled" }, [
+                    _c("li", [
+                      _c("i", {
+                        staticClass: "fa fa-rss text-danger",
+                        attrs: { "aria-hidden": "true" }
+                      }),
+                      _vm._v(" 800GB Band Width")
+                    ]),
+                    _vm._v(" "),
+                    _c("li", [
+                      _c("i", {
+                        staticClass: "fa fa-arrow-circle-down text-danger",
+                        attrs: { "aria-hidden": "true" }
+                      }),
+                      _vm._v(" Free Domain\n                                ")
+                    ]),
+                    _vm._v(" "),
+                    _c("li", [
+                      _c("i", {
+                        staticClass: "fa fa-database text-danger",
+                        attrs: { "aria-hidden": "true" }
+                      }),
+                      _vm._v(" 200 Data Base")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "tarrif_icon" }, [
+                    _c("i", {
+                      staticClass: "fa fa-clipboard",
+                      attrs: { "aria-hidden": "true" }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("button", { staticClass: "btn btn-danger btn-md" }, [
+                    _vm._v("Know More")
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-sm-4" }, [
+              _c("div", { staticClass: "dedicated modal-2" }, [
+                _c("div", { staticClass: "pack-heading" }, [
+                  _c("div", { staticClass: "pack-price bg-info text-center" }, [
+                    _c("strong", [_vm._v("25$")])
+                  ]),
+                  _vm._v(" "),
+                  _c("h4", { staticClass: "pack-title" }, [
+                    _c("strong", { staticClass: "text-muted" }, [
+                      _vm._v("Dedicated")
+                    ]),
+                    _vm._v(" "),
+                    _c("small", { staticClass: "text-info" }, [
+                      _vm._v("Hosting")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("p", { staticClass: "pack-desc" }, [
+                    _vm._v(
+                      "We provide every necessary tool to get a website running as quickly as possible."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("hr")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "pack-body" }, [
+                  _c("ul", { staticClass: "pack-details list-unstyled" }, [
+                    _c("li", [
+                      _c("i", {
+                        staticClass: "fa fa-rss text-info",
+                        attrs: { "aria-hidden": "true" }
+                      }),
+                      _vm._v(" 1350GB Band Width")
+                    ]),
+                    _vm._v(" "),
+                    _c("li", [
+                      _c("i", {
+                        staticClass: "fa fa-arrow-circle-down text-info",
+                        attrs: { "aria-hidden": "true" }
+                      }),
+                      _vm._v(" Free Domain")
+                    ]),
+                    _vm._v(" "),
+                    _c("li", [
+                      _c("i", {
+                        staticClass: "fa fa-database text-info",
+                        attrs: { "aria-hidden": "true" }
+                      }),
+                      _vm._v(" 350 Data Base")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "tarrif_icon" }, [
+                    _c("i", {
+                      staticClass: "fa fa-database",
+                      attrs: { "aria-hidden": "true" }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("button", { staticClass: "btn btn-info btn-md" }, [
+                    _vm._v("Know More")
+                  ])
+                ])
+              ])
+            ])
+          ])
         ])
       ])
     ])
@@ -160,31 +570,31 @@ module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-6880780a", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-99f2c168", module.exports)
   }
 }
 
 /***/ }),
 
-/***/ 766:
+/***/ 757:
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(1693)
+  __webpack_require__(1614)
 }
 var normalizeComponent = __webpack_require__(242)
 /* script */
-var __vue_script__ = __webpack_require__(1695)
+var __vue_script__ = __webpack_require__(1616)
 /* template */
-var __vue_template__ = __webpack_require__(1696)
+var __vue_template__ = __webpack_require__(1617)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-6880780a"
+var __vue_scopeId__ = "data-v-99f2c168"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
@@ -195,7 +605,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources\\assets\\components\\pages\\500.vue"
+Component.options.__file = "resources\\assets\\components\\pages\\pricing.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -204,9 +614,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-6880780a", Component.options)
+    hotAPI.createRecord("data-v-99f2c168", Component.options)
   } else {
-    hotAPI.reload("data-v-6880780a", Component.options)
+    hotAPI.reload("data-v-99f2c168", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
