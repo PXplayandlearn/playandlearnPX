@@ -1,12 +1,12 @@
 webpackJsonp([29],{
 
-/***/ 1618:
+/***/ 1627:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(1619);
+var content = __webpack_require__(1628);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -27,7 +27,7 @@ if(false) {
 
 /***/ }),
 
-/***/ 1619:
+/***/ 1628:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(49)(false);
@@ -42,7 +42,7 @@ exports.push([module.i, "\n.search[data-v-83fde186]{\n    border: 1px solid #bdb
 
 /***/ }),
 
-/***/ 1620:
+/***/ 1629:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -173,42 +173,42 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             newrole: '',
             contacts: [{
                 name: 'Jon',
-                img: __webpack_require__(769),
+                img: __webpack_require__(781),
                 email: 'jon@gmail.com',
                 contact_num: '0123456789',
                 role: 'Web developer',
                 location: 'Hyderabad'
             }, {
                 name: 'Doe',
-                img: __webpack_require__(770),
+                img: __webpack_require__(784),
                 email: 'doe@gmail.com',
                 contact_num: '0123456789',
                 role: 'Web developer',
                 location: 'Hyderabad'
             }, {
                 name: 'Addison',
-                img: __webpack_require__(768),
+                img: __webpack_require__(780),
                 email: 'addison@gmail.com',
                 contact_num: '0123456789',
                 role: 'Web developer',
                 location: 'Hyderabad'
             }, {
                 name: 'Jon',
-                img: __webpack_require__(773),
+                img: __webpack_require__(785),
                 email: 'jon@gmail.com',
                 contact_num: '0123456789',
                 role: 'Web developer',
                 location: 'Hyderabad'
             }, {
                 name: 'Doe',
-                img: __webpack_require__(769),
+                img: __webpack_require__(781),
                 email: 'jon@gmail.com',
                 contact_num: '0123456789',
                 role: 'Web developer',
                 location: 'Hyderabad'
             }, {
                 name: 'Jon',
-                img: __webpack_require__(780),
+                img: __webpack_require__(793),
                 email: 'jon@gmail.com',
                 contact_num: '0123456789',
                 role: 'Web developer',
@@ -294,7 +294,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /***/ }),
 
-/***/ 1621:
+/***/ 1630:
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -805,7 +805,7 @@ var staticRenderFns = [
         _c("img", {
           staticClass: "contact-profile d-inline-block rounded-circle",
           attrs: {
-            src: __webpack_require__(769),
+            src: __webpack_require__(781),
             alt: "user profile"
           }
         }),
@@ -910,19 +910,19 @@ if (false) {
 
 /***/ }),
 
-/***/ 758:
+/***/ 765:
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(1618)
+  __webpack_require__(1627)
 }
-var normalizeComponent = __webpack_require__(242)
+var normalizeComponent = __webpack_require__(244)
 /* script */
-var __vue_script__ = __webpack_require__(1620)
+var __vue_script__ = __webpack_require__(1629)
 /* template */
-var __vue_template__ = __webpack_require__(1621)
+var __vue_template__ = __webpack_require__(1630)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -962,35 +962,35 @@ module.exports = Component.exports
 
 /***/ }),
 
-/***/ 768:
+/***/ 780:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/avatar3.jpg?7e593f7330076b4b89e96f89b9396c0a";
 
 /***/ }),
 
-/***/ 769:
+/***/ 781:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/avatar1.jpg?2d4968bd8ec1519b0535ba849643dd1c";
 
 /***/ }),
 
-/***/ 770:
+/***/ 784:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/avatar2.jpg?2a26dff9723fa354fe9cb39a4f4529e6";
 
 /***/ }),
 
-/***/ 773:
+/***/ 785:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/avatar4.jpg?25bf7926d4f4c50c95e027395f7019f6";
 
 /***/ }),
 
-/***/ 780:
+/***/ 793:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/avatar.jpg?9ec1314ec47a05d978a1e1568daab7ec";

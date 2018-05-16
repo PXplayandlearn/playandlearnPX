@@ -1,12 +1,12 @@
 webpackJsonp([13],{
 
-/***/ 1125:
+/***/ 1132:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(1126);
+var content = __webpack_require__(1133);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -27,7 +27,7 @@ if(false) {
 
 /***/ }),
 
-/***/ 1126:
+/***/ 1133:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(49)(false);
@@ -42,13 +42,13 @@ exports.push([module.i, "\n.ct-label {\n  fill: rgba(0, 0, 0, 0.4);\n  color: rg
 
 /***/ }),
 
-/***/ 1127:
+/***/ 1134:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(1128);
+var content = __webpack_require__(1135);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -69,7 +69,7 @@ if(false) {
 
 /***/ }),
 
-/***/ 1128:
+/***/ 1135:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(49)(false);
@@ -84,13 +84,13 @@ exports.push([module.i, "\n.echart-sales[data-v-7f4b7e8a] {\n    width: 100%;\n 
 
 /***/ }),
 
-/***/ 1129:
+/***/ 1136:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(1130);
+var content = __webpack_require__(1137);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -111,7 +111,7 @@ if(false) {
 
 /***/ }),
 
-/***/ 1130:
+/***/ 1137:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(49)(false);
@@ -126,13 +126,13 @@ exports.push([module.i, "\n.index1_swiper .swiper-pagination-bullet-active {\n  
 
 /***/ }),
 
-/***/ 1131:
+/***/ 1138:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(1132);
+var content = __webpack_require__(1139);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -153,7 +153,7 @@ if(false) {
 
 /***/ }),
 
-/***/ 1132:
+/***/ 1139:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(49)(false);
@@ -168,31 +168,31 @@ exports.push([module.i, "/*========================easy pie chart===============
 
 /***/ }),
 
-/***/ 1133:
+/***/ 1140:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(50);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_components_widgets_task_component_task_vue__ = __webpack_require__(1134);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_components_widgets_task_component_task_vue__ = __webpack_require__(1141);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_components_widgets_task_component_task_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_components_widgets_task_component_task_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_components_widgets_chat_component_chat_vue__ = __webpack_require__(1139);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_components_widgets_chat_component_chat_vue__ = __webpack_require__(1146);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_components_widgets_chat_component_chat_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_components_widgets_chat_component_chat_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_components_widgets_weather_weather_vue__ = __webpack_require__(906);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_components_widgets_weather_weather_vue__ = __webpack_require__(909);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_components_widgets_weather_weather_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_components_widgets_weather_weather_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_vue_echarts_v3_src_full_js__ = __webpack_require__(244);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_v_chartist__ = __webpack_require__(851);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_vue_echarts_v3_src_full_js__ = __webpack_require__(247);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_v_chartist__ = __webpack_require__(859);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_v_chartist___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_v_chartist__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_zrender_lib_graphic_LinearGradient__ = __webpack_require__(129);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_zrender_lib_graphic_LinearGradient___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_zrender_lib_graphic_LinearGradient__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_vue_awesome_swiper__ = __webpack_require__(898);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_vue_awesome_swiper__ = __webpack_require__(903);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_vue_awesome_swiper___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_vue_awesome_swiper__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_components_plugins_scroll_vScroll_vue__ = __webpack_require__(793);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_components_plugins_scroll_vScroll_vue__ = __webpack_require__(799);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_components_plugins_scroll_vScroll_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_components_plugins_scroll_vScroll_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_assets_js_chat_data__ = __webpack_require__(915);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_vuetrend__ = __webpack_require__(916);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_components_plugins_easypiechart_easyPieChart_vue__ = __webpack_require__(1145);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_assets_js_chat_data__ = __webpack_require__(919);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_vuetrend__ = __webpack_require__(920);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_components_plugins_easypiechart_easyPieChart_vue__ = __webpack_require__(1152);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_components_plugins_easypiechart_easyPieChart_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11_components_plugins_easypiechart_easyPieChart_vue__);
 //
 //
@@ -560,7 +560,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 __WEBPACK_IMPORTED_MODULE_0_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_10_vuetrend__["a" /* default */]);
 __WEBPACK_IMPORTED_MODULE_0_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_7_vue_awesome_swiper___default.a);
-__webpack_require__(896);
+__webpack_require__(901);
 
 var unsub;
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -816,19 +816,19 @@ var unsub;
 
 /***/ }),
 
-/***/ 1134:
+/***/ 1141:
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(1135)
+  __webpack_require__(1142)
 }
-var normalizeComponent = __webpack_require__(242)
+var normalizeComponent = __webpack_require__(244)
 /* script */
-var __vue_script__ = __webpack_require__(1137)
+var __vue_script__ = __webpack_require__(1144)
 /* template */
-var __vue_template__ = __webpack_require__(1138)
+var __vue_template__ = __webpack_require__(1145)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -868,13 +868,13 @@ module.exports = Component.exports
 
 /***/ }),
 
-/***/ 1135:
+/***/ 1142:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(1136);
+var content = __webpack_require__(1143);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -895,7 +895,7 @@ if(false) {
 
 /***/ }),
 
-/***/ 1136:
+/***/ 1143:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(49)(false);
@@ -910,12 +910,12 @@ exports.push([module.i, "\n.task_block {\n    border: 1px solid #e6e6e6;\n    pa
 
 /***/ }),
 
-/***/ 1137:
+/***/ 1144:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__plugins_scroll_vScroll_vue__ = __webpack_require__(793);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__plugins_scroll_vScroll_vue__ = __webpack_require__(799);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__plugins_scroll_vScroll_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__plugins_scroll_vScroll_vue__);
 //
 //
@@ -1009,7 +1009,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /***/ }),
 
-/***/ 1138:
+/***/ 1145:
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -1208,19 +1208,19 @@ if (false) {
 
 /***/ }),
 
-/***/ 1139:
+/***/ 1146:
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(1140)
+  __webpack_require__(1147)
 }
-var normalizeComponent = __webpack_require__(242)
+var normalizeComponent = __webpack_require__(244)
 /* script */
-var __vue_script__ = __webpack_require__(1143)
+var __vue_script__ = __webpack_require__(1150)
 /* template */
-var __vue_template__ = __webpack_require__(1144)
+var __vue_template__ = __webpack_require__(1151)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -1260,13 +1260,13 @@ module.exports = Component.exports
 
 /***/ }),
 
-/***/ 1140:
+/***/ 1147:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(1141);
+var content = __webpack_require__(1148);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -1287,35 +1287,35 @@ if(false) {
 
 /***/ }),
 
-/***/ 1141:
+/***/ 1148:
 /***/ (function(module, exports, __webpack_require__) {
 
-var escape = __webpack_require__(243);
+var escape = __webpack_require__(245);
 exports = module.exports = __webpack_require__(49)(false);
 // imports
 
 
 // module
-exports.push([module.i, "/*==Transition code==*/\n.slide-fade-enter-active[data-v-5b5aa18f] {\n  -webkit-transition: all .3s ease;\n  transition: all .3s ease;\n  position: absolute;\n}\n.slide-fade-leave-active[data-v-5b5aa18f] {\n  -webkit-transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);\n  transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);\n}\n.slide-fade-enter[data-v-5b5aa18f],\n.slide-fade-leave-to[data-v-5b5aa18f] {\n  -webkit-transform: translateX(-10px);\n          transform: translateX(-10px);\n  opacity: 0;\n  position: absolute;\n}\n\n/*==Transition code==*/\n.desc-img[data-v-5b5aa18f] {\n  height: 40px;\n  width: 40px;\n}\n.chat_block[data-v-5b5aa18f] {\n  border-bottom: 1px solid #f4f2f2;\n}\n.chatalign ul[data-v-5b5aa18f] {\n  padding: 0;\n}\n.converstion_back[data-v-5b5aa18f] {\n  background-image: url(" + escape(__webpack_require__(1142)) + ");\n  overflow: hidden;\n  background-color: #0a001f;\n}\n.converstion_back ul[data-v-5b5aa18f] {\n  padding: 0;\n}\n.sent > div[data-v-5b5aa18f] {\n  text-align: right;\n}\n.sent > div p[data-v-5b5aa18f] {\n    background-color: #fff;\n    border-radius: 3px;\n    display: inline-block;\n    padding: 5px 10px;\n    position: relative;\n    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);\n            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);\n}\n.sent > div p .msg_time[data-v-5b5aa18f] {\n      font-size: 10px;\n}\n.received > div[data-v-5b5aa18f] {\n  text-align: left;\n}\n.received > div > p[data-v-5b5aa18f] {\n    background-color: #dbf2fa;\n    border-radius: 3px;\n    display: inline-block;\n    padding: 5px 10px;\n    position: relative;\n    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);\n            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);\n}\n.received > div > p .msg_time[data-v-5b5aa18f] {\n      font-size: 10px;\n}\n.converstion_back > .chat_header[data-v-5b5aa18f] {\n  background-color: #7388c6;\n  padding: 4px;\n  font-size: 20px;\n  font-weight: 500;\n}\n.chat_input[data-v-5b5aa18f] {\n  padding: 5px;\n  border: none;\n  width: 100%;\n}\n.chat_content[data-v-5b5aa18f] {\n  overflow: hidden;\n  text-overflow: ellipsis;\n}\n", ""]);
+exports.push([module.i, "/*==Transition code==*/\n.slide-fade-enter-active[data-v-5b5aa18f] {\n  -webkit-transition: all .3s ease;\n  transition: all .3s ease;\n  position: absolute;\n}\n.slide-fade-leave-active[data-v-5b5aa18f] {\n  -webkit-transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);\n  transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);\n}\n.slide-fade-enter[data-v-5b5aa18f],\n.slide-fade-leave-to[data-v-5b5aa18f] {\n  -webkit-transform: translateX(-10px);\n          transform: translateX(-10px);\n  opacity: 0;\n  position: absolute;\n}\n\n/*==Transition code==*/\n.desc-img[data-v-5b5aa18f] {\n  height: 40px;\n  width: 40px;\n}\n.chat_block[data-v-5b5aa18f] {\n  border-bottom: 1px solid #f4f2f2;\n}\n.chatalign ul[data-v-5b5aa18f] {\n  padding: 0;\n}\n.converstion_back[data-v-5b5aa18f] {\n  background-image: url(" + escape(__webpack_require__(1149)) + ");\n  overflow: hidden;\n  background-color: #0a001f;\n}\n.converstion_back ul[data-v-5b5aa18f] {\n  padding: 0;\n}\n.sent > div[data-v-5b5aa18f] {\n  text-align: right;\n}\n.sent > div p[data-v-5b5aa18f] {\n    background-color: #fff;\n    border-radius: 3px;\n    display: inline-block;\n    padding: 5px 10px;\n    position: relative;\n    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);\n            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);\n}\n.sent > div p .msg_time[data-v-5b5aa18f] {\n      font-size: 10px;\n}\n.received > div[data-v-5b5aa18f] {\n  text-align: left;\n}\n.received > div > p[data-v-5b5aa18f] {\n    background-color: #dbf2fa;\n    border-radius: 3px;\n    display: inline-block;\n    padding: 5px 10px;\n    position: relative;\n    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);\n            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);\n}\n.received > div > p .msg_time[data-v-5b5aa18f] {\n      font-size: 10px;\n}\n.converstion_back > .chat_header[data-v-5b5aa18f] {\n  background-color: #7388c6;\n  padding: 4px;\n  font-size: 20px;\n  font-weight: 500;\n}\n.chat_input[data-v-5b5aa18f] {\n  padding: 5px;\n  border: none;\n  width: 100%;\n}\n.chat_content[data-v-5b5aa18f] {\n  overflow: hidden;\n  text-overflow: ellipsis;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ 1142:
+/***/ 1149:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/brick-wall.png?effad1520fc39d8897385d7004d2dbf4";
 
 /***/ }),
 
-/***/ 1143:
+/***/ 1150:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__plugins_scroll_vScroll_vue__ = __webpack_require__(793);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__plugins_scroll_vScroll_vue__ = __webpack_require__(799);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__plugins_scroll_vScroll_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__plugins_scroll_vScroll_vue__);
 //
 //
@@ -1417,7 +1417,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /***/ }),
 
-/***/ 1144:
+/***/ 1151:
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -1621,19 +1621,19 @@ if (false) {
 
 /***/ }),
 
-/***/ 1145:
+/***/ 1152:
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(1146)
+  __webpack_require__(1153)
 }
-var normalizeComponent = __webpack_require__(242)
+var normalizeComponent = __webpack_require__(244)
 /* script */
-var __vue_script__ = __webpack_require__(1148)
+var __vue_script__ = __webpack_require__(1155)
 /* template */
-var __vue_template__ = __webpack_require__(1150)
+var __vue_template__ = __webpack_require__(1157)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -1673,13 +1673,13 @@ module.exports = Component.exports
 
 /***/ }),
 
-/***/ 1146:
+/***/ 1153:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(1147);
+var content = __webpack_require__(1154);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -1700,7 +1700,7 @@ if(false) {
 
 /***/ }),
 
-/***/ 1147:
+/***/ 1154:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(49)(false);
@@ -1715,7 +1715,7 @@ exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\
 
 /***/ }),
 
-/***/ 1148:
+/***/ 1155:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1729,7 +1729,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 
 
-var EasyPieChart = __webpack_require__(1149);
+var EasyPieChart = __webpack_require__(1156);
 /* harmony default export */ __webpack_exports__["default"] = ({
     name: "easyPieChart",
     // ===Props passed to component
@@ -1783,7 +1783,7 @@ var EasyPieChart = __webpack_require__(1149);
 
 /***/ }),
 
-/***/ 1149:
+/***/ 1156:
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**!
@@ -1799,7 +1799,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**!
 
 /***/ }),
 
-/***/ 1150:
+/***/ 1157:
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -1828,7 +1828,7 @@ if (false) {
 
 /***/ }),
 
-/***/ 1151:
+/***/ 1158:
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -2335,7 +2335,7 @@ var render = function() {
                           _c("img", {
                             staticClass: "img-fluid rounded-circle",
                             attrs: {
-                              src: __webpack_require__(770),
+                              src: __webpack_require__(784),
                               alt: "profile image"
                             }
                           })
@@ -2410,7 +2410,7 @@ var render = function() {
                           _c("img", {
                             staticClass: "img-fluid rounded-circle",
                             attrs: {
-                              src: __webpack_require__(768),
+                              src: __webpack_require__(780),
                               alt: "profile image"
                             }
                           })
@@ -2492,7 +2492,7 @@ var render = function() {
                           _c("img", {
                             staticClass: "img-fluid rounded-circle",
                             attrs: {
-                              src: __webpack_require__(773),
+                              src: __webpack_require__(785),
                               alt: "profile image"
                             }
                           })
@@ -2532,7 +2532,7 @@ var render = function() {
                           _c("img", {
                             staticClass: "img-fluid",
                             attrs: {
-                              src: __webpack_require__(769),
+                              src: __webpack_require__(781),
                               title: "Carter",
                               alt: "images"
                             }
@@ -2541,7 +2541,7 @@ var render = function() {
                           _c("img", {
                             staticClass: "img-fluid",
                             attrs: {
-                              src: __webpack_require__(770),
+                              src: __webpack_require__(784),
                               title: "Mike",
                               alt: "images"
                             }
@@ -2550,7 +2550,7 @@ var render = function() {
                           _c("img", {
                             staticClass: "img-fluid",
                             attrs: {
-                              src: __webpack_require__(768),
+                              src: __webpack_require__(780),
                               title: "Tyler",
                               alt: "images"
                             }
@@ -2559,7 +2559,7 @@ var render = function() {
                           _c("img", {
                             staticClass: "img-fluid",
                             attrs: {
-                              src: __webpack_require__(773),
+                              src: __webpack_require__(785),
                               title: "harper",
                               alt: "images"
                             }
@@ -2568,7 +2568,7 @@ var render = function() {
                           _c("img", {
                             staticClass: "img-fluid",
                             attrs: {
-                              src: __webpack_require__(781),
+                              src: __webpack_require__(818),
                               title: "Colleen",
                               alt: "images"
                             }
@@ -2577,7 +2577,7 @@ var render = function() {
                           _c("img", {
                             staticClass: "img-fluid",
                             attrs: {
-                              src: __webpack_require__(798),
+                              src: __webpack_require__(825),
                               title: "Logan",
                               alt: "images"
                             }
@@ -2586,7 +2586,7 @@ var render = function() {
                           _c("img", {
                             staticClass: "img-fluid",
                             attrs: {
-                              src: __webpack_require__(1152),
+                              src: __webpack_require__(1159),
                               title: "kaylee",
                               alt: "images"
                             }
@@ -2595,7 +2595,7 @@ var render = function() {
                           _c("img", {
                             staticClass: "img-fluid",
                             attrs: {
-                              src: __webpack_require__(780),
+                              src: __webpack_require__(793),
                               title: "Dixon",
                               alt: "images"
                             }
@@ -2604,7 +2604,7 @@ var render = function() {
                           _c("img", {
                             staticClass: "img-fluid",
                             attrs: {
-                              src: __webpack_require__(1153),
+                              src: __webpack_require__(1160),
                               title: "Wallace",
                               alt: "images"
                             }
@@ -2613,7 +2613,7 @@ var render = function() {
                           _c("img", {
                             staticClass: "img-fluid",
                             attrs: {
-                              src: __webpack_require__(773),
+                              src: __webpack_require__(785),
                               title: "rogers",
                               alt: "images"
                             }
@@ -2622,7 +2622,7 @@ var render = function() {
                           _c("img", {
                             staticClass: "img-fluid",
                             attrs: {
-                              src: __webpack_require__(770),
+                              src: __webpack_require__(784),
                               title: "Bowman",
                               alt: "images"
                             }
@@ -2631,7 +2631,7 @@ var render = function() {
                           _c("img", {
                             staticClass: "img-fluid",
                             attrs: {
-                              src: __webpack_require__(768),
+                              src: __webpack_require__(780),
                               title: "Donald",
                               alt: "images"
                             }
@@ -2651,7 +2651,7 @@ var render = function() {
                           _c("img", {
                             staticClass: "img-fluid rounded-circle",
                             attrs: {
-                              src: __webpack_require__(781),
+                              src: __webpack_require__(818),
                               alt: "profile image"
                             }
                           })
@@ -2698,7 +2698,7 @@ var render = function() {
                                   _c("img", {
                                     staticClass: "img-fluid",
                                     attrs: {
-                                      src: __webpack_require__(769),
+                                      src: __webpack_require__(781),
                                       title: "Carter",
                                       alt: "images"
                                     }
@@ -2739,7 +2739,7 @@ var render = function() {
                                   _c("img", {
                                     staticClass: "img-fluid",
                                     attrs: {
-                                      src: __webpack_require__(770),
+                                      src: __webpack_require__(784),
                                       title: "Mike",
                                       alt: "images"
                                     }
@@ -2780,7 +2780,7 @@ var render = function() {
                                   _c("img", {
                                     staticClass: "img-fluid",
                                     attrs: {
-                                      src: __webpack_require__(768),
+                                      src: __webpack_require__(780),
                                       title: "Tyler",
                                       alt: "images"
                                     }
@@ -2821,7 +2821,7 @@ var render = function() {
                                   _c("img", {
                                     staticClass: "img-fluid",
                                     attrs: {
-                                      src: __webpack_require__(773),
+                                      src: __webpack_require__(785),
                                       title: "harper",
                                       alt: "images"
                                     }
@@ -2862,7 +2862,7 @@ var render = function() {
                                   _c("img", {
                                     staticClass: "img-fluid",
                                     attrs: {
-                                      src: __webpack_require__(781),
+                                      src: __webpack_require__(818),
                                       title: "Colleen",
                                       alt: "images"
                                     }
@@ -2903,7 +2903,7 @@ var render = function() {
                                   _c("img", {
                                     staticClass: "img-fluid",
                                     attrs: {
-                                      src: __webpack_require__(798),
+                                      src: __webpack_require__(825),
                                       title: "Logan",
                                       alt: "images"
                                     }
@@ -3001,36 +3001,36 @@ if (false) {
 
 /***/ }),
 
-/***/ 1152:
+/***/ 1159:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/avatar7.jpg?611f91d558e9e15ce5a00443a4d3948f";
 
 /***/ }),
 
-/***/ 1153:
+/***/ 1160:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/user.jpg?4654b410ebe5facf35599d04fbe33621";
 
 /***/ }),
 
-/***/ 713:
+/***/ 721:
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(1125)
-  __webpack_require__(1127)
-  __webpack_require__(1129)
-  __webpack_require__(1131)
+  __webpack_require__(1132)
+  __webpack_require__(1134)
+  __webpack_require__(1136)
+  __webpack_require__(1138)
 }
-var normalizeComponent = __webpack_require__(242)
+var normalizeComponent = __webpack_require__(244)
 /* script */
-var __vue_script__ = __webpack_require__(1133)
+var __vue_script__ = __webpack_require__(1140)
 /* template */
-var __vue_template__ = __webpack_require__(1151)
+var __vue_template__ = __webpack_require__(1158)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -3070,61 +3070,54 @@ module.exports = Component.exports
 
 /***/ }),
 
-/***/ 768:
+/***/ 780:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/avatar3.jpg?7e593f7330076b4b89e96f89b9396c0a";
 
 /***/ }),
 
-/***/ 769:
+/***/ 781:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/avatar1.jpg?2d4968bd8ec1519b0535ba849643dd1c";
 
 /***/ }),
 
-/***/ 770:
+/***/ 784:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/avatar2.jpg?2a26dff9723fa354fe9cb39a4f4529e6";
 
 /***/ }),
 
-/***/ 773:
+/***/ 785:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/avatar4.jpg?25bf7926d4f4c50c95e027395f7019f6";
 
 /***/ }),
 
-/***/ 780:
+/***/ 793:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/avatar.jpg?9ec1314ec47a05d978a1e1568daab7ec";
 
 /***/ }),
 
-/***/ 781:
-/***/ (function(module, exports) {
-
-module.exports = "/vuejs-laravel/public/images/avatar5.jpg?83fc5fdfbe37fb37db7a2fe84cca6d6d";
-
-/***/ }),
-
-/***/ 793:
+/***/ 799:
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(799)
+  __webpack_require__(804)
 }
-var normalizeComponent = __webpack_require__(242)
+var normalizeComponent = __webpack_require__(244)
 /* script */
-var __vue_script__ = __webpack_require__(801)
+var __vue_script__ = __webpack_require__(806)
 /* template */
-var __vue_template__ = __webpack_require__(802)
+var __vue_template__ = __webpack_require__(807)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -3164,20 +3157,13 @@ module.exports = Component.exports
 
 /***/ }),
 
-/***/ 798:
-/***/ (function(module, exports) {
-
-module.exports = "/vuejs-laravel/public/images/avatar6.jpg?ad632ec07148871732e34440c087874d";
-
-/***/ }),
-
-/***/ 799:
+/***/ 804:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(800);
+var content = __webpack_require__(805);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -3198,7 +3184,7 @@ if(false) {
 
 /***/ }),
 
-/***/ 800:
+/***/ 805:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(49)(false);
@@ -3213,7 +3199,7 @@ exports.push([module.i, "\n.ss-wrapper {\n    overflow: hidden;\n    width: 100%
 
 /***/ }),
 
-/***/ 801:
+/***/ 806:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3303,7 +3289,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /***/ }),
 
-/***/ 802:
+/***/ 807:
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -3355,7 +3341,21 @@ if (false) {
 
 /***/ }),
 
-/***/ 847:
+/***/ 818:
+/***/ (function(module, exports) {
+
+module.exports = "/vuejs-laravel/public/images/avatar5.jpg?83fc5fdfbe37fb37db7a2fe84cca6d6d";
+
+/***/ }),
+
+/***/ 825:
+/***/ (function(module, exports) {
+
+module.exports = "/vuejs-laravel/public/images/avatar6.jpg?ad632ec07148871732e34440c087874d";
+
+/***/ }),
+
+/***/ 854:
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;(function (root, factory) {
@@ -7851,27 +7851,20 @@ return Chartist;
 
 /***/ }),
 
-/***/ 851:
+/***/ 859:
 /***/ (function(module, exports, __webpack_require__) {
 
-!function(e,t){ true?module.exports=t(__webpack_require__(847)):"function"==typeof define&&define.amd?define(["Chartist"],t):"object"==typeof exports?exports.VueChartist=t(require("chartist")):e.VueChartist=t(e.Chartist)}(this,function(e){return function(e){function t(r){if(n[r])return n[r].exports;var o=n[r]={i:r,l:!1,exports:{}};return e[r].call(o.exports,o,o.exports,t),o.l=!0,o.exports}var n={};return t.m=e,t.c=n,t.i=function(e){return e},t.d=function(e,n,r){t.o(e,n)||Object.defineProperty(e,n,{configurable:!1,enumerable:!0,get:r})},t.n=function(e){var n=e&&e.__esModule?function(){return e.default}:function(){return e};return t.d(n,"a",n),n},t.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},t.p="",t(t.s=2)}([function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r=n(1),o=n.n(r),i=n(4),s=n(3),u=s(o.a,i.a,null,null,null);u.options.__file="src/vue-chartist.vue",u.esModule&&Object.keys(u.esModule).some(function(e){return"default"!==e&&"__"!==e.substr(0,2)})&&console.error("named exports are not supported in *.vue files."),u.options.functional&&console.error("[vue-loader] vue-chartist.vue: functional components are not supported with templates, they should use render functions."),t.default=u.exports},function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r=n(5),o=function(e){return e&&e.__esModule?e:{default:e}}(r);t.default={name:"vue-chartist",props:{type:{type:String,validator:function(e){return"Pie"===e||"Line"===e||"Bar"===e},default:function(){return"Line"}},data:{type:Object,required:!0},options:{type:Object},listener:{type:Object},responsiveOptions:{type:Array}},data:function(){return{chartist:void 0}},methods:{updateEventListener:function(e){var t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"on";e=e||{};for(var n in e)e.hasOwnProperty(n)&&this.chartist[t](n,e[n])},renderChart:function(){var e=this.data,t=this.options?this.options:{},n=this.responsiveOptions?this.responsiveOptions:[];this.chartist?this.chartist.update(e,t,n):(this.chartist=new o.default[this.type](this.$el,e,t,n),this.updateEventListener(this.listener,"on"))}},watch:{data:{handler:"renderChart",deep:!0},options:{handler:"renderChart",deep:!0},responsiveOptions:{handler:"renderChart",deep:!0},listener:function(e,t){this.updateEventListener(t,"off"),this.updateEventListener(e,"on")}},mounted:function(){this.renderChart()},destroyed:function(){this.chartist&&this.chartist.detach()}}},function(e,t,n){"use strict";var r=n(0),o=function(e){return e&&e.__esModule?e:{default:e}}(r);e.exports=o.default},function(e,t){e.exports=function(e,t,n,r,o){var i,s=e=e||{},u=typeof e.default;"object"!==u&&"function"!==u||(i=e,s=e.default);var a="function"==typeof s?s.options:s;t&&(a.render=t.render,a.staticRenderFns=t.staticRenderFns),r&&(a._scopeId=r);var c;if(o?(c=function(e){e=e||this.$vnode&&this.$vnode.ssrContext||this.parent&&this.parent.$vnode&&this.parent.$vnode.ssrContext,e||"undefined"==typeof __VUE_SSR_CONTEXT__||(e=__VUE_SSR_CONTEXT__),n&&n.call(this,e),e&&e._registeredComponents&&e._registeredComponents.add(o)},a._ssrRegister=c):n&&(c=n),c){var d=a.functional,p=d?a.render:a.beforeCreate;d?a.render=function(e,t){return c.call(t),p(e,t)}:a.beforeCreate=p?[].concat(p,c):[c]}return{esModule:i,exports:s,options:a}}},function(e,t,n){"use strict";var r=function(){var e=this,t=e.$createElement;return(e._self._c||t)("div",{staticClass:"v-chartist-container"})},o=[];r._withStripped=!0;var i={render:r,staticRenderFns:o};t.a=i},function(t,n){t.exports=e}])});
+!function(e,t){ true?module.exports=t(__webpack_require__(854)):"function"==typeof define&&define.amd?define(["Chartist"],t):"object"==typeof exports?exports.VueChartist=t(require("chartist")):e.VueChartist=t(e.Chartist)}(this,function(e){return function(e){function t(r){if(n[r])return n[r].exports;var o=n[r]={i:r,l:!1,exports:{}};return e[r].call(o.exports,o,o.exports,t),o.l=!0,o.exports}var n={};return t.m=e,t.c=n,t.i=function(e){return e},t.d=function(e,n,r){t.o(e,n)||Object.defineProperty(e,n,{configurable:!1,enumerable:!0,get:r})},t.n=function(e){var n=e&&e.__esModule?function(){return e.default}:function(){return e};return t.d(n,"a",n),n},t.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},t.p="",t(t.s=2)}([function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r=n(1),o=n.n(r),i=n(4),s=n(3),u=s(o.a,i.a,null,null,null);u.options.__file="src/vue-chartist.vue",u.esModule&&Object.keys(u.esModule).some(function(e){return"default"!==e&&"__"!==e.substr(0,2)})&&console.error("named exports are not supported in *.vue files."),u.options.functional&&console.error("[vue-loader] vue-chartist.vue: functional components are not supported with templates, they should use render functions."),t.default=u.exports},function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r=n(5),o=function(e){return e&&e.__esModule?e:{default:e}}(r);t.default={name:"vue-chartist",props:{type:{type:String,validator:function(e){return"Pie"===e||"Line"===e||"Bar"===e},default:function(){return"Line"}},data:{type:Object,required:!0},options:{type:Object},listener:{type:Object},responsiveOptions:{type:Array}},data:function(){return{chartist:void 0}},methods:{updateEventListener:function(e){var t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"on";e=e||{};for(var n in e)e.hasOwnProperty(n)&&this.chartist[t](n,e[n])},renderChart:function(){var e=this.data,t=this.options?this.options:{},n=this.responsiveOptions?this.responsiveOptions:[];this.chartist?this.chartist.update(e,t,n):(this.chartist=new o.default[this.type](this.$el,e,t,n),this.updateEventListener(this.listener,"on"))}},watch:{data:{handler:"renderChart",deep:!0},options:{handler:"renderChart",deep:!0},responsiveOptions:{handler:"renderChart",deep:!0},listener:function(e,t){this.updateEventListener(t,"off"),this.updateEventListener(e,"on")}},mounted:function(){this.renderChart()},destroyed:function(){this.chartist&&this.chartist.detach()}}},function(e,t,n){"use strict";var r=n(0),o=function(e){return e&&e.__esModule?e:{default:e}}(r);e.exports=o.default},function(e,t){e.exports=function(e,t,n,r,o){var i,s=e=e||{},u=typeof e.default;"object"!==u&&"function"!==u||(i=e,s=e.default);var a="function"==typeof s?s.options:s;t&&(a.render=t.render,a.staticRenderFns=t.staticRenderFns),r&&(a._scopeId=r);var c;if(o?(c=function(e){e=e||this.$vnode&&this.$vnode.ssrContext||this.parent&&this.parent.$vnode&&this.parent.$vnode.ssrContext,e||"undefined"==typeof __VUE_SSR_CONTEXT__||(e=__VUE_SSR_CONTEXT__),n&&n.call(this,e),e&&e._registeredComponents&&e._registeredComponents.add(o)},a._ssrRegister=c):n&&(c=n),c){var d=a.functional,p=d?a.render:a.beforeCreate;d?a.render=function(e,t){return c.call(t),p(e,t)}:a.beforeCreate=p?[].concat(p,c):[c]}return{esModule:i,exports:s,options:a}}},function(e,t,n){"use strict";var r=function(){var e=this,t=e.$createElement;return(e._self._c||t)("div",{staticClass:"v-chartist-container"})},o=[];r._withStripped=!0;var i={render:r,staticRenderFns:o};t.a=i},function(t,n){t.exports=e}])});
 
 /***/ }),
 
-/***/ 852:
-/***/ (function(module, exports) {
-
-module.exports = "/vuejs-laravel/public/images/weathernew.jpg?9cb297ebc24b752abb4d45c5dcbccff3";
-
-/***/ }),
-
-/***/ 896:
+/***/ 901:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(897);
+var content = __webpack_require__(902);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -7897,7 +7890,7 @@ if(false) {
 
 /***/ }),
 
-/***/ 897:
+/***/ 902:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(49)(false);
@@ -7912,14 +7905,14 @@ exports.push([module.i, "/**\n * Swiper 4.2.6\n * Most modern mobile touch slide
 
 /***/ }),
 
-/***/ 898:
+/***/ 903:
 /***/ (function(module, exports, __webpack_require__) {
 
-!function(e,t){ true?module.exports=t(__webpack_require__(899)):"function"==typeof define&&define.amd?define("VueAwesomeSwiper",["swiper"],t):"object"==typeof exports?exports.VueAwesomeSwiper=t(require("swiper/dist/js/swiper.js")):e.VueAwesomeSwiper=t(e.Swiper)}(this,function(e){return function(e){function t(i){if(n[i])return n[i].exports;var s=n[i]={i:i,l:!1,exports:{}};return e[i].call(s.exports,s,s.exports,t),s.l=!0,s.exports}var n={};return t.m=e,t.c=n,t.i=function(e){return e},t.d=function(e,n,i){t.o(e,n)||Object.defineProperty(e,n,{configurable:!1,enumerable:!0,get:i})},t.n=function(e){var n=e&&e.__esModule?function(){return e.default}:function(){return e};return t.d(n,"a",n),n},t.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},t.p="/",t(t.s=4)}([function(t,n){t.exports=e},function(e,t){e.exports=function(e,t,n,i,s,r){var o,a=e=e||{},u=typeof e.default;"object"!==u&&"function"!==u||(o=e,a=e.default);var p="function"==typeof a?a.options:a;t&&(p.render=t.render,p.staticRenderFns=t.staticRenderFns,p._compiled=!0),n&&(p.functional=!0),s&&(p._scopeId=s);var l;if(r?(l=function(e){e=e||this.$vnode&&this.$vnode.ssrContext||this.parent&&this.parent.$vnode&&this.parent.$vnode.ssrContext,e||"undefined"==typeof __VUE_SSR_CONTEXT__||(e=__VUE_SSR_CONTEXT__),i&&i.call(this,e),e&&e._registeredComponents&&e._registeredComponents.add(r)},p._ssrRegister=l):i&&(l=i),l){var c=p.functional,d=c?p.render:p.beforeCreate;c?(p._injectStyles=l,p.render=function(e,t){return l.call(t),d(e,t)}):p.beforeCreate=d?[].concat(d,l):[l]}return{esModule:o,exports:a,options:p}}},function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var i=n(5),s=n.n(i),r=n(8),o=n(1),a=o(s.a,r.a,!1,null,null,null);t.default=a.exports},function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var i=n(6),s=n.n(i),r=n(7),o=n(1),a=o(s.a,r.a,!1,null,null,null);t.default=a.exports},function(e,t,n){"use strict";function i(e){return e&&e.__esModule?e:{default:e}}Object.defineProperty(t,"__esModule",{value:!0}),t.install=t.swiperSlide=t.swiper=t.Swiper=void 0;var s=n(0),r=i(s),o=n(2),a=i(o),u=n(3),p=i(u),l=window.Swiper||r.default,c=p.default,d=a.default,f=function(e,t){t&&(p.default.props.globalOptions.default=function(){return t}),e.component(p.default.name,p.default),e.component(a.default.name,a.default)},h={Swiper:l,swiper:c,swiperSlide:d,install:f};t.default=h,t.Swiper=l,t.swiper=c,t.swiperSlide=d,t.install=f},function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.default={name:"swiper-slide",data:function(){return{slideClass:"swiper-slide"}},ready:function(){this.update()},mounted:function(){this.update(),this.$parent&&this.$parent.options&&this.$parent.options.slideClass&&(this.slideClass=this.$parent.options.slideClass)},updated:function(){this.update()},attached:function(){this.update()},methods:{update:function(){this.$parent&&this.$parent.swiper&&this.$parent.update()}}}},function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var i=n(0),s=function(e){return e&&e.__esModule?e:{default:e}}(i),r=window.Swiper||s.default;"function"!=typeof Object.assign&&Object.defineProperty(Object,"assign",{value:function(e,t){if(null==e)throw new TypeError("Cannot convert undefined or null to object");for(var n=Object(e),i=1;i<arguments.length;i++){var s=arguments[i];if(null!=s)for(var r in s)Object.prototype.hasOwnProperty.call(s,r)&&(n[r]=s[r])}return n},writable:!0,configurable:!0});var o=["beforeDestroy","slideChange","slideChangeTransitionStart","slideChangeTransitionEnd","slideNextTransitionStart","slideNextTransitionEnd","slidePrevTransitionStart","slidePrevTransitionEnd","transitionStart","transitionEnd","touchStart","touchMove","touchMoveOpposite","sliderMove","touchEnd","click","tap","doubleTap","imagesReady","progress","reachBeginning","reachEnd","fromEdge","setTranslate","setTransition","resize"];t.default={name:"swiper",props:{options:{type:Object,default:function(){return{}}},globalOptions:{type:Object,required:!1,default:function(){return{}}}},data:function(){return{swiper:null,classes:{wrapperClass:"swiper-wrapper"}}},ready:function(){this.swiper||this.mountInstance()},mounted:function(){if(!this.swiper){var e=!1;for(var t in this.classes)this.classes.hasOwnProperty(t)&&this.options[t]&&(e=!0,this.classes[t]=this.options[t]);e?this.$nextTick(this.mountInstance):this.mountInstance()}},activated:function(){this.update()},updated:function(){this.update()},beforeDestroy:function(){this.$nextTick(function(){this.swiper&&(this.swiper.destroy&&this.swiper.destroy(),delete this.swiper)})},methods:{update:function(){this.swiper&&(this.swiper.update&&this.swiper.update(),this.swiper.navigation&&this.swiper.navigation.update(),this.swiper.pagination&&this.swiper.pagination.render(),this.swiper.pagination&&this.swiper.pagination.update())},mountInstance:function(){var e=Object.assign({},this.globalOptions,this.options);this.swiper=new r(this.$el,e),this.bindEvents(),this.$emit("ready",this.swiper)},bindEvents:function(){var e=this,t=this;o.forEach(function(n){e.swiper.on(n,function(){t.$emit.apply(t,[n].concat(Array.prototype.slice.call(arguments))),t.$emit.apply(t,[n.replace(/([A-Z])/g,"-$1").toLowerCase()].concat(Array.prototype.slice.call(arguments)))})})}}}},function(e,t,n){"use strict";var i=function(){var e=this,t=e.$createElement,n=e._self._c||t;return n("div",{staticClass:"swiper-container"},[e._t("parallax-bg"),e._v(" "),n("div",{class:e.classes.wrapperClass},[e._t("default")],2),e._v(" "),e._t("pagination"),e._v(" "),e._t("button-prev"),e._v(" "),e._t("button-next"),e._v(" "),e._t("scrollbar")],2)},s=[],r={render:i,staticRenderFns:s};t.a=r},function(e,t,n){"use strict";var i=function(){var e=this,t=e.$createElement;return(e._self._c||t)("div",{class:e.slideClass},[e._t("default")],2)},s=[],r={render:i,staticRenderFns:s};t.a=r}])});
+!function(e,t){ true?module.exports=t(__webpack_require__(904)):"function"==typeof define&&define.amd?define("VueAwesomeSwiper",["swiper"],t):"object"==typeof exports?exports.VueAwesomeSwiper=t(require("swiper/dist/js/swiper.js")):e.VueAwesomeSwiper=t(e.Swiper)}(this,function(e){return function(e){function t(i){if(n[i])return n[i].exports;var s=n[i]={i:i,l:!1,exports:{}};return e[i].call(s.exports,s,s.exports,t),s.l=!0,s.exports}var n={};return t.m=e,t.c=n,t.i=function(e){return e},t.d=function(e,n,i){t.o(e,n)||Object.defineProperty(e,n,{configurable:!1,enumerable:!0,get:i})},t.n=function(e){var n=e&&e.__esModule?function(){return e.default}:function(){return e};return t.d(n,"a",n),n},t.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},t.p="/",t(t.s=4)}([function(t,n){t.exports=e},function(e,t){e.exports=function(e,t,n,i,s,r){var o,a=e=e||{},u=typeof e.default;"object"!==u&&"function"!==u||(o=e,a=e.default);var p="function"==typeof a?a.options:a;t&&(p.render=t.render,p.staticRenderFns=t.staticRenderFns,p._compiled=!0),n&&(p.functional=!0),s&&(p._scopeId=s);var l;if(r?(l=function(e){e=e||this.$vnode&&this.$vnode.ssrContext||this.parent&&this.parent.$vnode&&this.parent.$vnode.ssrContext,e||"undefined"==typeof __VUE_SSR_CONTEXT__||(e=__VUE_SSR_CONTEXT__),i&&i.call(this,e),e&&e._registeredComponents&&e._registeredComponents.add(r)},p._ssrRegister=l):i&&(l=i),l){var c=p.functional,d=c?p.render:p.beforeCreate;c?(p._injectStyles=l,p.render=function(e,t){return l.call(t),d(e,t)}):p.beforeCreate=d?[].concat(d,l):[l]}return{esModule:o,exports:a,options:p}}},function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var i=n(5),s=n.n(i),r=n(8),o=n(1),a=o(s.a,r.a,!1,null,null,null);t.default=a.exports},function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var i=n(6),s=n.n(i),r=n(7),o=n(1),a=o(s.a,r.a,!1,null,null,null);t.default=a.exports},function(e,t,n){"use strict";function i(e){return e&&e.__esModule?e:{default:e}}Object.defineProperty(t,"__esModule",{value:!0}),t.install=t.swiperSlide=t.swiper=t.Swiper=void 0;var s=n(0),r=i(s),o=n(2),a=i(o),u=n(3),p=i(u),l=window.Swiper||r.default,c=p.default,d=a.default,f=function(e,t){t&&(p.default.props.globalOptions.default=function(){return t}),e.component(p.default.name,p.default),e.component(a.default.name,a.default)},h={Swiper:l,swiper:c,swiperSlide:d,install:f};t.default=h,t.Swiper=l,t.swiper=c,t.swiperSlide=d,t.install=f},function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.default={name:"swiper-slide",data:function(){return{slideClass:"swiper-slide"}},ready:function(){this.update()},mounted:function(){this.update(),this.$parent&&this.$parent.options&&this.$parent.options.slideClass&&(this.slideClass=this.$parent.options.slideClass)},updated:function(){this.update()},attached:function(){this.update()},methods:{update:function(){this.$parent&&this.$parent.swiper&&this.$parent.update()}}}},function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var i=n(0),s=function(e){return e&&e.__esModule?e:{default:e}}(i),r=window.Swiper||s.default;"function"!=typeof Object.assign&&Object.defineProperty(Object,"assign",{value:function(e,t){if(null==e)throw new TypeError("Cannot convert undefined or null to object");for(var n=Object(e),i=1;i<arguments.length;i++){var s=arguments[i];if(null!=s)for(var r in s)Object.prototype.hasOwnProperty.call(s,r)&&(n[r]=s[r])}return n},writable:!0,configurable:!0});var o=["beforeDestroy","slideChange","slideChangeTransitionStart","slideChangeTransitionEnd","slideNextTransitionStart","slideNextTransitionEnd","slidePrevTransitionStart","slidePrevTransitionEnd","transitionStart","transitionEnd","touchStart","touchMove","touchMoveOpposite","sliderMove","touchEnd","click","tap","doubleTap","imagesReady","progress","reachBeginning","reachEnd","fromEdge","setTranslate","setTransition","resize"];t.default={name:"swiper",props:{options:{type:Object,default:function(){return{}}},globalOptions:{type:Object,required:!1,default:function(){return{}}}},data:function(){return{swiper:null,classes:{wrapperClass:"swiper-wrapper"}}},ready:function(){this.swiper||this.mountInstance()},mounted:function(){if(!this.swiper){var e=!1;for(var t in this.classes)this.classes.hasOwnProperty(t)&&this.options[t]&&(e=!0,this.classes[t]=this.options[t]);e?this.$nextTick(this.mountInstance):this.mountInstance()}},activated:function(){this.update()},updated:function(){this.update()},beforeDestroy:function(){this.$nextTick(function(){this.swiper&&(this.swiper.destroy&&this.swiper.destroy(),delete this.swiper)})},methods:{update:function(){this.swiper&&(this.swiper.update&&this.swiper.update(),this.swiper.navigation&&this.swiper.navigation.update(),this.swiper.pagination&&this.swiper.pagination.render(),this.swiper.pagination&&this.swiper.pagination.update())},mountInstance:function(){var e=Object.assign({},this.globalOptions,this.options);this.swiper=new r(this.$el,e),this.bindEvents(),this.$emit("ready",this.swiper)},bindEvents:function(){var e=this,t=this;o.forEach(function(n){e.swiper.on(n,function(){t.$emit.apply(t,[n].concat(Array.prototype.slice.call(arguments))),t.$emit.apply(t,[n.replace(/([A-Z])/g,"-$1").toLowerCase()].concat(Array.prototype.slice.call(arguments)))})})}}}},function(e,t,n){"use strict";var i=function(){var e=this,t=e.$createElement,n=e._self._c||t;return n("div",{staticClass:"swiper-container"},[e._t("parallax-bg"),e._v(" "),n("div",{class:e.classes.wrapperClass},[e._t("default")],2),e._v(" "),e._t("pagination"),e._v(" "),e._t("button-prev"),e._v(" "),e._t("button-next"),e._v(" "),e._t("scrollbar")],2)},s=[],r={render:i,staticRenderFns:s};t.a=r},function(e,t,n){"use strict";var i=function(){var e=this,t=e.$createElement;return(e._self._c||t)("div",{class:e.slideClass},[e._t("default")],2)},s=[],r={render:i,staticRenderFns:s};t.a=r}])});
 
 /***/ }),
 
-/***/ 899:
+/***/ 904:
 /***/ (function(module, exports, __webpack_require__) {
 
 /**
@@ -15563,20 +15556,20 @@ exports.push([module.i, "/**\n * Swiper 4.2.6\n * Most modern mobile touch slide
 
 /***/ }),
 
-/***/ 906:
+/***/ 909:
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(907)
   __webpack_require__(910)
+  __webpack_require__(913)
 }
-var normalizeComponent = __webpack_require__(242)
+var normalizeComponent = __webpack_require__(244)
 /* script */
-var __vue_script__ = __webpack_require__(912)
+var __vue_script__ = __webpack_require__(916)
 /* template */
-var __vue_template__ = __webpack_require__(914)
+var __vue_template__ = __webpack_require__(918)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -15616,13 +15609,13 @@ module.exports = Component.exports
 
 /***/ }),
 
-/***/ 907:
+/***/ 910:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(908);
+var content = __webpack_require__(911);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -15643,36 +15636,36 @@ if(false) {
 
 /***/ }),
 
-/***/ 908:
+/***/ 911:
 /***/ (function(module, exports, __webpack_require__) {
 
-var escape = __webpack_require__(243);
+var escape = __webpack_require__(245);
 exports = module.exports = __webpack_require__(49)(false);
 // imports
 
 
 // module
-exports.push([module.i, "/*!\n *  Weather Icons 2.0\n *  Updated August 1, 2015\n *  Weather themed icons for Bootstrap\n *  Author - Erik Flowers - erik@helloerik.com\n *  Email: erik@helloerik.com\n *  Twitter: http://twitter.com/Erik_UX\n *  ------------------------------------------------------------------------------\n *  Maintained at http://erikflowers.github.io/weather-icons\n *\n *  License\n *  ------------------------------------------------------------------------------\n *  - Font licensed under SIL OFL 1.1 -\n *    http://scripts.sil.org/OFL\n *  - CSS, SCSS and LESS are licensed under MIT License -\n *    http://opensource.org/licenses/mit-license.html\n *  - Documentation licensed under CC BY 3.0 -\n *    http://creativecommons.org/licenses/by/3.0/\n *  - Inspired by and works great as a companion with Font Awesome\n *    \"Font Awesome by Dave Gandy - http://fontawesome.io\"\n *//*!\n *  Weather Icons 2.0\n *  Updated August 1, 2015\n *  Weather themed icons for Bootstrap\n *  Author - Erik Flowers - erik@helloerik.com\n *  Email: erik@helloerik.com\n *  Twitter: http://twitter.com/Erik_UX\n *  ------------------------------------------------------------------------------\n *  Maintained at http://erikflowers.github.io/weather-icons\n *\n *  License\n *  ------------------------------------------------------------------------------\n *  - Font licensed under SIL OFL 1.1 -\n *    http://scripts.sil.org/OFL\n *  - CSS, SCSS and LESS are licensed under MIT License -\n *    http://opensource.org/licenses/mit-license.html\n *  - Documentation licensed under CC BY 3.0 -\n *    http://creativecommons.org/licenses/by/3.0/\n *  - Inspired by and works great as a companion with Font Awesome\n *    \"Font Awesome by Dave Gandy - http://fontawesome.io\"\n */\n@font-face{font-family:weathericons;src:url(" + escape(__webpack_require__(909)) + ") format('woff');font-weight:400;font-style:normal\n}\n.wi{display:inline-block;font-family:weathericons;font-style:normal;font-weight:400;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale\n}\n.wi-fw{text-align:center;width:1.4em\n}\n.wi-rotate-90{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1);-webkit-transform:rotate(90deg);transform:rotate(90deg)\n}\n.wi-rotate-180{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);-webkit-transform:rotate(180deg);transform:rotate(180deg)\n}\n.wi-rotate-270{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);-webkit-transform:rotate(270deg);transform:rotate(270deg)\n}\n.wi-flip-horizontal{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);-webkit-transform:scale(-1,1);transform:scale(-1,1)\n}\n.wi-flip-vertical{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);-webkit-transform:scale(1,-1);transform:scale(1,-1)\n}\n.wi-day-sunny:before{content:\"\\F00D\"\n}\n.wi-day-cloudy:before{content:\"\\F002\"\n}\n.wi-day-cloudy-gusts:before{content:\"\\F000\"\n}\n.wi-day-cloudy-windy:before{content:\"\\F001\"\n}\n.wi-day-fog:before{content:\"\\F003\"\n}\n.wi-day-hail:before{content:\"\\F004\"\n}\n.wi-day-haze:before{content:\"\\F0B6\"\n}\n.wi-day-lightning:before{content:\"\\F005\"\n}\n.wi-day-rain:before{content:\"\\F008\"\n}\n.wi-day-rain-mix:before{content:\"\\F006\"\n}\n.wi-day-rain-wind:before{content:\"\\F007\"\n}\n.wi-day-showers:before{content:\"\\F009\"\n}\n.wi-day-sleet:before{content:\"\\F0B2\"\n}\n.wi-day-sleet-storm:before{content:\"\\F068\"\n}\n.wi-day-snow:before{content:\"\\F00A\"\n}\n.wi-day-snow-thunderstorm:before{content:\"\\F06B\"\n}\n.wi-day-snow-wind:before{content:\"\\F065\"\n}\n.wi-day-sprinkle:before{content:\"\\F00B\"\n}\n.wi-day-storm-showers:before{content:\"\\F00E\"\n}\n.wi-day-sunny-overcast:before{content:\"\\F00C\"\n}\n.wi-day-thunderstorm:before{content:\"\\F010\"\n}\n.wi-day-windy:before{content:\"\\F085\"\n}\n.wi-solar-eclipse:before{content:\"\\F06E\"\n}\n.wi-hot:before{content:\"\\F072\"\n}\n.wi-day-cloudy-high:before{content:\"\\F07D\"\n}\n.wi-day-light-wind:before{content:\"\\F0C4\"\n}\n.wi-night-clear:before{content:\"\\F02E\"\n}\n.wi-night-alt-cloudy:before{content:\"\\F086\"\n}\n.wi-night-alt-cloudy-gusts:before{content:\"\\F022\"\n}\n.wi-night-alt-cloudy-windy:before{content:\"\\F023\"\n}\n.wi-night-alt-hail:before{content:\"\\F024\"\n}\n.wi-night-alt-lightning:before{content:\"\\F025\"\n}\n.wi-night-alt-rain:before{content:\"\\F028\"\n}\n.wi-night-alt-rain-mix:before{content:\"\\F026\"\n}\n.wi-night-alt-rain-wind:before{content:\"\\F027\"\n}\n.wi-night-alt-showers:before{content:\"\\F029\"\n}\n.wi-night-alt-sleet:before{content:\"\\F0B4\"\n}\n.wi-night-alt-sleet-storm:before{content:\"\\F06A\"\n}\n.wi-night-alt-snow:before{content:\"\\F02A\"\n}\n.wi-night-alt-snow-thunderstorm:before{content:\"\\F06D\"\n}\n.wi-night-alt-snow-wind:before{content:\"\\F067\"\n}\n.wi-night-alt-sprinkle:before{content:\"\\F02B\"\n}\n.wi-night-alt-storm-showers:before{content:\"\\F02C\"\n}\n.wi-night-alt-thunderstorm:before{content:\"\\F02D\"\n}\n.wi-night-cloudy:before{content:\"\\F031\"\n}\n.wi-night-cloudy-gusts:before{content:\"\\F02F\"\n}\n.wi-night-cloudy-windy:before{content:\"\\F030\"\n}\n.wi-night-fog:before{content:\"\\F04A\"\n}\n.wi-night-hail:before{content:\"\\F032\"\n}\n.wi-night-lightning:before{content:\"\\F033\"\n}\n.wi-night-partly-cloudy:before{content:\"\\F083\"\n}\n.wi-night-rain:before{content:\"\\F036\"\n}\n.wi-night-rain-mix:before{content:\"\\F034\"\n}\n.wi-night-rain-wind:before{content:\"\\F035\"\n}\n.wi-night-showers:before{content:\"\\F037\"\n}\n.wi-night-sleet:before{content:\"\\F0B3\"\n}\n.wi-night-sleet-storm:before{content:\"\\F069\"\n}\n.wi-night-snow:before{content:\"\\F038\"\n}\n.wi-night-snow-thunderstorm:before{content:\"\\F06C\"\n}\n.wi-night-snow-wind:before{content:\"\\F066\"\n}\n.wi-night-sprinkle:before{content:\"\\F039\"\n}\n.wi-night-storm-showers:before{content:\"\\F03A\"\n}\n.wi-night-thunderstorm:before{content:\"\\F03B\"\n}\n.wi-lunar-eclipse:before{content:\"\\F070\"\n}\n.wi-stars:before{content:\"\\F077\"\n}\n.wi-storm-showers:before{content:\"\\F01D\"\n}\n.wi-thunderstorm:before{content:\"\\F01E\"\n}\n.wi-night-alt-cloudy-high:before{content:\"\\F07E\"\n}\n.wi-night-cloudy-high:before{content:\"\\F080\"\n}\n.wi-night-alt-partly-cloudy:before{content:\"\\F081\"\n}\n.wi-cloud:before{content:\"\\F041\"\n}\n.wi-cloudy:before{content:\"\\F013\"\n}\n.wi-cloudy-gusts:before{content:\"\\F011\"\n}\n.wi-cloudy-windy:before{content:\"\\F012\"\n}\n.wi-fog:before{content:\"\\F014\"\n}\n.wi-hail:before{content:\"\\F015\"\n}\n.wi-rain:before{content:\"\\F019\"\n}\n.wi-rain-mix:before{content:\"\\F017\"\n}\n.wi-rain-wind:before{content:\"\\F018\"\n}\n.wi-showers:before{content:\"\\F01A\"\n}\n.wi-sleet:before{content:\"\\F0B5\"\n}\n.wi-snow:before{content:\"\\F01B\"\n}\n.wi-sprinkle:before{content:\"\\F01C\"\n}\n.wi-storm-showers:before{content:\"\\F01D\"\n}\n.wi-thunderstorm:before{content:\"\\F01E\"\n}\n.wi-snow-wind:before{content:\"\\F064\"\n}\n.wi-snow:before{content:\"\\F01B\"\n}\n.wi-smog:before{content:\"\\F074\"\n}\n.wi-smoke:before{content:\"\\F062\"\n}\n.wi-lightning:before{content:\"\\F016\"\n}\n.wi-raindrops:before{content:\"\\F04E\"\n}\n.wi-raindrop:before{content:\"\\F078\"\n}\n.wi-dust:before{content:\"\\F063\"\n}\n.wi-snowflake-cold:before{content:\"\\F076\"\n}\n.wi-windy:before{content:\"\\F021\"\n}\n.wi-strong-wind:before{content:\"\\F050\"\n}\n.wi-sandstorm:before{content:\"\\F082\"\n}\n.wi-earthquake:before{content:\"\\F0C6\"\n}\n.wi-fire:before{content:\"\\F0C7\"\n}\n.wi-flood:before{content:\"\\F07C\"\n}\n.wi-meteor:before{content:\"\\F071\"\n}\n.wi-tsunami:before{content:\"\\F0C5\"\n}\n.wi-volcano:before{content:\"\\F0C8\"\n}\n.wi-hurricane:before{content:\"\\F073\"\n}\n.wi-tornado:before{content:\"\\F056\"\n}\n.wi-small-craft-advisory:before{content:\"\\F0CC\"\n}\n.wi-gale-warning:before{content:\"\\F0CD\"\n}\n.wi-storm-warning:before{content:\"\\F0CE\"\n}\n.wi-hurricane-warning:before{content:\"\\F0CF\"\n}\n.wi-wind-direction:before{content:\"\\F0B1\"\n}\n.wi-alien:before{content:\"\\F075\"\n}\n.wi-celsius:before{content:\"\\F03C\"\n}\n.wi-fahrenheit:before{content:\"\\F045\"\n}\n.wi-degrees:before{content:\"\\F042\"\n}\n.wi-thermometer:before{content:\"\\F055\"\n}\n.wi-thermometer-exterior:before{content:\"\\F053\"\n}\n.wi-thermometer-internal:before{content:\"\\F054\"\n}\n.wi-cloud-down:before{content:\"\\F03D\"\n}\n.wi-cloud-up:before{content:\"\\F040\"\n}\n.wi-cloud-refresh:before{content:\"\\F03E\"\n}\n.wi-horizon:before{content:\"\\F047\"\n}\n.wi-horizon-alt:before{content:\"\\F046\"\n}\n.wi-sunrise:before{content:\"\\F051\"\n}\n.wi-sunset:before{content:\"\\F052\"\n}\n.wi-moonrise:before{content:\"\\F0C9\"\n}\n.wi-moonset:before{content:\"\\F0CA\"\n}\n.wi-refresh:before{content:\"\\F04C\"\n}\n.wi-refresh-alt:before{content:\"\\F04B\"\n}\n.wi-umbrella:before{content:\"\\F084\"\n}\n.wi-barometer:before{content:\"\\F079\"\n}\n.wi-humidity:before{content:\"\\F07A\"\n}\n.wi-na:before{content:\"\\F07B\"\n}\n.wi-train:before{content:\"\\F0CB\"\n}\n.wi-moon-new:before{content:\"\\F095\"\n}\n.wi-moon-waxing-crescent-1:before{content:\"\\F096\"\n}\n.wi-moon-waxing-crescent-2:before{content:\"\\F097\"\n}\n.wi-moon-waxing-crescent-3:before{content:\"\\F098\"\n}\n.wi-moon-waxing-crescent-4:before{content:\"\\F099\"\n}\n.wi-moon-waxing-crescent-5:before{content:\"\\F09A\"\n}\n.wi-moon-waxing-crescent-6:before{content:\"\\F09B\"\n}\n.wi-moon-first-quarter:before{content:\"\\F09C\"\n}\n.wi-moon-waxing-gibbous-1:before{content:\"\\F09D\"\n}\n.wi-moon-waxing-gibbous-2:before{content:\"\\F09E\"\n}\n.wi-moon-waxing-gibbous-3:before{content:\"\\F09F\"\n}\n.wi-moon-waxing-gibbous-4:before{content:\"\\F0A0\"\n}\n.wi-moon-waxing-gibbous-5:before{content:\"\\F0A1\"\n}\n.wi-moon-waxing-gibbous-6:before{content:\"\\F0A2\"\n}\n.wi-moon-full:before{content:\"\\F0A3\"\n}\n.wi-moon-waning-gibbous-1:before{content:\"\\F0A4\"\n}\n.wi-moon-waning-gibbous-2:before{content:\"\\F0A5\"\n}\n.wi-moon-waning-gibbous-3:before{content:\"\\F0A6\"\n}\n.wi-moon-waning-gibbous-4:before{content:\"\\F0A7\"\n}\n.wi-moon-waning-gibbous-5:before{content:\"\\F0A8\"\n}\n.wi-moon-waning-gibbous-6:before{content:\"\\F0A9\"\n}\n.wi-moon-third-quarter:before{content:\"\\F0AA\"\n}\n.wi-moon-waning-crescent-1:before{content:\"\\F0AB\"\n}\n.wi-moon-waning-crescent-2:before{content:\"\\F0AC\"\n}\n.wi-moon-waning-crescent-3:before{content:\"\\F0AD\"\n}\n.wi-moon-waning-crescent-4:before{content:\"\\F0AE\"\n}\n.wi-moon-waning-crescent-5:before{content:\"\\F0AF\"\n}\n.wi-moon-waning-crescent-6:before{content:\"\\F0B0\"\n}\n.wi-moon-alt-new:before{content:\"\\F0EB\"\n}\n.wi-moon-alt-waxing-crescent-1:before{content:\"\\F0D0\"\n}\n.wi-moon-alt-waxing-crescent-2:before{content:\"\\F0D1\"\n}\n.wi-moon-alt-waxing-crescent-3:before{content:\"\\F0D2\"\n}\n.wi-moon-alt-waxing-crescent-4:before{content:\"\\F0D3\"\n}\n.wi-moon-alt-waxing-crescent-5:before{content:\"\\F0D4\"\n}\n.wi-moon-alt-waxing-crescent-6:before{content:\"\\F0D5\"\n}\n.wi-moon-alt-first-quarter:before{content:\"\\F0D6\"\n}\n.wi-moon-alt-waxing-gibbous-1:before{content:\"\\F0D7\"\n}\n.wi-moon-alt-waxing-gibbous-2:before{content:\"\\F0D8\"\n}\n.wi-moon-alt-waxing-gibbous-3:before{content:\"\\F0D9\"\n}\n.wi-moon-alt-waxing-gibbous-4:before{content:\"\\F0DA\"\n}\n.wi-moon-alt-waxing-gibbous-5:before{content:\"\\F0DB\"\n}\n.wi-moon-alt-waxing-gibbous-6:before{content:\"\\F0DC\"\n}\n.wi-moon-alt-full:before{content:\"\\F0DD\"\n}\n.wi-moon-alt-waning-gibbous-1:before{content:\"\\F0DE\"\n}\n.wi-moon-alt-waning-gibbous-2:before{content:\"\\F0DF\"\n}\n.wi-moon-alt-waning-gibbous-3:before{content:\"\\F0E0\"\n}\n.wi-moon-alt-waning-gibbous-4:before{content:\"\\F0E1\"\n}\n.wi-moon-alt-waning-gibbous-5:before{content:\"\\F0E2\"\n}\n.wi-moon-alt-waning-gibbous-6:before{content:\"\\F0E3\"\n}\n.wi-moon-alt-third-quarter:before{content:\"\\F0E4\"\n}\n.wi-moon-alt-waning-crescent-1:before{content:\"\\F0E5\"\n}\n.wi-moon-alt-waning-crescent-2:before{content:\"\\F0E6\"\n}\n.wi-moon-alt-waning-crescent-3:before{content:\"\\F0E7\"\n}\n.wi-moon-alt-waning-crescent-4:before{content:\"\\F0E8\"\n}\n.wi-moon-alt-waning-crescent-5:before{content:\"\\F0E9\"\n}\n.wi-moon-alt-waning-crescent-6:before{content:\"\\F0EA\"\n}\n.wi-moon-0:before{content:\"\\F095\"\n}\n.wi-moon-1:before{content:\"\\F096\"\n}\n.wi-moon-2:before{content:\"\\F097\"\n}\n.wi-moon-3:before{content:\"\\F098\"\n}\n.wi-moon-4:before{content:\"\\F099\"\n}\n.wi-moon-5:before{content:\"\\F09A\"\n}\n.wi-moon-6:before{content:\"\\F09B\"\n}\n.wi-moon-7:before{content:\"\\F09C\"\n}\n.wi-moon-8:before{content:\"\\F09D\"\n}\n.wi-moon-9:before{content:\"\\F09E\"\n}\n.wi-moon-10:before{content:\"\\F09F\"\n}\n.wi-moon-11:before{content:\"\\F0A0\"\n}\n.wi-moon-12:before{content:\"\\F0A1\"\n}\n.wi-moon-13:before{content:\"\\F0A2\"\n}\n.wi-moon-14:before{content:\"\\F0A3\"\n}\n.wi-moon-15:before{content:\"\\F0A4\"\n}\n.wi-moon-16:before{content:\"\\F0A5\"\n}\n.wi-moon-17:before{content:\"\\F0A6\"\n}\n.wi-moon-18:before{content:\"\\F0A7\"\n}\n.wi-moon-19:before{content:\"\\F0A8\"\n}\n.wi-moon-20:before{content:\"\\F0A9\"\n}\n.wi-moon-21:before{content:\"\\F0AA\"\n}\n.wi-moon-22:before{content:\"\\F0AB\"\n}\n.wi-moon-23:before{content:\"\\F0AC\"\n}\n.wi-moon-24:before{content:\"\\F0AD\"\n}\n.wi-moon-25:before{content:\"\\F0AE\"\n}\n.wi-moon-26:before{content:\"\\F0AF\"\n}\n.wi-moon-27:before{content:\"\\F0B0\"\n}\n.wi-time-1:before{content:\"\\F08A\"\n}\n.wi-time-2:before{content:\"\\F08B\"\n}\n.wi-time-3:before{content:\"\\F08C\"\n}\n.wi-time-4:before{content:\"\\F08D\"\n}\n.wi-time-5:before{content:\"\\F08E\"\n}\n.wi-time-6:before{content:\"\\F08F\"\n}\n.wi-time-7:before{content:\"\\F090\"\n}\n.wi-time-8:before{content:\"\\F091\"\n}\n.wi-time-9:before{content:\"\\F092\"\n}\n.wi-time-10:before{content:\"\\F093\"\n}\n.wi-time-11:before{content:\"\\F094\"\n}\n.wi-time-12:before{content:\"\\F089\"\n}\n.wi-direction-up:before{content:\"\\F058\"\n}\n.wi-direction-up-right:before{content:\"\\F057\"\n}\n.wi-direction-right:before{content:\"\\F04D\"\n}\n.wi-direction-down-right:before{content:\"\\F088\"\n}\n.wi-direction-down:before{content:\"\\F044\"\n}\n.wi-direction-down-left:before{content:\"\\F043\"\n}\n.wi-direction-left:before{content:\"\\F048\"\n}\n.wi-direction-up-left:before{content:\"\\F087\"\n}\n.wi-wind-beaufort-0:before{content:\"\\F0B7\"\n}\n.wi-wind-beaufort-1:before{content:\"\\F0B8\"\n}\n.wi-wind-beaufort-2:before{content:\"\\F0B9\"\n}\n.wi-wind-beaufort-3:before{content:\"\\F0BA\"\n}\n.wi-wind-beaufort-4:before{content:\"\\F0BB\"\n}\n.wi-wind-beaufort-5:before{content:\"\\F0BC\"\n}\n.wi-wind-beaufort-6:before{content:\"\\F0BD\"\n}\n.wi-wind-beaufort-7:before{content:\"\\F0BE\"\n}\n.wi-wind-beaufort-8:before{content:\"\\F0BF\"\n}\n.wi-wind-beaufort-9:before{content:\"\\F0C0\"\n}\n.wi-wind-beaufort-10:before{content:\"\\F0C1\"\n}\n.wi-wind-beaufort-11:before{content:\"\\F0C2\"\n}\n.wi-wind-beaufort-12:before{content:\"\\F0C3\"\n}\n.wi-yahoo-0:before{content:\"\\F056\"\n}\n.wi-yahoo-1:before{content:\"\\F00E\"\n}\n.wi-yahoo-2:before{content:\"\\F073\"\n}\n.wi-yahoo-3:before{content:\"\\F01E\"\n}\n.wi-yahoo-4:before{content:\"\\F01E\"\n}\n.wi-yahoo-5:before{content:\"\\F017\"\n}\n.wi-yahoo-6:before{content:\"\\F017\"\n}\n.wi-yahoo-7:before{content:\"\\F017\"\n}\n.wi-yahoo-8:before{content:\"\\F015\"\n}\n.wi-yahoo-9:before{content:\"\\F01A\"\n}\n.wi-yahoo-10:before{content:\"\\F015\"\n}\n.wi-yahoo-11:before{content:\"\\F01A\"\n}\n.wi-yahoo-12:before{content:\"\\F01A\"\n}\n.wi-yahoo-13:before{content:\"\\F01B\"\n}\n.wi-yahoo-14:before{content:\"\\F00A\"\n}\n.wi-yahoo-15:before{content:\"\\F064\"\n}\n.wi-yahoo-16:before{content:\"\\F01B\"\n}\n.wi-yahoo-17:before{content:\"\\F015\"\n}\n.wi-yahoo-18:before{content:\"\\F017\"\n}\n.wi-yahoo-19:before{content:\"\\F063\"\n}\n.wi-yahoo-20:before{content:\"\\F014\"\n}\n.wi-yahoo-21:before{content:\"\\F021\"\n}\n.wi-yahoo-22:before{content:\"\\F062\"\n}\n.wi-yahoo-23:before{content:\"\\F050\"\n}\n.wi-yahoo-24:before{content:\"\\F050\"\n}\n.wi-yahoo-25:before{content:\"\\F076\"\n}\n.wi-yahoo-26:before{content:\"\\F013\"\n}\n.wi-yahoo-27:before{content:\"\\F031\"\n}\n.wi-yahoo-28:before{content:\"\\F002\"\n}\n.wi-yahoo-29:before{content:\"\\F031\"\n}\n.wi-yahoo-30:before{content:\"\\F002\"\n}\n.wi-yahoo-31:before{content:\"\\F02E\"\n}\n.wi-yahoo-32:before{content:\"\\F00D\"\n}\n.wi-yahoo-33:before{content:\"\\F083\"\n}\n.wi-yahoo-34:before{content:\"\\F00C\"\n}\n.wi-yahoo-35:before{content:\"\\F017\"\n}\n.wi-yahoo-36:before{content:\"\\F072\"\n}\n.wi-yahoo-37:before{content:\"\\F00E\"\n}\n.wi-yahoo-38:before{content:\"\\F00E\"\n}\n.wi-yahoo-39:before{content:\"\\F00E\"\n}\n.wi-yahoo-40:before{content:\"\\F01A\"\n}\n.wi-yahoo-41:before{content:\"\\F064\"\n}\n.wi-yahoo-42:before{content:\"\\F01B\"\n}\n.wi-yahoo-43:before{content:\"\\F064\"\n}\n.wi-yahoo-44:before{content:\"\\F00C\"\n}\n.wi-yahoo-45:before{content:\"\\F00E\"\n}\n.wi-yahoo-46:before{content:\"\\F01B\"\n}\n.wi-yahoo-47:before{content:\"\\F00E\"\n}\n.wi-yahoo-3200:before{content:\"\\F077\"\n}\n.wi-forecast-io-clear-day:before{content:\"\\F00D\"\n}\n.wi-forecast-io-clear-night:before{content:\"\\F02E\"\n}\n.wi-forecast-io-rain:before{content:\"\\F019\"\n}\n.wi-forecast-io-snow:before{content:\"\\F01B\"\n}\n.wi-forecast-io-sleet:before{content:\"\\F0B5\"\n}\n.wi-forecast-io-wind:before{content:\"\\F050\"\n}\n.wi-forecast-io-fog:before{content:\"\\F014\"\n}\n.wi-forecast-io-cloudy:before{content:\"\\F013\"\n}\n.wi-forecast-io-partly-cloudy-day:before{content:\"\\F002\"\n}\n.wi-forecast-io-partly-cloudy-night:before{content:\"\\F031\"\n}\n.wi-forecast-io-hail:before{content:\"\\F015\"\n}\n.wi-forecast-io-thunderstorm:before{content:\"\\F01E\"\n}\n.wi-forecast-io-tornado:before{content:\"\\F056\"\n}\n.wi-wmo4680-00:before,.wi-wmo4680-0:before{content:\"\\F055\"\n}\n.wi-wmo4680-01:before,.wi-wmo4680-1:before{content:\"\\F013\"\n}\n.wi-wmo4680-02:before,.wi-wmo4680-2:before{content:\"\\F055\"\n}\n.wi-wmo4680-03:before,.wi-wmo4680-3:before{content:\"\\F013\"\n}\n.wi-wmo4680-04:before,.wi-wmo4680-4:before{content:\"\\F014\"\n}\n.wi-wmo4680-05:before,.wi-wmo4680-5:before{content:\"\\F014\"\n}\n.wi-wmo4680-10:before{content:\"\\F014\"\n}\n.wi-wmo4680-11:before{content:\"\\F014\"\n}\n.wi-wmo4680-12:before{content:\"\\F016\"\n}\n.wi-wmo4680-18:before{content:\"\\F050\"\n}\n.wi-wmo4680-20:before{content:\"\\F014\"\n}\n.wi-wmo4680-21:before{content:\"\\F017\"\n}\n.wi-wmo4680-22:before{content:\"\\F017\"\n}\n.wi-wmo4680-23:before{content:\"\\F019\"\n}\n.wi-wmo4680-24:before{content:\"\\F01B\"\n}\n.wi-wmo4680-25:before{content:\"\\F015\"\n}\n.wi-wmo4680-26:before{content:\"\\F01E\"\n}\n.wi-wmo4680-27:before{content:\"\\F063\"\n}\n.wi-wmo4680-28:before{content:\"\\F063\"\n}\n.wi-wmo4680-29:before{content:\"\\F063\"\n}\n.wi-wmo4680-30:before{content:\"\\F014\"\n}\n.wi-wmo4680-31:before{content:\"\\F014\"\n}\n.wi-wmo4680-32:before{content:\"\\F014\"\n}\n.wi-wmo4680-33:before{content:\"\\F014\"\n}\n.wi-wmo4680-34:before{content:\"\\F014\"\n}\n.wi-wmo4680-35:before{content:\"\\F014\"\n}\n.wi-wmo4680-40:before{content:\"\\F017\"\n}\n.wi-wmo4680-41:before{content:\"\\F01C\"\n}\n.wi-wmo4680-42:before{content:\"\\F019\"\n}\n.wi-wmo4680-43:before{content:\"\\F01C\"\n}\n.wi-wmo4680-44:before{content:\"\\F019\"\n}\n.wi-wmo4680-45:before{content:\"\\F015\"\n}\n.wi-wmo4680-46:before{content:\"\\F015\"\n}\n.wi-wmo4680-47:before{content:\"\\F01B\"\n}\n.wi-wmo4680-48:before{content:\"\\F01B\"\n}\n.wi-wmo4680-50:before{content:\"\\F01C\"\n}\n.wi-wmo4680-51:before{content:\"\\F01C\"\n}\n.wi-wmo4680-52:before{content:\"\\F019\"\n}\n.wi-wmo4680-53:before{content:\"\\F019\"\n}\n.wi-wmo4680-54:before{content:\"\\F076\"\n}\n.wi-wmo4680-55:before{content:\"\\F076\"\n}\n.wi-wmo4680-56:before{content:\"\\F076\"\n}\n.wi-wmo4680-57:before{content:\"\\F01C\"\n}\n.wi-wmo4680-58:before{content:\"\\F019\"\n}\n.wi-wmo4680-60:before{content:\"\\F01C\"\n}\n.wi-wmo4680-61:before{content:\"\\F01C\"\n}\n.wi-wmo4680-62:before{content:\"\\F019\"\n}\n.wi-wmo4680-63:before{content:\"\\F019\"\n}\n.wi-wmo4680-64:before{content:\"\\F015\"\n}\n.wi-wmo4680-65:before{content:\"\\F015\"\n}\n.wi-wmo4680-66:before{content:\"\\F015\"\n}\n.wi-wmo4680-67:before{content:\"\\F017\"\n}\n.wi-wmo4680-68:before{content:\"\\F017\"\n}\n.wi-wmo4680-70:before{content:\"\\F01B\"\n}\n.wi-wmo4680-71:before{content:\"\\F01B\"\n}\n.wi-wmo4680-72:before{content:\"\\F01B\"\n}\n.wi-wmo4680-73:before{content:\"\\F01B\"\n}\n.wi-wmo4680-74:before{content:\"\\F076\"\n}\n.wi-wmo4680-75:before{content:\"\\F076\"\n}\n.wi-wmo4680-76:before{content:\"\\F076\"\n}\n.wi-wmo4680-77:before{content:\"\\F01B\"\n}\n.wi-wmo4680-78:before{content:\"\\F076\"\n}\n.wi-wmo4680-80:before{content:\"\\F019\"\n}\n.wi-wmo4680-81:before{content:\"\\F01C\"\n}\n.wi-wmo4680-82:before{content:\"\\F019\"\n}\n.wi-wmo4680-83:before{content:\"\\F019\"\n}\n.wi-wmo4680-84:before{content:\"\\F01D\"\n}\n.wi-wmo4680-85:before{content:\"\\F017\"\n}\n.wi-wmo4680-86:before{content:\"\\F017\"\n}\n.wi-wmo4680-87:before{content:\"\\F017\"\n}\n.wi-wmo4680-89:before{content:\"\\F015\"\n}\n.wi-wmo4680-90:before{content:\"\\F016\"\n}\n.wi-wmo4680-91:before{content:\"\\F01D\"\n}\n.wi-wmo4680-92:before{content:\"\\F01E\"\n}\n.wi-wmo4680-93:before{content:\"\\F01E\"\n}\n.wi-wmo4680-94:before{content:\"\\F016\"\n}\n.wi-wmo4680-95:before{content:\"\\F01E\"\n}\n.wi-wmo4680-96:before{content:\"\\F01E\"\n}\n.wi-wmo4680-99:before{content:\"\\F056\"\n}\n.wi-owm-200:before{content:\"\\F01E\"\n}\n.wi-owm-201:before{content:\"\\F01E\"\n}\n.wi-owm-202:before{content:\"\\F01E\"\n}\n.wi-owm-210:before{content:\"\\F016\"\n}\n.wi-owm-211:before{content:\"\\F016\"\n}\n.wi-owm-212:before{content:\"\\F016\"\n}\n.wi-owm-221:before{content:\"\\F016\"\n}\n.wi-owm-230:before{content:\"\\F01E\"\n}\n.wi-owm-231:before{content:\"\\F01E\"\n}\n.wi-owm-232:before{content:\"\\F01E\"\n}\n.wi-owm-300:before{content:\"\\F01C\"\n}\n.wi-owm-301:before{content:\"\\F01C\"\n}\n.wi-owm-302:before{content:\"\\F019\"\n}\n.wi-owm-310:before{content:\"\\F017\"\n}\n.wi-owm-311:before{content:\"\\F019\"\n}\n.wi-owm-312:before{content:\"\\F019\"\n}\n.wi-owm-313:before{content:\"\\F01A\"\n}\n.wi-owm-314:before{content:\"\\F019\"\n}\n.wi-owm-321:before{content:\"\\F01C\"\n}\n.wi-owm-500:before{content:\"\\F01C\"\n}\n.wi-owm-501:before{content:\"\\F019\"\n}\n.wi-owm-502:before{content:\"\\F019\"\n}\n.wi-owm-503:before{content:\"\\F019\"\n}\n.wi-owm-504:before{content:\"\\F019\"\n}\n.wi-owm-511:before{content:\"\\F017\"\n}\n.wi-owm-520:before{content:\"\\F01A\"\n}\n.wi-owm-521:before{content:\"\\F01A\"\n}\n.wi-owm-522:before{content:\"\\F01A\"\n}\n.wi-owm-531:before{content:\"\\F01D\"\n}\n.wi-owm-600:before{content:\"\\F01B\"\n}\n.wi-owm-601:before{content:\"\\F01B\"\n}\n.wi-owm-602:before{content:\"\\F0B5\"\n}\n.wi-owm-611:before{content:\"\\F017\"\n}\n.wi-owm-612:before{content:\"\\F017\"\n}\n.wi-owm-615:before{content:\"\\F017\"\n}\n.wi-owm-616:before{content:\"\\F017\"\n}\n.wi-owm-620:before{content:\"\\F017\"\n}\n.wi-owm-621:before{content:\"\\F01B\"\n}\n.wi-owm-622:before{content:\"\\F01B\"\n}\n.wi-owm-701:before{content:\"\\F01A\"\n}\n.wi-owm-711:before{content:\"\\F062\"\n}\n.wi-owm-721:before{content:\"\\F0B6\"\n}\n.wi-owm-731:before{content:\"\\F063\"\n}\n.wi-owm-741:before{content:\"\\F014\"\n}\n.wi-owm-761:before{content:\"\\F063\"\n}\n.wi-owm-762:before{content:\"\\F063\"\n}\n.wi-owm-771:before{content:\"\\F011\"\n}\n.wi-owm-781:before{content:\"\\F056\"\n}\n.wi-owm-800:before{content:\"\\F00D\"\n}\n.wi-owm-801:before{content:\"\\F011\"\n}\n.wi-owm-802:before{content:\"\\F011\"\n}\n.wi-owm-803:before{content:\"\\F012\"\n}\n.wi-owm-804:before{content:\"\\F013\"\n}\n.wi-owm-900:before{content:\"\\F056\"\n}\n.wi-owm-901:before{content:\"\\F01D\"\n}\n.wi-owm-902:before{content:\"\\F073\"\n}\n.wi-owm-903:before{content:\"\\F076\"\n}\n.wi-owm-904:before{content:\"\\F072\"\n}\n.wi-owm-905:before{content:\"\\F021\"\n}\n.wi-owm-906:before{content:\"\\F015\"\n}\n.wi-owm-957:before{content:\"\\F050\"\n}\n.wi-owm-day-200:before{content:\"\\F010\"\n}\n.wi-owm-day-201:before{content:\"\\F010\"\n}\n.wi-owm-day-202:before{content:\"\\F010\"\n}\n.wi-owm-day-210:before{content:\"\\F005\"\n}\n.wi-owm-day-211:before{content:\"\\F005\"\n}\n.wi-owm-day-212:before{content:\"\\F005\"\n}\n.wi-owm-day-221:before{content:\"\\F005\"\n}\n.wi-owm-day-230:before{content:\"\\F010\"\n}\n.wi-owm-day-231:before{content:\"\\F010\"\n}\n.wi-owm-day-232:before{content:\"\\F010\"\n}\n.wi-owm-day-300:before{content:\"\\F00B\"\n}\n.wi-owm-day-301:before{content:\"\\F00B\"\n}\n.wi-owm-day-302:before{content:\"\\F008\"\n}\n.wi-owm-day-310:before{content:\"\\F008\"\n}\n.wi-owm-day-311:before{content:\"\\F008\"\n}\n.wi-owm-day-312:before{content:\"\\F008\"\n}\n.wi-owm-day-313:before{content:\"\\F008\"\n}\n.wi-owm-day-314:before{content:\"\\F008\"\n}\n.wi-owm-day-321:before{content:\"\\F00B\"\n}\n.wi-owm-day-500:before{content:\"\\F00B\"\n}\n.wi-owm-day-501:before{content:\"\\F008\"\n}\n.wi-owm-day-502:before{content:\"\\F008\"\n}\n.wi-owm-day-503:before{content:\"\\F008\"\n}\n.wi-owm-day-504:before{content:\"\\F008\"\n}\n.wi-owm-day-511:before{content:\"\\F006\"\n}\n.wi-owm-day-520:before{content:\"\\F009\"\n}\n.wi-owm-day-521:before{content:\"\\F009\"\n}\n.wi-owm-day-522:before{content:\"\\F009\"\n}\n.wi-owm-day-531:before{content:\"\\F00E\"\n}\n.wi-owm-day-600:before{content:\"\\F00A\"\n}\n.wi-owm-day-601:before{content:\"\\F0B2\"\n}\n.wi-owm-day-602:before{content:\"\\F00A\"\n}\n.wi-owm-day-611:before{content:\"\\F006\"\n}\n.wi-owm-day-612:before{content:\"\\F006\"\n}\n.wi-owm-day-615:before{content:\"\\F006\"\n}\n.wi-owm-day-616:before{content:\"\\F006\"\n}\n.wi-owm-day-620:before{content:\"\\F006\"\n}\n.wi-owm-day-621:before{content:\"\\F00A\"\n}\n.wi-owm-day-622:before{content:\"\\F00A\"\n}\n.wi-owm-day-701:before{content:\"\\F009\"\n}\n.wi-owm-day-711:before{content:\"\\F062\"\n}\n.wi-owm-day-721:before{content:\"\\F0B6\"\n}\n.wi-owm-day-731:before{content:\"\\F063\"\n}\n.wi-owm-day-741:before{content:\"\\F003\"\n}\n.wi-owm-day-761:before{content:\"\\F063\"\n}\n.wi-owm-day-762:before{content:\"\\F063\"\n}\n.wi-owm-day-781:before{content:\"\\F056\"\n}\n.wi-owm-day-800:before{content:\"\\F00D\"\n}\n.wi-owm-day-801:before{content:\"\\F000\"\n}\n.wi-owm-day-802:before{content:\"\\F000\"\n}\n.wi-owm-day-803:before{content:\"\\F000\"\n}\n.wi-owm-day-804:before{content:\"\\F00C\"\n}\n.wi-owm-day-900:before{content:\"\\F056\"\n}\n.wi-owm-day-902:before{content:\"\\F073\"\n}\n.wi-owm-day-903:before{content:\"\\F076\"\n}\n.wi-owm-day-904:before{content:\"\\F072\"\n}\n.wi-owm-day-906:before{content:\"\\F004\"\n}\n.wi-owm-day-957:before{content:\"\\F050\"\n}\n.wi-owm-night-200:before{content:\"\\F02D\"\n}\n.wi-owm-night-201:before{content:\"\\F02D\"\n}\n.wi-owm-night-202:before{content:\"\\F02D\"\n}\n.wi-owm-night-210:before{content:\"\\F025\"\n}\n.wi-owm-night-211:before{content:\"\\F025\"\n}\n.wi-owm-night-212:before{content:\"\\F025\"\n}\n.wi-owm-night-221:before{content:\"\\F025\"\n}\n.wi-owm-night-230:before{content:\"\\F02D\"\n}\n.wi-owm-night-231:before{content:\"\\F02D\"\n}\n.wi-owm-night-232:before{content:\"\\F02D\"\n}\n.wi-owm-night-300:before{content:\"\\F02B\"\n}\n.wi-owm-night-301:before{content:\"\\F02B\"\n}\n.wi-owm-night-302:before{content:\"\\F028\"\n}\n.wi-owm-night-310:before{content:\"\\F028\"\n}\n.wi-owm-night-311:before{content:\"\\F028\"\n}\n.wi-owm-night-312:before{content:\"\\F028\"\n}\n.wi-owm-night-313:before{content:\"\\F028\"\n}\n.wi-owm-night-314:before{content:\"\\F028\"\n}\n.wi-owm-night-321:before{content:\"\\F02B\"\n}\n.wi-owm-night-500:before{content:\"\\F02B\"\n}\n.wi-owm-night-501:before{content:\"\\F028\"\n}\n.wi-owm-night-502:before{content:\"\\F028\"\n}\n.wi-owm-night-503:before{content:\"\\F028\"\n}\n.wi-owm-night-504:before{content:\"\\F028\"\n}\n.wi-owm-night-511:before{content:\"\\F026\"\n}\n.wi-owm-night-520:before{content:\"\\F029\"\n}\n.wi-owm-night-521:before{content:\"\\F029\"\n}\n.wi-owm-night-522:before{content:\"\\F029\"\n}\n.wi-owm-night-531:before{content:\"\\F02C\"\n}\n.wi-owm-night-600:before{content:\"\\F02A\"\n}\n.wi-owm-night-601:before{content:\"\\F0B4\"\n}\n.wi-owm-night-602:before{content:\"\\F02A\"\n}\n.wi-owm-night-611:before{content:\"\\F026\"\n}\n.wi-owm-night-612:before{content:\"\\F026\"\n}\n.wi-owm-night-615:before{content:\"\\F026\"\n}\n.wi-owm-night-616:before{content:\"\\F026\"\n}\n.wi-owm-night-620:before{content:\"\\F026\"\n}\n.wi-owm-night-621:before{content:\"\\F02A\"\n}\n.wi-owm-night-622:before{content:\"\\F02A\"\n}\n.wi-owm-night-701:before{content:\"\\F029\"\n}\n.wi-owm-night-711:before{content:\"\\F062\"\n}\n.wi-owm-night-721:before{content:\"\\F0B6\"\n}\n.wi-owm-night-731:before{content:\"\\F063\"\n}\n.wi-owm-night-741:before{content:\"\\F04A\"\n}\n.wi-owm-night-761:before{content:\"\\F063\"\n}\n.wi-owm-night-762:before{content:\"\\F063\"\n}\n.wi-owm-night-781:before{content:\"\\F056\"\n}\n.wi-owm-night-800:before{content:\"\\F02E\"\n}\n.wi-owm-night-801:before{content:\"\\F022\"\n}\n.wi-owm-night-802:before{content:\"\\F022\"\n}\n.wi-owm-night-803:before{content:\"\\F022\"\n}\n.wi-owm-night-804:before{content:\"\\F086\"\n}\n.wi-owm-night-900:before{content:\"\\F056\"\n}\n.wi-owm-night-902:before{content:\"\\F073\"\n}\n.wi-owm-night-903:before{content:\"\\F076\"\n}\n.wi-owm-night-904:before{content:\"\\F072\"\n}\n.wi-owm-night-906:before{content:\"\\F024\"\n}\n.wi-owm-night-957:before{content:\"\\F050\"\n}\n.wi-wu-chanceflurries:before{content:\"\\F064\"\n}\n.wi-wu-chancerain:before{content:\"\\F019\"\n}\n.wi-wu-chancesleat:before{content:\"\\F0B5\"\n}\n.wi-wu-chancesnow:before{content:\"\\F01B\"\n}\n.wi-wu-chancetstorms:before{content:\"\\F01E\"\n}\n.wi-wu-clear:before{content:\"\\F00D\"\n}\n.wi-wu-cloudy:before{content:\"\\F002\"\n}\n.wi-wu-flurries:before{content:\"\\F064\"\n}\n.wi-wu-hazy:before{content:\"\\F0B6\"\n}\n.wi-wu-mostlycloudy:before{content:\"\\F002\"\n}\n.wi-wu-mostlysunny:before{content:\"\\F00D\"\n}\n.wi-wu-partlycloudy:before{content:\"\\F002\"\n}\n.wi-wu-partlysunny:before{content:\"\\F00D\"\n}\n.wi-wu-rain:before{content:\"\\F01A\"\n}\n.wi-wu-sleat:before{content:\"\\F0B5\"\n}\n.wi-wu-snow:before{content:\"\\F01B\"\n}\n.wi-wu-sunny:before{content:\"\\F00D\"\n}\n.wi-wu-tstorms:before{content:\"\\F01E\"\n}\n.wi-wu-unknown:before{content:\"\\F00D\"\n}\n", ""]);
+exports.push([module.i, "/*!\n *  Weather Icons 2.0\n *  Updated August 1, 2015\n *  Weather themed icons for Bootstrap\n *  Author - Erik Flowers - erik@helloerik.com\n *  Email: erik@helloerik.com\n *  Twitter: http://twitter.com/Erik_UX\n *  ------------------------------------------------------------------------------\n *  Maintained at http://erikflowers.github.io/weather-icons\n *\n *  License\n *  ------------------------------------------------------------------------------\n *  - Font licensed under SIL OFL 1.1 -\n *    http://scripts.sil.org/OFL\n *  - CSS, SCSS and LESS are licensed under MIT License -\n *    http://opensource.org/licenses/mit-license.html\n *  - Documentation licensed under CC BY 3.0 -\n *    http://creativecommons.org/licenses/by/3.0/\n *  - Inspired by and works great as a companion with Font Awesome\n *    \"Font Awesome by Dave Gandy - http://fontawesome.io\"\n *//*!\n *  Weather Icons 2.0\n *  Updated August 1, 2015\n *  Weather themed icons for Bootstrap\n *  Author - Erik Flowers - erik@helloerik.com\n *  Email: erik@helloerik.com\n *  Twitter: http://twitter.com/Erik_UX\n *  ------------------------------------------------------------------------------\n *  Maintained at http://erikflowers.github.io/weather-icons\n *\n *  License\n *  ------------------------------------------------------------------------------\n *  - Font licensed under SIL OFL 1.1 -\n *    http://scripts.sil.org/OFL\n *  - CSS, SCSS and LESS are licensed under MIT License -\n *    http://opensource.org/licenses/mit-license.html\n *  - Documentation licensed under CC BY 3.0 -\n *    http://creativecommons.org/licenses/by/3.0/\n *  - Inspired by and works great as a companion with Font Awesome\n *    \"Font Awesome by Dave Gandy - http://fontawesome.io\"\n */\n@font-face{font-family:weathericons;src:url(" + escape(__webpack_require__(912)) + ") format('woff');font-weight:400;font-style:normal\n}\n.wi{display:inline-block;font-family:weathericons;font-style:normal;font-weight:400;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale\n}\n.wi-fw{text-align:center;width:1.4em\n}\n.wi-rotate-90{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1);-webkit-transform:rotate(90deg);transform:rotate(90deg)\n}\n.wi-rotate-180{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);-webkit-transform:rotate(180deg);transform:rotate(180deg)\n}\n.wi-rotate-270{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);-webkit-transform:rotate(270deg);transform:rotate(270deg)\n}\n.wi-flip-horizontal{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);-webkit-transform:scale(-1,1);transform:scale(-1,1)\n}\n.wi-flip-vertical{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);-webkit-transform:scale(1,-1);transform:scale(1,-1)\n}\n.wi-day-sunny:before{content:\"\\F00D\"\n}\n.wi-day-cloudy:before{content:\"\\F002\"\n}\n.wi-day-cloudy-gusts:before{content:\"\\F000\"\n}\n.wi-day-cloudy-windy:before{content:\"\\F001\"\n}\n.wi-day-fog:before{content:\"\\F003\"\n}\n.wi-day-hail:before{content:\"\\F004\"\n}\n.wi-day-haze:before{content:\"\\F0B6\"\n}\n.wi-day-lightning:before{content:\"\\F005\"\n}\n.wi-day-rain:before{content:\"\\F008\"\n}\n.wi-day-rain-mix:before{content:\"\\F006\"\n}\n.wi-day-rain-wind:before{content:\"\\F007\"\n}\n.wi-day-showers:before{content:\"\\F009\"\n}\n.wi-day-sleet:before{content:\"\\F0B2\"\n}\n.wi-day-sleet-storm:before{content:\"\\F068\"\n}\n.wi-day-snow:before{content:\"\\F00A\"\n}\n.wi-day-snow-thunderstorm:before{content:\"\\F06B\"\n}\n.wi-day-snow-wind:before{content:\"\\F065\"\n}\n.wi-day-sprinkle:before{content:\"\\F00B\"\n}\n.wi-day-storm-showers:before{content:\"\\F00E\"\n}\n.wi-day-sunny-overcast:before{content:\"\\F00C\"\n}\n.wi-day-thunderstorm:before{content:\"\\F010\"\n}\n.wi-day-windy:before{content:\"\\F085\"\n}\n.wi-solar-eclipse:before{content:\"\\F06E\"\n}\n.wi-hot:before{content:\"\\F072\"\n}\n.wi-day-cloudy-high:before{content:\"\\F07D\"\n}\n.wi-day-light-wind:before{content:\"\\F0C4\"\n}\n.wi-night-clear:before{content:\"\\F02E\"\n}\n.wi-night-alt-cloudy:before{content:\"\\F086\"\n}\n.wi-night-alt-cloudy-gusts:before{content:\"\\F022\"\n}\n.wi-night-alt-cloudy-windy:before{content:\"\\F023\"\n}\n.wi-night-alt-hail:before{content:\"\\F024\"\n}\n.wi-night-alt-lightning:before{content:\"\\F025\"\n}\n.wi-night-alt-rain:before{content:\"\\F028\"\n}\n.wi-night-alt-rain-mix:before{content:\"\\F026\"\n}\n.wi-night-alt-rain-wind:before{content:\"\\F027\"\n}\n.wi-night-alt-showers:before{content:\"\\F029\"\n}\n.wi-night-alt-sleet:before{content:\"\\F0B4\"\n}\n.wi-night-alt-sleet-storm:before{content:\"\\F06A\"\n}\n.wi-night-alt-snow:before{content:\"\\F02A\"\n}\n.wi-night-alt-snow-thunderstorm:before{content:\"\\F06D\"\n}\n.wi-night-alt-snow-wind:before{content:\"\\F067\"\n}\n.wi-night-alt-sprinkle:before{content:\"\\F02B\"\n}\n.wi-night-alt-storm-showers:before{content:\"\\F02C\"\n}\n.wi-night-alt-thunderstorm:before{content:\"\\F02D\"\n}\n.wi-night-cloudy:before{content:\"\\F031\"\n}\n.wi-night-cloudy-gusts:before{content:\"\\F02F\"\n}\n.wi-night-cloudy-windy:before{content:\"\\F030\"\n}\n.wi-night-fog:before{content:\"\\F04A\"\n}\n.wi-night-hail:before{content:\"\\F032\"\n}\n.wi-night-lightning:before{content:\"\\F033\"\n}\n.wi-night-partly-cloudy:before{content:\"\\F083\"\n}\n.wi-night-rain:before{content:\"\\F036\"\n}\n.wi-night-rain-mix:before{content:\"\\F034\"\n}\n.wi-night-rain-wind:before{content:\"\\F035\"\n}\n.wi-night-showers:before{content:\"\\F037\"\n}\n.wi-night-sleet:before{content:\"\\F0B3\"\n}\n.wi-night-sleet-storm:before{content:\"\\F069\"\n}\n.wi-night-snow:before{content:\"\\F038\"\n}\n.wi-night-snow-thunderstorm:before{content:\"\\F06C\"\n}\n.wi-night-snow-wind:before{content:\"\\F066\"\n}\n.wi-night-sprinkle:before{content:\"\\F039\"\n}\n.wi-night-storm-showers:before{content:\"\\F03A\"\n}\n.wi-night-thunderstorm:before{content:\"\\F03B\"\n}\n.wi-lunar-eclipse:before{content:\"\\F070\"\n}\n.wi-stars:before{content:\"\\F077\"\n}\n.wi-storm-showers:before{content:\"\\F01D\"\n}\n.wi-thunderstorm:before{content:\"\\F01E\"\n}\n.wi-night-alt-cloudy-high:before{content:\"\\F07E\"\n}\n.wi-night-cloudy-high:before{content:\"\\F080\"\n}\n.wi-night-alt-partly-cloudy:before{content:\"\\F081\"\n}\n.wi-cloud:before{content:\"\\F041\"\n}\n.wi-cloudy:before{content:\"\\F013\"\n}\n.wi-cloudy-gusts:before{content:\"\\F011\"\n}\n.wi-cloudy-windy:before{content:\"\\F012\"\n}\n.wi-fog:before{content:\"\\F014\"\n}\n.wi-hail:before{content:\"\\F015\"\n}\n.wi-rain:before{content:\"\\F019\"\n}\n.wi-rain-mix:before{content:\"\\F017\"\n}\n.wi-rain-wind:before{content:\"\\F018\"\n}\n.wi-showers:before{content:\"\\F01A\"\n}\n.wi-sleet:before{content:\"\\F0B5\"\n}\n.wi-snow:before{content:\"\\F01B\"\n}\n.wi-sprinkle:before{content:\"\\F01C\"\n}\n.wi-storm-showers:before{content:\"\\F01D\"\n}\n.wi-thunderstorm:before{content:\"\\F01E\"\n}\n.wi-snow-wind:before{content:\"\\F064\"\n}\n.wi-snow:before{content:\"\\F01B\"\n}\n.wi-smog:before{content:\"\\F074\"\n}\n.wi-smoke:before{content:\"\\F062\"\n}\n.wi-lightning:before{content:\"\\F016\"\n}\n.wi-raindrops:before{content:\"\\F04E\"\n}\n.wi-raindrop:before{content:\"\\F078\"\n}\n.wi-dust:before{content:\"\\F063\"\n}\n.wi-snowflake-cold:before{content:\"\\F076\"\n}\n.wi-windy:before{content:\"\\F021\"\n}\n.wi-strong-wind:before{content:\"\\F050\"\n}\n.wi-sandstorm:before{content:\"\\F082\"\n}\n.wi-earthquake:before{content:\"\\F0C6\"\n}\n.wi-fire:before{content:\"\\F0C7\"\n}\n.wi-flood:before{content:\"\\F07C\"\n}\n.wi-meteor:before{content:\"\\F071\"\n}\n.wi-tsunami:before{content:\"\\F0C5\"\n}\n.wi-volcano:before{content:\"\\F0C8\"\n}\n.wi-hurricane:before{content:\"\\F073\"\n}\n.wi-tornado:before{content:\"\\F056\"\n}\n.wi-small-craft-advisory:before{content:\"\\F0CC\"\n}\n.wi-gale-warning:before{content:\"\\F0CD\"\n}\n.wi-storm-warning:before{content:\"\\F0CE\"\n}\n.wi-hurricane-warning:before{content:\"\\F0CF\"\n}\n.wi-wind-direction:before{content:\"\\F0B1\"\n}\n.wi-alien:before{content:\"\\F075\"\n}\n.wi-celsius:before{content:\"\\F03C\"\n}\n.wi-fahrenheit:before{content:\"\\F045\"\n}\n.wi-degrees:before{content:\"\\F042\"\n}\n.wi-thermometer:before{content:\"\\F055\"\n}\n.wi-thermometer-exterior:before{content:\"\\F053\"\n}\n.wi-thermometer-internal:before{content:\"\\F054\"\n}\n.wi-cloud-down:before{content:\"\\F03D\"\n}\n.wi-cloud-up:before{content:\"\\F040\"\n}\n.wi-cloud-refresh:before{content:\"\\F03E\"\n}\n.wi-horizon:before{content:\"\\F047\"\n}\n.wi-horizon-alt:before{content:\"\\F046\"\n}\n.wi-sunrise:before{content:\"\\F051\"\n}\n.wi-sunset:before{content:\"\\F052\"\n}\n.wi-moonrise:before{content:\"\\F0C9\"\n}\n.wi-moonset:before{content:\"\\F0CA\"\n}\n.wi-refresh:before{content:\"\\F04C\"\n}\n.wi-refresh-alt:before{content:\"\\F04B\"\n}\n.wi-umbrella:before{content:\"\\F084\"\n}\n.wi-barometer:before{content:\"\\F079\"\n}\n.wi-humidity:before{content:\"\\F07A\"\n}\n.wi-na:before{content:\"\\F07B\"\n}\n.wi-train:before{content:\"\\F0CB\"\n}\n.wi-moon-new:before{content:\"\\F095\"\n}\n.wi-moon-waxing-crescent-1:before{content:\"\\F096\"\n}\n.wi-moon-waxing-crescent-2:before{content:\"\\F097\"\n}\n.wi-moon-waxing-crescent-3:before{content:\"\\F098\"\n}\n.wi-moon-waxing-crescent-4:before{content:\"\\F099\"\n}\n.wi-moon-waxing-crescent-5:before{content:\"\\F09A\"\n}\n.wi-moon-waxing-crescent-6:before{content:\"\\F09B\"\n}\n.wi-moon-first-quarter:before{content:\"\\F09C\"\n}\n.wi-moon-waxing-gibbous-1:before{content:\"\\F09D\"\n}\n.wi-moon-waxing-gibbous-2:before{content:\"\\F09E\"\n}\n.wi-moon-waxing-gibbous-3:before{content:\"\\F09F\"\n}\n.wi-moon-waxing-gibbous-4:before{content:\"\\F0A0\"\n}\n.wi-moon-waxing-gibbous-5:before{content:\"\\F0A1\"\n}\n.wi-moon-waxing-gibbous-6:before{content:\"\\F0A2\"\n}\n.wi-moon-full:before{content:\"\\F0A3\"\n}\n.wi-moon-waning-gibbous-1:before{content:\"\\F0A4\"\n}\n.wi-moon-waning-gibbous-2:before{content:\"\\F0A5\"\n}\n.wi-moon-waning-gibbous-3:before{content:\"\\F0A6\"\n}\n.wi-moon-waning-gibbous-4:before{content:\"\\F0A7\"\n}\n.wi-moon-waning-gibbous-5:before{content:\"\\F0A8\"\n}\n.wi-moon-waning-gibbous-6:before{content:\"\\F0A9\"\n}\n.wi-moon-third-quarter:before{content:\"\\F0AA\"\n}\n.wi-moon-waning-crescent-1:before{content:\"\\F0AB\"\n}\n.wi-moon-waning-crescent-2:before{content:\"\\F0AC\"\n}\n.wi-moon-waning-crescent-3:before{content:\"\\F0AD\"\n}\n.wi-moon-waning-crescent-4:before{content:\"\\F0AE\"\n}\n.wi-moon-waning-crescent-5:before{content:\"\\F0AF\"\n}\n.wi-moon-waning-crescent-6:before{content:\"\\F0B0\"\n}\n.wi-moon-alt-new:before{content:\"\\F0EB\"\n}\n.wi-moon-alt-waxing-crescent-1:before{content:\"\\F0D0\"\n}\n.wi-moon-alt-waxing-crescent-2:before{content:\"\\F0D1\"\n}\n.wi-moon-alt-waxing-crescent-3:before{content:\"\\F0D2\"\n}\n.wi-moon-alt-waxing-crescent-4:before{content:\"\\F0D3\"\n}\n.wi-moon-alt-waxing-crescent-5:before{content:\"\\F0D4\"\n}\n.wi-moon-alt-waxing-crescent-6:before{content:\"\\F0D5\"\n}\n.wi-moon-alt-first-quarter:before{content:\"\\F0D6\"\n}\n.wi-moon-alt-waxing-gibbous-1:before{content:\"\\F0D7\"\n}\n.wi-moon-alt-waxing-gibbous-2:before{content:\"\\F0D8\"\n}\n.wi-moon-alt-waxing-gibbous-3:before{content:\"\\F0D9\"\n}\n.wi-moon-alt-waxing-gibbous-4:before{content:\"\\F0DA\"\n}\n.wi-moon-alt-waxing-gibbous-5:before{content:\"\\F0DB\"\n}\n.wi-moon-alt-waxing-gibbous-6:before{content:\"\\F0DC\"\n}\n.wi-moon-alt-full:before{content:\"\\F0DD\"\n}\n.wi-moon-alt-waning-gibbous-1:before{content:\"\\F0DE\"\n}\n.wi-moon-alt-waning-gibbous-2:before{content:\"\\F0DF\"\n}\n.wi-moon-alt-waning-gibbous-3:before{content:\"\\F0E0\"\n}\n.wi-moon-alt-waning-gibbous-4:before{content:\"\\F0E1\"\n}\n.wi-moon-alt-waning-gibbous-5:before{content:\"\\F0E2\"\n}\n.wi-moon-alt-waning-gibbous-6:before{content:\"\\F0E3\"\n}\n.wi-moon-alt-third-quarter:before{content:\"\\F0E4\"\n}\n.wi-moon-alt-waning-crescent-1:before{content:\"\\F0E5\"\n}\n.wi-moon-alt-waning-crescent-2:before{content:\"\\F0E6\"\n}\n.wi-moon-alt-waning-crescent-3:before{content:\"\\F0E7\"\n}\n.wi-moon-alt-waning-crescent-4:before{content:\"\\F0E8\"\n}\n.wi-moon-alt-waning-crescent-5:before{content:\"\\F0E9\"\n}\n.wi-moon-alt-waning-crescent-6:before{content:\"\\F0EA\"\n}\n.wi-moon-0:before{content:\"\\F095\"\n}\n.wi-moon-1:before{content:\"\\F096\"\n}\n.wi-moon-2:before{content:\"\\F097\"\n}\n.wi-moon-3:before{content:\"\\F098\"\n}\n.wi-moon-4:before{content:\"\\F099\"\n}\n.wi-moon-5:before{content:\"\\F09A\"\n}\n.wi-moon-6:before{content:\"\\F09B\"\n}\n.wi-moon-7:before{content:\"\\F09C\"\n}\n.wi-moon-8:before{content:\"\\F09D\"\n}\n.wi-moon-9:before{content:\"\\F09E\"\n}\n.wi-moon-10:before{content:\"\\F09F\"\n}\n.wi-moon-11:before{content:\"\\F0A0\"\n}\n.wi-moon-12:before{content:\"\\F0A1\"\n}\n.wi-moon-13:before{content:\"\\F0A2\"\n}\n.wi-moon-14:before{content:\"\\F0A3\"\n}\n.wi-moon-15:before{content:\"\\F0A4\"\n}\n.wi-moon-16:before{content:\"\\F0A5\"\n}\n.wi-moon-17:before{content:\"\\F0A6\"\n}\n.wi-moon-18:before{content:\"\\F0A7\"\n}\n.wi-moon-19:before{content:\"\\F0A8\"\n}\n.wi-moon-20:before{content:\"\\F0A9\"\n}\n.wi-moon-21:before{content:\"\\F0AA\"\n}\n.wi-moon-22:before{content:\"\\F0AB\"\n}\n.wi-moon-23:before{content:\"\\F0AC\"\n}\n.wi-moon-24:before{content:\"\\F0AD\"\n}\n.wi-moon-25:before{content:\"\\F0AE\"\n}\n.wi-moon-26:before{content:\"\\F0AF\"\n}\n.wi-moon-27:before{content:\"\\F0B0\"\n}\n.wi-time-1:before{content:\"\\F08A\"\n}\n.wi-time-2:before{content:\"\\F08B\"\n}\n.wi-time-3:before{content:\"\\F08C\"\n}\n.wi-time-4:before{content:\"\\F08D\"\n}\n.wi-time-5:before{content:\"\\F08E\"\n}\n.wi-time-6:before{content:\"\\F08F\"\n}\n.wi-time-7:before{content:\"\\F090\"\n}\n.wi-time-8:before{content:\"\\F091\"\n}\n.wi-time-9:before{content:\"\\F092\"\n}\n.wi-time-10:before{content:\"\\F093\"\n}\n.wi-time-11:before{content:\"\\F094\"\n}\n.wi-time-12:before{content:\"\\F089\"\n}\n.wi-direction-up:before{content:\"\\F058\"\n}\n.wi-direction-up-right:before{content:\"\\F057\"\n}\n.wi-direction-right:before{content:\"\\F04D\"\n}\n.wi-direction-down-right:before{content:\"\\F088\"\n}\n.wi-direction-down:before{content:\"\\F044\"\n}\n.wi-direction-down-left:before{content:\"\\F043\"\n}\n.wi-direction-left:before{content:\"\\F048\"\n}\n.wi-direction-up-left:before{content:\"\\F087\"\n}\n.wi-wind-beaufort-0:before{content:\"\\F0B7\"\n}\n.wi-wind-beaufort-1:before{content:\"\\F0B8\"\n}\n.wi-wind-beaufort-2:before{content:\"\\F0B9\"\n}\n.wi-wind-beaufort-3:before{content:\"\\F0BA\"\n}\n.wi-wind-beaufort-4:before{content:\"\\F0BB\"\n}\n.wi-wind-beaufort-5:before{content:\"\\F0BC\"\n}\n.wi-wind-beaufort-6:before{content:\"\\F0BD\"\n}\n.wi-wind-beaufort-7:before{content:\"\\F0BE\"\n}\n.wi-wind-beaufort-8:before{content:\"\\F0BF\"\n}\n.wi-wind-beaufort-9:before{content:\"\\F0C0\"\n}\n.wi-wind-beaufort-10:before{content:\"\\F0C1\"\n}\n.wi-wind-beaufort-11:before{content:\"\\F0C2\"\n}\n.wi-wind-beaufort-12:before{content:\"\\F0C3\"\n}\n.wi-yahoo-0:before{content:\"\\F056\"\n}\n.wi-yahoo-1:before{content:\"\\F00E\"\n}\n.wi-yahoo-2:before{content:\"\\F073\"\n}\n.wi-yahoo-3:before{content:\"\\F01E\"\n}\n.wi-yahoo-4:before{content:\"\\F01E\"\n}\n.wi-yahoo-5:before{content:\"\\F017\"\n}\n.wi-yahoo-6:before{content:\"\\F017\"\n}\n.wi-yahoo-7:before{content:\"\\F017\"\n}\n.wi-yahoo-8:before{content:\"\\F015\"\n}\n.wi-yahoo-9:before{content:\"\\F01A\"\n}\n.wi-yahoo-10:before{content:\"\\F015\"\n}\n.wi-yahoo-11:before{content:\"\\F01A\"\n}\n.wi-yahoo-12:before{content:\"\\F01A\"\n}\n.wi-yahoo-13:before{content:\"\\F01B\"\n}\n.wi-yahoo-14:before{content:\"\\F00A\"\n}\n.wi-yahoo-15:before{content:\"\\F064\"\n}\n.wi-yahoo-16:before{content:\"\\F01B\"\n}\n.wi-yahoo-17:before{content:\"\\F015\"\n}\n.wi-yahoo-18:before{content:\"\\F017\"\n}\n.wi-yahoo-19:before{content:\"\\F063\"\n}\n.wi-yahoo-20:before{content:\"\\F014\"\n}\n.wi-yahoo-21:before{content:\"\\F021\"\n}\n.wi-yahoo-22:before{content:\"\\F062\"\n}\n.wi-yahoo-23:before{content:\"\\F050\"\n}\n.wi-yahoo-24:before{content:\"\\F050\"\n}\n.wi-yahoo-25:before{content:\"\\F076\"\n}\n.wi-yahoo-26:before{content:\"\\F013\"\n}\n.wi-yahoo-27:before{content:\"\\F031\"\n}\n.wi-yahoo-28:before{content:\"\\F002\"\n}\n.wi-yahoo-29:before{content:\"\\F031\"\n}\n.wi-yahoo-30:before{content:\"\\F002\"\n}\n.wi-yahoo-31:before{content:\"\\F02E\"\n}\n.wi-yahoo-32:before{content:\"\\F00D\"\n}\n.wi-yahoo-33:before{content:\"\\F083\"\n}\n.wi-yahoo-34:before{content:\"\\F00C\"\n}\n.wi-yahoo-35:before{content:\"\\F017\"\n}\n.wi-yahoo-36:before{content:\"\\F072\"\n}\n.wi-yahoo-37:before{content:\"\\F00E\"\n}\n.wi-yahoo-38:before{content:\"\\F00E\"\n}\n.wi-yahoo-39:before{content:\"\\F00E\"\n}\n.wi-yahoo-40:before{content:\"\\F01A\"\n}\n.wi-yahoo-41:before{content:\"\\F064\"\n}\n.wi-yahoo-42:before{content:\"\\F01B\"\n}\n.wi-yahoo-43:before{content:\"\\F064\"\n}\n.wi-yahoo-44:before{content:\"\\F00C\"\n}\n.wi-yahoo-45:before{content:\"\\F00E\"\n}\n.wi-yahoo-46:before{content:\"\\F01B\"\n}\n.wi-yahoo-47:before{content:\"\\F00E\"\n}\n.wi-yahoo-3200:before{content:\"\\F077\"\n}\n.wi-forecast-io-clear-day:before{content:\"\\F00D\"\n}\n.wi-forecast-io-clear-night:before{content:\"\\F02E\"\n}\n.wi-forecast-io-rain:before{content:\"\\F019\"\n}\n.wi-forecast-io-snow:before{content:\"\\F01B\"\n}\n.wi-forecast-io-sleet:before{content:\"\\F0B5\"\n}\n.wi-forecast-io-wind:before{content:\"\\F050\"\n}\n.wi-forecast-io-fog:before{content:\"\\F014\"\n}\n.wi-forecast-io-cloudy:before{content:\"\\F013\"\n}\n.wi-forecast-io-partly-cloudy-day:before{content:\"\\F002\"\n}\n.wi-forecast-io-partly-cloudy-night:before{content:\"\\F031\"\n}\n.wi-forecast-io-hail:before{content:\"\\F015\"\n}\n.wi-forecast-io-thunderstorm:before{content:\"\\F01E\"\n}\n.wi-forecast-io-tornado:before{content:\"\\F056\"\n}\n.wi-wmo4680-00:before,.wi-wmo4680-0:before{content:\"\\F055\"\n}\n.wi-wmo4680-01:before,.wi-wmo4680-1:before{content:\"\\F013\"\n}\n.wi-wmo4680-02:before,.wi-wmo4680-2:before{content:\"\\F055\"\n}\n.wi-wmo4680-03:before,.wi-wmo4680-3:before{content:\"\\F013\"\n}\n.wi-wmo4680-04:before,.wi-wmo4680-4:before{content:\"\\F014\"\n}\n.wi-wmo4680-05:before,.wi-wmo4680-5:before{content:\"\\F014\"\n}\n.wi-wmo4680-10:before{content:\"\\F014\"\n}\n.wi-wmo4680-11:before{content:\"\\F014\"\n}\n.wi-wmo4680-12:before{content:\"\\F016\"\n}\n.wi-wmo4680-18:before{content:\"\\F050\"\n}\n.wi-wmo4680-20:before{content:\"\\F014\"\n}\n.wi-wmo4680-21:before{content:\"\\F017\"\n}\n.wi-wmo4680-22:before{content:\"\\F017\"\n}\n.wi-wmo4680-23:before{content:\"\\F019\"\n}\n.wi-wmo4680-24:before{content:\"\\F01B\"\n}\n.wi-wmo4680-25:before{content:\"\\F015\"\n}\n.wi-wmo4680-26:before{content:\"\\F01E\"\n}\n.wi-wmo4680-27:before{content:\"\\F063\"\n}\n.wi-wmo4680-28:before{content:\"\\F063\"\n}\n.wi-wmo4680-29:before{content:\"\\F063\"\n}\n.wi-wmo4680-30:before{content:\"\\F014\"\n}\n.wi-wmo4680-31:before{content:\"\\F014\"\n}\n.wi-wmo4680-32:before{content:\"\\F014\"\n}\n.wi-wmo4680-33:before{content:\"\\F014\"\n}\n.wi-wmo4680-34:before{content:\"\\F014\"\n}\n.wi-wmo4680-35:before{content:\"\\F014\"\n}\n.wi-wmo4680-40:before{content:\"\\F017\"\n}\n.wi-wmo4680-41:before{content:\"\\F01C\"\n}\n.wi-wmo4680-42:before{content:\"\\F019\"\n}\n.wi-wmo4680-43:before{content:\"\\F01C\"\n}\n.wi-wmo4680-44:before{content:\"\\F019\"\n}\n.wi-wmo4680-45:before{content:\"\\F015\"\n}\n.wi-wmo4680-46:before{content:\"\\F015\"\n}\n.wi-wmo4680-47:before{content:\"\\F01B\"\n}\n.wi-wmo4680-48:before{content:\"\\F01B\"\n}\n.wi-wmo4680-50:before{content:\"\\F01C\"\n}\n.wi-wmo4680-51:before{content:\"\\F01C\"\n}\n.wi-wmo4680-52:before{content:\"\\F019\"\n}\n.wi-wmo4680-53:before{content:\"\\F019\"\n}\n.wi-wmo4680-54:before{content:\"\\F076\"\n}\n.wi-wmo4680-55:before{content:\"\\F076\"\n}\n.wi-wmo4680-56:before{content:\"\\F076\"\n}\n.wi-wmo4680-57:before{content:\"\\F01C\"\n}\n.wi-wmo4680-58:before{content:\"\\F019\"\n}\n.wi-wmo4680-60:before{content:\"\\F01C\"\n}\n.wi-wmo4680-61:before{content:\"\\F01C\"\n}\n.wi-wmo4680-62:before{content:\"\\F019\"\n}\n.wi-wmo4680-63:before{content:\"\\F019\"\n}\n.wi-wmo4680-64:before{content:\"\\F015\"\n}\n.wi-wmo4680-65:before{content:\"\\F015\"\n}\n.wi-wmo4680-66:before{content:\"\\F015\"\n}\n.wi-wmo4680-67:before{content:\"\\F017\"\n}\n.wi-wmo4680-68:before{content:\"\\F017\"\n}\n.wi-wmo4680-70:before{content:\"\\F01B\"\n}\n.wi-wmo4680-71:before{content:\"\\F01B\"\n}\n.wi-wmo4680-72:before{content:\"\\F01B\"\n}\n.wi-wmo4680-73:before{content:\"\\F01B\"\n}\n.wi-wmo4680-74:before{content:\"\\F076\"\n}\n.wi-wmo4680-75:before{content:\"\\F076\"\n}\n.wi-wmo4680-76:before{content:\"\\F076\"\n}\n.wi-wmo4680-77:before{content:\"\\F01B\"\n}\n.wi-wmo4680-78:before{content:\"\\F076\"\n}\n.wi-wmo4680-80:before{content:\"\\F019\"\n}\n.wi-wmo4680-81:before{content:\"\\F01C\"\n}\n.wi-wmo4680-82:before{content:\"\\F019\"\n}\n.wi-wmo4680-83:before{content:\"\\F019\"\n}\n.wi-wmo4680-84:before{content:\"\\F01D\"\n}\n.wi-wmo4680-85:before{content:\"\\F017\"\n}\n.wi-wmo4680-86:before{content:\"\\F017\"\n}\n.wi-wmo4680-87:before{content:\"\\F017\"\n}\n.wi-wmo4680-89:before{content:\"\\F015\"\n}\n.wi-wmo4680-90:before{content:\"\\F016\"\n}\n.wi-wmo4680-91:before{content:\"\\F01D\"\n}\n.wi-wmo4680-92:before{content:\"\\F01E\"\n}\n.wi-wmo4680-93:before{content:\"\\F01E\"\n}\n.wi-wmo4680-94:before{content:\"\\F016\"\n}\n.wi-wmo4680-95:before{content:\"\\F01E\"\n}\n.wi-wmo4680-96:before{content:\"\\F01E\"\n}\n.wi-wmo4680-99:before{content:\"\\F056\"\n}\n.wi-owm-200:before{content:\"\\F01E\"\n}\n.wi-owm-201:before{content:\"\\F01E\"\n}\n.wi-owm-202:before{content:\"\\F01E\"\n}\n.wi-owm-210:before{content:\"\\F016\"\n}\n.wi-owm-211:before{content:\"\\F016\"\n}\n.wi-owm-212:before{content:\"\\F016\"\n}\n.wi-owm-221:before{content:\"\\F016\"\n}\n.wi-owm-230:before{content:\"\\F01E\"\n}\n.wi-owm-231:before{content:\"\\F01E\"\n}\n.wi-owm-232:before{content:\"\\F01E\"\n}\n.wi-owm-300:before{content:\"\\F01C\"\n}\n.wi-owm-301:before{content:\"\\F01C\"\n}\n.wi-owm-302:before{content:\"\\F019\"\n}\n.wi-owm-310:before{content:\"\\F017\"\n}\n.wi-owm-311:before{content:\"\\F019\"\n}\n.wi-owm-312:before{content:\"\\F019\"\n}\n.wi-owm-313:before{content:\"\\F01A\"\n}\n.wi-owm-314:before{content:\"\\F019\"\n}\n.wi-owm-321:before{content:\"\\F01C\"\n}\n.wi-owm-500:before{content:\"\\F01C\"\n}\n.wi-owm-501:before{content:\"\\F019\"\n}\n.wi-owm-502:before{content:\"\\F019\"\n}\n.wi-owm-503:before{content:\"\\F019\"\n}\n.wi-owm-504:before{content:\"\\F019\"\n}\n.wi-owm-511:before{content:\"\\F017\"\n}\n.wi-owm-520:before{content:\"\\F01A\"\n}\n.wi-owm-521:before{content:\"\\F01A\"\n}\n.wi-owm-522:before{content:\"\\F01A\"\n}\n.wi-owm-531:before{content:\"\\F01D\"\n}\n.wi-owm-600:before{content:\"\\F01B\"\n}\n.wi-owm-601:before{content:\"\\F01B\"\n}\n.wi-owm-602:before{content:\"\\F0B5\"\n}\n.wi-owm-611:before{content:\"\\F017\"\n}\n.wi-owm-612:before{content:\"\\F017\"\n}\n.wi-owm-615:before{content:\"\\F017\"\n}\n.wi-owm-616:before{content:\"\\F017\"\n}\n.wi-owm-620:before{content:\"\\F017\"\n}\n.wi-owm-621:before{content:\"\\F01B\"\n}\n.wi-owm-622:before{content:\"\\F01B\"\n}\n.wi-owm-701:before{content:\"\\F01A\"\n}\n.wi-owm-711:before{content:\"\\F062\"\n}\n.wi-owm-721:before{content:\"\\F0B6\"\n}\n.wi-owm-731:before{content:\"\\F063\"\n}\n.wi-owm-741:before{content:\"\\F014\"\n}\n.wi-owm-761:before{content:\"\\F063\"\n}\n.wi-owm-762:before{content:\"\\F063\"\n}\n.wi-owm-771:before{content:\"\\F011\"\n}\n.wi-owm-781:before{content:\"\\F056\"\n}\n.wi-owm-800:before{content:\"\\F00D\"\n}\n.wi-owm-801:before{content:\"\\F011\"\n}\n.wi-owm-802:before{content:\"\\F011\"\n}\n.wi-owm-803:before{content:\"\\F012\"\n}\n.wi-owm-804:before{content:\"\\F013\"\n}\n.wi-owm-900:before{content:\"\\F056\"\n}\n.wi-owm-901:before{content:\"\\F01D\"\n}\n.wi-owm-902:before{content:\"\\F073\"\n}\n.wi-owm-903:before{content:\"\\F076\"\n}\n.wi-owm-904:before{content:\"\\F072\"\n}\n.wi-owm-905:before{content:\"\\F021\"\n}\n.wi-owm-906:before{content:\"\\F015\"\n}\n.wi-owm-957:before{content:\"\\F050\"\n}\n.wi-owm-day-200:before{content:\"\\F010\"\n}\n.wi-owm-day-201:before{content:\"\\F010\"\n}\n.wi-owm-day-202:before{content:\"\\F010\"\n}\n.wi-owm-day-210:before{content:\"\\F005\"\n}\n.wi-owm-day-211:before{content:\"\\F005\"\n}\n.wi-owm-day-212:before{content:\"\\F005\"\n}\n.wi-owm-day-221:before{content:\"\\F005\"\n}\n.wi-owm-day-230:before{content:\"\\F010\"\n}\n.wi-owm-day-231:before{content:\"\\F010\"\n}\n.wi-owm-day-232:before{content:\"\\F010\"\n}\n.wi-owm-day-300:before{content:\"\\F00B\"\n}\n.wi-owm-day-301:before{content:\"\\F00B\"\n}\n.wi-owm-day-302:before{content:\"\\F008\"\n}\n.wi-owm-day-310:before{content:\"\\F008\"\n}\n.wi-owm-day-311:before{content:\"\\F008\"\n}\n.wi-owm-day-312:before{content:\"\\F008\"\n}\n.wi-owm-day-313:before{content:\"\\F008\"\n}\n.wi-owm-day-314:before{content:\"\\F008\"\n}\n.wi-owm-day-321:before{content:\"\\F00B\"\n}\n.wi-owm-day-500:before{content:\"\\F00B\"\n}\n.wi-owm-day-501:before{content:\"\\F008\"\n}\n.wi-owm-day-502:before{content:\"\\F008\"\n}\n.wi-owm-day-503:before{content:\"\\F008\"\n}\n.wi-owm-day-504:before{content:\"\\F008\"\n}\n.wi-owm-day-511:before{content:\"\\F006\"\n}\n.wi-owm-day-520:before{content:\"\\F009\"\n}\n.wi-owm-day-521:before{content:\"\\F009\"\n}\n.wi-owm-day-522:before{content:\"\\F009\"\n}\n.wi-owm-day-531:before{content:\"\\F00E\"\n}\n.wi-owm-day-600:before{content:\"\\F00A\"\n}\n.wi-owm-day-601:before{content:\"\\F0B2\"\n}\n.wi-owm-day-602:before{content:\"\\F00A\"\n}\n.wi-owm-day-611:before{content:\"\\F006\"\n}\n.wi-owm-day-612:before{content:\"\\F006\"\n}\n.wi-owm-day-615:before{content:\"\\F006\"\n}\n.wi-owm-day-616:before{content:\"\\F006\"\n}\n.wi-owm-day-620:before{content:\"\\F006\"\n}\n.wi-owm-day-621:before{content:\"\\F00A\"\n}\n.wi-owm-day-622:before{content:\"\\F00A\"\n}\n.wi-owm-day-701:before{content:\"\\F009\"\n}\n.wi-owm-day-711:before{content:\"\\F062\"\n}\n.wi-owm-day-721:before{content:\"\\F0B6\"\n}\n.wi-owm-day-731:before{content:\"\\F063\"\n}\n.wi-owm-day-741:before{content:\"\\F003\"\n}\n.wi-owm-day-761:before{content:\"\\F063\"\n}\n.wi-owm-day-762:before{content:\"\\F063\"\n}\n.wi-owm-day-781:before{content:\"\\F056\"\n}\n.wi-owm-day-800:before{content:\"\\F00D\"\n}\n.wi-owm-day-801:before{content:\"\\F000\"\n}\n.wi-owm-day-802:before{content:\"\\F000\"\n}\n.wi-owm-day-803:before{content:\"\\F000\"\n}\n.wi-owm-day-804:before{content:\"\\F00C\"\n}\n.wi-owm-day-900:before{content:\"\\F056\"\n}\n.wi-owm-day-902:before{content:\"\\F073\"\n}\n.wi-owm-day-903:before{content:\"\\F076\"\n}\n.wi-owm-day-904:before{content:\"\\F072\"\n}\n.wi-owm-day-906:before{content:\"\\F004\"\n}\n.wi-owm-day-957:before{content:\"\\F050\"\n}\n.wi-owm-night-200:before{content:\"\\F02D\"\n}\n.wi-owm-night-201:before{content:\"\\F02D\"\n}\n.wi-owm-night-202:before{content:\"\\F02D\"\n}\n.wi-owm-night-210:before{content:\"\\F025\"\n}\n.wi-owm-night-211:before{content:\"\\F025\"\n}\n.wi-owm-night-212:before{content:\"\\F025\"\n}\n.wi-owm-night-221:before{content:\"\\F025\"\n}\n.wi-owm-night-230:before{content:\"\\F02D\"\n}\n.wi-owm-night-231:before{content:\"\\F02D\"\n}\n.wi-owm-night-232:before{content:\"\\F02D\"\n}\n.wi-owm-night-300:before{content:\"\\F02B\"\n}\n.wi-owm-night-301:before{content:\"\\F02B\"\n}\n.wi-owm-night-302:before{content:\"\\F028\"\n}\n.wi-owm-night-310:before{content:\"\\F028\"\n}\n.wi-owm-night-311:before{content:\"\\F028\"\n}\n.wi-owm-night-312:before{content:\"\\F028\"\n}\n.wi-owm-night-313:before{content:\"\\F028\"\n}\n.wi-owm-night-314:before{content:\"\\F028\"\n}\n.wi-owm-night-321:before{content:\"\\F02B\"\n}\n.wi-owm-night-500:before{content:\"\\F02B\"\n}\n.wi-owm-night-501:before{content:\"\\F028\"\n}\n.wi-owm-night-502:before{content:\"\\F028\"\n}\n.wi-owm-night-503:before{content:\"\\F028\"\n}\n.wi-owm-night-504:before{content:\"\\F028\"\n}\n.wi-owm-night-511:before{content:\"\\F026\"\n}\n.wi-owm-night-520:before{content:\"\\F029\"\n}\n.wi-owm-night-521:before{content:\"\\F029\"\n}\n.wi-owm-night-522:before{content:\"\\F029\"\n}\n.wi-owm-night-531:before{content:\"\\F02C\"\n}\n.wi-owm-night-600:before{content:\"\\F02A\"\n}\n.wi-owm-night-601:before{content:\"\\F0B4\"\n}\n.wi-owm-night-602:before{content:\"\\F02A\"\n}\n.wi-owm-night-611:before{content:\"\\F026\"\n}\n.wi-owm-night-612:before{content:\"\\F026\"\n}\n.wi-owm-night-615:before{content:\"\\F026\"\n}\n.wi-owm-night-616:before{content:\"\\F026\"\n}\n.wi-owm-night-620:before{content:\"\\F026\"\n}\n.wi-owm-night-621:before{content:\"\\F02A\"\n}\n.wi-owm-night-622:before{content:\"\\F02A\"\n}\n.wi-owm-night-701:before{content:\"\\F029\"\n}\n.wi-owm-night-711:before{content:\"\\F062\"\n}\n.wi-owm-night-721:before{content:\"\\F0B6\"\n}\n.wi-owm-night-731:before{content:\"\\F063\"\n}\n.wi-owm-night-741:before{content:\"\\F04A\"\n}\n.wi-owm-night-761:before{content:\"\\F063\"\n}\n.wi-owm-night-762:before{content:\"\\F063\"\n}\n.wi-owm-night-781:before{content:\"\\F056\"\n}\n.wi-owm-night-800:before{content:\"\\F02E\"\n}\n.wi-owm-night-801:before{content:\"\\F022\"\n}\n.wi-owm-night-802:before{content:\"\\F022\"\n}\n.wi-owm-night-803:before{content:\"\\F022\"\n}\n.wi-owm-night-804:before{content:\"\\F086\"\n}\n.wi-owm-night-900:before{content:\"\\F056\"\n}\n.wi-owm-night-902:before{content:\"\\F073\"\n}\n.wi-owm-night-903:before{content:\"\\F076\"\n}\n.wi-owm-night-904:before{content:\"\\F072\"\n}\n.wi-owm-night-906:before{content:\"\\F024\"\n}\n.wi-owm-night-957:before{content:\"\\F050\"\n}\n.wi-wu-chanceflurries:before{content:\"\\F064\"\n}\n.wi-wu-chancerain:before{content:\"\\F019\"\n}\n.wi-wu-chancesleat:before{content:\"\\F0B5\"\n}\n.wi-wu-chancesnow:before{content:\"\\F01B\"\n}\n.wi-wu-chancetstorms:before{content:\"\\F01E\"\n}\n.wi-wu-clear:before{content:\"\\F00D\"\n}\n.wi-wu-cloudy:before{content:\"\\F002\"\n}\n.wi-wu-flurries:before{content:\"\\F064\"\n}\n.wi-wu-hazy:before{content:\"\\F0B6\"\n}\n.wi-wu-mostlycloudy:before{content:\"\\F002\"\n}\n.wi-wu-mostlysunny:before{content:\"\\F00D\"\n}\n.wi-wu-partlycloudy:before{content:\"\\F002\"\n}\n.wi-wu-partlysunny:before{content:\"\\F00D\"\n}\n.wi-wu-rain:before{content:\"\\F01A\"\n}\n.wi-wu-sleat:before{content:\"\\F0B5\"\n}\n.wi-wu-snow:before{content:\"\\F01B\"\n}\n.wi-wu-sunny:before{content:\"\\F00D\"\n}\n.wi-wu-tstorms:before{content:\"\\F01E\"\n}\n.wi-wu-unknown:before{content:\"\\F00D\"\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ 909:
+/***/ 912:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/fonts/vendor/weathericons/weathericons-regular-webfont.woff?8cac70ebda3f23ce472110d9f21e8593";
 
 /***/ }),
 
-/***/ 910:
+/***/ 913:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(911);
+var content = __webpack_require__(914);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -15693,28 +15686,35 @@ if(false) {
 
 /***/ }),
 
-/***/ 911:
+/***/ 914:
 /***/ (function(module, exports, __webpack_require__) {
 
-var escape = __webpack_require__(243);
+var escape = __webpack_require__(245);
 exports = module.exports = __webpack_require__(49)(false);
 // imports
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/*weather widget*/\n.weather-widget[data-v-758bec7d] {\n    background-image: url(" + escape(__webpack_require__(852)) + ");\n    background-size: cover;\n    color: #fff;\n    padding: 26px 0;\n    position: relative;\n    border-radius: 5px;\n}\n.weather-data .temperature[data-v-758bec7d] {\n    padding-top: 29px;\n    padding-left: 10%;\n}\n.weather-data .temperature h2 span[data-v-758bec7d] {\n    font-size: 60px;\n    margin-right: 40px;\n}\n.weather-data .temperature .icon[data-v-758bec7d] {\n    position: relative;\n    font-size: 82px;\n    z-index: 0;\n}\n.weather-data .temperature .location[data-v-758bec7d] {\n    font-size: 14px;\n    position: absolute;\n}\n.weather-footer[data-v-758bec7d] {\n    background: rgba(0, 0, 0, 0.4);\n    height: 100px;\n    bottom: 0;\n    width: 100%;\n    position: relative;\n    border-bottom-right-radius: 4px;\n    border-bottom-left-radius: 4px;\n}\n.weather-footer h5[data-v-758bec7d] {\n    color: #ccc;\n}\n.weather-footer i[data-v-758bec7d] {\n    font-size: 22px;\n    margin: 5px 0 8px 0;\n}\n.weather-footer p[data-v-758bec7d] {\n    font-size: 15px;\n}\n.weather-footer .popup[data-v-758bec7d] {\n    -webkit-transition: .1s ease-in-out;\n    transition: .1s ease-in-out;\n}\n.weather-footer .popup[data-v-758bec7d]:hover {\n    cursor: pointer;\n    -webkit-transform: scale(1.1);\n            transform: scale(1.1);\n}\n@media screen and (max-width: 768px) {\n.weather-data .temperature h2 span.pull-right[data-v-758bec7d] {\n        font-size: 45px;\n        margin-right: 20px;\n        margin-top: -15px;\n}\n.weather-data .temperature .icon[data-v-758bec7d] {\n        font-size: 40px;\n}\n.weather-widget[data-v-758bec7d] {\n        padding: 70px 0;\n}\n}\n/*weather widget ends*/\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/*weather widget*/\n.weather-widget[data-v-758bec7d] {\n    background-image: url(" + escape(__webpack_require__(915)) + ");\n    background-size: cover;\n    color: #fff;\n    padding: 26px 0;\n    position: relative;\n    border-radius: 5px;\n}\n.weather-data .temperature[data-v-758bec7d] {\n    padding-top: 29px;\n    padding-left: 10%;\n}\n.weather-data .temperature h2 span[data-v-758bec7d] {\n    font-size: 60px;\n    margin-right: 40px;\n}\n.weather-data .temperature .icon[data-v-758bec7d] {\n    position: relative;\n    font-size: 82px;\n    z-index: 0;\n}\n.weather-data .temperature .location[data-v-758bec7d] {\n    font-size: 14px;\n    position: absolute;\n}\n.weather-footer[data-v-758bec7d] {\n    background: rgba(0, 0, 0, 0.4);\n    height: 100px;\n    bottom: 0;\n    width: 100%;\n    position: relative;\n    border-bottom-right-radius: 4px;\n    border-bottom-left-radius: 4px;\n}\n.weather-footer h5[data-v-758bec7d] {\n    color: #ccc;\n}\n.weather-footer i[data-v-758bec7d] {\n    font-size: 22px;\n    margin: 5px 0 8px 0;\n}\n.weather-footer p[data-v-758bec7d] {\n    font-size: 15px;\n}\n.weather-footer .popup[data-v-758bec7d] {\n    -webkit-transition: .1s ease-in-out;\n    transition: .1s ease-in-out;\n}\n.weather-footer .popup[data-v-758bec7d]:hover {\n    cursor: pointer;\n    -webkit-transform: scale(1.1);\n            transform: scale(1.1);\n}\n@media screen and (max-width: 768px) {\n.weather-data .temperature h2 span.pull-right[data-v-758bec7d] {\n        font-size: 45px;\n        margin-right: 20px;\n        margin-top: -15px;\n}\n.weather-data .temperature .icon[data-v-758bec7d] {\n        font-size: 40px;\n}\n.weather-widget[data-v-758bec7d] {\n        padding: 70px 0;\n}\n}\n/*weather widget ends*/\n", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ 912:
+/***/ 915:
+/***/ (function(module, exports) {
+
+module.exports = "/vuejs-laravel/public/images/weathernew.jpg?9cb297ebc24b752abb4d45c5dcbccff3";
+
+/***/ }),
+
+/***/ 916:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_geolocator__ = __webpack_require__(913);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_geolocator__ = __webpack_require__(917);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_geolocator___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_geolocator__);
 //
 //
@@ -15816,7 +15816,7 @@ var options = {
 
 /***/ }),
 
-/***/ 913:
+/***/ 917:
 /***/ (function(module, exports, __webpack_require__) {
 
 (function webpackUniversalModuleDefinition(root, factory) {
@@ -20866,7 +20866,7 @@ module.exports = _geolocator2.default;
 
 /***/ }),
 
-/***/ 914:
+/***/ 918:
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -20965,13 +20965,13 @@ if (false) {
 
 /***/ }),
 
-/***/ 915:
+/***/ 919:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 var chat = [{
     user: "Rickey",
-    image: __webpack_require__(770),
+    image: __webpack_require__(784),
     status: "Lorem ipsum dolor sit ametm  elit.",
     mbl_num: "9876543210",
     work: "Google",
@@ -21014,7 +21014,7 @@ var chat = [{
     }]
 }, {
     user: "Jenny",
-    image: __webpack_require__(773),
+    image: __webpack_require__(785),
     status: "Consec  ipsum  adipisicing.Lorem   elit.",
     mbl_num: "8907654231",
     work: "Apple",
@@ -21053,7 +21053,7 @@ var chat = [{
     }]
 }, {
     user: "David",
-    image: __webpack_require__(768),
+    image: __webpack_require__(780),
     status: "Lorem ipsum dolor ipsum dolor  elit",
     mbl_num: "7894561203",
     work: "Microsoft",
@@ -21088,7 +21088,7 @@ var chat = [{
     }]
 }, {
     user: "Roysingh",
-    image: __webpack_require__(781),
+    image: __webpack_require__(818),
     status: "Dolor ipsum amet elitLorem ipsum ",
     mbl_num: "9587643210",
     work: "Yahoo",
@@ -21111,7 +21111,7 @@ var chat = [{
     }]
 }, {
     user: "Joe",
-    image: __webpack_require__(798),
+    image: __webpack_require__(825),
     status: "Dolor ipsum amet elitLorem ipsum ",
     mbl_num: "8974613215",
     work: "Amazon",
@@ -21134,7 +21134,7 @@ var chat = [{
     }]
 }, {
     user: "Shasla",
-    image: __webpack_require__(780),
+    image: __webpack_require__(793),
     status: "Dolor ipsum dolor dolor elitLorem ",
     mbl_num: "7598642130",
     work: "IBM",
@@ -21161,7 +21161,7 @@ var chat = [{
 
 /***/ }),
 
-/***/ 916:
+/***/ 920:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

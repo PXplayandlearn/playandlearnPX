@@ -6,12 +6,12 @@
                     <div class="img-wrapper"><img :src="this.$store.state.user.picture" alt="user not found" class="rounded-circle"></div>
                     <p class="mt-2 mb-1 user_name_max text-center">{{this.$store.state.user.name}}</p>
                 </div>
+                <div class="shift_left">
                 <div class="leftuser_icons col-12 compact_data">
                     <div class="row">
-                        <div class="col-md-3"><a href="#/user_profile" title="User Profile"><i class="fa fa-user-o"></i></a></div>
-                        <div class="col-md-3"><a href="#/lockscreen" title="Lock screen"><i class="fa fa-lock"  aria-hidden="true"></i></a></div>
-                        <div class="col-md-3"><a href="#/edit_user" title="E-mail"><i class="fa fa-cog"></i></a></div>
-                        <div class="col-md-3 logout_padd"><a href="#/login" title="Logout"><i class="fa fa-sign-out"></i></a></div>
+                      
+                        <div class="col-md-3 logout_padd"><a href="#/login" title="Logout"><i class="fa fa-sign-out"></i><h7>Log out</h7></a></div>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -71,5 +71,7 @@
 .leftuser_icons i{
     color:$menu_color;
 }
-
+.shift_left{
+    margin-left:45px;
+}
 </style>

@@ -1,12 +1,12 @@
 webpackJsonp([26],{
 
-/***/ 1333:
+/***/ 1341:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(1334);
+var content = __webpack_require__(1342);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -27,7 +27,7 @@ if(false) {
 
 /***/ }),
 
-/***/ 1334:
+/***/ 1342:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(49)(false);
@@ -42,7 +42,7 @@ exports.push([module.i, "\n.timeline-container[data-v-6f9647aa] {\n    backgroun
 
 /***/ }),
 
-/***/ 1335:
+/***/ 1343:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -240,7 +240,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /***/ }),
 
-/***/ 1336:
+/***/ 1344:
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -271,7 +271,7 @@ var staticRenderFns = [
             _c("img", {
               staticClass: "author-image float-right img-fluid",
               attrs: {
-                src: __webpack_require__(768),
+                src: __webpack_require__(780),
                 alt: "timeline image1"
               }
             }),
@@ -311,7 +311,7 @@ var staticRenderFns = [
                 _c("img", {
                   staticClass: "circle-author-image p-10 img-fluid",
                   attrs: {
-                    src: __webpack_require__(798),
+                    src: __webpack_require__(825),
                     alt: "author image"
                   }
                 }),
@@ -326,7 +326,7 @@ var staticRenderFns = [
               _c("img", {
                 staticClass: "sharedpost-image img-fluid",
                 attrs: {
-                  src: __webpack_require__(849),
+                  src: __webpack_require__(856),
                   alt: "timeline image2"
                 }
               })
@@ -356,7 +356,7 @@ var staticRenderFns = [
               _c("img", {
                 staticClass: "posted-image p-10 img-fluid",
                 attrs: {
-                  src: __webpack_require__(889),
+                  src: __webpack_require__(896),
                   alt: "timeline image2"
                 }
               })
@@ -394,7 +394,7 @@ var staticRenderFns = [
                 _c("img", {
                   staticClass: "circle-author-image p-10 img-fluid",
                   attrs: {
-                    src: __webpack_require__(781),
+                    src: __webpack_require__(818),
                     alt: "author image"
                   }
                 }),
@@ -462,7 +462,7 @@ var staticRenderFns = [
               _c("img", {
                 staticClass: "sharedpost-image img-fluid",
                 attrs: {
-                  src: __webpack_require__(849),
+                  src: __webpack_require__(856),
                   alt: "timeline image2"
                 }
               })
@@ -515,7 +515,7 @@ var staticRenderFns = [
                 _c("img", {
                   staticClass: "circle-author-image p-10 img-fluid",
                   attrs: {
-                    src: __webpack_require__(1337),
+                    src: __webpack_require__(1345),
                     alt: "author image"
                   }
                 }),
@@ -573,7 +573,7 @@ var staticRenderFns = [
                 _c("img", {
                   staticClass: "posted-image img-fluid",
                   attrs: {
-                    src: __webpack_require__(889),
+                    src: __webpack_require__(896),
                     alt: "timeline image2"
                   }
                 })
@@ -596,26 +596,26 @@ if (false) {
 
 /***/ }),
 
-/***/ 1337:
+/***/ 1345:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/health.png?a62090e1f7199d7547f04ae0036c5b71";
 
 /***/ }),
 
-/***/ 734:
+/***/ 742:
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(1333)
+  __webpack_require__(1341)
 }
-var normalizeComponent = __webpack_require__(242)
+var normalizeComponent = __webpack_require__(244)
 /* script */
-var __vue_script__ = __webpack_require__(1335)
+var __vue_script__ = __webpack_require__(1343)
 /* template */
-var __vue_template__ = __webpack_require__(1336)
+var __vue_template__ = __webpack_require__(1344)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -655,35 +655,35 @@ module.exports = Component.exports
 
 /***/ }),
 
-/***/ 768:
+/***/ 780:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/avatar3.jpg?7e593f7330076b4b89e96f89b9396c0a";
 
 /***/ }),
 
-/***/ 781:
+/***/ 818:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/avatar5.jpg?83fc5fdfbe37fb37db7a2fe84cca6d6d";
 
 /***/ }),
 
-/***/ 798:
+/***/ 825:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/avatar6.jpg?ad632ec07148871732e34440c087874d";
 
 /***/ }),
 
-/***/ 849:
+/***/ 856:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/timeline.jpeg?d4d75cf8dce2b75301785daac6b08473";
 
 /***/ }),
 
-/***/ 889:
+/***/ 896:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/timeline1.jpeg?ba84c7d44073b271195164e3b09d758a";

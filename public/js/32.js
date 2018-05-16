@@ -1,22 +1,22 @@
 webpackJsonp([32],{
 
-/***/ 1267:
+/***/ 1697:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(1268);
+var content = __webpack_require__(1698);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(92)("1eaa27af", content, false, {});
+var update = __webpack_require__(92)("26f9dd26", content, false, {});
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-b1eec904\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./radios_checkboxes.vue", function() {
-     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-b1eec904\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./radios_checkboxes.vue");
+   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-783419c1\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./lockscreen.vue", function() {
+     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-783419c1\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./lockscreen.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -27,271 +27,32 @@ if(false) {
 
 /***/ }),
 
-/***/ 1268:
+/***/ 1698:
 /***/ (function(module, exports, __webpack_require__) {
 
+var escape = __webpack_require__(245);
 exports = module.exports = __webpack_require__(49)(false);
 // imports
 
 
 // module
-exports.push([module.i, "\n.wrapper .primarycheck .custom-control-input:checked ~  .custom-control-label::before,\n.wrapper .primaryradio .custom-control-input:checked ~  .custom-control-label::before{\n    background-color: #428bca !important;\n}\n.wrapper .infocheck .custom-control-input:checked ~  .custom-control-label::before,\n.wrapper .inforadio .custom-control-input:checked ~  .custom-control-label::before{\n    background-color: #4fc1e9 !important;\n}\n.wrapper .warningcheck .custom-control-input:checked ~  .custom-control-label::before,\n.wrapper .warningradio .custom-control-input:checked ~  .custom-control-label::before{\n    background-color: #ffb65f !important;\n}\n.wrapper .dangercheck .custom-control-input:checked ~  .custom-control-label::before,\n.wrapper .dangerradio .custom-control-input:checked ~  .custom-control-label::before{\n    background-color: #fb8678 !important;\n}\n.wrapper .successcheck .custom-control-input:checked ~  .custom-control-label::before,\n.wrapper .successradio .custom-control-input:checked ~  .custom-control-label::before{\n    background-color: #22d69d !important;\n}\n.wrapper .defaultcheck .custom-control-input:checked ~  .custom-control-label::before,\n.wrapper .defaultradio .custom-control-input:checked ~  .custom-control-label::before {\n    background-color: #CCC !important;\n}\ninput {\n    cursor: pointer;\n}\n.cur {\n    cursor: not-allowed;\n}\n", ""]);
+exports.push([module.i, "\n.login-content[data-v-783419c1] {\n    margin-top: 8%;\n    margin-bottom: 7%;\n    -webkit-box-shadow: 0 0 30px #ccc;\n            box-shadow: 0 0 30px #ccc;\n    background-size: 100% 100%;\n}\n.user-img[data-v-783419c1] {\n    margin-bottom: 10px;\n}\n.img_backgrond[data-v-783419c1] {\n    background-image: url(" + escape(__webpack_require__(817)) + ");\n    background-size: cover;\n    height: 100vh;\n    background-repeat: no-repeat;\n    width: 100%;\n    padding: 75px 15px;\n}\nlabel[data-v-783419c1] {\n    font-size: 14px !important;\n}\n[data-v-783419c1]::-webkit-input-placeholder {\n    font-size: 14px;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ 1269:
+/***/ 1699:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue_form__ = __webpack_require__(788);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue_form___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_vue_form__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_src_validations_validations_js__ = __webpack_require__(789);
 //
 //
 //
@@ -331,926 +92,225 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 
-__webpack_require__(1270);
-__webpack_require__(1272);
+
+
+
+__WEBPACK_IMPORTED_MODULE_0_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_1_vue_form___default.a, __WEBPACK_IMPORTED_MODULE_2_src_validations_validations_js__["a" /* default */]);
 /* harmony default export */ __webpack_exports__["default"] = ({
-    name: "radios_checkboxes",
+    name: "lockscreen",
     data: function data() {
         return {
-            options: [{ text: 'First Checkbox', value: 'first' }, { text: 'Second Checkbox', value: 'second' }, { text: 'Third Checkbox', value: 'third' }],
-            checked: true,
-            indeterminate: true,
-            radiooptions: [{ text: 'First radio', value: 'first' }, { text: 'Second radio', value: 'second' }, { text: 'Third radio', value: 'third' }]
+            formstate: {},
+            model: {
+                password: ''
+            }
         };
     },
 
     methods: {
-        changeState: function changeState() {
-            var el = document.getElementById("indeterminateCheckbox");
-            if (el.readOnly) el.checked = el.readOnly = false;else if (!el.checked) el.readOnly = el.indeterminate = true;
+        onSubmit: function onSubmit() {
+            if (this.formstate.$invalid) {
+                return;
+            } else {
+                this.$router.push("/");
+            }
         }
-    }
+    },
+    mounted: function mounted() {},
+    destroyed: function destroyed() {}
 });
 
 /***/ }),
 
-/***/ 1270:
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(1271);
-if(typeof content === 'string') content = [[module.i, content, '']];
-// Prepare cssTransformation
-var transform;
-
-var options = {}
-options.transform = transform
-// add the styles to the DOM
-var update = __webpack_require__(93)(content, options);
-if(content.locals) module.exports = content.locals;
-// Hot Module Replacement
-if(false) {
-	// When the styles change, update the <style> tags
-	if(!content.locals) {
-		module.hot.accept("!!../../../css-loader/index.js!./checkbox.min.css", function() {
-			var newContent = require("!!../../../css-loader/index.js!./checkbox.min.css");
-			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-			update(newContent);
-		});
-	}
-	// When the module is disposed, remove the <style> tags
-	module.hot.dispose(function() { update(); });
-}
-
-/***/ }),
-
-/***/ 1271:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(49)(false);
-// imports
-
-
-// module
-exports.push([module.i, "/*\n * checkbox.css\n * v1.1.3\n * \n * Tiny set of CSS3 animations for your input checkboxes.\n * https://github.com/720kb/checkbox.css\n * \n * MIT license\n * Thu Sep 15 2016\n */\n@-webkit-keyframes hey{50%{-webkit-transform:scale(1.5);transform:scale(1.5);-webkit-filter:blur(20px);filter:blur(20px)}90%{-webkit-filter:blur(40px);filter:blur(40px)}100%{-webkit-transform:none;transform:none;-webkit-filter:none;filter:none}}@keyframes hey{50%{-webkit-transform:scale(1.5);transform:scale(1.5);-webkit-filter:blur(20px);filter:blur(20px)}90%{-webkit-filter:blur(40px);filter:blur(40px)}100%{-webkit-transform:none;transform:none;-webkit-filter:none;filter:none}}.checkbox-hey:checked{-webkit-animation:hey .8s linear;animation:hey .8s linear}@-webkit-keyframes omg{59%{-webkit-transform:translateY(-4px);transform:translateY(-4px)}60%{-webkit-transform:translateX(-8px) translateY(12px);transform:translateX(-8px) translateY(12px)}70%{-webkit-transform:translateY(-8px);transform:translateY(-8px)}80%{-webkit-transform:translateX(8px);transform:translateX(8px)}90%{-webkit-transform:scale(.4);transform:scale(.4)}100%{-webkit-transform:none;transform:none}}@keyframes omg{59%{-webkit-transform:translateY(-4px);transform:translateY(-4px)}60%{-webkit-transform:translateX(-8px) translateY(12px);transform:translateX(-8px) translateY(12px)}70%{-webkit-transform:translateY(-8px);transform:translateY(-8px)}80%{-webkit-transform:translateX(8px);transform:translateX(8px)}90%{-webkit-transform:scale(.4);transform:scale(.4)}100%{-webkit-transform:none;transform:none}}.checkbox-omg:checked{-webkit-animation:omg .5s linear;animation:omg .5s linear}.checkbox-splash:active{-webkit-transform:scale(2);transform:scale(2);-webkit-transition:all .15s linear;transition:all .15s linear}.checkbox-roll:checked{-webkit-transform:rotateX(360deg);transform:rotateX(360deg);-webkit-transition:all .15s linear;transition:all .15s linear}.checkbox-rotate:checked{-webkit-transform:rotate(360deg);transform:rotate(360deg);-webkit-transition:all .2s linear;transition:all .2s linear}.checkbox-down{-webkit-transition:all .15s linear;transition:all .15s linear}.checkbox-up,.checkbox-yo{-webkit-transition:all .15s linear}.checkbox-down:checked{-webkit-transform:translateY(10px);transform:translateY(10px)}.checkbox-up{transition:all .15s linear}.checkbox-up:checked{-webkit-transform:translateY(-10px);transform:translateY(-10px)}.checkbox-yo{transition:all .15s linear}.checkbox-yo:checked{-webkit-transform:rotate(-45deg) translateZ(0);transform:rotate(-45deg) translateZ(0)}@-webkit-keyframes inout{30%{-webkit-transform:scale(1.3);transform:scale(1.3)}70%{-webkit-transform:scale(.3);transform:scale(.3)}90%{-webkit-transform:scale(1);transform:scale(1)}100%{-webkit-transform:none;transform:none}}@keyframes inout{30%{-webkit-transform:scale(1.3);transform:scale(1.3)}70%{-webkit-transform:scale(.3);transform:scale(.3)}90%{-webkit-transform:scale(1);transform:scale(1)}100%{-webkit-transform:none;transform:none}}.checkbox-inout:checked{-webkit-animation:inout .5s linear;animation:inout .5s linear}.checkbox-away{-webkit-transition:all .15s linear;transition:all .15s linear}.checkbox-away:checked{-webkit-transform:translateX(-10px);transform:translateX(-10px)}@-webkit-keyframes jump{50%{-webkit-transform:scale(.6) translateY(-10px);transform:scale(.6) translateY(-10px)}70%{-webkit-transform:scale(.8) translateY(-5px);transform:scale(.8) translateY(-5px)}90%{-webkit-transform:scale(1) translateY(0);transform:scale(1) translateY(0)}100%{-webkit-transform:none;transform:none}}@keyframes jump{50%{-webkit-transform:scale(.6) translateY(-10px);transform:scale(.6) translateY(-10px)}70%{-webkit-transform:scale(.8) translateY(-5px);transform:scale(.8) translateY(-5px)}90%{-webkit-transform:scale(1) translateY(0);transform:scale(1) translateY(0)}100%{-webkit-transform:none;transform:none}}.checkbox-jump:checked{-webkit-animation:jump .35s linear;animation:jump .35s linear}@-webkit-keyframes tv{50%{-webkit-transform:scale(.6) rotateY(100deg) skew(45deg);transform:scale(.6) rotateY(100deg) skew(45deg)}70%{-webkit-transform:scale(.8) rotateY(200deg) skew(70deg);transform:scale(.8) rotateY(200deg) skew(70deg)}90%{-webkit-transform:scale(1) rotateY(500deg) skew(20deg);transform:scale(1) rotateY(500deg) skew(20deg)}100%{-webkit-transform:none;transform:none}}@keyframes tv{50%{-webkit-transform:scale(.6) rotateY(100deg) skew(45deg);transform:scale(.6) rotateY(100deg) skew(45deg)}70%{-webkit-transform:scale(.8) rotateY(200deg) skew(70deg);transform:scale(.8) rotateY(200deg) skew(70deg)}90%{-webkit-transform:scale(1) rotateY(500deg) skew(20deg);transform:scale(1) rotateY(500deg) skew(20deg)}100%{-webkit-transform:none;transform:none}}.checkbox-tv:checked{-webkit-animation:tv .3s linear;animation:tv .3s linear}", ""]);
-
-// exports
-
-
-/***/ }),
-
-/***/ 1272:
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(1273);
-if(typeof content === 'string') content = [[module.i, content, '']];
-// Prepare cssTransformation
-var transform;
-
-var options = {}
-options.transform = transform
-// add the styles to the DOM
-var update = __webpack_require__(93)(content, options);
-if(content.locals) module.exports = content.locals;
-// Hot Module Replacement
-if(false) {
-	// When the styles change, update the <style> tags
-	if(!content.locals) {
-		module.hot.accept("!!../../../css-loader/index.js!./radiobox.min.css", function() {
-			var newContent = require("!!../../../css-loader/index.js!./radiobox.min.css");
-			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-			update(newContent);
-		});
-	}
-	// When the module is disposed, remove the <style> tags
-	module.hot.dispose(function() { update(); });
-}
-
-/***/ }),
-
-/***/ 1273:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(49)(false);
-// imports
-
-
-// module
-exports.push([module.i, "/*\n * radiobox.css\n * v1.0.1\n * \n * Tiny set of CSS3 animations for your radio inputs.\n * https://github.com/720kb/\n * \n * MIT license\n * Thu Sep 15 2016\n */\n@-webkit-keyframes focus{0%{opacity:.4;-webkit-transform:scale(3);transform:scale(3)}10%{-webkit-transform:scale(2.5);transform:scale(2.5)}90%{-webkit-transform:scale(1);transform:scale(1)}100%{-webkit-transform:none;transform:none}}@keyframes focus{0%{opacity:.4;-webkit-transform:scale(3);transform:scale(3)}10%{-webkit-transform:scale(2.5);transform:scale(2.5)}90%{-webkit-transform:scale(1);transform:scale(1)}100%{-webkit-transform:none;transform:none}}.radiobox-focus:checked{-webkit-animation:focus .25s ease-out;animation:focus .25s ease-out}@-webkit-keyframes tremolo{0%{-webkit-transform:translateY(.5px) translateX(-.5px) scale(1) skewY(1deg) skewX(-1deg);transform:translateY(.5px) translateX(-.5px) scale(1) skewY(1deg) skewX(-1deg)}50%{-webkit-transform:translateX(0) translateY(0) scale(1.1) skewY(0) skewX(0);transform:translateX(0) translateY(0) scale(1.1) skewY(0) skewX(0)}90%{-webkit-transform:translateY(-.5px) translateX(.5px) scale(1) skewY(1deg) skewX(-1deg);transform:translateY(-.5px) translateX(.5px) scale(1) skewY(1deg) skewX(-1deg)}100%{-webkit-transform:none;transform:none}}@keyframes tremolo{0%{-webkit-transform:translateY(.5px) translateX(-.5px) scale(1) skewY(1deg) skewX(-1deg);transform:translateY(.5px) translateX(-.5px) scale(1) skewY(1deg) skewX(-1deg)}50%{-webkit-transform:translateX(0) translateY(0) scale(1.1) skewY(0) skewX(0);transform:translateX(0) translateY(0) scale(1.1) skewY(0) skewX(0)}90%{-webkit-transform:translateY(-.5px) translateX(.5px) scale(1) skewY(1deg) skewX(-1deg);transform:translateY(-.5px) translateX(.5px) scale(1) skewY(1deg) skewX(-1deg)}100%{-webkit-transform:none;transform:none}}.radiobox-tremolo:checked{-webkit-animation:tremolo 65ms linear;animation:tremolo 65ms linear;-webkit-animation-iteration-count:7;animation-iteration-count:7}@-webkit-keyframes boing{0%{-webkit-transform:translateY(3px) scaleY(.8);transform:translateY(3px) scaleY(.8)}50%{-webkit-transform:translateY(-5px);transform:translateY(-5px)}90%{opacity:.5;-webkit-transform:translateY(2px) scaleY(1) scaleX(1.5);transform:translateY(2px) scaleY(1) scaleX(1.5)}100%{-webkit-transform:none;transform:none}}@keyframes boing{0%{-webkit-transform:translateY(3px) scaleY(.8);transform:translateY(3px) scaleY(.8)}50%{-webkit-transform:translateY(-5px);transform:translateY(-5px)}90%{opacity:.5;-webkit-transform:translateY(2px) scaleY(1) scaleX(1.5);transform:translateY(2px) scaleY(1) scaleX(1.5)}100%{-webkit-transform:none;transform:none}}.radiobox-boing:checked{-webkit-animation:boing .2s ease-in-out;animation:boing .2s ease-in-out;-webkit-animation-iteration-count:3;animation-iteration-count:3}@-webkit-keyframes scatman{0%{-webkit-transform:translateX(-20px);transform:translateX(-20px)}20%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}40%{-webkit-transform:translateX(-1px);transform:translateX(-1px)}60%{-webkit-transform:translateX(0);transform:translateX(0)}100%{-webkit-transform:none;transform:none}}@keyframes scatman{0%{-webkit-transform:translateX(-20px);transform:translateX(-20px)}20%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}40%{-webkit-transform:translateX(-1px);transform:translateX(-1px)}60%{-webkit-transform:translateX(0);transform:translateX(0)}100%{-webkit-transform:none;transform:none}}.radiobox-scatman:checked{-webkit-animation:scatman .3s ease-in-out;animation:scatman .3s ease-in-out;-webkit-animation-iteration-count:2;animation-iteration-count:2}@-webkit-keyframes ufo{0%{-webkit-transform:scaleY(.8);transform:scaleY(.8)}60%{-webkit-transform:scaleY(1) scaleX(1.43) rotate(270deg);transform:scaleY(1) scaleX(1.43) rotate(270deg)}100%{-webkit-transform:none;transform:none}}@keyframes ufo{0%{-webkit-transform:scaleY(.8);transform:scaleY(.8)}60%{-webkit-transform:scaleY(1) scaleX(1.43) rotate(270deg);transform:scaleY(1) scaleX(1.43) rotate(270deg)}100%{-webkit-transform:none;transform:none}}.radiobox-ufo:checked{-webkit-animation:ufo .2s linear;animation:ufo .2s linear;-webkit-animation-iteration-count:4;animation-iteration-count:4}@-webkit-keyframes flash{0%,60%{-webkit-transform:scale(0);transform:scale(0)}30%{-webkit-transform:scale(.5);transform:scale(.5)}90%{-webkit-transform:scale(1);transform:scale(1)}100%{-webkit-transform:none;transform:none}}@keyframes flash{0%,60%{-webkit-transform:scale(0);transform:scale(0)}30%{-webkit-transform:scale(.5);transform:scale(.5)}90%{-webkit-transform:scale(1);transform:scale(1)}100%{-webkit-transform:none;transform:none}}.radiobox-flash:checked{-webkit-animation:flash .2s cubic-bezier(.03,.61,.17,.97);animation:flash .2s cubic-bezier(.03,.61,.17,.97);-webkit-animation-iteration-count:3;animation-iteration-count:3}@-webkit-keyframes return{0%{-webkit-transform:scale(.3) translateX(7px);transform:scale(.3) translateX(7px)}50%{-webkit-transform:scale(.8) rotate(270deg) translateY(-10px);transform:scale(.8) rotate(270deg) translateY(-10px)}90%{-webkit-transform:skewX(15deg) rotate(270deg);transform:skewX(15deg) rotate(270deg)}}@keyframes return{0%{-webkit-transform:scale(.3) translateX(7px);transform:scale(.3) translateX(7px)}50%{-webkit-transform:scale(.8) rotate(270deg) translateY(-10px);transform:scale(.8) rotate(270deg) translateY(-10px)}90%{-webkit-transform:skewX(15deg) rotate(270deg);transform:skewX(15deg) rotate(270deg)}}.radiobox-return:checked{-webkit-animation:return .25s cubic-bezier(.03,.61,.17,.97);animation:return .25s cubic-bezier(.03,.61,.17,.97);-webkit-animation-iteration-count:1;animation-iteration-count:1}@-webkit-keyframes boom{0%{opacity:.2;-webkit-transform:scale(2);transform:scale(2)}90%{opacity:.01;-webkit-transform:scale(6);transform:scale(6)}100%{-webkit-transform:none;transform:none}}@keyframes boom{0%{opacity:.2;-webkit-transform:scale(2);transform:scale(2)}90%{opacity:.01;-webkit-transform:scale(6);transform:scale(6)}100%{-webkit-transform:none;transform:none}}.radiobox-boom:checked{-webkit-animation:boom .2s ease-in;animation:boom .2s ease-in;-webkit-animation-iteration-count:1;animation-iteration-count:1}@-webkit-keyframes vertigo{0%{-webkit-transform:scale(1) rotate(50deg);transform:scale(1) rotate(50deg)}30%{-webkit-transform:scale(.5) skewX(45deg) translateY(3px) translateX(-3px);transform:scale(.5) skewX(45deg) translateY(3px) translateX(-3px)}60%{-webkit-transform:scale(1.2) skewY(5deg) rotate(0);transform:scale(1.2) skewY(5deg) rotate(0)}90%{-webkit-transform:skew(-9deg,-9deg);transform:skew(-9deg,-9deg)}100%{-webkit-transform:none;transform:none}}@keyframes vertigo{0%{-webkit-transform:scale(1) rotate(50deg);transform:scale(1) rotate(50deg)}30%{-webkit-transform:scale(.5) skewX(45deg) translateY(3px) translateX(-3px);transform:scale(.5) skewX(45deg) translateY(3px) translateX(-3px)}60%{-webkit-transform:scale(1.2) skewY(5deg) rotate(0);transform:scale(1.2) skewY(5deg) rotate(0)}90%{-webkit-transform:skew(-9deg,-9deg);transform:skew(-9deg,-9deg)}100%{-webkit-transform:none;transform:none}}.radiobox-vertigo:checked{-webkit-animation:vertigo .2s ease-in;animation:vertigo .2s ease-in;-webkit-animation-iteration-count:5;animation-iteration-count:5}@-webkit-keyframes pump{0%,100%{-webkit-transform:rotate(15deg) skewX(10deg) skewY(-20deg);transform:rotate(15deg) skewX(10deg) skewY(-20deg)}50%{-webkit-transform:scale(.8);transform:scale(.8)}80%{-webkit-transform:rotate(15deg) skewX(10deg) skewY(-40deg);transform:rotate(15deg) skewX(10deg) skewY(-40deg)}}@keyframes pump{0%,100%{-webkit-transform:rotate(15deg) skewX(10deg) skewY(-20deg);transform:rotate(15deg) skewX(10deg) skewY(-20deg)}50%{-webkit-transform:scale(.8);transform:scale(.8)}80%{-webkit-transform:rotate(15deg) skewX(10deg) skewY(-40deg);transform:rotate(15deg) skewX(10deg) skewY(-40deg)}}@-webkit-keyframes pumpit{0%{-webkit-transform:none;transform:none}50%{-webkit-transform:scale(.8);transform:scale(.8)}80%{-webkit-transform:rotate(-15deg) skewX(-10deg) skewY(40deg);transform:rotate(-15deg) skewX(-10deg) skewY(40deg)}100%{-webkit-transform:rotate(-15deg) skewX(-10deg) skewY(20deg);transform:rotate(-15deg) skewX(-10deg) skewY(20deg)}}@keyframes pumpit{0%{-webkit-transform:none;transform:none}50%{-webkit-transform:scale(.8);transform:scale(.8)}80%{-webkit-transform:rotate(-15deg) skewX(-10deg) skewY(40deg);transform:rotate(-15deg) skewX(-10deg) skewY(40deg)}100%{-webkit-transform:rotate(-15deg) skewX(-10deg) skewY(20deg);transform:rotate(-15deg) skewX(-10deg) skewY(20deg)}}.radiobox-pump:checked{-webkit-animation:pump .4s cubic-bezier(.03,.61,.17,.97),pumpit .4s .4s linear;animation:pump .4s cubic-bezier(.03,.61,.17,.97),pumpit .4s .4s linear;-webkit-animation-iteration-count:1;animation-iteration-count:1}@-webkit-keyframes hooray{0%{opacity:.1;-webkit-transform:scale(5);transform:scale(5)}60%{-webkit-transform:none;transform:none}}@keyframes hooray{0%{opacity:.1;-webkit-transform:scale(5);transform:scale(5)}60%{-webkit-transform:none;transform:none}}.radiobox-hooray:checked{-webkit-animation:hooray .2s ease-in;animation:hooray .2s ease-in;-webkit-animation-iteration-count:3;animation-iteration-count:3}@-webkit-keyframes wheel{0%{-webkit-transform:scale(1) rotate(50deg);transform:scale(1) rotate(50deg)}30%{-webkit-transform:scale(.9) skewX(9deg);transform:scale(.9) skewX(9deg)}60%{-webkit-transform:scale(1.1) skewY(9deg) rotate(270deg);transform:scale(1.1) skewY(9deg) rotate(270deg)}90%{-webkit-transform:skew(-9deg,-9deg);transform:skew(-9deg,-9deg)}100%{-webkit-transform:none;transform:none}}@keyframes wheel{0%{-webkit-transform:scale(1) rotate(50deg);transform:scale(1) rotate(50deg)}30%{-webkit-transform:scale(.9) skewX(9deg);transform:scale(.9) skewX(9deg)}60%{-webkit-transform:scale(1.1) skewY(9deg) rotate(270deg);transform:scale(1.1) skewY(9deg) rotate(270deg)}90%{-webkit-transform:skew(-9deg,-9deg);transform:skew(-9deg,-9deg)}100%{-webkit-transform:none;transform:none}}.radiobox-wheel:checked{-webkit-animation:wheel .1s cubic-bezier(.03,.61,.17,.97);animation:wheel .1s cubic-bezier(.03,.61,.17,.97);-webkit-animation-iteration-count:5;animation-iteration-count:5}.infinite{-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite}", ""]);
-
-// exports
-
-
-/***/ }),
-
-/***/ 1274:
+/***/ 1700:
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "row check" }, [
-    _c(
-      "div",
-      { staticClass: "col-lg-12" },
-      [
-        _c(
-          "b-card",
-          {
-            staticClass: "bg-warning-card",
-            attrs: { header: "Toggle Buttons", "header-tag": "h4" }
-          },
-          [
-            _c("div", { staticClass: "row" }, [
+  return _c("div", { staticClass: "container-fluid img_backgrond" }, [
+    _c("div", { staticClass: "row" }, [
+      _c(
+        "div",
+        {
+          staticClass:
+            "col-lg-4 offset-lg-4 col-sm-6 offset-sm-3 col-xs-10 offset-xs-1 login-content mt-5"
+        },
+        [
+          _vm._m(0),
+          _vm._v(" "),
+          _c(
+            "vue-form",
+            {
+              attrs: { state: _vm.formstate },
+              on: {
+                submit: function($event) {
+                  $event.preventDefault()
+                  return _vm.onSubmit($event)
+                }
+              }
+            },
+            [
               _c(
                 "div",
-                { staticClass: "col-lg-6" },
+                { staticClass: "col-sm-12" },
                 [
-                  _c("h5", [_vm._v("Colors")]),
-                  _vm._v(" "),
-                  _c("toggle-button", {
-                    attrs: {
-                      value: false,
-                      sync: true,
-                      labels: true,
-                      color: { checked: "#09BD8F", unchecked: "#dc6460" }
-                    }
-                  }),
-                  _vm._v(" "),
-                  _c("h5", { staticClass: "mt-3\n" }, [_vm._v("Lables")]),
-                  _vm._v(" "),
-                  _c("toggle-button", {
-                    attrs: {
-                      value: true,
-                      labels: { checked: "Checked", unchecked: "UnChecked" },
-                      width: 100,
-                      color: { checked: "#09BD8F", unchecked: "#dc6460" }
-                    }
-                  }),
-                  _vm._v(" "),
-                  _c("h5", { staticClass: "mt-3" }, [_vm._v("Width")]),
-                  _vm._v(" "),
-                  _c("toggle-button", {
-                    attrs: {
-                      value: true,
-                      labels: true,
-                      width: 50,
-                      color: { checked: "#09BD8F", unchecked: "#dc6460" }
-                    }
-                  }),
-                  _vm._v(" "),
-                  _c("toggle-button", {
-                    attrs: {
-                      value: true,
-                      labels: true,
-                      width: 60,
-                      color: { checked: "#09BD8F", unchecked: "#dc6460" }
-                    }
-                  }),
-                  _vm._v(" "),
-                  _c("toggle-button", {
-                    attrs: {
-                      value: true,
-                      labels: true,
-                      width: 100,
-                      color: { checked: "#09BD8F", unchecked: "#dc6460" }
-                    }
-                  }),
-                  _vm._v(" "),
-                  _c("toggle-button", {
-                    attrs: {
-                      value: true,
-                      labels: true,
-                      width: 120,
-                      color: { checked: "#09BD8F", unchecked: "#dc6460" }
-                    }
-                  })
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "div",
-                { staticClass: "col-lg-6 " },
-                [
-                  _c("h5", { staticClass: "mb-3 mt-3" }, [_vm._v("Basic")]),
-                  _vm._v(" "),
-                  _c("toggle-button", {
-                    staticClass: "mb-5 togglesiwtch",
-                    attrs: {
-                      value: false,
-                      sync: true,
-                      labels: true,
-                      color: { checked: "#6f9dd6", unchecked: "#6f9dd6" }
-                    }
-                  }),
-                  _vm._v(" "),
-                  _c("h5", { staticClass: "mb-3" }, [_vm._v("Disabled")]),
-                  _vm._v(" "),
                   _c(
-                    "div",
-                    { staticClass: "cur" },
+                    "validate",
+                    { attrs: { tag: "div" } },
                     [
-                      _c("toggle-button", {
-                        staticClass: "cur",
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.model.password,
+                            expression: "model.password"
+                          }
+                        ],
+                        staticClass: "form-control",
                         attrs: {
-                          value: false,
-                          sync: true,
-                          labels: true,
-                          disabled: true
+                          name: "password",
+                          type: "password",
+                          required: "",
+                          placeholder: "Password",
+                          minlength: "4",
+                          maxlength: "10"
+                        },
+                        domProps: { value: _vm.model.password },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(_vm.model, "password", $event.target.value)
+                          }
                         }
                       }),
                       _vm._v(" "),
-                      _c("toggle-button", {
-                        staticClass: "cur",
-                        attrs: {
-                          value: true,
-                          sync: true,
-                          labels: true,
-                          disabled: true
-                        }
-                      })
+                      _c(
+                        "field-messages",
+                        {
+                          staticClass: "text-danger",
+                          attrs: {
+                            name: "password",
+                            show: "$invalid && $submitted"
+                          }
+                        },
+                        [
+                          _c(
+                            "div",
+                            { attrs: { slot: "required" }, slot: "required" },
+                            [_vm._v("Password is required")]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { attrs: { slot: "minlength" }, slot: "minlength" },
+                            [
+                              _vm._v(
+                                "Password should be atleast 4 characters long"
+                              )
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { attrs: { slot: "maxlength" }, slot: "maxlength" },
+                            [
+                              _vm._v(
+                                "Password should be atmost 10 characters long"
+                              )
+                            ]
+                          )
+                        ]
+                      )
                     ],
                     1
                   )
                 ],
                 1
-              )
-            ])
-          ]
-        )
-      ],
-      1
-    ),
-    _vm._v(" "),
-    _c(
-      "div",
-      { staticClass: "col-lg-6" },
-      [
-        _c(
-          "b-card",
-          {
-            staticClass: "bg-info-card",
-            attrs: { header: "Checkboxes with animations", "header-tag": "h4" }
-          },
-          [
-            _c("div", { staticClass: "row" }, [
-              _c("div", { staticClass: "col-lg-6" }, [
-                _c("div", [
-                  _c("label", [
-                    _c("input", {
-                      staticClass: "checkbox-hey",
-                      attrs: { type: "checkbox" }
-                    }),
-                    _vm._v(" Hey")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", [
-                  _c("label", [
-                    _c("input", {
-                      staticClass: "checkbox-away",
-                      attrs: { type: "checkbox" }
-                    }),
-                    _vm._v(" Away")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", [
-                  _c("label", [
-                    _c("input", {
-                      staticClass: "checkbox-inout",
-                      attrs: { type: "checkbox" }
-                    }),
-                    _vm._v(" Inout\n                            ")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", [
-                  _c("label", [
-                    _c("input", {
-                      staticClass: "checkbox-rotate",
-                      attrs: { type: "checkbox" }
-                    }),
-                    _vm._v(" Rotate\n                            ")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", [
-                  _c("label", [
-                    _c("input", {
-                      staticClass: "checkbox-yo",
-                      attrs: { type: "checkbox" }
-                    }),
-                    _vm._v(" Yo")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", [
-                  _c("label", [
-                    _c("input", {
-                      staticClass: "checkbox-roll",
-                      attrs: { type: "checkbox" }
-                    }),
-                    _vm._v(" Roll")
-                  ])
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "col-lg-6" }, [
-                _c("div", [
-                  _c("label", [
-                    _c("input", {
-                      staticClass: "checkbox-up",
-                      attrs: { type: "checkbox" }
-                    }),
-                    _vm._v(" Up")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", [
-                  _c("label", [
-                    _c("input", {
-                      staticClass: "checkbox-down",
-                      attrs: { type: "checkbox" }
-                    }),
-                    _vm._v(" Down\n                            ")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", [
-                  _c("label", [
-                    _c("input", {
-                      staticClass: "checkbox-tv",
-                      attrs: { type: "checkbox" }
-                    }),
-                    _vm._v(" Tv")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", [
-                  _c("label", [
-                    _c("input", {
-                      staticClass: "checkbox-jump",
-                      attrs: { type: "checkbox" }
-                    }),
-                    _vm._v(" Jump")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", [
-                  _c("label", [
-                    _c("input", {
-                      staticClass: "checkbox-omg",
-                      attrs: { type: "checkbox" }
-                    }),
-                    _vm._v(" Omg")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", [
-                  _c("label", [
-                    _c("input", {
-                      staticClass: "checkbox-splash",
-                      attrs: { type: "checkbox" }
-                    }),
-                    _vm._v(" Splash")
-                  ])
-                ])
-              ])
-            ])
-          ]
-        )
-      ],
-      1
-    ),
-    _vm._v(" "),
-    _c(
-      "div",
-      { staticClass: "col-lg-6" },
-      [
-        _c(
-          "b-card",
-          {
-            staticClass: "bg-danger-card",
-            attrs: { header: "Radios with animations", "header-tag": "h4" }
-          },
-          [
-            _c("div", { staticClass: "row" }, [
-              _c("div", { staticClass: "col-lg-6" }, [
-                _c("div", [
-                  _c("label", { attrs: { tabindex: "0" } }, [
-                    _c("input", {
-                      staticClass: "radiobox-tremolo",
-                      attrs: { type: "radio", name: "x", value: "1" }
-                    }),
-                    _vm._v(" Tremolo\n                            ")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", [
-                  _c("label", [
-                    _c("input", {
-                      staticClass: "radiobox-boing",
-                      attrs: { type: "radio", name: "x", value: "2" }
-                    }),
-                    _vm._v(" Boing\n                            ")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", [
-                  _c("label", [
-                    _c("input", {
-                      staticClass: "radiobox-boom",
-                      attrs: { type: "radio", name: "x", value: "3" }
-                    }),
-                    _vm._v(" Boom\n                            ")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", [
-                  _c("label", [
-                    _c("input", {
-                      staticClass: "radiobox-flash",
-                      attrs: { type: "radio", name: "x" }
-                    }),
-                    _vm._v(" Flash\n                            ")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", [
-                  _c("label", [
-                    _c("input", {
-                      staticClass: "radiobox-wheel",
-                      attrs: { type: "radio", name: "x" }
-                    }),
-                    _vm._v(" Wheel\n                            ")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", [
-                  _c("label", [
-                    _c("input", {
-                      staticClass: "radiobox-return",
-                      attrs: { type: "radio", name: "x" }
-                    }),
-                    _vm._v(" Return\n                            ")
-                  ])
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "col-lg-6" }, [
-                _c("div", [
-                  _c("label", [
-                    _c("input", {
-                      staticClass: "radiobox-scatman",
-                      attrs: { type: "radio", name: "x" }
-                    }),
-                    _vm._v(" Scatman\n                            ")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: " " }, [
-                  _c("label", [
-                    _c("input", {
-                      staticClass: "radiobox-vertigo",
-                      attrs: { type: "radio", name: "x" }
-                    }),
-                    _vm._v(" Vertigo\n                            ")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", [
-                  _c("label", [
-                    _c("input", {
-                      staticClass: "radiobox-pump",
-                      attrs: { type: "radio", name: "x" }
-                    }),
-                    _vm._v(" Pump")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", [
-                  _c("label", [
-                    _c("input", {
-                      staticClass: "radiobox-focus",
-                      attrs: { type: "radio", name: "x" }
-                    }),
-                    _vm._v(" Focus\n                            ")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", [
-                  _c("label", [
-                    _c("input", {
-                      staticClass: "radiobox-hooray",
-                      attrs: { type: "radio", name: "x" }
-                    }),
-                    _vm._v(" Hooray\n                            ")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", [
-                  _c("label", [
-                    _c("input", {
-                      staticClass: "radiobox-ufo",
-                      attrs: { type: "radio", name: "x" }
-                    }),
-                    _vm._v(" Ufo\n                            ")
-                  ])
-                ])
-              ])
-            ])
-          ]
-        )
-      ],
-      1
-    ),
-    _vm._v(" "),
-    _c(
-      "div",
-      { staticClass: "col-lg-6" },
-      [
-        _c(
-          "b-card",
-          {
-            staticClass: "bg-success-card",
-            attrs: { header: "Check boxes", "header-tag": "h4" }
-          },
-          [
-            _c("div", { staticClass: "row" }, [
-              _c("div", { staticClass: "col-12 mb-2" }, [
-                _c("h5", [_vm._v("Color checkboxes")])
-              ]),
-              _vm._v(" "),
-              _c(
-                "div",
-                { staticClass: "col-lg-4 col-md-6" },
-                [
-                  _c("b-form-checkbox", { staticClass: "primarycheck" }, [
-                    _vm._v("Primary")
-                  ])
-                ],
-                1
               ),
               _vm._v(" "),
-              _c(
-                "div",
-                { staticClass: "col-lg-4 col-md-6" },
-                [
-                  _c("b-form-checkbox", { staticClass: "infocheck" }, [
-                    _vm._v("Info")
-                  ])
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "div",
-                { staticClass: "col-lg-4 col-md-6" },
-                [
-                  _c("b-form-checkbox", { staticClass: "warningcheck" }, [
-                    _vm._v("Warning")
-                  ])
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "div",
-                { staticClass: "col-lg-4 col-md-6" },
-                [
-                  _c("b-form-checkbox", { staticClass: "dangercheck" }, [
-                    _vm._v("Danger")
-                  ])
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "div",
-                { staticClass: "col-lg-4 col-md-6" },
-                [
-                  _c("b-form-checkbox", { staticClass: "successcheck" }, [
-                    _vm._v("Success")
-                  ])
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "div",
-                { staticClass: "col-lg-4 col-md-6" },
-                [
-                  _c("b-form-checkbox", { staticClass: "defaultcheck" }, [
-                    _vm._v("Default")
-                  ])
-                ],
-                1
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "row " }, [
-              _c("div", { staticClass: "col-12 mt-3" }, [
-                _c("h5", [_vm._v("Inline checkboxes")])
-              ]),
-              _vm._v(" "),
-              _c(
-                "div",
-                { staticClass: "col-12" },
-                [
-                  _c("b-form-checkbox-group", {
-                    attrs: { options: _vm.options, name: "radioInline" }
+              _c("div", { staticClass: "col-12 mt-4" }, [
+                _c("div", { staticClass: "form-group" }, [
+                  _c("input", {
+                    staticClass: "btn btn-primary btn-block",
+                    attrs: { type: "submit", value: "Unlock" }
                   })
-                ],
-                1
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "row mt-4" }, [
-              _c("div", { staticClass: "col-12" }, [
-                _c("h5", [_vm._v("Intermediate checkboxes")])
-              ]),
-              _vm._v(" "),
-              _c(
-                "div",
-                { staticClass: "col-lg-4 col-md-6 mt-2" },
-                [
-                  _c(
-                    "b-form-checkbox",
-                    {
-                      attrs: { indeterminate: _vm.indeterminate },
-                      on: {
-                        "update:indeterminate": function($event) {
-                          _vm.indeterminate = $event
-                        }
-                      },
-                      model: {
-                        value: _vm.checked,
-                        callback: function($$v) {
-                          _vm.checked = $$v
-                        },
-                        expression: "checked"
-                      }
-                    },
-                    [
-                      _vm._v(
-                        "\n                            Intermediate\n                        "
-                      )
-                    ]
-                  )
-                ],
-                1
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "row mt-3" }, [
-              _c("div", { staticClass: "col-12" }, [
-                _c("h5", [_vm._v(" Disabled  ")])
-              ]),
-              _vm._v(" "),
-              _c(
-                "div",
-                { staticClass: "col-lg-4 col-md-6 mt-2" },
-                [
-                  _c("b-form-checkbox", { attrs: { disabled: true } }, [
-                    _vm._v("Can't check\n                        ")
-                  ])
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "div",
-                { staticClass: "col-lg-4 col-md-6 mt-2" },
-                [
-                  _c("b-form-checkbox", { attrs: { disabled: true } }, [
-                    _vm._v("This too\n                        ")
-                  ])
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "div",
-                { staticClass: "col-lg-4 col-md-6 mt-2" },
-                [
-                  _c("b-form-checkbox", { attrs: { disabled: true } }, [
-                    _vm._v("And this\n                        ")
-                  ])
-                ],
-                1
-              )
-            ])
-          ]
-        )
-      ],
-      1
-    ),
-    _vm._v(" "),
-    _c(
-      "div",
-      { staticClass: "col-lg-6 " },
-      [
-        _c(
-          "b-card",
-          {
-            staticClass: "bg-info-card",
-            attrs: { header: "Radios", "header-tag": "h4" }
-          },
-          [
-            _c("div", { staticClass: "row" }, [
-              _c("div", { staticClass: "col-12 mb-2" }, [
-                _c("h5", [_vm._v("Color Radios")])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "col-lg-4 col-md-6" }, [
-                _c(
-                  "div",
-                  { staticClass: "custom-controls-stacked" },
-                  [
-                    _c(
-                      "b-form-radio",
-                      {
-                        staticClass: "primaryradio",
-                        attrs: { checked: "false" }
-                      },
-                      [_vm._v("Primary\n                            ")]
-                    )
-                  ],
-                  1
-                )
-              ]),
-              _vm._v(" "),
-              _c(
-                "div",
-                { staticClass: "col-lg-4 col-md-6" },
-                [
-                  _c(
-                    "b-form-radio",
-                    { staticClass: "inforadio", attrs: { checked: "false" } },
-                    [_vm._v("Info\n                        ")]
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "div",
-                { staticClass: "col-lg-4 col-md-6" },
-                [
-                  _c(
-                    "b-form-radio",
-                    {
-                      staticClass: "warningradio",
-                      attrs: { checked: "false" }
-                    },
-                    [_vm._v("Warning\n                        ")]
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "div",
-                { staticClass: "col-lg-4 col-md-6" },
-                [
-                  _c(
-                    "b-form-radio",
-                    { staticClass: "dangerradio", attrs: { checked: "false" } },
-                    [_vm._v("Danger\n                        ")]
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "div",
-                { staticClass: "col-lg-4 col-md-6" },
-                [
-                  _c(
-                    "b-form-radio",
-                    {
-                      staticClass: "successradio",
-                      attrs: { checked: "false" }
-                    },
-                    [_vm._v("Success\n                        ")]
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "div",
-                { staticClass: "col-lg-4 col-md-6 mb-3" },
-                [
-                  _c(
-                    "b-form-radio",
-                    {
-                      staticClass: "defaultradio",
-                      attrs: { checked: "false" }
-                    },
-                    [_vm._v("Default\n                        ")]
-                  )
-                ],
-                1
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "row" }, [
-              _c("div", { staticClass: "col-12" }, [
-                _c("h5", [_vm._v("Inline radios")])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "col-lg-12 mt-2" }, [
-                _c(
-                  "div",
-                  { staticClass: "custom-controls-stacked" },
-                  [
-                    _c("b-form-radio-group", {
-                      attrs: { options: _vm.radiooptions }
-                    })
-                  ],
-                  1
-                )
+                ])
               ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "row mt-4" }, [
-              _c("div", { staticClass: "col-12" }, [
-                _c("h5", [_vm._v(" Disabled state")])
-              ]),
-              _vm._v(" "),
-              _c(
-                "div",
-                { staticClass: "col-lg-6 mt-3" },
-                [
-                  _c(
-                    "b-form-radio",
-                    { attrs: { disabled: true, checked: "false" } },
-                    [_vm._v("Its Disbaled")]
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "div",
-                { staticClass: "col-lg-6 mt-3" },
-                [
-                  _c(
-                    "b-form-radio",
-                    { attrs: { disabled: true, checked: "false" } },
-                    [_vm._v("Can't check")]
-                  )
-                ],
-                1
-              )
-            ])
-          ]
-        )
-      ],
-      1
-    )
+            ]
+          )
+        ],
+        1
+      )
+    ])
   ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-lg-12 col-12 mt-4" }, [
+        _c("h2", { staticClass: "text-center" }, [
+          _c("img", {
+            attrs: { src: __webpack_require__(891), alt: "Logo" }
+          })
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-lg-12 col-12 mt-4" }, [
+        _c("h3", { staticClass: "page-name text-center" }, [
+          _c("img", {
+            staticClass: "rounded-circle img-thumbnail user-img",
+            attrs: { src: __webpack_require__(1701), alt: "user" }
+          })
+        ])
+      ])
+    ])
+  }
+]
 render._withStripped = true
 module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-b1eec904", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-783419c1", module.exports)
   }
 }
 
 /***/ }),
 
-/***/ 724:
+/***/ 1701:
+/***/ (function(module, exports) {
+
+module.exports = "/vuejs-laravel/public/images/User-01.png?6faf6aa5a3f6457147611cadc63e5d10";
+
+/***/ }),
+
+/***/ 773:
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(1267)
+  __webpack_require__(1697)
 }
-var normalizeComponent = __webpack_require__(242)
+var normalizeComponent = __webpack_require__(244)
 /* script */
-var __vue_script__ = __webpack_require__(1269)
+var __vue_script__ = __webpack_require__(1699)
 /* template */
-var __vue_template__ = __webpack_require__(1274)
+var __vue_template__ = __webpack_require__(1700)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = null
+var __vue_scopeId__ = "data-v-783419c1"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
@@ -1261,7 +321,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources\\assets\\components\\pages\\radios_checkboxes.vue"
+Component.options.__file = "resources\\assets\\components\\pages\\lockscreen.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -1270,9 +330,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-b1eec904", Component.options)
+    hotAPI.createRecord("data-v-783419c1", Component.options)
   } else {
-    hotAPI.reload("data-v-b1eec904", Component.options)
+    hotAPI.reload("data-v-783419c1", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -1281,6 +341,1328 @@ if (false) {(function () {
 
 module.exports = Component.exports
 
+
+/***/ }),
+
+/***/ 788:
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(global) {(function (global, factory) {
+	 true ? module.exports = factory() :
+	typeof define === 'function' && define.amd ? define(factory) :
+	(global.VueForm = factory());
+}(this, (function () { 'use strict';
+
+var emailRegExp = /^[a-z0-9!#$%&'*+\/=?^_`{|}~.-]+@[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)*$/i; // from angular
+var urlRegExp = /^(http\:\/\/|https\:\/\/)(.{4,})$/;
+
+var email = function email(value, attrValue, vnode) {
+  return emailRegExp.test(value);
+};
+email._allowNulls = true;
+
+var number = function number(value, attrValue, vnode) {
+  return !isNaN(value);
+};
+number._allowNulls = true;
+
+var url = function url(value, attrValue, vnode) {
+  return urlRegExp.test(value);
+};
+url._allowNulls = true;
+
+var validators = {
+  email: email,
+  number: number,
+  url: url,
+  required: function required(value, attrValue, vnode) {
+    if (attrValue === false) {
+      return true;
+    }
+
+    if (value === 0) {
+      return true;
+    }
+
+    if (vnode.data.attrs && typeof vnode.data.attrs.bool !== 'undefined' || vnode.componentOptions && vnode.componentOptions.propsData && typeof vnode.componentOptions.propsData.bool !== 'undefined') {
+      // bool attribute is present, allow false pass validation
+      if (value === false) {
+        return true;
+      }
+    }
+
+    if (Array.isArray(value)) {
+      return !!value.length;
+    }
+    return !!value;
+  },
+  minlength: function minlength(value, length) {
+    return value.length >= length;
+  },
+  maxlength: function maxlength(value, length) {
+    return length >= value.length;
+  },
+  pattern: function pattern(value, _pattern) {
+    var patternRegExp = new RegExp('^' + _pattern + '$');
+    return patternRegExp.test(value);
+  },
+  min: function min(value, _min, vnode) {
+    if ((vnode.data.attrs.type || '').toLowerCase() == 'number') {
+      return +value >= +_min;
+    }
+    return value >= _min;
+  },
+  max: function max(value, _max, vnode) {
+    if ((vnode.data.attrs.type || '').toLowerCase() == 'number') {
+      return +_max >= +value;
+    }
+    return _max >= value;
+  }
+};
+
+var config = {
+  validators: validators,
+  formComponent: 'vueForm',
+  formTag: 'form',
+  messagesComponent: 'fieldMessages',
+  messagesTag: 'div',
+  showMessages: '',
+  validateComponent: 'validate',
+  validateTag: 'div',
+  fieldComponent: 'field',
+  fieldTag: 'div',
+  formClasses: {
+    dirty: 'vf-form-dirty',
+    pristine: 'vf-form-pristine',
+    valid: 'vf-form-valid',
+    invalid: 'vf-form-invalid',
+    touched: 'vf-form-touched',
+    untouched: 'vf-form-untouched',
+    focused: 'vf-form-focused',
+    submitted: 'vf-form-submitted',
+    pending: 'vf-form-pending'
+  },
+  validateClasses: {
+    dirty: 'vf-field-dirty',
+    pristine: 'vf-field-pristine',
+    valid: 'vf-field-valid',
+    invalid: 'vf-field-invalid',
+    touched: 'vf-field-touched',
+    untouched: 'vf-field-untouched',
+    focused: 'vf-field-focused',
+    submitted: 'vf-field-submitted',
+    pending: 'vf-field-pending'
+  },
+  inputClasses: {
+    dirty: 'vf-dirty',
+    pristine: 'vf-pristine',
+    valid: 'vf-valid',
+    invalid: 'vf-invalid',
+    touched: 'vf-touched',
+    untouched: 'vf-untouched',
+    focused: 'vf-focused',
+    submitted: 'vf-submitted',
+    pending: 'vf-pending'
+  },
+  Promise: typeof Promise === 'function' ? Promise : null
+};
+
+var classCallCheck = function (instance, Constructor) {
+  if (!(instance instanceof Constructor)) {
+    throw new TypeError("Cannot call a class as a function");
+  }
+};
+
+var createClass = function () {
+  function defineProperties(target, props) {
+    for (var i = 0; i < props.length; i++) {
+      var descriptor = props[i];
+      descriptor.enumerable = descriptor.enumerable || false;
+      descriptor.configurable = true;
+      if ("value" in descriptor) descriptor.writable = true;
+      Object.defineProperty(target, descriptor.key, descriptor);
+    }
+  }
+
+  return function (Constructor, protoProps, staticProps) {
+    if (protoProps) defineProperties(Constructor.prototype, protoProps);
+    if (staticProps) defineProperties(Constructor, staticProps);
+    return Constructor;
+  };
+}();
+
+
+
+
+
+var defineProperty = function (obj, key, value) {
+  if (key in obj) {
+    Object.defineProperty(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+
+  return obj;
+};
+
+
+
+var inherits = function (subClass, superClass) {
+  if (typeof superClass !== "function" && superClass !== null) {
+    throw new TypeError("Super expression must either be null or a function, not " + typeof superClass);
+  }
+
+  subClass.prototype = Object.create(superClass && superClass.prototype, {
+    constructor: {
+      value: subClass,
+      enumerable: false,
+      writable: true,
+      configurable: true
+    }
+  });
+  if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass;
+};
+
+
+
+
+
+
+
+
+
+
+
+var possibleConstructorReturn = function (self, call) {
+  if (!self) {
+    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+  }
+
+  return call && (typeof call === "object" || typeof call === "function") ? call : self;
+};
+
+function getClasses(classConfig, state) {
+  var _ref;
+
+  return _ref = {}, defineProperty(_ref, classConfig.dirty, state.$dirty), defineProperty(_ref, classConfig.pristine, state.$pristine), defineProperty(_ref, classConfig.valid, state.$valid), defineProperty(_ref, classConfig.invalid, state.$invalid), defineProperty(_ref, classConfig.touched, state.$touched), defineProperty(_ref, classConfig.untouched, state.$untouched), defineProperty(_ref, classConfig.focused, state.$focused), defineProperty(_ref, classConfig.pending, state.$pending), defineProperty(_ref, classConfig.submitted, state.$submitted), _ref;
+}
+
+function addClass(el, className) {
+  if (el.classList) {
+    el.classList.add(className);
+  } else {
+    el.className += ' ' + className;
+  }
+}
+
+function removeClass(el, className) {
+  if (el.classList) {
+    el.classList.remove(className);
+  } else {
+    el.className = el.className.replace(new RegExp('(^|\\b)' + className.split(' ').join('|') + '(\\b|$)', 'gi'), ' ');
+  }
+}
+
+function vModelValue(data) {
+  if (data.model) {
+    return data.model.value;
+  }
+  return data.directives.filter(function (v) {
+    return v.name === 'model';
+  })[0].value;
+}
+
+function getVModelAndLabel(nodes, config) {
+  var foundVnodes = {
+    vModel: [],
+    label: null,
+    messages: null
+  };
+
+  if (!nodes) {
+    return foundVnodes;
+  }
+
+  function traverse(nodes) {
+    for (var i = 0; i < nodes.length; i++) {
+      var node = nodes[i];
+
+      if (node.componentOptions) {
+        if (node.componentOptions.tag === hyphenate(config.messagesComponent)) {
+          foundVnodes.messages = node;
+        }
+      }
+
+      if (node.tag === 'label' && !foundVnodes.label) {
+        foundVnodes.label = node;
+      }
+
+      if (node.data) {
+        if (node.data.model) {
+          // model check has to come first. If a component has
+          // a directive and v-model, the directive will be in .directives
+          // and v-modelstored in .model
+          foundVnodes.vModel.push(node);
+        } else if (node.data.directives) {
+          var match = node.data.directives.filter(function (v) {
+            return v.name === 'model';
+          });
+          if (match.length) {
+            foundVnodes.vModel.push(node);
+          }
+        }
+      }
+      if (node.children) {
+        traverse(node.children);
+      } else if (node.componentOptions && node.componentOptions.children) {
+        traverse(node.componentOptions.children);
+      }
+    }
+  }
+
+  traverse(nodes);
+
+  return foundVnodes;
+}
+
+function getName(vnode) {
+  if (vnode.data && vnode.data.attrs && vnode.data.attrs.name) {
+    return vnode.data.attrs.name;
+  } else if (vnode.componentOptions && vnode.componentOptions.propsData && vnode.componentOptions.propsData.name) {
+    return vnode.componentOptions.propsData.name;
+  }
+}
+
+var hyphenateRE = /([^-])([A-Z])/g;
+function hyphenate(str) {
+  return str.replace(hyphenateRE, '$1-$2').replace(hyphenateRE, '$1-$2').toLowerCase();
+}
+
+function randomId() {
+  return Math.random().toString(36).substr(2, 10);
+}
+
+// https://davidwalsh.name/javascript-debounce-function
+function debounce(func, wait, immediate) {
+  var timeout;
+  return function () {
+    var context = this,
+        args = arguments;
+    var later = function later() {
+      timeout = null;
+      if (!immediate) func.apply(context, args);
+    };
+    var callNow = immediate && !timeout;
+    clearTimeout(timeout);
+    timeout = setTimeout(later, wait);
+    if (callNow) func.apply(context, args);
+  };
+}
+
+function isShallowObjectDifferent(a, b) {
+  var aValue = '';
+  var bValue = '';
+  Object.keys(a).sort().filter(function (v) {
+    return typeof a[v] !== 'function';
+  }).forEach(function (v) {
+    return aValue += a[v];
+  });
+  Object.keys(b).sort().filter(function (v) {
+    return typeof a[v] !== 'function';
+  }).forEach(function (v) {
+    return bValue += b[v];
+  });
+  return aValue !== bValue;
+}
+
+var vueFormConfig = 'VueFormProviderConfig' + randomId();
+var vueFormState = 'VueFormProviderState' + randomId();
+var vueFormParentForm = 'VueFormProviderParentForm' + randomId();
+
+var hasOwn = Object.prototype.hasOwnProperty;
+var toStr = Object.prototype.toString;
+
+var isArray = function isArray(arr) {
+	if (typeof Array.isArray === 'function') {
+		return Array.isArray(arr);
+	}
+
+	return toStr.call(arr) === '[object Array]';
+};
+
+var isPlainObject = function isPlainObject(obj) {
+	if (!obj || toStr.call(obj) !== '[object Object]') {
+		return false;
+	}
+
+	var hasOwnConstructor = hasOwn.call(obj, 'constructor');
+	var hasIsPrototypeOf = obj.constructor && obj.constructor.prototype && hasOwn.call(obj.constructor.prototype, 'isPrototypeOf');
+	// Not own constructor property must be Object
+	if (obj.constructor && !hasOwnConstructor && !hasIsPrototypeOf) {
+		return false;
+	}
+
+	// Own properties are enumerated firstly, so to speed up,
+	// if last one is own, then all properties are own.
+	var key;
+	for (key in obj) { /**/ }
+
+	return typeof key === 'undefined' || hasOwn.call(obj, key);
+};
+
+var extend = function extend() {
+	var options, name, src, copy, copyIsArray, clone;
+	var target = arguments[0];
+	var i = 1;
+	var length = arguments.length;
+	var deep = false;
+
+	// Handle a deep copy situation
+	if (typeof target === 'boolean') {
+		deep = target;
+		target = arguments[1] || {};
+		// skip the boolean and the target
+		i = 2;
+	}
+	if (target == null || (typeof target !== 'object' && typeof target !== 'function')) {
+		target = {};
+	}
+
+	for (; i < length; ++i) {
+		options = arguments[i];
+		// Only deal with non-null/undefined values
+		if (options != null) {
+			// Extend the base object
+			for (name in options) {
+				src = target[name];
+				copy = options[name];
+
+				// Prevent never-ending loop
+				if (target !== copy) {
+					// Recurse if we're merging plain objects or arrays
+					if (deep && copy && (isPlainObject(copy) || (copyIsArray = isArray(copy)))) {
+						if (copyIsArray) {
+							copyIsArray = false;
+							clone = src && isArray(src) ? src : [];
+						} else {
+							clone = src && isPlainObject(src) ? src : {};
+						}
+
+						// Never move original objects, clone them
+						target[name] = extend(deep, clone, copy);
+
+					// Don't bring in undefined values
+					} else if (typeof copy !== 'undefined') {
+						target[name] = copy;
+					}
+				}
+			}
+		}
+	}
+
+	// Return the modified object
+	return target;
+};
+
+var vueForm = {
+  render: function render(h) {
+    var _this = this;
+
+    return h(this.tag || this.vueFormConfig.formTag, {
+      on: {
+        submit: function submit(event) {
+          if (_this.state.$pending) {
+            event.preventDefault();
+            _this.vueFormConfig.Promise.all(_this.promises).then(function () {
+              _this.state._submit();
+              _this.$emit('submit', event);
+              _this.promises = [];
+            });
+          } else {
+            _this.state._submit();
+            _this.$emit('submit', event);
+          }
+        },
+        reset: function reset(event) {
+          _this.state._reset();
+          _this.$emit('reset', event);
+        }
+      },
+      class: this.className,
+      attrs: {
+        'novalidate': ''
+      }
+    }, [this.$slots.default]);
+  },
+
+  props: {
+    state: {
+      type: Object,
+      required: true
+    },
+    tag: String,
+    showMessages: String
+  },
+  inject: { vueFormConfig: vueFormConfig },
+  provide: function provide() {
+    var _ref;
+
+    return _ref = {}, defineProperty(_ref, vueFormState, this.state), defineProperty(_ref, vueFormParentForm, this), _ref;
+  },
+
+  data: function data() {
+    return {
+      promises: []
+    };
+  },
+  created: function created() {
+    var _this2 = this;
+
+    if (!this.state) {
+      return;
+    }
+    var controls = {};
+    var state = this.state;
+    var formstate = {
+      $dirty: false,
+      $pristine: true,
+      $valid: true,
+      $invalid: false,
+      $submitted: false,
+      $touched: false,
+      $untouched: true,
+      $focused: false,
+      $pending: false,
+      $error: {},
+      $submittedState: {},
+      _id: '',
+      _submit: function _submit() {
+        _this2.state.$submitted = true;
+        _this2.state._cloneState();
+      },
+      _cloneState: function _cloneState() {
+        var cloned = JSON.parse(JSON.stringify(state));
+        delete cloned.$submittedState;
+        Object.keys(cloned).forEach(function (key) {
+          _this2.$set(_this2.state.$submittedState, key, cloned[key]);
+        });
+      },
+      _addControl: function _addControl(ctrl) {
+        controls[ctrl.$name] = ctrl;
+        _this2.$set(state, ctrl.$name, ctrl);
+      },
+      _removeControl: function _removeControl(ctrl) {
+        delete controls[ctrl.$name];
+        _this2.$delete(_this2.state, ctrl.$name);
+        _this2.$delete(_this2.state.$error, ctrl.$name);
+      },
+      _validate: function _validate() {
+        Object.keys(controls).forEach(function (key) {
+          controls[key]._validate();
+        });
+      },
+      _reset: function _reset() {
+        state.$submitted = false;
+        state.$pending = false;
+        state.$submittedState = {};
+        Object.keys(controls).forEach(function (key) {
+          var control = controls[key];
+          control._hasFocused = false;
+          control._setUntouched();
+          control._setPristine();
+          control.$submitted = false;
+          control.$pending = false;
+        });
+      }
+    };
+
+    Object.keys(formstate).forEach(function (key) {
+      _this2.$set(_this2.state, key, formstate[key]);
+    });
+
+    this.$watch('state', function () {
+      var isDirty = false;
+      var isValid = true;
+      var isTouched = false;
+      var isFocused = false;
+      var isPending = false;
+      Object.keys(controls).forEach(function (key) {
+        var control = controls[key];
+
+        control.$submitted = state.$submitted;
+
+        if (control.$dirty) {
+          isDirty = true;
+        }
+        if (control.$touched) {
+          isTouched = true;
+        }
+        if (control.$focused) {
+          isFocused = true;
+        }
+        if (control.$pending) {
+          isPending = true;
+        }
+        if (!control.$valid) {
+          isValid = false;
+          // add control to errors
+          _this2.$set(state.$error, control.$name, control);
+        } else {
+          _this2.$delete(state.$error, control.$name);
+        }
+      });
+
+      state.$dirty = isDirty;
+      state.$pristine = !isDirty;
+      state.$touched = isTouched;
+      state.$untouched = !isTouched;
+      state.$focused = isFocused;
+      state.$valid = isValid;
+      state.$invalid = !isValid;
+      state.$pending = isPending;
+    }, {
+      deep: true,
+      immediate: true
+    });
+
+    /* watch pristine? if set to true, set all children to pristine
+    Object.keys(controls).forEach((ctrl) => {
+      controls[ctrl].setPristine();
+    });*/
+  },
+
+  computed: {
+    className: function className() {
+      var classes = getClasses(this.vueFormConfig.formClasses, this.state);
+      return classes;
+    }
+  },
+  methods: {
+    reset: function reset() {
+      this.state._reset();
+    },
+    validate: function validate() {
+      this.state._validate();
+    }
+  }
+};
+
+var commonjsGlobal = typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};
+
+
+
+
+
+function createCommonjsModule(fn, module) {
+	return module = { exports: {} }, fn(module, module.exports), module.exports;
+}
+
+var scope_eval = createCommonjsModule(function (module) {
+// Generated by CoffeeScript 1.10.0
+(function() {
+  var hasProp = {}.hasOwnProperty,
+    slice = [].slice;
+
+  module.exports = function(source, scope) {
+    var key, keys, value, values;
+    keys = [];
+    values = [];
+    for (key in scope) {
+      if (!hasProp.call(scope, key)) continue;
+      value = scope[key];
+      if (key === 'this') {
+        continue;
+      }
+      keys.push(key);
+      values.push(value);
+    }
+    return Function.apply(null, slice.call(keys).concat(["return eval(" + (JSON.stringify(source)) + ")"])).apply(scope["this"], values);
+  };
+
+}).call(commonjsGlobal);
+});
+
+function findLabel(nodes) {
+  if (!nodes) {
+    return;
+  }
+  for (var i = 0; i < nodes.length; i++) {
+    var vnode = nodes[i];
+    if (vnode.tag === 'label') {
+      return nodes[i];
+    } else if (nodes[i].children) {
+      return findLabel(nodes[i].children);
+    }
+  }
+}
+
+var messages = {
+  inject: { vueFormConfig: vueFormConfig, vueFormState: vueFormState, vueFormParentForm: vueFormParentForm },
+  render: function render(h) {
+    var _this = this;
+
+    var children = [];
+    var field = this.formstate[this.fieldname];
+    if (field && field.$error && this.isShown) {
+      Object.keys(field.$error).forEach(function (key) {
+        if (_this.$slots[key] || _this.$scopedSlots[key]) {
+          var out = _this.$slots[key] || _this.$scopedSlots[key](field);
+          if (_this.autoLabel) {
+            var label = findLabel(out);
+            if (label) {
+              label.data = label.data || {};
+              label.data.attrs = label.data.attrs || {};
+              label.data.attrs.for = field._id;
+            }
+          }
+          children.push(out);
+        }
+      });
+      if (!children.length && field.$valid) {
+        if (this.$slots.default || this.$scopedSlots.default) {
+          var out = this.$slots.default || this.$scopedSlots.default(field);
+          if (this.autoLabel) {
+            var label = findLabel(out);
+            if (label) {
+              label.data = label.data || {};
+              label.data.attrs = label.data.attrs || {};
+              label.data.attrs.for = field._id;
+            }
+          }
+          children.push(out);
+        }
+      }
+    }
+    return h(this.tag || this.vueFormConfig.messagesTag, children);
+  },
+
+  props: {
+    state: Object,
+    name: String,
+    show: {
+      type: String,
+      default: ''
+    },
+    tag: {
+      type: String
+    },
+    autoLabel: Boolean
+  },
+  data: function data() {
+    return {
+      formstate: null,
+      fieldname: ''
+    };
+  },
+  created: function created() {
+    this.fieldname = this.name;
+    this.formstate = this.state || this.vueFormState;
+  },
+
+  computed: {
+    isShown: function isShown() {
+      var field = this.formstate[this.fieldname];
+      var show = this.show || this.vueFormParentForm.showMessages || this.vueFormConfig.showMessages;
+
+      if (!show || !field) {
+        return true;
+      }
+
+      return scope_eval(show, field);
+    }
+  }
+};
+
+var validate = {
+  render: function render(h) {
+    var _this = this;
+
+    var foundVnodes = getVModelAndLabel(this.$slots.default, this.vueFormConfig);
+    var vModelnodes = foundVnodes.vModel;
+    var attrs = {
+      for: null
+    };
+    if (vModelnodes.length) {
+      this.name = getName(vModelnodes[0]);
+
+      if (foundVnodes.messages) {
+        this.$nextTick(function () {
+          var messagesVm = foundVnodes.messages.componentInstance;
+          if (messagesVm) {
+            messagesVm.fieldname = messagesVm.fieldname || _this.name;
+          }
+        });
+      }
+
+      if (this.autoLabel) {
+        var id = vModelnodes[0].data.attrs.id || this.fieldstate._id;
+        this.fieldstate._id = id;
+        vModelnodes[0].data.attrs.id = id;
+        if (foundVnodes.label) {
+          foundVnodes.label.data = foundVnodes.label.data || {};
+          foundVnodes.label.data.attrs = foundVnodes.label.data.attrs || {};
+          foundVnodes.label.data.attrs.for = id;
+        } else if (this.tag === 'label') {
+          attrs.for = id;
+        }
+      }
+      vModelnodes.forEach(function (vnode) {
+        if (!vnode.data.directives) {
+          vnode.data.directives = [];
+        }
+        vnode.data.directives.push({ name: 'vue-form-validator', value: { fieldstate: _this.fieldstate, config: _this.vueFormConfig } });
+        vnode.data.attrs['vue-form-validator'] = '';
+        vnode.data.attrs['debounce'] = _this.debounce;
+      });
+    } else {
+      //console.warn('Element with v-model not found');
+    }
+    return h(this.tag || this.vueFormConfig.validateTag, { 'class': this.className, attrs: attrs }, this.$slots.default);
+  },
+
+  props: {
+    state: Object,
+    custom: null,
+    autoLabel: Boolean,
+    tag: {
+      type: String
+    },
+    debounce: Number
+  },
+  inject: { vueFormConfig: vueFormConfig, vueFormState: vueFormState, vueFormParentForm: vueFormParentForm },
+  data: function data() {
+    return {
+      name: '',
+      formstate: null,
+      fieldstate: {}
+    };
+  },
+
+  methods: {
+    getClasses: function getClasses$$1(classConfig) {
+      var s = this.fieldstate;
+      return Object.keys(s.$error).reduce(function (classes, error) {
+        classes[classConfig.invalid + '-' + hyphenate(error)] = true;
+        return classes;
+      }, getClasses(classConfig, s));
+    }
+  },
+  computed: {
+    className: function className() {
+      return this.getClasses(this.vueFormConfig.validateClasses);
+    },
+    inputClassName: function inputClassName() {
+      return this.getClasses(this.vueFormConfig.inputClasses);
+    }
+  },
+  mounted: function mounted() {
+    var _this2 = this;
+
+    this.fieldstate.$name = this.name;
+    this.formstate._addControl(this.fieldstate);
+
+    var vModelEls = this.$el.querySelectorAll('[vue-form-validator]');
+
+    // add classes to the input element
+    this.$watch('inputClassName', function (value, oldValue) {
+      var out = void 0;
+
+      var _loop = function _loop(i, el) {
+        if (oldValue) {
+          Object.keys(oldValue).filter(function (k) {
+            return oldValue[k];
+          }).forEach(function (k) {
+            return removeClass(el, k);
+          });
+        }
+        out = [];
+        Object.keys(value).filter(function (k) {
+          return value[k];
+        }).forEach(function (k) {
+          out.push(k);
+          addClass(el, k);
+        });
+      };
+
+      for (var i = 0, el; el = vModelEls[i++];) {
+        _loop(i, el);
+      }
+      _this2.fieldstate._className = out;
+    }, {
+      deep: true,
+      immediate: true
+    });
+  },
+  created: function created() {
+    var _this4 = this;
+
+    this.formstate = this.state || this.vueFormState;
+    var vm = this;
+    var pendingValidators = [];
+    var _val = void 0;
+    var prevVnode = void 0;
+    this.fieldstate = {
+      $name: '',
+      $dirty: false,
+      $pristine: true,
+      $valid: true,
+      $invalid: false,
+      $touched: false,
+      $untouched: true,
+      $focused: false,
+      $pending: false,
+      $submitted: false,
+      $error: {},
+      $attrs: {},
+      _className: null,
+      _id: 'vf' + randomId(),
+      _setValidatorVadility: function _setValidatorVadility(validator, isValid) {
+        if (isValid) {
+          vm.$delete(this.$error, validator);
+        } else {
+          vm.$set(this.$error, validator, true);
+        }
+      },
+      _setValidity: function _setValidity(isValid) {
+        this.$valid = isValid;
+        this.$invalid = !isValid;
+      },
+      _setDirty: function _setDirty() {
+        this.$dirty = true;
+        this.$pristine = false;
+      },
+      _setPristine: function _setPristine() {
+        this.$dirty = false;
+        this.$pristine = true;
+      },
+      _setTouched: function _setTouched() {
+        this.$touched = true;
+        this.$untouched = false;
+      },
+      _setUntouched: function _setUntouched() {
+        this.$touched = false;
+        this.$untouched = true;
+      },
+      _setFocused: function _setFocused(value) {
+        this.$focused = typeof value === 'boolean' ? value : false;
+        if (this.$focused) {
+          this._setHasFocused();
+        } else {
+          this._setTouched();
+        }
+      },
+      _setHasFocused: function _setHasFocused() {
+        this._hasFocused = true;
+      },
+
+      _hasFocused: false,
+      _validators: {},
+      _validate: function _validate(vnode) {
+        var _this3 = this;
+
+        if (!vnode) {
+          vnode = prevVnode;
+        } else {
+          prevVnode = vnode;
+        }
+        this.$pending = true;
+        var isValid = true;
+        var emptyAndRequired = false;
+        var value = vModelValue(vnode.data);
+        _val = value;
+
+        var pending = {
+          promises: [],
+          names: []
+        };
+
+        pendingValidators.push(pending);
+
+        var attrs = vnode.data.attrs || {};
+        var childvm = vnode.componentInstance;
+        if (childvm && childvm._vfValidationData_) {
+          attrs = extend({}, attrs, childvm._vfValidationData_);
+        }
+
+        var propsData = vnode.componentOptions && vnode.componentOptions.propsData ? vnode.componentOptions.propsData : {};
+
+        Object.keys(this._validators).forEach(function (validator) {
+          // when value is empty and current validator is not the required validator, the field is valid
+          if ((value === '' || value === undefined || value === null) && validator !== 'required') {
+            _this3._setValidatorVadility(validator, true);
+            emptyAndRequired = true;
+            // return early, required validator will
+            // fall through if it is present
+            return;
+          }
+
+          var attrValue = typeof attrs[validator] !== 'undefined' ? attrs[validator] : propsData[validator];
+          var isFunction = typeof _this3._validators[validator] === 'function';
+
+          // match vue behaviour, ignore if attribute is null or undefined. But for type=email|url|number and custom validators, the value will be null, so allow with _allowNulls
+          if (isFunction && (attrValue === null || typeof attrValue === 'undefined') && !_this3._validators[validator]._allowNulls) {
+            return;
+          }
+
+          if (attrValue) {
+            _this3.$attrs[validator] = attrValue;
+          }
+
+          var result = isFunction ? _this3._validators[validator](value, attrValue, vnode) : vm.custom[validator];
+
+          if (typeof result === 'boolean') {
+            if (result) {
+              _this3._setValidatorVadility(validator, true);
+            } else {
+              isValid = false;
+              _this3._setValidatorVadility(validator, false);
+            }
+          } else {
+            pending.promises.push(result);
+            pending.names.push(validator);
+            vm.vueFormParentForm.promises.push(result);
+          }
+        });
+
+        if (pending.promises.length) {
+          vm.vueFormConfig.Promise.all(pending.promises).then(function (results) {
+
+            // only concerned with the last promise results, in case
+            // async responses return out of order
+            if (pending !== pendingValidators[pendingValidators.length - 1]) {
+              //console.log('ignoring old promise', pending.promises);
+              return;
+            }
+
+            pendingValidators = [];
+
+            results.forEach(function (result, i) {
+              var name = pending.names[i];
+              if (result) {
+                _this3._setValidatorVadility(name, true);
+              } else {
+                isValid = false;
+                _this3._setValidatorVadility(name, false);
+              }
+            });
+            _this3._setValidity(isValid);
+            _this3.$pending = false;
+          });
+        } else {
+          this._setValidity(isValid);
+          this.$pending = false;
+        }
+      }
+    };
+
+    // add custom validators
+    if (this.custom) {
+      Object.keys(this.custom).forEach(function (prop) {
+        if (typeof _this4.custom[prop] === 'function') {
+          _this4.custom[prop]._allowNulls = true;
+          _this4.fieldstate._validators[prop] = _this4.custom[prop];
+        } else {
+          _this4.fieldstate._validators[prop] = _this4.custom[prop];
+        }
+      });
+    }
+
+    this.$watch('custom', function (v, oldV) {
+      if (!oldV) {
+        return;
+      }
+      if (isShallowObjectDifferent(v, oldV)) {
+        _this4.fieldstate._validate();
+      }
+    }, {
+      deep: true
+    });
+  },
+  destroyed: function destroyed() {
+    this.formstate._removeControl(this.fieldstate);
+  }
+};
+
+var field = {
+  inject: { vueFormConfig: vueFormConfig },
+  render: function render(h) {
+    var foundVnodes = getVModelAndLabel(this.$slots.default, this.vueFormConfig);
+    var vModelnodes = foundVnodes.vModel;
+    var attrs = {
+      for: null
+    };
+    if (vModelnodes.length) {
+      if (this.autoLabel) {
+        var id = vModelnodes[0].data.attrs && vModelnodes[0].data.attrs.id || 'vf' + randomId();
+        vModelnodes[0].data.attrs.id = id;
+        if (foundVnodes.label) {
+          foundVnodes.label.data = foundVnodes.label.data || {};
+          foundVnodes.label.data.attrs = foundVnodes.label.data.attrs = {};
+          foundVnodes.label.data.attrs.for = id;
+        } else if (this.tag === 'label') {
+          attrs.for = id;
+        }
+      }
+    }
+    return h(this.tag || this.vueFormConfig.fieldTag, { attrs: attrs }, this.$slots.default);
+  },
+
+  props: {
+    tag: {
+      type: String
+    },
+    autoLabel: {
+      type: Boolean,
+      default: true
+    }
+  }
+};
+
+var debouncedValidators = {};
+
+function addValidators(attrs, validators, fieldValidators) {
+  Object.keys(attrs).forEach(function (attr) {
+    var prop = attr === 'type' ? attrs[attr].toLowerCase() : attr.toLowerCase();
+
+    if (validators[prop] && !fieldValidators[prop]) {
+      fieldValidators[prop] = validators[prop];
+    }
+  });
+}
+
+function compareChanges(vnode, oldvnode, validators) {
+
+  var hasChanged = false;
+  var attrs = vnode.data.attrs || {};
+  var oldAttrs = oldvnode.data.attrs || {};
+  var out = {};
+
+  if (vModelValue(vnode.data) !== vModelValue(oldvnode.data)) {
+    out.vModel = true;
+    hasChanged = true;
+  }
+
+  Object.keys(validators).forEach(function (validator) {
+    if (attrs[validator] !== oldAttrs[validator]) {
+      out[validator] = true;
+      hasChanged = true;
+    }
+  });
+
+  // if is a component
+  if (vnode.componentOptions && vnode.componentOptions.propsData) {
+    var _attrs = vnode.componentOptions.propsData;
+    var _oldAttrs = oldvnode.componentOptions.propsData;
+    Object.keys(validators).forEach(function (validator) {
+      if (_attrs[validator] !== _oldAttrs[validator]) {
+        out[validator] = true;
+        hasChanged = true;
+      }
+    });
+  }
+
+  if (hasChanged) {
+    return out;
+  }
+}
+
+var vueFormValidator = {
+  name: 'vue-form-validator',
+  bind: function bind(el, binding, vnode) {
+    var fieldstate = binding.value.fieldstate;
+    var validators = binding.value.config.validators;
+
+    var attrs = vnode.data.attrs || {};
+    var inputName = getName(vnode);
+
+    if (!inputName) {
+      console.warn('vue-form: name attribute missing');
+      return;
+    }
+
+    if (attrs.debounce) {
+      debouncedValidators[fieldstate._id] = debounce(function (fieldstate, vnode) {
+        if (fieldstate._hasFocused) {
+          fieldstate._setDirty();
+        }
+        fieldstate._validate(vnode);
+      }, attrs.debounce);
+    }
+
+    // add validators
+    addValidators(attrs, validators, fieldstate._validators);
+
+    // if is a component, a validator attribute could be a prop this component uses
+    if (vnode.componentOptions && vnode.componentOptions.propsData) {
+      addValidators(vnode.componentOptions.propsData, validators, fieldstate._validators);
+    }
+
+    fieldstate._validate(vnode);
+
+    // native listeners
+    el.addEventListener('blur', function () {
+      fieldstate._setFocused(false);
+    }, false);
+    el.addEventListener('focus', function () {
+      fieldstate._setFocused(true);
+    }, false);
+
+    // component listeners
+    var vm = vnode.componentInstance;
+    if (vm) {
+      vm.$on('blur', function () {
+        fieldstate._setFocused(false);
+      });
+      vm.$on('focus', function () {
+        fieldstate._setFocused(true);
+      });
+
+      vm.$once('vf:addFocusListeners', function () {
+        el.addEventListener('focusout', function () {
+          fieldstate._setFocused(false);
+        }, false);
+        el.addEventListener('focusin', function () {
+          fieldstate._setFocused(true);
+        }, false);
+      });
+
+      vm.$on('vf:validate', function (data) {
+        if (!vm._vfValidationData_) {
+          addValidators(data, validators, fieldstate._validators);
+        }
+        vm._vfValidationData_ = data;
+        fieldstate._validate(vm.$vnode);
+      });
+    }
+  },
+  update: function update(el, binding, vnode, oldVNode) {
+    var validators = binding.value.config.validators;
+
+    var changes = compareChanges(vnode, oldVNode, validators);
+    var fieldstate = binding.value.fieldstate;
+
+
+    var attrs = vnode.data.attrs || {};
+    var vm = vnode.componentInstance;
+    if (vm && vm._vfValidationData_) {
+      attrs = extend({}, attrs, vm[vm._vfValidationData_]);
+    }
+
+    if (vnode.elm.className.indexOf(fieldstate._className[0]) === -1) {
+      vnode.elm.className = vnode.elm.className + ' ' + fieldstate._className.join(' ');
+    }
+
+    if (!changes) {
+      return;
+    }
+
+    if (changes.vModel) {
+      // re-validate all
+      if (attrs.debounce) {
+        fieldstate.$pending = true;
+        debouncedValidators[fieldstate._id](fieldstate, vnode);
+      } else {
+        if (fieldstate._hasFocused) {
+          fieldstate._setDirty();
+        }
+        fieldstate._validate(vnode);
+      }
+    } else {
+      // attributes have changed
+      // to do: loop through them and re-validate changed ones
+      //for(let prop in changes) {
+      //  fieldstate._validate(vnode, validator);
+      //}
+      // for now
+      fieldstate._validate(vnode);
+    }
+  }
+};
+
+function VueFormBase(options) {
+  var _components;
+
+  var c = extend(true, {}, config, options);
+  this.provide = function () {
+    return defineProperty({}, vueFormConfig, c);
+  };
+  this.components = (_components = {}, defineProperty(_components, c.formComponent, vueForm), defineProperty(_components, c.messagesComponent, messages), defineProperty(_components, c.validateComponent, validate), defineProperty(_components, c.fieldComponent, field), _components);
+  this.directives = { vueFormValidator: vueFormValidator };
+}
+
+var VueForm = function (_VueFormBase) {
+  inherits(VueForm, _VueFormBase);
+
+  function VueForm() {
+    classCallCheck(this, VueForm);
+    return possibleConstructorReturn(this, (VueForm.__proto__ || Object.getPrototypeOf(VueForm)).apply(this, arguments));
+  }
+
+  createClass(VueForm, null, [{
+    key: 'install',
+    value: function install(Vue, options) {
+      Vue.mixin(new this(options));
+    }
+  }, {
+    key: 'installed',
+    get: function get$$1() {
+      return !!this.install.done;
+    },
+    set: function set$$1(val) {
+      this.install.done = val;
+    }
+  }]);
+  return VueForm;
+}(VueFormBase);
+
+VueFormBase.call(VueForm);
+// temp fix for vue 2.3.0
+VueForm.options = new VueForm();
+
+return VueForm;
+
+})));
+
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(28)))
+
+/***/ }),
+
+/***/ 789:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var options = {
+    validators: {
+        checkbox: function checkbox(value, attrValue, vnode) {
+            // return true to set input as $valid, false to set as $invalid
+            return value;
+        },
+        sameas: function sameas(value, attrValue, vnode) {
+            return value == attrValue;
+        }
+    }
+};
+
+/* harmony default export */ __webpack_exports__["a"] = (options);
+
+/***/ }),
+
+/***/ 817:
+/***/ (function(module, exports) {
+
+module.exports = "/vuejs-laravel/public/images/Login-03-01.png?13d89c25d2f5166aa12b08827d4c9b92";
+
+/***/ }),
+
+/***/ 891:
+/***/ (function(module, exports) {
+
+module.exports = "/vuejs-laravel/public/images/logo_black.png?117d588be583d4d6e207df3054b95a99";
 
 /***/ })
 

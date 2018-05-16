@@ -1,4 +1,5 @@
 import layout_routes from './layout'
+import link from './index'
 
 const routes = [{
     path: '/',
@@ -63,36 +64,36 @@ const routes = [{
     
     },  
     {
-        path: '/user-profiles',
-        component: resolve => require(['pages/admin/user-profiles'], resolve),
+        path: '/manager-users',
+        component: resolve => require(['pages/admin/manage-users'], resolve),
         meta: {
-            title: "User Profiles",
+            title: "Manage Users",
         }
     }, 
     {
         path: '/assign-game',
-        component: resolve => require(['pages/assigner/assign-game'], resolve),
+        component: resolve => require(['pages/admin/assign-game'], resolve),
         meta: {
             title: "Assign Game",
         }
     }, 
     {
         path: '/create-game',
-        component: resolve => require(['pages/creator/create-game'], resolve),
+        component: resolve => require(['pages/admin/create-game'], resolve),
         meta: {
             title: "Create Game",
         }
     }, 
     {
         path: '/play-game',
-        component: resolve => require(['pages/player/play-game'], resolve),
+        component: resolve => require(['pages/admin/play-game'], resolve),
         meta: {
             title: "Play Game",
         }
     }, 
     {
         path: '/scoreboard',
-        component: resolve => require(['pages/player/scoreboard'], resolve),
+        component: resolve => require(['pages/admin/scoreboard'], resolve),
         meta: {
             title: "Scoreboard",
         }
@@ -103,6 +104,20 @@ const routes = [{
         meta: {
             title: "Achievements",
         }
-    } 
-]
+    },
+    {
+        path: '/my-profile',
+        component: resolve => require(['pages/user_profile'], resolve),
+        meta: {
+            title: "My Profile",
+        }
+        }, 
+        {
+        path: '/game-summaries',
+        component: resolve => require(['pages/admin/game-summaries'], resolve),
+        meta: {
+            title: "Game Summaries",
+        }
+
+}]
 export default routes

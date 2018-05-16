@@ -1,12 +1,12 @@
 webpackJsonp([24],{
 
-/***/ 1522:
+/***/ 1531:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(1523);
+var content = __webpack_require__(1532);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -27,35 +27,35 @@ if(false) {
 
 /***/ }),
 
-/***/ 1523:
+/***/ 1532:
 /***/ (function(module, exports, __webpack_require__) {
 
-var escape = __webpack_require__(243);
+var escape = __webpack_require__(245);
 exports = module.exports = __webpack_require__(49)(false);
 // imports
 
 
 // module
-exports.push([module.i, "/*tabs styles*/\n.tab-pane .card[data-v-202e51b5] {\n    margin: 0;\n    border: none;\n}\n.name_center[data-v-202e51b5]{\n    margin-left: 12px;\n    margin-top: 5px;\n}\n.name_font[data-v-202e51b5]{\n    font-size: 16px;\n    color: #7B7B7B;\n}\n.number_font[data-v-202e51b5]{\n    font-size: 15px;\n}\n.text_color[data-v-202e51b5]{\n    color: #ccc;\n}\n/*panel style*/\n.panel[data-v-202e51b5] {\n    border: 1px solid #e5e5e5;\n    border-radius: 0;\n    -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, .1);\n            box-shadow: 0 1px 30px rgba(0, 0, 0, .1);\n}\n\n\n/*user-profile*/\n.user-profile[data-v-202e51b5] {\n    color: #777;\n}\n.user-profile .profile-img[data-v-202e51b5] {\n    width: 110px;\n    margin-right: 25px;\n}\n.user-profile .profile-details[data-v-202e51b5] {\n    padding: 10px 0;\n}\n.user-profile .table.account-details > tbody > tr > td[data-v-202e51b5] {\n    padding: 17px 16px;\n}\n.account-details tbody tr[data-v-202e51b5]:hover {\n    background-color: #EEE;\n}\n\n\n/*twitter profile*/\n.tweet-profile .card-header[data-v-202e51b5] {\n    padding-bottom: 45px;\n    background-color: #4cb6e5;\n    color: #FFF;\n}\n.tweet-profile .profile-img img[data-v-202e51b5] {\n    width: 100px;\n    height: 100px;\n    border-radius: 50%;\n    border: 5px solid #fff;\n    margin-top: -50px;\n}\n.tweet-profile .tweet-details[data-v-202e51b5] {\n    font-size: 14px;\n    color: #555;\n    margin-bottom: 15px;\n}\n.tweet-profile .tweet-details .count[data-v-202e51b5] {\n    margin: 0;\n    font-size: 22px;\n}\n.tweet-profile .tweet-details .row div[data-v-202e51b5]:not(:last-child) {\n    border-right: 1px solid #ccc;\n}\n.tweet-profile .events[data-v-202e51b5] {\n    border: 1px solid #bbb;\n    padding-top: 2px;\n    padding-bottom: 2px;\n    margin-top: 15px;\n    margin-right: -20px;\n    font-size: 18px;\n    color: #555;\n}\n.tweet-profile .btn-tweet[data-v-202e51b5] {\n    padding: 5px;\n    margin-top: 14px;\n}\n\n\n/*user page*/\n.m-0[data-v-202e51b5] {\n    margin: 0;\n}\n.user-page .cover-image[data-v-202e51b5] {\n    height: 220px;\n    width: 100%;\n}\n.user-page .user-pic[data-v-202e51b5] {\n    width: 90px;\n    padding: 10px;\n}\n.user-page .post-details[data-v-202e51b5] {\n    display: block;\n    padding-top: 25px;\n    font-size: 14px;\n    color: #777;\n}\n.user-page .views[data-v-202e51b5] {\n    background-color: #e5e5e5;\n    padding-top: 12px;\n    padding-bottom: 12px;\n    color: #555;\n}\n.user-page .views[data-v-202e51b5]:not(:last-child) {\n    border-right: 1px solid #FFF;\n}\n\n\n/*top tabbed panel*/\n.tabbbed-bg[data-v-202e51b5] {\n    padding: 0;\n    background-color: #418AC9;\n    border-bottom: 0;\n}\n.tabbbed-bg a[data-v-202e51b5] {\n    color: #FFF;\n}\n.tabbbed-bg + .panel-body[data-v-202e51b5] {\n    min-height: 313px;\n}\n.desc-img img[data-v-202e51b5] {\n    width: 50px;\n    height: 50px;\n    border-radius: 22px;\n    margin-right: 13px;\n}\n.nav-tabs.nav-justified > li > a[data-v-202e51b5] {\n    border-bottom: 0;\n}\n.panel-heading .nav > li.active > a[data-v-202e51b5],\n.panel-heading .nav > li > a[data-v-202e51b5]:hover {\n    color: #777;\n    background: #fff;\n    border-bottom: 1px solid #fff;\n}\n.tab-pane .d-head[data-v-202e51b5] {\n    font-size: 14px;\n    color: #337ab7;\n    font-weight: bold;\n}\n.tab-pane .c-head[data-v-202e51b5] {\n    font-size: 14px;\n}\n.tab-content .media[data-v-202e51b5] {\n    padding-top: 5px;\n    padding-bottom: 5px;\n}\n\n\n/*weekly data line chart*/\n.stats-chart[data-v-202e51b5] {\n    height: 244px;\n    background-color: #3399ff;\n    font-size: 22px;\n}\n\n\n/*echart*/\n.echarts[data-v-202e51b5] {\n    width: 100%;\n    height: 100%;\n}\n.weekly-stats .shots-likes[data-v-202e51b5] {\n    font-weight: bold;\n    font-size: 24px;\n    padding-top: 15px;\n}\n.weekly-stats .weekly-shots[data-v-202e51b5]:after {\n    content: '';\n    width: 1px;\n    height: 75px;\n    position: absolute;\n    right: 0;\n    top: 10px;\n    border-right: 2px solid #ddd;\n}\n.email-tabs[data-v-202e51b5] {\n    background-color: #efefef;\n    border-bottom: 0;\n}\ntextarea[data-v-202e51b5] {\n    resize: vertical;\n}\nul.mail-list[data-v-202e51b5] {\n    padding: 0;\n}\n.table.mail-list[data-v-202e51b5] {\n    margin: 0;\n    table-layout: fixed;\n    width: 100%;\n}\n.mail-list tbody tr[data-v-202e51b5] {\n    height: 45px\n}\n.mail-list tbody tr[data-v-202e51b5]:hover {\n    background-color: #EEE;\n}\n.mail-list td[data-v-202e51b5]:nth-child(1),\n.mail-list td[data-v-202e51b5]:nth-child(2) {\n    width: 10%;\n}\n.mail-list td[data-v-202e51b5]:nth-child(4) {\n    width: 40%;\n    overflow: hidden;\n    text-overflow: ellipsis;\n}\n.mail-list .custom-checkbox[data-v-202e51b5]{\n    margin-bottom: 0;\n    margin-top: 7px;\n}\n\n\n/*contact widget*/\n.contact-cover[data-v-202e51b5] {\n    height: 175px;\n    width: 100%;\n    background-image: url(" + escape(__webpack_require__(813)) + ");\n    background-size: cover;\n    color: #FFF;\n}\n.contact-widget i[data-v-202e51b5] {\n    cursor: pointer;\n}\n.contact-cover .profile-img[data-v-202e51b5] {\n    width: 60%;\n    height: 100%;\n    padding-top: 37px;\n    padding-left: 6%;\n}\n.contact-cover .profile-img .follow[data-v-202e51b5] {\n    position: absolute;\n    top: 110px;\n    left: 35%;\n    font-size: 16px;\n}\n.contact-cover .profile-img img[data-v-202e51b5] {\n    width: 90px;\n    border-radius: 50px;\n    border: 3px solid white;\n}\n.contact-cover .group-icon[data-v-202e51b5] {\n    width: 20%;\n    height: 100%;\n    background-color: rgba(255, 255, 255, 0.19);\n    font-size: 24px;\n    line-height: 180px;\n}\n.contact-cover .search-icon[data-v-202e51b5] {\n    width: 20%;\n    height: 100%;\n    background-color: rgba(255, 255, 255, 0.31);\n    font-size: 24px;\n    line-height: 180px;\n}\n.contact-widget .contact-details[data-v-202e51b5] {\n    font-size: 18px;\n}\n.contact-widget .contact-details h4[data-v-202e51b5] {\n    font-size: 16px;\n    color: #777;\n}\n\n\n/*weather widget*/\n.weather-widget .card-header[data-v-202e51b5] {\n    background-color: #3AAB88;\n    color: #FFF;\n}\n.weather-widget .location i[data-v-202e51b5] {\n    font-size: 60px;\n}\n.weather-widget .location span[data-v-202e51b5] {\n    font-size: 16px;\n}\n.weather-widget .temperature[data-v-202e51b5] {\n    font-size: 54px;\n}\n.weather-widget .details[data-v-202e51b5] {\n    color: #666;\n    font-size: 14px;\n}\n.weather-widget .details[data-v-202e51b5]:not(:last-child) {\n    border-right: 1px solid #CCC;\n}\n\n\n/*profile 2*/\n.profile-2[data-v-202e51b5] {\n    background-color: #7D5BAA;\n    border-color: #ccc;\n}\n.profile-2 .head[data-v-202e51b5] {\n    padding-top: 14px;\n    padding-bottom: 5px;\n    font-size: 18px;\n    background-color: #FFF;\n}\n.profile-2 .data[data-v-202e51b5] {\n    font-size: 15px;\n    padding-top: 7px;\n    padding-bottom: 6px;\n    color: #FFF;\n}\n.border-right[data-v-202e51b5]:after {\n    content: '';\n    width: 1px;\n    height: 64px;\n    position: absolute;\n    right: 0;\n    top: 0;\n    border-right: 1px solid #FFF;\n}\n.profile-2 .border-bottom[data-v-202e51b5]:after {\n    content: '';\n    width: 100%;\n    height: 1px;\n    position: absolute;\n    bottom: 0;\n    left: 0;\n    border-bottom: 1px solid #FFF;\n}\n.card-body .form-control[data-v-202e51b5]{\n    -webkit-transition: initial;\n    transition: initial;\n}", ""]);
+exports.push([module.i, "/*tabs styles*/\n.tab-pane .card[data-v-202e51b5] {\n    margin: 0;\n    border: none;\n}\n.name_center[data-v-202e51b5]{\n    margin-left: 12px;\n    margin-top: 5px;\n}\n.name_font[data-v-202e51b5]{\n    font-size: 16px;\n    color: #7B7B7B;\n}\n.number_font[data-v-202e51b5]{\n    font-size: 15px;\n}\n.text_color[data-v-202e51b5]{\n    color: #ccc;\n}\n/*panel style*/\n.panel[data-v-202e51b5] {\n    border: 1px solid #e5e5e5;\n    border-radius: 0;\n    -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, .1);\n            box-shadow: 0 1px 30px rgba(0, 0, 0, .1);\n}\n\n\n/*user-profile*/\n.user-profile[data-v-202e51b5] {\n    color: #777;\n}\n.user-profile .profile-img[data-v-202e51b5] {\n    width: 110px;\n    margin-right: 25px;\n}\n.user-profile .profile-details[data-v-202e51b5] {\n    padding: 10px 0;\n}\n.user-profile .table.account-details > tbody > tr > td[data-v-202e51b5] {\n    padding: 17px 16px;\n}\n.account-details tbody tr[data-v-202e51b5]:hover {\n    background-color: #EEE;\n}\n\n\n/*twitter profile*/\n.tweet-profile .card-header[data-v-202e51b5] {\n    padding-bottom: 45px;\n    background-color: #4cb6e5;\n    color: #FFF;\n}\n.tweet-profile .profile-img img[data-v-202e51b5] {\n    width: 100px;\n    height: 100px;\n    border-radius: 50%;\n    border: 5px solid #fff;\n    margin-top: -50px;\n}\n.tweet-profile .tweet-details[data-v-202e51b5] {\n    font-size: 14px;\n    color: #555;\n    margin-bottom: 15px;\n}\n.tweet-profile .tweet-details .count[data-v-202e51b5] {\n    margin: 0;\n    font-size: 22px;\n}\n.tweet-profile .tweet-details .row div[data-v-202e51b5]:not(:last-child) {\n    border-right: 1px solid #ccc;\n}\n.tweet-profile .events[data-v-202e51b5] {\n    border: 1px solid #bbb;\n    padding-top: 2px;\n    padding-bottom: 2px;\n    margin-top: 15px;\n    margin-right: -20px;\n    font-size: 18px;\n    color: #555;\n}\n.tweet-profile .btn-tweet[data-v-202e51b5] {\n    padding: 5px;\n    margin-top: 14px;\n}\n\n\n/*user page*/\n.m-0[data-v-202e51b5] {\n    margin: 0;\n}\n.user-page .cover-image[data-v-202e51b5] {\n    height: 220px;\n    width: 100%;\n}\n.user-page .user-pic[data-v-202e51b5] {\n    width: 90px;\n    padding: 10px;\n}\n.user-page .post-details[data-v-202e51b5] {\n    display: block;\n    padding-top: 25px;\n    font-size: 14px;\n    color: #777;\n}\n.user-page .views[data-v-202e51b5] {\n    background-color: #e5e5e5;\n    padding-top: 12px;\n    padding-bottom: 12px;\n    color: #555;\n}\n.user-page .views[data-v-202e51b5]:not(:last-child) {\n    border-right: 1px solid #FFF;\n}\n\n\n/*top tabbed panel*/\n.tabbbed-bg[data-v-202e51b5] {\n    padding: 0;\n    background-color: #418AC9;\n    border-bottom: 0;\n}\n.tabbbed-bg a[data-v-202e51b5] {\n    color: #FFF;\n}\n.tabbbed-bg + .panel-body[data-v-202e51b5] {\n    min-height: 313px;\n}\n.desc-img img[data-v-202e51b5] {\n    width: 50px;\n    height: 50px;\n    border-radius: 22px;\n    margin-right: 13px;\n}\n.nav-tabs.nav-justified > li > a[data-v-202e51b5] {\n    border-bottom: 0;\n}\n.panel-heading .nav > li.active > a[data-v-202e51b5],\n.panel-heading .nav > li > a[data-v-202e51b5]:hover {\n    color: #777;\n    background: #fff;\n    border-bottom: 1px solid #fff;\n}\n.tab-pane .d-head[data-v-202e51b5] {\n    font-size: 14px;\n    color: #337ab7;\n    font-weight: bold;\n}\n.tab-pane .c-head[data-v-202e51b5] {\n    font-size: 14px;\n}\n.tab-content .media[data-v-202e51b5] {\n    padding-top: 5px;\n    padding-bottom: 5px;\n}\n\n\n/*weekly data line chart*/\n.stats-chart[data-v-202e51b5] {\n    height: 244px;\n    background-color: #3399ff;\n    font-size: 22px;\n}\n\n\n/*echart*/\n.echarts[data-v-202e51b5] {\n    width: 100%;\n    height: 100%;\n}\n.weekly-stats .shots-likes[data-v-202e51b5] {\n    font-weight: bold;\n    font-size: 24px;\n    padding-top: 15px;\n}\n.weekly-stats .weekly-shots[data-v-202e51b5]:after {\n    content: '';\n    width: 1px;\n    height: 75px;\n    position: absolute;\n    right: 0;\n    top: 10px;\n    border-right: 2px solid #ddd;\n}\n.email-tabs[data-v-202e51b5] {\n    background-color: #efefef;\n    border-bottom: 0;\n}\ntextarea[data-v-202e51b5] {\n    resize: vertical;\n}\nul.mail-list[data-v-202e51b5] {\n    padding: 0;\n}\n.table.mail-list[data-v-202e51b5] {\n    margin: 0;\n    table-layout: fixed;\n    width: 100%;\n}\n.mail-list tbody tr[data-v-202e51b5] {\n    height: 45px\n}\n.mail-list tbody tr[data-v-202e51b5]:hover {\n    background-color: #EEE;\n}\n.mail-list td[data-v-202e51b5]:nth-child(1),\n.mail-list td[data-v-202e51b5]:nth-child(2) {\n    width: 10%;\n}\n.mail-list td[data-v-202e51b5]:nth-child(4) {\n    width: 40%;\n    overflow: hidden;\n    text-overflow: ellipsis;\n}\n.mail-list .custom-checkbox[data-v-202e51b5]{\n    margin-bottom: 0;\n    margin-top: 7px;\n}\n\n\n/*contact widget*/\n.contact-cover[data-v-202e51b5] {\n    height: 175px;\n    width: 100%;\n    background-image: url(" + escape(__webpack_require__(858)) + ");\n    background-size: cover;\n    color: #FFF;\n}\n.contact-widget i[data-v-202e51b5] {\n    cursor: pointer;\n}\n.contact-cover .profile-img[data-v-202e51b5] {\n    width: 60%;\n    height: 100%;\n    padding-top: 37px;\n    padding-left: 6%;\n}\n.contact-cover .profile-img .follow[data-v-202e51b5] {\n    position: absolute;\n    top: 110px;\n    left: 35%;\n    font-size: 16px;\n}\n.contact-cover .profile-img img[data-v-202e51b5] {\n    width: 90px;\n    border-radius: 50px;\n    border: 3px solid white;\n}\n.contact-cover .group-icon[data-v-202e51b5] {\n    width: 20%;\n    height: 100%;\n    background-color: rgba(255, 255, 255, 0.19);\n    font-size: 24px;\n    line-height: 180px;\n}\n.contact-cover .search-icon[data-v-202e51b5] {\n    width: 20%;\n    height: 100%;\n    background-color: rgba(255, 255, 255, 0.31);\n    font-size: 24px;\n    line-height: 180px;\n}\n.contact-widget .contact-details[data-v-202e51b5] {\n    font-size: 18px;\n}\n.contact-widget .contact-details h4[data-v-202e51b5] {\n    font-size: 16px;\n    color: #777;\n}\n\n\n/*weather widget*/\n.weather-widget .card-header[data-v-202e51b5] {\n    background-color: #3AAB88;\n    color: #FFF;\n}\n.weather-widget .location i[data-v-202e51b5] {\n    font-size: 60px;\n}\n.weather-widget .location span[data-v-202e51b5] {\n    font-size: 16px;\n}\n.weather-widget .temperature[data-v-202e51b5] {\n    font-size: 54px;\n}\n.weather-widget .details[data-v-202e51b5] {\n    color: #666;\n    font-size: 14px;\n}\n.weather-widget .details[data-v-202e51b5]:not(:last-child) {\n    border-right: 1px solid #CCC;\n}\n\n\n/*profile 2*/\n.profile-2[data-v-202e51b5] {\n    background-color: #7D5BAA;\n    border-color: #ccc;\n}\n.profile-2 .head[data-v-202e51b5] {\n    padding-top: 14px;\n    padding-bottom: 5px;\n    font-size: 18px;\n    background-color: #FFF;\n}\n.profile-2 .data[data-v-202e51b5] {\n    font-size: 15px;\n    padding-top: 7px;\n    padding-bottom: 6px;\n    color: #FFF;\n}\n.border-right[data-v-202e51b5]:after {\n    content: '';\n    width: 1px;\n    height: 64px;\n    position: absolute;\n    right: 0;\n    top: 0;\n    border-right: 1px solid #FFF;\n}\n.profile-2 .border-bottom[data-v-202e51b5]:after {\n    content: '';\n    width: 100%;\n    height: 1px;\n    position: absolute;\n    bottom: 0;\n    left: 0;\n    border-bottom: 1px solid #FFF;\n}\n.card-body .form-control[data-v-202e51b5]{\n    -webkit-transition: initial;\n    transition: initial;\n}", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ 1524:
+/***/ 1533:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(50);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue_echarts_v3_src_full_js__ = __webpack_require__(244);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_echarts_lib_chart_line__ = __webpack_require__(247);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue_echarts_v3_src_full_js__ = __webpack_require__(247);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_echarts_lib_chart_line__ = __webpack_require__(250);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_echarts_lib_chart_line___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_echarts_lib_chart_line__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_echarts_lib_component_tooltip__ = __webpack_require__(246);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_echarts_lib_component_tooltip__ = __webpack_require__(248);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_echarts_lib_component_tooltip___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_echarts_lib_component_tooltip__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_components_widgets_portfolio_portfolio_vue__ = __webpack_require__(900);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_components_widgets_portfolio_portfolio_vue__ = __webpack_require__(905);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_components_widgets_portfolio_portfolio_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_components_widgets_portfolio_portfolio_vue__);
 //
 //
@@ -717,7 +717,7 @@ var unsub;
 
 /***/ }),
 
-/***/ 1525:
+/***/ 1534:
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -763,7 +763,7 @@ var render = function() {
                           _c("article", { staticClass: "media" }, [
                             _c("a", { staticClass: "float-left desc-img" }, [
                               _c("img", {
-                                attrs: { src: __webpack_require__(1526) }
+                                attrs: { src: __webpack_require__(1535) }
                               })
                             ]),
                             _vm._v(" "),
@@ -788,7 +788,7 @@ var render = function() {
                           _c("article", { staticClass: "media" }, [
                             _c("a", { staticClass: "float-left desc-img" }, [
                               _c("img", {
-                                attrs: { src: __webpack_require__(1527) }
+                                attrs: { src: __webpack_require__(1536) }
                               })
                             ]),
                             _vm._v(" "),
@@ -813,7 +813,7 @@ var render = function() {
                           _c("article", { staticClass: "media" }, [
                             _c("a", { staticClass: "float-left desc-img" }, [
                               _c("img", {
-                                attrs: { src: __webpack_require__(1528) }
+                                attrs: { src: __webpack_require__(1537) }
                               })
                             ]),
                             _vm._v(" "),
@@ -848,7 +848,7 @@ var render = function() {
                             _c("a", { staticClass: "float-left desc-img" }, [
                               _c("img", {
                                 attrs: {
-                                  src: __webpack_require__(769)
+                                  src: __webpack_require__(781)
                                 }
                               })
                             ]),
@@ -878,7 +878,7 @@ var render = function() {
                             _c("a", { staticClass: "float-left  desc-img" }, [
                               _c("img", {
                                 attrs: {
-                                  src: __webpack_require__(770)
+                                  src: __webpack_require__(784)
                                 }
                               })
                             ]),
@@ -908,7 +908,7 @@ var render = function() {
                             _c("a", { staticClass: "float-left  desc-img" }, [
                               _c("img", {
                                 attrs: {
-                                  src: __webpack_require__(768)
+                                  src: __webpack_require__(780)
                                 }
                               })
                             ]),
@@ -1618,7 +1618,7 @@ var staticRenderFns = [
             _c("img", {
               staticClass: "img-fluid ml-3 mt-3 mb-3",
               attrs: {
-                src: __webpack_require__(773),
+                src: __webpack_require__(785),
                 alt: "profile image"
               }
             })
@@ -1679,7 +1679,7 @@ var staticRenderFns = [
           _c("img", {
             staticClass: "cover-image img-fluid",
             attrs: {
-              src: __webpack_require__(849),
+              src: __webpack_require__(856),
               alt: "cover-image"
             }
           })
@@ -1690,7 +1690,7 @@ var staticRenderFns = [
             _c("img", {
               staticClass: "user-pic",
               attrs: {
-                src: __webpack_require__(773),
+                src: __webpack_require__(785),
                 alt: "profile image"
               }
             })
@@ -1771,7 +1771,7 @@ var staticRenderFns = [
           _c("div", { staticClass: "contact-cover" }, [
             _c("div", { staticClass: "profile-img float-left" }, [
               _c("img", {
-                attrs: { src: __webpack_require__(770), alt: "" }
+                attrs: { src: __webpack_require__(784), alt: "" }
               }),
               _vm._v(" "),
               _c("span", { staticClass: "follow" }, [
@@ -1965,7 +1965,7 @@ var staticRenderFns = [
             _c("img", {
               staticClass: "img-fluid",
               attrs: {
-                src: __webpack_require__(773),
+                src: __webpack_require__(785),
                 alt: "profile image"
               }
             })
@@ -2051,40 +2051,40 @@ if (false) {
 
 /***/ }),
 
-/***/ 1526:
+/***/ 1535:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/item1.jpg?560cd40622949e225ea605672406bf74";
 
 /***/ }),
 
-/***/ 1527:
+/***/ 1536:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/item2.jpg?cb1555f63928f3c7eb0a8907f5dcc70c";
 
 /***/ }),
 
-/***/ 1528:
+/***/ 1537:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/item3.jpg?d14718f6784393c2d1e4eb80166dd6a6";
 
 /***/ }),
 
-/***/ 739:
+/***/ 747:
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(1522)
+  __webpack_require__(1531)
 }
-var normalizeComponent = __webpack_require__(242)
+var normalizeComponent = __webpack_require__(244)
 /* script */
-var __vue_script__ = __webpack_require__(1524)
+var __vue_script__ = __webpack_require__(1533)
 /* template */
-var __vue_template__ = __webpack_require__(1525)
+var __vue_template__ = __webpack_require__(1534)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -2124,68 +2124,68 @@ module.exports = Component.exports
 
 /***/ }),
 
-/***/ 768:
+/***/ 780:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/avatar3.jpg?7e593f7330076b4b89e96f89b9396c0a";
 
 /***/ }),
 
-/***/ 769:
+/***/ 781:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/avatar1.jpg?2d4968bd8ec1519b0535ba849643dd1c";
 
 /***/ }),
 
-/***/ 770:
+/***/ 784:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/avatar2.jpg?2a26dff9723fa354fe9cb39a4f4529e6";
 
 /***/ }),
 
-/***/ 773:
+/***/ 785:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/avatar4.jpg?25bf7926d4f4c50c95e027395f7019f6";
 
 /***/ }),
 
-/***/ 780:
+/***/ 793:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/avatar.jpg?9ec1314ec47a05d978a1e1568daab7ec";
 
 /***/ }),
 
-/***/ 813:
-/***/ (function(module, exports) {
-
-module.exports = "/vuejs-laravel/public/images/profile-coverbg.jpeg?2fc506bb24ede731416649c1b2957170";
-
-/***/ }),
-
-/***/ 849:
+/***/ 856:
 /***/ (function(module, exports) {
 
 module.exports = "/vuejs-laravel/public/images/timeline.jpeg?d4d75cf8dce2b75301785daac6b08473";
 
 /***/ }),
 
-/***/ 900:
+/***/ 858:
+/***/ (function(module, exports) {
+
+module.exports = "/vuejs-laravel/public/images/profile-coverbg.jpeg?2fc506bb24ede731416649c1b2957170";
+
+/***/ }),
+
+/***/ 905:
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(901)
+  __webpack_require__(906)
 }
-var normalizeComponent = __webpack_require__(242)
+var normalizeComponent = __webpack_require__(244)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(903)
+var __vue_template__ = __webpack_require__(908)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -2225,13 +2225,13 @@ module.exports = Component.exports
 
 /***/ }),
 
-/***/ 901:
+/***/ 906:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(902);
+var content = __webpack_require__(907);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -2252,7 +2252,7 @@ if(false) {
 
 /***/ }),
 
-/***/ 902:
+/***/ 907:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(49)(false);
@@ -2267,7 +2267,7 @@ exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\
 
 /***/ }),
 
-/***/ 903:
+/***/ 908:
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -2288,7 +2288,7 @@ var staticRenderFns = [
             _c("img", {
               staticClass: "user-pic mt-3 mb-2",
               attrs: {
-                src: __webpack_require__(780),
+                src: __webpack_require__(793),
                 alt: "profile image"
               }
             }),

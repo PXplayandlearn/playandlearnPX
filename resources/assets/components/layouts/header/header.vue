@@ -2,7 +2,7 @@
     <header class="header">
         <nav>
             <router-link to="/" class="logo">
-                <img src="~img/logo_black.png" alt="logo" />
+                <img src="~img/playlearnlogosm.png" alt="logo"/>
             </router-link>
             <!-- Sidebar toggle button-->
             <div class="float-left">
@@ -33,7 +33,7 @@
                                     <b-dropdown-item exact>
                                         <div class="row">
                                             <div class="col-2 mt-2 ml-2">
-                                                <img class="rounded-circle" src="~img/authors/avatar1.jpg">
+                                                <img class="rounded-circle" src="~img/authors/download.jpg">
                                             </div>
                                             <div class="col-9 mt-2">
                                                 <p> &nbsp;Lorem ipsum dolor sit amet, elit.

@@ -4,17 +4,29 @@
             <div class="col-lg-4 offset-lg-4 col-sm-6 offset-sm-3 col-xs-10 offset-xs-1 login-content mt-5">
                 <div class="row">
                     <div class="col-sm-12 mt-3">
-                        <h2 class="text-center"><img src="~img/logo_black.png" alt="Logo"></h2>
+                        <h2 class="text-center"><img src="~img/playlearnlogosm.png" alt="Logo"></h2>
                     </div>
                 </div>
                 <vue-form :state="formstate" @submit.prevent="onSubmit">
+
                     <div class="row">
-                        <div class="col-sm-12 mt-3">
+                        <div class="col-sm-6 mt-3">
                             <div class="form-group">
                                 <validate tag="div">
-                                    <label for="user_name"> User Name</label>
-                                    <input v-model="model.username" id="user_name" name="username" type="text" required autofocus placeholder="User Name" class="form-control" />
-                                    <field-messages name="username" show="$invalid && $submitted" class="text-danger">
+                                    <label for="first_name"> First Name</label>
+                                    <input v-model="model.first_name" id="first_name" name="first_name" type="text" required autofocus placeholder="First Name" class="form-control" />
+                                    <field-messages name="first_name" show="$invalid && $submitted" class="text-danger">
+                                        <div slot="required">First Name is a required field</div>
+                                    </field-messages>
+                                </validate>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 mt-3">
+                            <div class="form-group">
+                                <validate tag="div">
+                                    <label for="last_name"> Last Name</label>
+                                    <input v-model="model.last_name" id="last_name" name="last_name" type="text" required autofocus placeholder="Last Name" class="form-control" />
+                                    <field-messages name="last_name" show="$invalid && $submitted" class="text-danger">
                                         <div slot="required">Username is a required field</div>
                                     </field-messages>
                                 </validate>
@@ -97,6 +109,7 @@
 import Vue from 'vue'
 import VueForm from "vue-form";
 import options from "src/validations/validations.js";
+import auth from '../Auth/auth.js';
 Vue.use(VueForm, options);
 export default {
     name: "register",
@@ -104,11 +117,26 @@ export default {
         return {
             formstate: {},
             model: {
-                username: "",
+                first_name: "",
+                last_name: "",
                 email: "",
                 password: '',
                 repeatPassword: '',
-                terms: false
+                terms: false,
+                response: null
+            }
+        }
+    },
+    computed:
+    {
+        formData()
+        {
+            return 
+            {
+                first_name: this.first_name;
+                last_name: this.last_name;
+                email: this.email;
+                password: this.password
             }
         }
     },
@@ -117,7 +145,14 @@ export default {
             if (this.formstate.$invalid) {
                 return;
             } else {
-                this.$router.push("/login");
+                alert('success');
+                auth.register(this, this.first_name, this.last_name, this.email, this.password)
+                /*this.$http.post('/register', this.formData).then(function(response) {
+                  console.log(response);
+              }, function() {
+                  console.log('failed');
+              });*/
+                //this.$router.push("/login");
             }
         }
     }

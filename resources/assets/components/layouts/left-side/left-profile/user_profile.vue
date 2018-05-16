@@ -8,8 +8,7 @@
                 <div class="col-7 compact_data">
                     <p class="text-white mt-2 mb-0 user_name_max">{{this.$store.state.user.name}}</p>
                     <div class="leftuser_icons mt-2">
-                        <span class="float-left"><a href="#/user_profile"><i class="fa fa-user-o text-white"></i></a></span>
-                        <span class="float-left"><a href="#/"><i class="fa fa-envelope-o text-white"></i></a></span>
+                      
                         <span class="float-left"><a href="#/lockscreen"><i class="fa fa-sign-out text-white"></i></a></span>
                     </div>
                 </div>

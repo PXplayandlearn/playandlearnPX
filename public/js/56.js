@@ -1,59 +1,242 @@
 webpackJsonp([56],{
 
-/***/ 1552:
+/***/ 1254:
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(1255);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__(92)("0122e924", content, false, {});
+// Hot Module Replacement
+if(false) {
+ // When the styles change, update the <style> tags
+ if(!content.locals) {
+   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-7b91d118\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./form_elements.vue", function() {
+     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-7b91d118\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./form_elements.vue");
+     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+     update(newContent);
+   });
+ }
+ // When the module is disposed, remove the <style> tags
+ module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ 1255:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(49)(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n#color[data-v-7b91d118] {\n    height: 35px;\n}\n[data-v-7b91d118] .form-control:disabled{\n        cursor: not-allowed;\n}\n.disabled[data-v-7b91d118]{\n        cursor:not-allowed;\n}\n.form-control[data-v-7b91d118]:active, .input-group .form-control[data-v-7b91d118]:hover{\n    z-index: 1;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ 1256:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue_echarts_v3_src_full_js__ = __webpack_require__(244);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_echarts_lib_chart_line__ = __webpack_require__(247);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_echarts_lib_chart_line___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_echarts_lib_chart_line__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_echarts_lib_chart_map__ = __webpack_require__(262);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_echarts_lib_chart_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_echarts_lib_chart_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_echarts_lib_chart_treemap__ = __webpack_require__(263);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_echarts_lib_chart_treemap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_echarts_lib_chart_treemap__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_echarts_lib_chart_graph__ = __webpack_require__(264);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_echarts_lib_chart_graph___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_echarts_lib_chart_graph__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_echarts_lib_chart_gauge__ = __webpack_require__(265);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_echarts_lib_chart_gauge___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_echarts_lib_chart_gauge__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_echarts_lib_chart_funnel__ = __webpack_require__(266);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_echarts_lib_chart_funnel___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_echarts_lib_chart_funnel__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_echarts_lib_chart_parallel__ = __webpack_require__(267);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_echarts_lib_chart_parallel___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_echarts_lib_chart_parallel__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_echarts_lib_chart_sankey__ = __webpack_require__(268);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_echarts_lib_chart_sankey___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_echarts_lib_chart_sankey__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_echarts_lib_chart_boxplot__ = __webpack_require__(269);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_echarts_lib_chart_boxplot___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_echarts_lib_chart_boxplot__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_echarts_lib_component_graphic__ = __webpack_require__(271);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_echarts_lib_component_graphic___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11_echarts_lib_component_graphic__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_echarts_lib_component_grid__ = __webpack_require__(272);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_echarts_lib_component_grid___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12_echarts_lib_component_grid__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_echarts_lib_component_legend__ = __webpack_require__(248);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_echarts_lib_component_legend___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13_echarts_lib_component_legend__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_echarts_lib_component_tooltip__ = __webpack_require__(246);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_echarts_lib_component_tooltip___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_14_echarts_lib_component_tooltip__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_echarts_lib_component_title__ = __webpack_require__(249);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_echarts_lib_component_title___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_15_echarts_lib_component_title__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_echarts_lib_component_dataZoom__ = __webpack_require__(257);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_echarts_lib_component_dataZoom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_16_echarts_lib_component_dataZoom__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17_echarts_lib_component_visualMap__ = __webpack_require__(273);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17_echarts_lib_component_visualMap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_17_echarts_lib_component_visualMap__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18_echarts_lib_component_markPoint__ = __webpack_require__(252);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18_echarts_lib_component_markPoint___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_18_echarts_lib_component_markPoint__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19_echarts_lib_component_markLine__ = __webpack_require__(253);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19_echarts_lib_component_markLine___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_19_echarts_lib_component_markLine__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20_echarts_lib_component_markArea__ = __webpack_require__(274);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20_echarts_lib_component_markArea___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_20_echarts_lib_component_markArea__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21_echarts_lib_component_timeline__ = __webpack_require__(254);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21_echarts_lib_component_timeline___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_21_echarts_lib_component_timeline__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22_echarts_lib_component_toolbox__ = __webpack_require__(255);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22_echarts_lib_component_toolbox___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_22_echarts_lib_component_toolbox__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23_zrender_lib_vml_vml__ = __webpack_require__(250);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23_zrender_lib_vml_vml___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_23_zrender_lib_vml_vml__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24_zrender_lib_graphic_LinearGradient__ = __webpack_require__(129);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24_zrender_lib_graphic_LinearGradient___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_24_zrender_lib_graphic_LinearGradient__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -103,461 +286,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 
-
-//uncomment below line to import all charts at once
-// import IEcharts from 'vue-echarts-v3';
-//use only necessary charts to reduce size of package
-
-
-// import 'echarts/lib/chart/bar';
-
-// import 'echarts/lib/chart/pie';
-// import 'echarts/lib/chart/scatter';
-// import 'echarts/lib/chart/radar';
-
-
-
-
-
-
-
-
-
-
-// import 'echarts/lib/chart/candlestick';
-// import 'echarts/lib/chart/effectScatter';
-// import 'echarts/lib/chart/lines';
-// import 'echarts/lib/chart/heatmap';
-
-
-
-
-
-
-// import 'echarts/lib/component/polar';
-// import 'echarts/lib/component/geo';
-// import 'echarts/lib/component/parallel';
-// import 'echarts/lib/component/singleAxis';
-// import 'echarts/lib/component/brush';
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-var unsub;
 /* harmony default export */ __webpack_exports__["default"] = ({
-    name: "echarts",
-    components: {
-        IEcharts: __WEBPACK_IMPORTED_MODULE_1_vue_echarts_v3_src_full_js__["default"]
-    },
-    data: function data() {
-        return {
-            serverdata: [],
-            instances: [],
-            loading: false,
-            ajaxloading: true,
-            //================line chart data start======
-            line: {
-                tooltip: {},
-                grid: {
-                    top: 10,
-                    bottom: 35,
-                    right: '7%'
-                },
-                xAxis: {
-                    axisLine: {
-                        lineStyle: {
-                            color: '#4d8a77'
-                        }
-                    },
-                    data: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
-                },
-                yAxis: {
-                    axisLine: {
-                        lineStyle: {
-                            color: '#4d8a77'
-                        }
-                    },
-                    axisTick: {
-                        show: true,
-                        alignWithLabel: false,
-                        interval: 'auto',
-                        inside: false,
-                        length: 5
-                    }
-                },
-                series: [{
-                    name: 'item 1',
-                    type: 'line',
-                    symbolSize: 5,
-                    data: [8, 13, 10, 25, 20, 27, 38],
-                    color: '#4d8a77'
-                }, {
-                    name: 'item 2',
-                    type: 'line',
-                    symbolSize: 5,
-                    data: [11, 9, 6, 16, 19, 19, 33],
-                    color: '#4d8a77'
-
-                }]
-            },
-            //================line chart data end======
-            //=========AJAX linechart start=======
-            serverline: {
-                tooltip: {},
-                grid: {
-                    top: 10,
-                    bottom: 35,
-                    right: '7%'
-                },
-                xAxis: {
-                    axisLine: {
-                        lineStyle: {
-                            color: '#46a092'
-                        }
-                    },
-                    data: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
-                },
-                yAxis: {
-                    axisLine: {
-                        lineStyle: {
-                            color: '#46a092'
-                        }
-                    },
-                    axisTick: {
-                        show: true,
-                        alignWithLabel: false,
-                        interval: 'auto',
-                        inside: false,
-                        length: 5
-                    }
-                },
-                series: [{
-                    name: 'item 1',
-                    type: 'line',
-                    symbolSize: 5,
-                    data: [],
-                    color: '#46a092'
-                }, {
-                    name: 'item 2',
-                    type: 'line',
-                    symbolSize: 5,
-                    data: [],
-                    color: '#46a092'
-                }]
-            },
-            //=========AJAX linechart end=========
-            //=======stacked line chart start==========
-            stackedline: {
-                tooltip: {
-                    trigger: 'axis',
-                    axisPointer: {
-                        type: 'cross',
-                        label: {
-                            backgroundColor: '#ccc'
-                        }
-                    }
-                },
-                legend: {
-                    data: ['A', 'B', 'C', 'D', 'E']
-                },
-                toolbox: {
-                    feature: {
-                        saveAsImage: {
-                            title: "Save"
-                        }
-                    }
-                },
-                grid: {
-                    left: '3%',
-                    right: '4%',
-                    bottom: '3%',
-                    containLabel: true
-                },
-                xAxis: [{
-                    type: 'category',
-                    boundaryGap: false,
-                    data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
-                }],
-                yAxis: [{
-                    type: 'value'
-                }],
-                series: [{
-                    name: 'A',
-                    type: 'line',
-                    stack: 'A',
-                    areaStyle: {
-                        normal: {}
-                    },
-                    data: [120, 132, 101, 134, 90, 230, 210]
-                }, {
-                    name: 'B',
-                    type: 'line',
-                    stack: 'B',
-                    areaStyle: {
-                        normal: {}
-                    },
-                    data: [220, 182, 191, 234, 290, 330, 310]
-                }, {
-                    name: 'C',
-                    type: 'line',
-                    stack: 'C',
-                    areaStyle: {
-                        normal: {}
-                    },
-                    data: [150, 232, 201, 154, 190, 330, 410]
-                }, {
-                    name: 'D',
-                    type: 'line',
-                    stack: 'D',
-                    areaStyle: {
-                        normal: {}
-                    },
-                    data: [320, 332, 301, 334, 390, 330, 320]
-                }, {
-                    name: 'E',
-                    type: 'line',
-                    stack: 'E',
-                    label: {
-                        normal: {
-                            show: true,
-                            position: 'top'
-                        }
-                    },
-                    areaStyle: {
-                        normal: {}
-                    },
-                    data: [820, 932, 901, 934, 1290, 1330, 1320]
-                }]
-            },
-            //=======stacked line chart end==========
-            //=======pointers line chart start============
-            pointers: {
-                tooltip: {
-                    trigger: 'axis'
-                },
-                legend: {
-                    data: ['A', 'B']
-                },
-                xAxis: {
-                    type: 'category',
-                    boundaryGap: false,
-                    data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
-                },
-                yAxis: {
-                    type: 'value',
-                    axisLabel: {
-                        formatter: '{value} °C'
-                    }
-                },
-                series: [{
-                    name: 'A',
-                    type: 'line',
-
-                    data: [11, 11, 15, 13, 12, 13, 10],
-                    markPoint: {
-                        data: [{
-                            type: 'max',
-                            name: 'max'
-                        }, {
-                            type: 'min',
-                            name: 'min'
-                        }]
-                    },
-                    markLine: {
-                        data: [{
-                            type: 'average',
-                            name: 'average'
-                        }]
-                    }
-                }, {
-                    name: 'B',
-                    type: 'line',
-                    data: [1, -2, 2, 5, 3, 2, 0],
-                    markPoint: {
-                        data: [{
-                            name: 'week',
-                            value: -2,
-                            xAxis: 1,
-                            yAxis: -1.5
-                        }]
-                    },
-                    markLine: {
-                        data: [{
-                            type: 'average',
-                            name: 'average'
-                        }, [{
-                            symbol: 'none',
-                            x: '90%',
-                            yAxis: 'max'
-                        }, {
-                            symbol: 'circle',
-                            label: {
-                                normal: {
-                                    position: 'start',
-                                    formatter: 'max'
-                                }
-                            },
-                            type: 'max',
-                            name: 'max'
-                        }]]
-                    }
-                }]
-            },
-            //=======pointers line chart end============
-            // ======area chart start================
-            area_chart: {
-                title: {
-                    text: '',
-                    subtext: ''
-                },
-                tooltip: {
-                    trigger: 'axis'
-                },
-                legend: {
-                    data: ['A', 'B', 'C']
-                },
-
-                calculable: true,
-                xAxis: [{
-                    type: 'category',
-                    boundaryGap: false,
-                    data: ['Mon', 'Tue', 'Wen', 'Thr', 'Fri', 'Sat', 'Sun']
-                }],
-                yAxis: [{
-                    type: 'value'
-                }],
-                series: [{
-                    name: 'A',
-                    type: 'line',
-                    smooth: true,
-
-                    itemStyle: {
-                        normal: {
-                            areaStyle: {
-                                type: 'default',
-                                color: '#e29e9f'
-                            }
-                        }
-                    },
-                    data: [10, 12, 21, 54, 260, 830, 710]
-                }, {
-                    name: 'B',
-                    type: 'line',
-                    smooth: true,
-                    itemStyle: {
-                        normal: {
-                            areaStyle: {
-                                type: 'default',
-                                color: '#8db4b7'
-                            }
-                        }
-                    },
-                    data: [30, 182, 434, 791, 390, 30, 10]
-                }, {
-                    name: 'C',
-                    type: 'line',
-                    smooth: true,
-                    itemStyle: {
-                        normal: {
-                            areaStyle: {
-                                type: 'default',
-                                color: '#82a779'
-                            }
-                        }
-                    },
-                    data: [1320, 1132, 601, 234, 120, 90, 20]
-                }]
-            },
-            // =============area chart end==========
-            // =================dischart Start==========
-            dischart: {
-                tooltip: {
-                    trigger: 'axis'
-                },
-
-                dataZoom: {
-                    show: true,
-                    realtime: true,
-                    y: 36,
-                    height: 20,
-                    start: 40,
-                    end: 60
-                },
-                xAxis: [{
-                    type: 'category',
-                    boundaryGap: false,
-                    data: function () {
-                        var list = [];
-                        var n = 0;
-                        while (n++ < 150) {
-                            list.push(n);
-                        }
-                        return list;
-                    }()
-                }],
-                yAxis: [{
-                    type: 'value'
-                }],
-                series: [{
-                    name: 'dz',
-                    type: 'line',
-                    data: function () {
-                        var list = [];
-                        for (var i = 1; i <= 150; i++) {
-                            list.push(Math.round(Math.random() * 30));
-                        }
-                        return list;
-                    }()
-                }],
-                calculable: false
-            }
-        };
-    },
-
-    mounted: function mounted() {
-        var _this = this;
-
-        unsub = this.$store.subscribe(function (mutation, state) {
-            if (mutation.type == "left_menu") {
-                _this.instances.forEach(function (item, index) {
-                    setTimeout(function () {
-                        item.resize();
-                    });
-                });
-            }
-        });
-        axios.get("http://www.filltext.com/?rows=2&chartdata={numberArray|7,50}").then(function (response) {
-            for (var i = 0; i < response.data.length; i++) {
-                _this.serverline.series[i].data = response.data[i].chartdata;
-            }
-            _this.ajaxloading = false;
-        }).catch(function (error) {});
-    },
-    beforeRouteLeave: function beforeRouteLeave(to, from, next) {
-        unsub();next();
-    },
-
-    methods: {
-        onReady: function onReady(instance) {
-            this.instances.push(instance);
-        }
-    }
+    name: "formelements",
+    mounted: function mounted() {},
+    destroyed: function destroyed() {}
 });
 
 /***/ }),
 
-/***/ 1553:
+/***/ 1257:
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -568,169 +305,839 @@ var render = function() {
     _c("div", { staticClass: "row" }, [
       _c(
         "div",
-        { staticClass: "col-lg-6 mb-3" },
+        { staticClass: "col-lg-12" },
         [
           _c(
             "b-card",
             {
-              staticClass: "bg-primary-card",
-              attrs: { header: "Basic Line chart", "header-tag": "h4" }
+              staticClass: "mb-2 bg-default-card",
+              attrs: { header: "Form Elements", "header-tag": "h4" }
             },
             [
-              _c(
-                "div",
-                { staticStyle: { height: "350px" } },
-                [
-                  _c("IEcharts", {
-                    attrs: { option: _vm.line, loading: _vm.loading },
-                    on: { ready: _vm.onReady }
-                  })
-                ],
-                1
-              )
-            ]
-          )
-        ],
-        1
-      ),
-      _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "col-lg-6 mb-3" },
-        [
-          _c(
-            "b-card",
-            {
-              staticClass: "bg-success-card",
-              attrs: { header: "AJAX Line chart", "header-tag": "h4" }
-            },
-            [
-              _c(
-                "div",
-                { staticStyle: { height: "350px" } },
-                [
-                  _c("IEcharts", {
-                    attrs: { option: _vm.serverline, loading: _vm.ajaxloading },
-                    on: { ready: _vm.onReady }
-                  })
-                ],
-                1
-              )
-            ]
-          )
-        ],
-        1
-      ),
-      _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "col-lg-12 mb-3" },
-        [
-          _c(
-            "b-card",
-            {
-              staticClass: "bg-primary-card",
-              attrs: { header: "Stacked Area chart", "header-tag": "h4" }
-            },
-            [
-              _c(
-                "div",
-                { staticStyle: { height: "350px" } },
-                [
-                  _c("IEcharts", {
-                    attrs: { option: _vm.stackedline, loading: _vm.loading },
-                    on: { ready: _vm.onReady }
-                  })
-                ],
-                1
-              )
-            ]
-          )
-        ],
-        1
-      ),
-      _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "col-lg-12 mb-3" },
-        [
-          _c(
-            "b-card",
-            {
-              staticClass: "bg-success-card",
-              attrs: { header: "Line chart with Pointers", "header-tag": "h4" }
-            },
-            [
-              _c(
-                "div",
-                { staticStyle: { height: "350px" } },
-                [
-                  _c("IEcharts", {
-                    attrs: { option: _vm.pointers, loading: _vm.loading },
-                    on: { ready: _vm.onReady }
-                  })
-                ],
-                1
-              )
-            ]
-          )
-        ],
-        1
-      ),
-      _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "col-lg-12 mb-3" },
-        [
-          _c(
-            "b-card",
-            {
-              staticClass: "bg-info-card",
-              attrs: {
-                header: "Data Area Control Line Chart",
-                "header-tag": "h4"
-              }
-            },
-            [
-              _c(
-                "div",
-                { staticStyle: { height: "400px" } },
-                [
-                  _c("IEcharts", {
-                    attrs: { option: _vm.dischart, loading: _vm.loading },
-                    on: { ready: _vm.onReady }
-                  })
-                ],
-                1
-              )
-            ]
-          )
-        ],
-        1
-      ),
-      _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "col-lg-12 mb-3" },
-        [
-          _c(
-            "b-card",
-            {
-              staticClass: "bg-info-card",
-              attrs: { header: " Area  Chart", "header-tag": "h4" }
-            },
-            [
-              _c(
-                "div",
-                { staticStyle: { height: "400px" } },
-                [
-                  _c("IEcharts", {
-                    attrs: { option: _vm.area_chart, loading: _vm.loading },
-                    on: { ready: _vm.onReady }
-                  })
-                ],
-                1
-              )
+              _c("div", [
+                _c(
+                  "form",
+                  { staticClass: "form-horizontal", attrs: { method: "" } },
+                  [
+                    _c("div", { staticClass: "row" }, [
+                      _c("div", { staticClass: "col-md-6" }, [
+                        _c("div", { staticClass: "form-group p-10" }, [
+                          _c(
+                            "label",
+                            {
+                              staticClass: "control-label col-md-4",
+                              attrs: { for: "text" }
+                            },
+                            [
+                              _vm._v(
+                                "Text:\n                                    "
+                              )
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-md-9" }, [
+                            _c("input", {
+                              staticClass: "form-control",
+                              attrs: {
+                                type: "text",
+                                id: "text",
+                                placeholder: "Some value"
+                              }
+                            })
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "form-group p-10" }, [
+                          _c(
+                            "label",
+                            {
+                              staticClass: "control-label col-md-4",
+                              attrs: { for: "input_Email" }
+                            },
+                            [_vm._v("Email:")]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-md-9" }, [
+                            _c("input", {
+                              staticClass: "form-control",
+                              attrs: {
+                                type: "email",
+                                id: "input_Email",
+                                placeholder: "Email"
+                              }
+                            })
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "form-group p-10" }, [
+                          _c(
+                            "label",
+                            {
+                              staticClass: "control-label col-md-4",
+                              attrs: { for: "input_Password" }
+                            },
+                            [_vm._v("Password:")]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-md-9" }, [
+                            _c("input", {
+                              staticClass: "form-control",
+                              attrs: {
+                                type: "password",
+                                id: "input_Password",
+                                placeholder: "Password"
+                              }
+                            })
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "form-group p-10" }, [
+                          _c(
+                            "label",
+                            {
+                              staticClass: "control-label col-md-4",
+                              attrs: { for: "disabled" }
+                            },
+                            [
+                              _vm._v(
+                                "Disabled:\n                                    "
+                              )
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-md-9" }, [
+                            _c("input", {
+                              staticClass: "form-control",
+                              attrs: {
+                                type: "text",
+                                id: "disabled",
+                                placeholder: "Disabled input",
+                                disabled: ""
+                              }
+                            })
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "form-group p-10" }, [
+                          _c(
+                            "label",
+                            { staticClass: "control-label col-md-4" },
+                            [
+                              _vm._v(
+                                "Readonly:\n                                    "
+                              )
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-md-9" }, [
+                            _c("input", {
+                              staticClass: "form-control",
+                              attrs: {
+                                type: "text",
+                                id: "text2",
+                                placeholder: "Read only",
+                                readonly: ""
+                              }
+                            })
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "form-group p-10" }, [
+                          _c(
+                            "label",
+                            {
+                              staticClass: "col-md-3 control-label",
+                              attrs: { for: "example-select" }
+                            },
+                            [_vm._v("Select:")]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-md-9" }, [
+                            _c(
+                              "select",
+                              {
+                                staticClass: "form-control",
+                                attrs: {
+                                  id: "example-select",
+                                  name: "example-select",
+                                  size: "1"
+                                }
+                              },
+                              [
+                                _c("option", { attrs: { value: "0" } }, [
+                                  _vm._v(
+                                    "\n                                                Please select\n                                            "
+                                  )
+                                ]),
+                                _vm._v(" "),
+                                _c("option", { attrs: { value: "1" } }, [
+                                  _vm._v("Bootstrap")
+                                ]),
+                                _vm._v(" "),
+                                _c("option", { attrs: { value: "2" } }, [
+                                  _vm._v("CSS")
+                                ]),
+                                _vm._v(" "),
+                                _c("option", { attrs: { value: "3" } }, [
+                                  _vm._v("JavaScript")
+                                ]),
+                                _vm._v(" "),
+                                _c("option", { attrs: { value: "4" } }, [
+                                  _vm._v("HTML")
+                                ])
+                              ]
+                            )
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "form-group p-10" }, [
+                          _c(
+                            "label",
+                            {
+                              staticClass: "control-label col-md-4",
+                              attrs: { for: "text_area" }
+                            },
+                            [_vm._v("Text area:")]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-md-9" }, [
+                            _c("textarea", {
+                              staticClass: "form-control resize_vertical",
+                              attrs: {
+                                rows: "4",
+                                id: "text_area",
+                                placeholder: "Postal Address"
+                              }
+                            })
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "form-group p-10" }, [
+                          _c(
+                            "label",
+                            {
+                              staticClass: "control-label col-md-5",
+                              attrs: { for: "maxlength" }
+                            },
+                            [
+                              _vm._v(
+                                "Maxlength:\n                                    "
+                              )
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-md-9" }, [
+                            _c("input", {
+                              staticClass: "form-control",
+                              attrs: {
+                                type: "text",
+                                maxlength: "5",
+                                id: "maxlength",
+                                placeholder: "Maxlength is five"
+                              }
+                            })
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "form-group p-10" }, [
+                          _c(
+                            "label",
+                            {
+                              staticClass: "control-label col-md-4",
+                              attrs: { for: "color" }
+                            },
+                            [
+                              _vm._v(
+                                "Color:\n                                    "
+                              )
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-md-9" }, [
+                            _c("input", {
+                              staticClass: "form-control",
+                              attrs: {
+                                type: "color",
+                                name: "color",
+                                id: "color",
+                                value: "#428bca"
+                              }
+                            })
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "form-group p-10" }, [
+                          _c(
+                            "label",
+                            {
+                              staticClass: "control-label col-md-4",
+                              attrs: { for: "range" }
+                            },
+                            [
+                              _vm._v(
+                                "Range:\n                                    "
+                              )
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-md-9" }, [
+                            _c("input", {
+                              staticClass: "form-control",
+                              attrs: {
+                                type: "range",
+                                name: "range",
+                                id: "range",
+                                value: "50"
+                              }
+                            })
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "form-group p-10" }, [
+                          _c(
+                            "label",
+                            {
+                              staticClass: "control-label col-md-4",
+                              attrs: { for: "url" }
+                            },
+                            [
+                              _vm._v(
+                                "Url:\n                                    "
+                              )
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-md-9" }, [
+                            _c("input", {
+                              staticClass: "form-control",
+                              attrs: {
+                                type: "url",
+                                name: "url",
+                                value: "http://www.example.com/",
+                                id: "url"
+                              }
+                            })
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "form-group p-10" }, [
+                          _c(
+                            "label",
+                            {
+                              staticClass: "control-label col-md-4",
+                              attrs: { for: "search" }
+                            },
+                            [
+                              _vm._v(
+                                "Search:\n                                    "
+                              )
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-md-9" }, [
+                            _c("input", {
+                              staticClass: "form-control",
+                              attrs: {
+                                type: "search",
+                                id: "search",
+                                placeholder: "Search value"
+                              }
+                            })
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "form-group p-10" }, [
+                          _c(
+                            "label",
+                            {
+                              staticClass: "control-label col-md-4",
+                              attrs: { for: "number" }
+                            },
+                            [
+                              _vm._v(
+                                "Number:\n                                    "
+                              )
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-md-9" }, [
+                            _c("input", {
+                              staticClass: "form-control",
+                              attrs: {
+                                type: "number",
+                                id: "number",
+                                placeholder: "Enter value"
+                              }
+                            })
+                          ])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "col-md-6" }, [
+                        _c("div", { staticClass: "form-group p-10" }, [
+                          _c(
+                            "label",
+                            {
+                              staticClass: "control-label col-md-4",
+                              attrs: { for: "date" }
+                            },
+                            [
+                              _vm._v(
+                                "Date:\n                                    "
+                              )
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "col-md-8 col-md-offset-2" },
+                            [
+                              _c("input", {
+                                staticClass: "form-control",
+                                attrs: {
+                                  type: "date",
+                                  id: "date",
+                                  value: "yyyy-mm-dd",
+                                  "aria-selected": "true"
+                                }
+                              })
+                            ]
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "form-group p-10" }, [
+                          _c(
+                            "label",
+                            {
+                              staticClass: "control-label col-md-4",
+                              attrs: { for: "time" }
+                            },
+                            [
+                              _vm._v(
+                                "Time:\n                                    "
+                              )
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "col-md-8 col-md-offset-2" },
+                            [
+                              _c("input", {
+                                staticClass: "form-control",
+                                attrs: {
+                                  type: "time",
+                                  id: "time",
+                                  value: "14:38:00"
+                                }
+                              })
+                            ]
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "form-group p-10" }, [
+                          _c(
+                            "label",
+                            {
+                              staticClass: "control-label col-md-4",
+                              attrs: { for: "datetime" }
+                            },
+                            [
+                              _vm._v(
+                                "Datetime:\n                                    "
+                              )
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "col-md-8 col-md-offset-2" },
+                            [
+                              _c("input", {
+                                staticClass: "form-control",
+                                attrs: {
+                                  type: "datetime-local",
+                                  id: "datetime",
+                                  value: "yyyy-mm-dd T14:38:00"
+                                }
+                              })
+                            ]
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "form-group p-10" }, [
+                          _c(
+                            "label",
+                            {
+                              staticClass: "control-label col-md-4",
+                              attrs: { for: "week" }
+                            },
+                            [
+                              _vm._v(
+                                "Week:\n                                    "
+                              )
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "col-md-8 col-md-offset-2" },
+                            [
+                              _c("input", {
+                                staticClass: "form-control",
+                                attrs: {
+                                  type: "week",
+                                  id: "week",
+                                  value: "2017-W28"
+                                }
+                              })
+                            ]
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "form-group p-10" }, [
+                          _c(
+                            "label",
+                            {
+                              staticClass: "col-md-4 control-label",
+                              attrs: { for: "example-multiple-select2" }
+                            },
+                            [_vm._v("Multiple:")]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "col-md-8 col-md-offset-2" },
+                            [
+                              _c(
+                                "select",
+                                {
+                                  staticClass: "form-control",
+                                  attrs: {
+                                    id: "example-multiple-select2",
+                                    name: "example-multiple-select",
+                                    size: "5",
+                                    multiple: ""
+                                  }
+                                },
+                                [
+                                  _c("option", { attrs: { value: "1" } }, [
+                                    _vm._v("Option #1")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("option", { attrs: { value: "2" } }, [
+                                    _vm._v("Option #2")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("option", { attrs: { value: "3" } }, [
+                                    _vm._v("Option #3")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("option", { attrs: { value: "4" } }, [
+                                    _vm._v("Option #4")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("option", { attrs: { value: "5" } }, [
+                                    _vm._v("Option #5")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("option", { attrs: { value: "6" } }, [
+                                    _vm._v("Option #6")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("option", { attrs: { value: "7" } }, [
+                                    _vm._v("Option #7")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("option", { attrs: { value: "8" } }, [
+                                    _vm._v("Option #8")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("option", { attrs: { value: "9" } }, [
+                                    _vm._v("Option #9")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("option", { attrs: { value: "10" } }, [
+                                    _vm._v("Option #10")
+                                  ])
+                                ]
+                              )
+                            ]
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "form-group p-10" }, [
+                          _c("div", { staticClass: "col-md-4" }, [
+                            _c("label", { staticClass: "control-label" }, [
+                              _vm._v("Dropdowns")
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "col-md-8" },
+                            [
+                              _c(
+                                "b-input-group",
+                                [
+                                  _c("b-form-input"),
+                                  _vm._v(" "),
+                                  _c(
+                                    "template",
+                                    { slot: "prepend" },
+                                    [
+                                      _c(
+                                        "b-dropdown",
+                                        {
+                                          attrs: {
+                                            text: "Action",
+                                            variant: "secondary"
+                                          }
+                                        },
+                                        [
+                                          _c("b-dropdown-item", [
+                                            _vm._v("Action")
+                                          ]),
+                                          _vm._v(" "),
+                                          _c("b-dropdown-item", [
+                                            _vm._v("Action B")
+                                          ]),
+                                          _vm._v(" "),
+                                          _c("b-dropdown-divider"),
+                                          _vm._v(" "),
+                                          _c("b-dropdown-item", [
+                                            _vm._v("Something else here...")
+                                          ])
+                                        ],
+                                        1
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                2
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-input-group",
+                                { staticClass: "mt-3" },
+                                [
+                                  _c("b-form-input"),
+                                  _vm._v(" "),
+                                  _c(
+                                    "template",
+                                    { slot: "append" },
+                                    [
+                                      _c(
+                                        "b-dropdown",
+                                        {
+                                          attrs: {
+                                            text: "Action",
+                                            variant: "secondary"
+                                          }
+                                        },
+                                        [
+                                          _c("b-dropdown-item", [
+                                            _vm._v("Action")
+                                          ]),
+                                          _vm._v(" "),
+                                          _c("b-dropdown-item", [
+                                            _vm._v("Action B")
+                                          ]),
+                                          _vm._v(" "),
+                                          _c("b-dropdown-divider"),
+                                          _vm._v(" "),
+                                          _c("b-dropdown-item", [
+                                            _vm._v("Something else here...")
+                                          ])
+                                        ],
+                                        1
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                2
+                              )
+                            ],
+                            1
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "form-group p-10" }, [
+                          _c(
+                            "label",
+                            { staticClass: "control-label col-md-4" },
+                            [_vm._v("Radios:")]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "col-md-8 col-md-offset-2" },
+                            [
+                              _c(
+                                "div",
+                                { staticClass: "radio" },
+                                [
+                                  _c(
+                                    "b-form-radio",
+                                    { attrs: { checked: "false" } },
+                                    [
+                                      _vm._v(
+                                        "\n                                                Normal\n                                            "
+                                      )
+                                    ]
+                                  )
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "div",
+                                { staticClass: "radio" },
+                                [
+                                  _c("b-form-radio", [
+                                    _vm._v(
+                                      "\n                                                Checked\n                                            "
+                                    )
+                                  ])
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "div",
+                                { staticClass: "radio" },
+                                [
+                                  _c(
+                                    "b-form-radio",
+                                    {
+                                      attrs: {
+                                        disabled: true,
+                                        checked: "false"
+                                      }
+                                    },
+                                    [
+                                      _vm._v(
+                                        "\n                                                Disabled\n                                            "
+                                      )
+                                    ]
+                                  )
+                                ],
+                                1
+                              )
+                            ]
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "form-group p-10" }, [
+                          _c(
+                            "label",
+                            { staticClass: "control-label col-md-4" },
+                            [_vm._v("Checkbox:")]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: " col-md-8 col-md-offset-2" },
+                            [
+                              _c(
+                                "div",
+                                { staticClass: "checkbox" },
+                                [
+                                  _c(
+                                    "b-form-checkbox",
+                                    { attrs: { checked: "false" } },
+                                    [
+                                      _vm._v(
+                                        "\n                                                Normal\n                                            "
+                                      )
+                                    ]
+                                  )
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "div",
+                                { staticClass: "checkbox" },
+                                [
+                                  _c(
+                                    "b-form-checkbox",
+                                    { attrs: { checked: "true" } },
+                                    [
+                                      _vm._v(
+                                        "\n                                                Checked\n                                            "
+                                      )
+                                    ]
+                                  )
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "div",
+                                { staticClass: "checkbox" },
+                                [
+                                  _c(
+                                    "b-form-checkbox",
+                                    { attrs: { disabled: true } },
+                                    [
+                                      _vm._v(
+                                        "\n                                                Disabled\n                                            "
+                                      )
+                                    ]
+                                  )
+                                ],
+                                1
+                              )
+                            ]
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          { staticClass: "form-group p-10 form-actions" },
+                          [
+                            _c(
+                              "div",
+                              { staticClass: "col-md-offset-4 col-md-8" },
+                              [
+                                _c(
+                                  "button",
+                                  {
+                                    staticClass: "btn btn-primary",
+                                    attrs: { type: "button" }
+                                  },
+                                  [
+                                    _vm._v(
+                                      "Submit\n                                        "
+                                    )
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "button",
+                                  {
+                                    staticClass:
+                                      "btn btn-effect-ripple btn-secondary  reset_btn1",
+                                    attrs: { type: "reset" }
+                                  },
+                                  [
+                                    _vm._v(
+                                      "\n                                            Reset\n                                        "
+                                    )
+                                  ]
+                                )
+                              ]
+                            )
+                          ]
+                        )
+                      ])
+                    ])
+                  ]
+                )
+              ])
             ]
           )
         ],
@@ -745,27 +1152,31 @@ module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-bc95e166", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-7b91d118", module.exports)
   }
 }
 
 /***/ }),
 
-/***/ 742:
+/***/ 727:
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
-var normalizeComponent = __webpack_require__(242)
+function injectStyle (ssrContext) {
+  if (disposed) return
+  __webpack_require__(1254)
+}
+var normalizeComponent = __webpack_require__(244)
 /* script */
-var __vue_script__ = __webpack_require__(1552)
+var __vue_script__ = __webpack_require__(1256)
 /* template */
-var __vue_template__ = __webpack_require__(1553)
+var __vue_template__ = __webpack_require__(1257)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
-var __vue_styles__ = null
+var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = null
+var __vue_scopeId__ = "data-v-7b91d118"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
@@ -776,7 +1187,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources\\assets\\components\\pages\\e_linecharts.vue"
+Component.options.__file = "resources\\assets\\components\\pages\\form_elements.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -785,9 +1196,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-bc95e166", Component.options)
+    hotAPI.createRecord("data-v-7b91d118", Component.options)
   } else {
-    hotAPI.reload("data-v-bc95e166", Component.options)
+    hotAPI.reload("data-v-7b91d118", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true

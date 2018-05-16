@@ -14,12 +14,12 @@ const store = new Vuex.Store({
     state: {
         left_open: true,
         preloader: true,
-        site_name: "Vuejs-Admin",
+        site_name: "Play & Learn",
         page_title: null,
         user: {
-            name: "Ayesha",
+            name: "Isaac",
             picture: require("img/authors/prf4.jpg"),
-            job: "Project Manager"
+            job: "Student"
         },
         cal_events: [{
             id: 0,

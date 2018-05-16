@@ -299,32 +299,32 @@ const layout = [{
         title: "Test Page 2",
     }
 },  {
-    path: '/user-profiles',
-    component: resolve => require(['pages/admin/user-profiles'], resolve),
+    path: '/manage-users',
+    component: resolve => require(['pages/admin/manage-users'], resolve),
     meta: {
-        title: "User Profiles",
+        title: "Manage Users",
     }
 }, {
     path: '/assign-game',
-    component: resolve => require(['pages/assigner/assign-game'], resolve),
+    component: resolve => require(['pages/admin/assign-game'], resolve),
     meta: {
         title: "Assign Game",
     }
 }, {
     path: '/create-game',
-    component: resolve => require(['pages/creator/create-game'], resolve),
+    component: resolve => require(['pages/admin/create-game'], resolve),
     meta: {
         title: "Create Game",
     }
 }, {
     path: '/play-game',
-    component: resolve => require(['pages/player/play-game'], resolve),
+    component: resolve => require(['pages/admin/play-game'], resolve),
     meta: {
         title: "Play Game",
     }
     }, {
         path: '/scoreboard',
-        component: resolve => require(['pages/player/scoreboard'], resolve),
+        component: resolve => require(['pages/admin/scoreboard'], resolve),
         meta: {
             title: "Scoreboard",
         }
@@ -334,6 +334,26 @@ const layout = [{
         meta: {
             title: "Achievements",
         }
+    }, {
+        path: '/game-summaries',
+        component: resolve => require(['pages/admin/game-summaries'], resolve),
+        meta: {
+            title: "Game Summaries",
+        }
+   }, {
+        path: '/my-profile',
+        component: resolve => require(['pages/user_profile'], resolve),
+        meta: {
+            title: "My Profile",
+        }
+         }, {
+        path: '/manage-games',
+        component: resolve => require(['pages/admin/manage-games'], resolve),
+        meta: {
+            title: "Manage ",
+        }
+
+       
     }]
 
 export default layout
